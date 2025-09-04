@@ -1,0 +1,301 @@
+@import"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif
+}
+
+:focus {
+    outline: none
+}
+
+::-webkit-scrollbar {
+    display: none
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+    height: 100vh
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 0px;
+    position: relative;
+    align-content: center;
+    height: 100%
+}
+
+.container .hackBar {
+    height: 25px;
+    border-bottom: 1px solid rgba(24, 28, 24, .5)
+}
+
+.container .hackBar .hackButtonsWin {
+    padding: 2px;
+    background-color: rgba(24, 28, 24, .5);
+    position: absolute;
+    display: flex;
+    border-radius: 6px;
+    left: 5px;
+    top: 2px
+}
+
+.container .hackBar .hackButtonsWin .buttons {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 3px
+}
+
+.container .hackBar .hackButtonsWin .buttons:nth-child(1) {
+    background-color: rgba(170, 30, 30, .6);
+    transition: .3s all ease-in-out
+}
+
+.container .hackBar .hackButtonsWin .buttons:nth-child(1):hover {
+    transition: .3s all ease-in-out;
+    background-color: rgba(170, 30, 30, .9)
+}
+
+.container .hackBar .hackButtonsWin .buttons:nth-child(2) {
+    background-color: rgba(170, 170, 30, .6);
+    transition: .3s all ease-in-out
+}
+
+.container .hackBar .hackButtonsWin .buttons:nth-child(2):hover {
+    transition: .3s all ease-in-out;
+    background-color: rgba(170, 170, 30, .9)
+}
+
+.container .hackBar .hackButtonsWin .buttons:nth-child(3) {
+    background-color: rgba(30, 170, 30, .6);
+    transition: .3s all ease-in-out
+}
+
+.container .hackBar .hackButtonsWin .buttons:nth-child(3):hover {
+    transition: .3s all ease-in-out;
+    background-color: rgba(30, 170, 30, .9)
+}
+
+.container .hackBar .dev {
+    position: absolute;
+    right: 10px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-shadow: 0 0 2px #fff;
+    color: #fff;
+    font-size: 10px;
+    top: 5px
+}
+
+.container .hackBox {
+    width: 500px;
+    height: 600px;
+    background-color: #0e120e;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #181c18;
+    box-shadow: 0 0 0px 2px rgba(24, 28, 24, .5)
+}
+
+.container .hackBox .hackInfo {
+    font-size: 20px;
+    display: flex;
+    height: 265px;
+    justify-content: space-around;
+    transform: translateY(100%);
+    text-align: center;
+    color: #fff
+}
+
+.container .hackBox .hackInfo h2 {
+    font-size: 13px;
+    font-weight: 500
+}
+
+.container .hackBox .hackText {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+    flex-direction: column;
+    padding: 5px;
+    border-bottom: 1px solid rgba(24, 28, 24, .5)
+}
+
+.container .hackBox .hackText h2 {
+    font-size: 16px;
+    font-weight: 600
+}
+
+.container .hackBox .hackText h3 {
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold
+}
+
+.container .hackBox .hackText span {
+    color: #aaa;
+    opacity: .7;
+    font-size: 12px
+}
+
+.container .hackBox .hackFunction {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    margin-top: 15px
+}
+
+.container .hackBox .hackFunction canvas {
+    border: 1px solid rgba(34, 38, 34, .4);
+    box-shadow: inset 0 0 30px rgba(34, 38, 34, .1), 0 0 10px rgba(34, 38, 34, .05);
+    border-radius: 5px;
+    -webkit-filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.1))
+}
+
+.container .hackBox .hackFooter {
+    width: 200px;
+    position: absolute;
+    bottom: 110px;
+    padding: 10px;
+    right: -138px;
+    background-color: #0e120e;
+    border-radius: 6px;
+    border: 1px solid #181c18;
+    box-shadow: 0 0 0px 2px rgba(24, 28, 24, .5);
+    transform: rotate(270deg)
+}
+
+.container .hackBox .hackFooter::before {
+    content: "";
+    overflow: hidden;
+    position: absolute;
+    background-color: #0e120e;
+    height: 15px;
+    width: 19px;
+    left: 20px;
+    bottom: 24px;
+    border-left: 1px solid #181c18;
+    border-right: 1px solid #181c18
+}
+
+.container .hackBox .hackFooter::after {
+    content: "";
+    position: absolute;
+    overflow: hidden;
+    background-color: #0e120e;
+    height: 15px;
+    width: 19px;
+    right: 20px;
+    bottom: 24px;
+    border-left: 1px solid #181c18;
+    border-right: 1px solid #181c18
+}
+
+.container .hackBox .hackFooter .progressBox {
+    height: 4px;
+    width: 100%;
+    background-color: #222622;
+    border-radius: 5px
+}
+
+.container .hackBox .hackFooter .progressBox .progressBar {
+    height: 4px;
+    background: linear-gradient(45deg, rgb(40, 83, 140), rgb(70, 150, 255));
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-filter: drop-shadow(0 0 5px rgb(40, 83, 140));
+    filter: drop-shadow(0 0 5px rgb(40, 83, 140))
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(2px, 1px) rotate(0deg)
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg)
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg)
+    }
+
+    30% {
+        transform: translate(0px, 2px) rotate(0deg)
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg)
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg)
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg)
+    }
+
+    70% {
+        transform: translate(2px, 1px) rotate(-1deg)
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg)
+    }
+
+    90% {
+        transform: translate(2px, 2px) rotate(0deg)
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg)
+    }
+}
+
+.shake {
+    animation-name: shake;
+    animation-duration: .5s;
+    transform-origin: 50% 50%;
+    animation-iteration-count: infinite
+}
+
+@keyframes showHack {
+    0% {
+        transform: translate(0px, -100vh) scale(0.5);
+        opacity: .5
+    }
+
+    50% {
+        transform: translate(0px, 0px) scale(0.8)
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+.showHack {
+    animation-name: showHack;
+    animation-duration: .65s;
+    animation-iteration-count: inherit
+}

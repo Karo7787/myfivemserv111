@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>sh-notepad</title>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet" />
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+		<script src="turn.min.js"></script>
+		<script src="notify.min.js"></script>
+
+		<style>
+			.notifyjs-bootstrap-base {
+				font-weight: 500;
+				border: unset !important;
+				-webkit-border-radius: unset !important;
+				-moz-border-radius: unset !important;
+				border-radius: unset !important;
+				padding-left: 0px !important;
+				padding: 8px 15px 8px 15px !important;
+			}
+
+			.notifyjs-bootstrap-error,
+			.notifyjs-bootstrap-success,
+			.notifyjs-bootstrap-info,
+			.notifyjs-bootstrap-warn {
+				color: white !important;
+				background-color: #1e293b !important;
+				border-color: transparent !important;
+				background-image: unset !important;
+			}
+		</style>
+
+		<style>
+			@import url('https://fonts.cdnfonts.com/css/rufscript');
+
+			body {
+				user-select: none;
+				overflow: hidden;
+				font-family: Rubik, sans-serif;
+			}
+
+			.font {
+				font-family: 'Rufscript', sans-serif;
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			#textarea {
+				user-select: text;
+				overflow: hidden;
+				position: absolute;
+				margin-top: 10%;
+				height: 86%;
+				width: 89%;
+				resize: none;
+				background: transparent;
+				outline: 0;
+				border: none;
+				z-index: 10;
+				text-indent: 1em;
+				line-height: 20px;
+				font-size: 1.8vh;
+			}
+
+			.page-number {
+				position: absolute;
+				bottom: 0.9vh;
+				z-index: 11;
+				font-size: 0.8em;
+			}
+
+			.right {
+				margin-left: 6%;
+				right: 4%;
+			}
+
+			.left {
+				left: 4%;
+			}
+
+			.page-bg {
+				max-width: 423px;
+				position: absolute;
+				pointer-events: none;
+			}
+
+			.tear-area {
+				position: absolute;
+				width: 100%;
+				height: 6%;
+				z-index: 1;
+				cursor: grab;
+			}
+
+			.tear-area .tear-area-hint {
+				visibility: hidden;
+				color: #0e0e0e;
+				text-align: center;
+				position: absolute;
+				bottom: -3%;
+				width: 100%;
+				opacity: 0;
+				transition: opacity 0.3s ease-in;
+			}
+
+			.tear-area:hover .tear-area-hint {
+				visibility: visible;
+				opacity: 1;
+			}
+		</style>
+	</head>
+
+	<style></style>
+	<body>
+		<div class="container" style="position: absolute; display: none; bottom: 4%; right: 3%">
+			<div class="notepadbg" style="position: absolute; right: -20px; display: none">
+				<img style="max-width: 456px; pointer-events: none" src="images/notepad.png" />
+			</div>
+
+			<div id="notepad">
+				<div class="page"></div>
+			</div>
+		</div>
+	</body>
+
+	<script>
+		let notepad;
+		let locales = {
+			dblclicktotearpage: 'Double click to tear the page',
+			pagehelp: 'Use ENTER to save the page and SHIFT + ENTER to move to the bottom line.',
+		};
+
+		const resourceName = window.GetParentResourceName();
+
+		let tearAudio = document.createElement('audio');
+		tearAudio.controls = false;
+		tearAudio.volume = 0.05;
+		tearAudio.src = 'tear.wav';
+
+		function editPage(event, element) {
+			if (event.key === 'Enter' && !event.shiftKey) {
+				event.preventDefault();
+				let el = $(element);
+				let pageIdx = el.data('page-idx');
+				let pageSideIdx = el.data('page-side-idx');
+				let pageUUID = el.data('page-uuid');
+				let text = el.val();
+
+				$.post(
+					`https://${resourceName}/updatePage`,
+					JSON.stringify({
+						slotId: notepad.slotId,
+						pageSideId: pageSideIdx + 1,
+						pageUUID: pageUUID,
+						text: text,
+					}),
+					function (status) {
+						if (status) {
+							$('.container').animate(
+								{
+									opacity: 0.8,
+								},
+								600,
+								function () {
+									notepad.pages[pageIdx].data[pageSideIdx].content = text;
+									el.blur();
+									$('.container').animate({ opacity: 1 }, 300);
+								}
+							);
+						}
+					}
+				);
+			}
+		}
+
+		function tearPage(element) {
+			let el = $(element);
+			let pageIdx = el.data('page-idx');
+			let pageUUID = el.data('page-uuid');
+
+			$.post(
+				`https://${resourceName}/tearPage`,
+				JSON.stringify({
+					slotId: notepad.slotId,
+					pageUUID: pageUUID,
+				}),
+				function (status) {
+					if (status) {
+						tearAudio.play();
+						$('.container').animate(
+							{
+								opacity: 0.6,
+							},
+							1000,
+							function () {
+								for (let k = 0; k < 2; k++) {
+									$('#notepad').turn('removePage', notepad.pages[pageIdx].pageNumbers[0]);
+								}
+								delete notepad.pages[pageIdx];
+								$('.container').animate({ opacity: 1 }, 200);
+							}
+						);
+					}
+				}
+			);
+		}
+
+		$(document).ready(function () {
+			$.notify.defaults({
+				arrowShow: false,
+				elementPosition: 'top right',
+				globalPosition: 'top right',
+				showAnimation: 'slideDown',
+			});
+
+			document.addEventListener('keydown', (event) => {
+				if (event.key === 'Escape') {
+					event.preventDefault();
+					$('.container').hide();
+					$('.notepadbg').hide();
+					$.post(`https://${resourceName}/closeNuiFocus`);
+
+					notepad = null;
+				}
+			});
+
+			window.addEventListener('message', async function (event) {
+				if (event.data.action == 'loadLocales') {
+					Object.entries(event.data.locales).forEach(([key, value]) => {
+						if (locales[key]) locales[key] = value;
+					});
+				} else if (event.data.action == 'openNotepad') {
+					$('.notepadbg').show();
+					if ($('#notepad').turn('is')) {
+						$('#notepad').turn('destroy');
+						$(window).unbind('keydown');
+						$('#notepad').append('<div class="page"></div>');
+					}
+
+					$('#notepad').turn({
+						display: 'double',
+						acceleration: true,
+						width: 846,
+						height: 575,
+					});
+
+					notepad = {
+						pages: event.data.pages,
+						slotId: event.data.slotId,
+					};
+
+					let isDirRight = true;
+					let pageNumber = 0;
+					for (let k = 0; k < notepad.pages.length; k++) {
+						notepad.pages[k].pageNumbers = {};
+						for (let p = 0; p < 2; p++) {
+							pageNumber += 1;
+							let pageElement = $('<div></div>');
+							pageElement.addClass('page');
+
+							if (isDirRight) {
+								pageElement.html(`
+                                    <div class="tear-area" data-page-idx="${k}" data-page-side-idx="${p}" data-page-uuid="${notepad.pages[k].uuid}" ondblclick="tearPage(this)">
+                                        <span class="tear-area-hint font">${locales['dblclicktotearpage']}</span>
+                                    </div>
+                                    <textarea id="textarea" class="right font" data-page-idx="${k}" data-page-side-idx="${p}" data-page-uuid="${notepad.pages[k].uuid}" spellcheck="false" onkeydown="editPage(event, this)" maxlength="880">${notepad.pages[k].data[p].content}</textarea>
+                                    <img class="page-bg" src="images/page.png" />
+                                    <div class="page-number right font">${notepad.pages[k].data[p].pageNumber}</div>
+                                `);
+							} else {
+								pageElement.html(`
+                                    <div class="tear-area" data-page-idx="${k}" data-page-side-idx="${p}" data-page-uuid="${notepad.pages[k].uuid}" ondblclick="tearPage(this)">
+                                        <span class="tear-area-hint font">${locales['dblclicktotearpage']}</span>
+                                    </div>
+                                    <textarea id="textarea" class="left font" data-page-idx="${k}" data-page-side-idx="${p}" data-page-uuid="${notepad.pages[k].uuid}" spellcheck="false" onkeydown="editPage(event, this)" maxlength="880">${notepad.pages[k].data[p].content}</textarea>
+                                    <img class="page-bg" src="images/page2.png" />
+                                    <div class="page-number left font">${notepad.pages[k].data[p].pageNumber}</div>
+                                `);
+							}
+
+							isDirRight = !isDirRight;
+							notepad.pages[k].pageNumbers[p] = pageNumber;
+							$('#notepad').turn('addPage', pageElement, pageNumber);
+						}
+					}
+
+					$('.container').show();
+
+					let helpCounter = localStorage.getItem('helpCounter') == null ? 0 : Number(localStorage.getItem('helpCounter'));
+					if (helpCounter < 4) {
+						$.notify(locales['pagehelp']);
+						helpCounter++;
+						localStorage.setItem('helpCounter', helpCounter);
+					}
+				} else if (event.data.action == 'openPage') {
+					if ($('#notepad').turn('is')) {
+						$('#notepad').turn('destroy');
+						$(window).unbind('keydown');
+						$('#notepad').append('<div class="page"></div>');
+					}
+
+					$('#notepad').turn({
+						display: 'double',
+						acceleration: true,
+						width: 846,
+						height: 575,
+					});
+
+					notepad = {
+						pages: event.data.pages,
+						slotId: event.data.slotId,
+					};
+
+					let isDirRight = true;
+					let pageNumber = 0;
+					for (let k = 0; k < notepad.pages.length; k++) {
+						notepad.pages[k].pageNumbers = {};
+						for (let p = 0; p < 2; p++) {
+							pageNumber += 1;
+							let pageElement = $('<div></div>');
+							pageElement.addClass('page');
+
+							if (isDirRight) {
+								pageElement.html(`
+                                    <textarea id="textarea" class="right font" data-page-idx="${k}" data-page-side-idx="${p}" data-page-uuid="${notepad.pages[k].uuid}" spellcheck="false" onkeydown="editPage(event, this)" maxlength="880">${notepad.pages[k].data[p].content}</textarea>
+                                    <img class="page-bg" src="images/tornpage.png" />
+                                    <div class="page-number right font">${notepad.pages[k].data[p].pageNumber}</div>
+                                `);
+							} else {
+								pageElement.html(`
+                                    <textarea id="textarea" class="left font" data-page-idx="${k}" data-page-side-idx="${p}" data-page-uuid="${notepad.pages[k].uuid}" spellcheck="false" onkeydown="editPage(event, this)" maxlength="880">${notepad.pages[k].data[p].content}</textarea>
+                                    <img class="page-bg" src="images/tornpage2.png" />
+                                    <div class="page-number left font">${notepad.pages[k].data[p].pageNumber}</div>
+                                `);
+							}
+
+							isDirRight = !isDirRight;
+							notepad.pages[k].pageNumbers[p] = pageNumber;
+							$('#notepad').turn('addPage', pageElement, pageNumber);
+						}
+					}
+
+					$('.container').show();
+				}
+			});
+		});
+	</script>
+</html>

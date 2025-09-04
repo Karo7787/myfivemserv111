@@ -1,0 +1,58 @@
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+-- UNFINISHED !!!!!!!!!
+
+-- Config.MissionsData = {
+--     ['rko'] = {
+--         dict = 'missheistfbi3b_ig8_2',
+--         clip = {
+--             ['player'] = 'cpr_loop_paramedic',
+--             ['victim'] = 'cpr_loop_victim'
+--         }
+--     }
+-- }
+
+-- Config.Missions = {
+--     [1] = {
+--         peds = {
+--             {
+--                 coords = vector4(-1172.0426, -883.7528, 14.0323, 315.2336),
+--                 model = 'csb_abigail',
+--                 gender = 'female',
+--                 anim = {
+--                     dict = 'move_f@scared@a',
+--                     clip = 'idle'
+--                 }
+--             },
+--             {
+--                 isVictim = true,
+--                 coords = vector4(-1170.3630, -882.3360, 14.0949, 24.2015),
+--                 model = 'g_m_y_azteca_01',
+--                 gender = 'male',
+--                 anim = {
+--                     dict = 'misslamar1dead_body',
+--                     clip = 'dead_idle'
+--                 }
+--             },
+--         },
+--         vehicles = {
+
+--         },
+--         objects = {
+
+--         }
+--     }
+-- }

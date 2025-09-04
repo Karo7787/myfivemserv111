@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --color-default: #cfd2da;
+  --color-hover: white;
+  --main: #f99406;
+}
+
+body {
+  visibility: hidden;
+  user-select: none;
+  white-space: nowrap;
+  margin: 0;
+  user-select: none;
+  overflow: hidden;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 40;
+}
+
+#eye {
+  color: #fff;
+  text-shadow: 0 0 1rem #fff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12pt;
+}
+
+.eye-hover {
+  color: var(--main);
+  text-shadow: 0 0 1rem var(--main);
+}
+
+#options-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: .5vmin;
+
+  position: absolute;
+  top: calc(48.25%);
+  left: calc(50% + 18pt);
+}
+
+.option-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .5vmin;
+
+  background: linear-gradient(105.66deg, #070707c4, #0e0e0e),
+  linear-gradient(105.66deg, var(--main) 0%, rgba(0, 0, 0, 0) 100%),
+  linear-gradient(119.27deg, rgba(0, 0, 0, 0) 32.04%, var(--main) 100%);
+  color: #fff;
+
+  font-size: 10px;
+  font-weight: 600;
+  
+  padding: .25vmin 1vmin .25vmin .5vmin;
+  border-radius: .75rem;
+  box-shadow: 0 0 1rem #1b0c04e1, inset 0 0 1rem #ffffff10;
+  transition: transform 0.5s ease;
+}
+
+.option-container:hover {
+  box-shadow: 0 0 1rem #1b0c04e1, inset 0 0 1rem #ffffff27;
+  transform: translateX(0.3vh);
+
+  color: white;
+}
+
+.icon {
+  position: relative;
+  height: 3vmin;
+  width: 3vmin;
+}
+
+.icon-bg {
+  background: var(--main);
+  filter: blur(.5rem);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 1vmin;
+  height: 1vmin;
+
+  pointer-events: none;
+}
+
+.icon-bg-hexagon {
+  height: 100%;
+  width: 100%;
+}
+
+.icon-value {
+  color: #fff;
+
+  font-size: 10.5px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

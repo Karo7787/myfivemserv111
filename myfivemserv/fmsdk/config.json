@@ -1,0 +1,15 @@
+{
+	"$schema": "./config.schema.json",
+	"logs": {
+		"level": "info",
+		"levels": ["error", "warn", "info", "debug"],
+		"console": false,
+		"enableCloudLogging": false,
+		"appendPlayerIdentifiers": false,
+		"excludedPlayerIdentifiers": ["ip"],
+		"playerEvents": false,
+		"chatEvents": false,
+		"baseEvents": false,
+		"txAdminEvents": false
+	}
+}

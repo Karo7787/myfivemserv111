@@ -1,0 +1,587 @@
+<html style="overflow-y: hidden;">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../config.js"></script>
+</head>
+<body>
+    <div id="crimeTab">
+        <div class="gpt-popups-wrapper">
+            <div class="gpt-popup" id="invitePlayer-popup" style="display: none;">
+                <span>Dodaj członka</span>
+                <div class="popup-input">
+                    <span>ID Gracza</span>
+                    <div class="popup-input-wrapper">
+                        <input type="number" min="0" v-model="inviteCid" :placeholder="lang.text_input_idplayer">
+                    </div>
+                </div>
+                <div class="popup-bot">
+                    <div class="vehicle-btn" :style="inviteCid>0 ? 'opacity: 1.0' : 'opacity: 0.7'" v-on:click="invitePlayerSend()">Dodaj</div>
+                    <div class="vehicle-btn" v-on:click="invitePlayerClose()">Anuluj</div>
+                </div>
+            </div>
+            <div class="gpt-popup" id="dropPlayer-popup" style="display: none;">
+                <span>Potwierdź Wyrzucenie</span>
+                <div class="popup-input">
+                    <span>Imię i Nazwisko</span>
+                    <div class="popup-input-wrapper">
+                        <input disabled :placeholder="drop_player_name">
+                    </div>
+                </div>
+                <div class="popup-bot">
+                    <div class="vehicle-btn" v-on:click="acceptPlayerDrop()">Wyrzuć</div>
+                    <div class="vehicle-btn" v-on:click="dropFromCrimeClose()">Anuluj</div>
+                </div>
+            </div>
+            <div class="gpt-popup" id="quitPlayer-popup" style="display: none;">
+                <span>Jesteś Pewny że chcesz opuścić?</span>
+                <div class="popup-bot">
+                    <div class="vehicle-btn" v-on:click="acceptPlayerQuit()">Opuść</div>
+                    <div class="vehicle-btn" v-on:click="quitFromCrimeClose()">Anuluj</div>
+                </div>
+            </div>
+            <div class="gpt-popup" id="changePlayerPosition-popup" style="display: none;">
+                <span>Zmień stopień członka</span>
+                <div class="popup-input">
+                    <span>Imię i Nazwisko</span>
+                    <div class="popup-input-wrapper">
+                        <input disabled :placeholder="position_player_name">
+                    </div>
+                </div>
+                <div class="popup-input">
+                    <span>Stopień</span>
+                    <div class="popup-select">
+                        <div class="popup-select-info" v-on:click="ToggleSelect('change-player-position')">
+                            <span id="change-player-position-value"></span>
+                            <i id="change-player-position-arrow" class="fa-solid fa-chevron-up" style="transform: rotate(0deg);"></i>
+                        </div>
+                        <div class="popup-select-menu" id="change-player-position" style="z-index: 1; opacity: 0; max-height: 0px; overflow-y: hidden;">
+                            <div v-if="mychar.position==10 && forwardGroup" class="popup-select-item" v-on:click="SelectItem('change-player-position', 10, lang['rang10'])">
+                                {{lang.rang10}}
+                            </div>
+                            <div class="popup-select-item" v-on:click="SelectItem('change-player-position', 9, lang['rang9'])">
+                                {{lang.rang9}}
+                            </div>
+                            <div class="popup-select-item" v-on:click="SelectItem('change-player-position', 3, lang['rang3'])">
+                                {{lang.rang3}}
+                            </div>
+                            <div class="popup-select-item" v-on:click="SelectItem('change-player-position', 2, lang['rang2'])">
+                                {{lang.rang2}}
+                            </div>
+                            <div class="popup-select-item" v-on:click="SelectItem('change-player-position', 1, lang['rang1'])">
+                                {{lang.rang1}}
+                            </div>
+                            <div class="popup-select-item" v-on:click="SelectItem('change-player-position', 0, lang['rang0'])">
+                                {{lang.rang0}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-bot">
+                    <div class="vehicle-btn" :style="position_player_newrank != null ? 'opacity: 1.0' : 'opacity: 0.7'" v-on:click="position_player_newrank != null && acceptPlayerPosition()">Zmień Stopień</div>
+                    <div class="vehicle-btn" v-on:click="changePositionClose()">Anuluj</div>
+                </div>
+            </div>
+            <div class="gpt-popup" id="GiveAccess-popup" style="display: none;">
+                <span>Nadaj Dostęp do konta</span>
+                <div class="popup-input">
+                    <span>Imię i Nazwisko</span>
+                    <div class="popup-select">
+                        <div class="popup-select-info" v-on:click="ToggleSelect('giveaccess-player')">
+                            <span id="giveaccess-player-value"></span>
+                            <i id="giveaccess-player-arrow" class="fa-solid fa-chevron-up" style="transform: rotate(0deg);"></i>
+                        </div>
+                        <div class="popup-select-menu" id="giveaccess-player" style="z-index: 1; opacity: 0; max-height: 0px; overflow-y: hidden;">
+                            <template v-if="players.length>0" v-for="(name, value) in players" >
+                                <div class="popup-select-item" v-on:click="SelectItem('giveaccess-player', name.playerid, `${name.first_name} ${name.last_name}`)">
+                                    {{name.first_name}} {{name.last_name}}
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-input">
+                    <span>Bank</span>
+                    <div class="popup-select">
+                        <div class="popup-select-info" v-on:click="ToggleSelect('giveaccess-bank')">
+                            <span id="giveaccess-bank-value">Tak</span>
+                            <i id="giveaccess-bank-arrow" class="fa-solid fa-chevron-up" style="transform: rotate(0deg);"></i>
+                        </div>
+                        <div class="popup-select-menu" id="giveaccess-bank" style="z-index: 1; opacity: 0; max-height: 0px; overflow-y: hidden;">
+                            <div class="popup-select-item" v-on:click="SelectItem('giveaccess-bank', 1, 'Tak')">
+                               Tak
+                            </div>
+                            <div class="popup-select-item" v-on:click="SelectItem('giveaccess-bank', 2, 'Nie')">
+                                Nie
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-input">
+                    <span>Crypto</span>
+                    <div class="popup-select">
+                        <div class="popup-select-info" v-on:click="ToggleSelect('giveaccess-crypto')">
+                            <span id="giveaccess-crypto-value">Tak</span>
+                            <i id="giveaccess-crypto-arrow" class="fa-solid fa-chevron-up" style="transform: rotate(0deg);"></i>
+                        </div>
+                        <div class="popup-select-menu" id="giveaccess-crypto" style="z-index: 1; opacity: 0; max-height: 0px; overflow-y: hidden;">
+                            <div class="popup-select-item" v-on:click="SelectItem('giveaccess-crypto', 1, 'Tak')">
+                               Tak
+                            </div>
+                            <div class="popup-select-item" v-on:click="SelectItem('giveaccess-crypto', 2, 'Nie')">
+                                Nie
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-bot">
+                    <div class="vehicle-btn" :style="(checkPerm(7) && usingsfbanking && access_player && access_bank && access_crypto && checkHaveAccess()==false) ? 'opacity: 1.0' : 'opacity: 0.7'" v-on:click="(checkPerm(7) && usingsfbanking && access_player && access_bank && access_crypto && checkHaveAccess()==false) && giveAccessToAccountSend()">Nadaj dostęp</div>
+                    <div class="vehicle-btn" v-on:click="giveAccessToAccountClose()">Anuluj</div>
+                </div>
+            </div>
+            <div class="gpt-popup" id="RemoveAccess-popup" style="display: none;">
+                <span>Potwierdź Odebranie Dostępu</span>
+                <div class="popup-input">
+                    <span>Imię i Nazwisko</span>
+                    <div class="popup-input-wrapper">
+                        <input disabled :placeholder="access_playername">
+                    </div>
+                </div>
+                <div class="popup-bot">
+                    <div class="vehicle-btn" v-on:click="removeAccessAccountSend()">Odbierz</div>
+                    <div class="vehicle-btn" v-on:click="removeAccessAccountClose()">Anuluj</div>
+                </div>
+            </div>
+            <div class="gpt-popup" id="withdrawMoney-popup" style="display: none;">
+                <span>Wypłata środków</span>
+                <div class="popup-input">
+                    <span>Numer Konta</span>
+                    <div class="popup-input-wrapper">
+                        <input type="number" min="0" v-model="numberiban" :placeholder="lang.text_input_numberbank">
+                    </div>
+                </div>
+                <div class="popup-input">
+                    <span>Kwota</span>
+                    <div class="popup-input-wrapper">
+                        <input type="number" min="0" v-model="amountiban" :placeholder="lang.text_input_amount">
+                    </div>
+                </div>
+                <div class="popup-bot">
+                    <div class="vehicle-btn" :style="(amountiban>0 & amountiban<=datas.bank  && numberiban!=datas.bank_number) ? 'opacity: 1.0' : 'opacity: 0.7' " v-on:click="(amountiban>0 & amountiban<=datas.bank  && numberiban!=datas.bank_number) && sendWithdrawMoney()">Wypłać</div>
+                    <div class="vehicle-btn" v-on:click="withdrawMoneyClose()">Anuluj</div>
+                </div>
+            </div>
+            <div class="gpt-popup" id="withdrawCrypto-popup" style="display: none;">
+                <span>Wypłata środków</span>
+                <div class="popup-input">
+                    <span>Numer Portfela</span>
+                    <div class="popup-input-wrapper">
+                        <input type="number" min="0" v-model="numberiban" :placeholder="lang.text_input_numbercrypto">
+                    </div>
+                </div>
+                <div class="popup-input">
+                    <span>Kwota</span>
+                    <div class="popup-input-wrapper">
+                        <input type="number" min="0" v-model="amountiban" :placeholder="lang.text_input_amount">
+                    </div>
+                </div>
+                <div class="popup-input">
+                    <span>{{lang.text_input_amountcrypto}}</span>
+                    <div class="popup-select">
+                        <div class="popup-select-info" v-on:click="ToggleSelect('withdrawCrypto-type')">
+                            <span id="withdrawCrypto-type-value"></span>
+                            <i id="withdrawCrypto-type-arrow" class="fa-solid fa-chevron-up" style="transform: rotate(0deg);"></i>
+                        </div>
+                        <div class="popup-select-menu" id="withdrawCrypto-type" style="z-index: 1; opacity: 0; max-height: 0px; overflow-y: hidden;">
+                            <template v-if="datas.cryptoamount.length>0" v-for="(name, value) in datas.cryptoamount">
+                                <div class="popup-select-item" v-on:click="SelectItem('withdrawCrypto-type', name.name, name.name)">
+                                    {{name.name}}
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-bot">
+                    <div class="vehicle-btn" :style="(toNumber(amountiban)>0 & toNumber(getMyCrypto(currencycrypto)) >= toNumber(amountiban) && numberiban!=null && numberiban!=datas.cryptonumber) ? 'opacity: 1.0' : 'opacity: 0.7' " v-on:click="(toNumber(amountiban)>0 & toNumber(getMyCrypto(currencycrypto)) >= toNumber(amountiban) && numberiban!=null && numberiban!=datas.cryptonumber) && sendWithdrawCrypto()">Wypłać</div>
+                    <div class="vehicle-btn"  v-on:click="withdrawCryptoClose()">Anuluj</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Loader" v-if="loading == true">
+            <span class="loader"></span>
+        </div>
+        <template v-if="loading==false">
+            <template v-if="nameCrime==null">
+                <div id="CreateCrime">
+                    <h3>Wprowadź nazwę Organizacji!</h1>
+                    <div style=" justify-content: center; display: flex; margin-top: 2vh;">
+                        <div style="width: 75%;">
+                            <div class="gpt-input">
+                                <input type="text" maxlength="16" v-model="newnameorg" placeholder="Nazwa Organizacji...">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="buttn create-btn" v-on:click="newnameorg && setNewNameCrime(newnameorg)" :style="newnameorg ? 'opacity: 1.0' : 'opacity: 0.6'">Zatwierdź</div>
+                    </div>
+                </div>
+            </template>
+            <template v-if="nameCrime!=null">
+                <div id="sideBar">
+                    <div id="CrimeLogo">{{nameCrime}}</div>
+                    <div id="sideButtons">
+                        <div class="sideBtn" :class="{'active-button': page == 'Home'}" id="home-btn" v-on:click="changePage('Home')">
+                            <i class="fa-solid fa-house"></i>
+                            <span>Panel Główny</span>
+                        </div>
+                        <div class="sideBtn" :class="{'active-button': page == 'Bank'}" v-if="checkPerm(1)" id="bank-btn" v-on:click="checkPerm(1) && loadDataForSettingsAccount()">
+                            <i class="fa-solid fa-bank"></i>
+                            <span>Fundusze</span>
+                        </div>
+                        <div class="sideBtn" :class="{'active-button': page == 'People'}" id="people-btn" v-on:click="changePage('People')">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Członkowie</span>
+                        </div>
+                        <div class="sideBtn" :class="{'active-button': page == 'Quests'}" id="people-btn" v-on:click="loadDataForQuests()">
+                            <i class="fa-solid fa-award"></i>
+                            <span>Zadania</span>
+                        </div>
+                        <div class="sideBtn" :class="{'active-button': page == 'Settings'}" id="settings-btn" v-on:click="changePage('Settings')">
+                            <i class="fa-solid fa-cog"></i>
+                            <span>Ustawienia</span>
+                        </div>
+                        <div class="sideBtn"  :class="{'active-button': page == 'DeleteGroup'}" id="off-btn" v-if="mychar.position==10 && deleteGroup" style="margin-top: auto;" v-on:click="changePage('DeleteGroup')">
+                            <i class="fa-solid fa-trash"></i>
+                            <span>Usuń Organizacje</span>
+                        </div>
+                        <div class="sideBtn" id="off-btn" :style="!(mychar.position==10 && deleteGroup) && 'margin-top: auto;'" v-on:click="closeMDTclear()">
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            <span>Wyłącz</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-box">
+                    <section id="home" v-if="page == 'Home'">
+                        <div class="top-bar">
+                            <span>Witaj, {{mychar.first_name}} {{mychar.last_name}}</span>
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <div class="custom-select">
+                                    <div class="custom-select-info">
+                                        <span>{{lang["rang"+mychar.position]}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-main">
+                            <div style="display: flex; flex-direction: column;  align-items: center;width: 100%;height: 100%;gap: 1rem;overflow: hidden;">
+                                <div class="active-employees-wrapper">
+                                    <div class="active-employees-info">
+                                        <span>Osoby w Organizacji</span>
+                                        <span>{{players.filter((a) => a.online == true).length}}/{{players.length}}</span>
+                                    </div>
+                                    <div class="active-employees-list">
+                                        <table>
+                                            <tr>
+                                                <th style="width: 1px; padding: 0;"></th>
+                                                <th>Imię i Nazwisko</th>
+                                                <th>Ranga</th>
+                                                <th>Dodany</th>
+                                            </tr>
+                                            <tr v-for="(name, value) in players">
+                                                <td><div class="player-status" :class="{'off': !name.online}"></div></td>
+                                                <td>{{name.first_name}} {{name.last_name}}</td>
+                                                <td>{{lang["rang"+name.position]}}</td>
+                                                <td>{{name.date_creation}}</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="crime-level-wrapper">
+                                    <div class="linearloading-text-left" style="display: flex; justify-content: space-between;">
+                                        <span>Poziom: {{counterLevel(datas.points)}}</span>
+                                        <span>{{counterPoints(datas.points)}}/1000</span>
+                                    </div>
+                                    <div class="linearloading"><div class="loadingcolor" :style="{'width': counterPercentStats(datas.points)+'%'}"></div></div>
+                                </div>
+                            </div>
+                            <div class="last-items-wrapper">
+                                <div class="last-items">
+                                    <span>Numery kont</span>
+                                    <div class="last-items-list">
+                                        <div>
+                                            <span>Bank: <b>{{datas.bank_number}}</b></span>
+                                        </div>
+                                        <div>
+                                            <span>Crypto: <b>{{datas.cryptonumber}}</b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="last-items"  style="height: fit-content;">
+                                    <span>Stan Portfela Crypto</span>
+                                    <div class="last-items-list">
+                                        <template v-if="datas.cryptoamount.length>0 && checkPerm(1)" v-for="(name, value) in datas.cryptoamount">
+                                            <div>
+                                                <span><b>{{name.name}}</b>: {{parseCrypto(name.amount)}}</span>
+                                            </div>
+                                        </template>
+                                        <template v-if="datas.cryptoamount.length==0 && checkPerm(1)">
+                                            <div>
+                                                <span>Brak danych</span>
+                                            </div>
+                                        </template>
+                                        <template v-if="!checkPerm(1)">
+                                            <div>
+                                                <span>Brak Uprawnień</span>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </div>
+                                <div class="last-items" style="height: 20%;">
+                                    <span>Stan Konta Bankowego</span>
+                                    <div class="last-items-list">
+                                        <div>
+                                            <span v-if="checkPerm(1)"><b>${{datas.bank}}</b></span>
+                                            <span v-if="!checkPerm(1)"><b>Brak Uprawnień</b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="last-items" style="height: 35%;">
+                                    <span>Statystyki</span>
+                                    <div class="last-items-list">
+                                        <div>
+                                            <span>Limit Członków: <b>{{datas.maxlimit}}</b></span>
+                                        </div>
+                                        <div>
+                                            <span>Ilość Ulepszeń: <b>{{Object.keys(datas.updates).length}}</b></span>
+                                        </div>
+                                        <div>
+                                            <span style="width: 90%;">Data Założenia: <b>{{datas.date_creation}}</b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="bank" v-if="page == 'Bank' && checkPerm(1)">
+                        <div class="top-bar">
+                            <span>Fundusze</span>
+                        </div>
+                        <div style="height: fit-content; display: flex; gap: 1rem;">
+                            <div class="last-items" style="width: 100%;">
+                                <span style="font-size: 20px; font-weight: bold;">Stan konta Bankowego</span>
+                                <div class="judgment-list">
+                                    <div class="judgment-list-item">
+                                        <span style="font-weight: bold;">${{datas.bank}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="last-items" style="width: 100%;">
+                                <span style="font-size: 20px; font-weight: bold;">Stan Portfela Crypto</span>
+                                <div class="judgment-list">
+                                    <div v-if="datas.cryptoamount.length>0 && checkPerm(1)" v-for="(name, value) in datas.cryptoamount" class="judgment-list-item">
+                                        <span style="font-weight: bold;">{{name.name}}: {{parseCrypto(name.amount)}}</span>
+                                    </div>
+                                    <div v-if="datas.cryptoamount.length==0 && checkPerm(1)" class="judgment-list-item">
+                                        <span style="font-weight: bold;">Brak Danych</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="height: fit-content; display: flex; gap: 1rem;">
+                            <div class="last-items" style="width: 100%;">
+                                <span style="font-size: 20px; font-weight: bold;">Numer Konta Bankowego</span>
+                                <div class="judgment-list">
+                                    <div class="judgment-list-item">
+                                        <span style="font-weight: bold;">{{datas.bank_number}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="last-items" style="width: 100%;">
+                                <span style="font-size: 20px; font-weight: bold;">Numer Portfela Crypto</span>
+                                <div class="judgment-list">
+                                    <div class="judgment-list-item">
+                                        <span style="font-weight: bold;">{{datas.cryptonumber}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bank-access-wrapper">
+                            <div class="bank-access-info">
+                                <span>Dostęp do Funduszów</span>
+                                <span v-if="checkPerm(7)"><div class="vehicle-btn" v-on:click="giveAccessToAccount()">Dodaj Dostęp</div></span>
+                            </div>
+                            <div class="citizens-wrapper">
+                                <div class="citizens-list">
+                                    <table v-if="account.length > 0" id="employees-list">
+                                        <tr>
+                                            <th>Imię i Nazwisko</th>
+                                            <th>Dostęp Do Konta</th>
+                                            <th>Dostęp Do Crypto</th>
+                                        </tr>
+                                        <tr v-for="(name, value) in account">
+                                            <td>{{name.name}}</td>
+                                            <td><div class="judgment-list" style="display: flex; justify-content: center;">
+                                                <div class="judgment-list-item" :class="{'no': name.bank_number==null, 'yes': name.bank_number!=null}">
+                                                    <span v-if="name.bank_number!=null">TAK</span>
+                                                    <span v-if="name.bank_number==null">NIE</span>
+                                                </div>
+                                            </div></td>
+                                            <td><div class="judgment-list" style="display: flex; justify-content: center;">
+                                                <div class="judgment-list-item" :class="{'no': name.crypto_number==null, 'yes': name.crypto_number!=null}">
+                                                    <span v-if="name.crypto_number!=null">TAK</span>
+                                                    <span v-if="name.crypto_number==null">NIE</span>
+                                                </div>
+                                            </div></td>
+                                            <td style=" display: flex; justify-content: center;">
+                                                <div :style="!checkPerm(7) && 'opacity: 0.7'" class="player-btn" v-on:click="checkPerm(7) && removeAccessAccount(name.playerid, name.name)">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <span style="position: absolute;left: 50%;transform: translateX(-50%);margin-top: 20px;" v-if="account.length==0">Brak danych</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-bar" style="display: flex; gap: 1rem">
+                            <div class="vehicle-btn" style="width: 100%; text-align: center;" v-on:click="withdrawMoney()">Wypłać z Konta Bankowego</div>
+                            <div class="vehicle-btn" style="width: 100%; text-align: center;" v-on:click="withdrawCrypto()">Wypłać z Portfela Crypto</div>
+                        </div>
+                    </section>          
+                    <section id="people" v-if="page == 'People'">
+                        <div class="top-bar">
+                            <span>Członkowie</span>
+                            <span>{{players.filter((a) => a.online == true).length}}/{{players.length}} <span style="margin-left: 5px;">Limit: <b>{{datas.maxlimit}}</b></span> </span>
+                        </div>
+                        <div class="citizens-wrapper">
+                            <div class="employees-top">
+                                <div class="gpt-input">
+                                </div>
+                                <div class="employees-btn" v-on:click="invitePlayer()">
+                                    <i class="fa-regular fa-circle-plus"></i>
+                                    <span>Dodaj członka</span>
+                                </div>
+                            </div>
+                            <div class="citizens-list">
+                                <table id="employees-list">
+                                    <tr>
+                                        <th style="width: 1px; padding: 0;"></th>
+                                        <th>Imię i Nazwisko</th>
+                                        <th>Ranga</th>
+                                        <th>Dodany</th>
+                                    </tr>
+                                    <tr v-for="(name, value) in filtered_employees">
+                                        <td><div class="player-status" :class="{'off': !name.online}"></div></td>
+                                        <td>{{name.first_name}} {{name.last_name}}</td>
+                                        <td>{{lang["rang"+name.position]}}</td>
+                                        <td>{{name.date_creation}}</td>
+                                        <td style=" display: flex; justify-content: center;">
+                                            <div style="margin-right: 5px;" :style="(name.playerid!=mychar.playerid && mychar.position>name.position) ? 'opacity: 1.0' : 'opacity: 0.7'" v-if="checkPerm(6)" class="player-btn" v-on:click="(name.playerid!=mychar.playerid && mychar.position>name.position) && changePosition(name.first_name, name.last_name, name.playerid)">
+                                                <i class="fa-solid fa-rotate"></i>
+                                            </div>
+                                            <div class="player-btn" :style="(name.playerid!=mychar.playerid && mychar.position>name.position) ? 'opacity: 1.0' : 'opacity: 0.7'" v-if="checkPerm(5)" v-on:click=" (name.playerid!=mychar.playerid && mychar.position>name.position) && dropFromCrime(name.first_name, name.last_name, name.playerid)">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </div>
+                                            <div class="player-btn" style="margin-left: 5px;" v-if="mychar.position<10 && name.playerid==mychar.playerid" v-on:click="quitFromCrime()">
+                                                <i class="fa-solid fa-door-open"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="settings" v-if="page == 'Quests'">
+                        <div class="top-bar">
+                            <span>Zadania</span>
+                        </div>
+                        <div class="citizens-wrapper">
+                            <div style="margin-top: 1vh;">
+                                <div class="citizen-notes-wrapper" id="citizen-wanted" style="display: flex;">
+                                    <div class="citizen-details-list" style="max-height: 680px;">
+                                        <div v-for="(quest, value) in quests" class="citizen-vehicle" id="citizen-wanted">
+                                            <div class="citizen-vehicle-top">
+                                                <span>{{quest.label}}</span>
+                                                <i v-if="checkPerm(11) && (quest.completed || quest.canCollect)" :style="(quest.completed) ? 'opacity: 0.7; color: #2aff2a' : quest.canCollect ? 'opacity: 1.0' : 'opacity: 0.7'" v-on:click="(!quest.completed && quest.canCollect) && collectQuest(quest.id)" class="fa-solid fa-box"></i>
+                                            </div>
+                                            <span style="min-height: 20px;">{{quest.description}}</span>
+                                            <div style="height: 2px; width: 100%; margin-top: 5px; background-color: rgb(37, 37, 37);"></div>
+                                            <div class="judgment-list">
+                                                <div class="judgment-list-item" style="background-color: rgb(199, 199, 199);">
+                                                    <span style="color: black; font-weight: bold;">{{quest.reward}}</span>
+                                                </div>
+                                                <div class="judgment-list-item" v-if="quest.toComplete>1">
+                                                    <span style="font-weight: bold;">{{quest.progress}}/{{quest.toComplete}} ({{calcPercent(quest.progress, quest.toComplete)}}%)</span>
+                                                </div>
+                                                <div class="judgment-list-item">
+                                                    <span style="font-weight: bold;">{{quest.type == "Daily" ? "Codzienne" : "Tygodniowe"}}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="settings" v-if="page == 'Settings'">
+                        <div class="top-bar">
+                            <span>Ustawienia</span>
+                        </div>
+                        <div class="citizens-wrapper">
+                            <div class="active-employees-info">
+                                <span>Ulepszenia</span>
+                                <span>{{Object.keys(datas.updates).length}}/{{updates.length}}</span>
+                            </div>
+                            <div style="margin-top: 2vh;">
+                                <div class="citizen-notes-wrapper" id="citizen-wanted" style="display: flex;">
+                                    <div class="citizen-details-list" style="max-height: 680px;">
+                                        <div v-for="(update, value) in updates" class="citizen-vehicle" id="citizen-wanted">
+                                            <div class="citizen-vehicle-top">
+                                                <span>{{update.name}}</span>
+                                                <i :style="checkUpdate(update.id) ? 'opacity: 0.7; color: #2aff2a' : (toNumber(getMyCrypto(update.currency)) >= toNumber(update.cost) && needUpdate(update.need)) == false && 'opacity: 0.7'" v-on:click="!checkUpdate(update.id) && (toNumber(getMyCrypto(update.currency)) >= toNumber(update.cost) && needUpdate(update.need) == true )&& buyUpdate(update.id)" class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                            <span style="min-height: 50px;">{{update.description}}</span>
+                                            <div style="height: 2px; width: 100%; margin-top: 5px; background-color: rgb(37, 37, 37);"></div>
+                                            <div class="judgment-list">
+                                                <div class="judgment-list-item" style="background-color: rgb(199, 199, 199);">
+                                                    <span style="color: black; font-weight: bold;">{{parseCrypto(update.cost)}} {{update.currency}}</span>
+                                                </div>
+                                                <div  v-if="update.need != 0" class="judgment-list-item">
+                                                    <span>{{updates.filter((a) => a.id == update.need)[0].name }}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="deleteGroup" v-if="page == 'DeleteGroup'">
+                        <div class="top-bar">
+                            <span>Usuń Organizacje</span>
+                        </div>
+                        <div id="CreateCrime">
+                            <h3>Napewno chcesz usunąć Organizacje?</h1>
+                            <div style=" justify-content: center; display: flex; margin-top: 2vh;">
+                                <div class="buttn" v-on:click="deleteThisGroup()" v-if="mychar.position==10 && deleteGroup">Usuń Organizacje</div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </template>
+        </template>
+    </div> 
+    <script src="jquery.min.js"></script>
+    <script src="vue.min.js"></script>
+    <script src="mirage.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>    
+</body>
+</html>

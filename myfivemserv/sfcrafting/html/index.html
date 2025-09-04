@@ -1,0 +1,147 @@
+<html style="overflow-y: hidden;">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../config.js"></script>
+</head>
+<body>
+    <div id="tabEms">
+        <div id="content">
+            <main id="main">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="betterBG">
+                            <div><h3>{{lang.header_crafting}}</h3></div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5>{{correctName(slot1)}}</h5>
+                                    <a href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        <div class="specialboxfast"><img v-if="slot1==null" src="plus.png"><img v-if="slot1!=null" :src="`nui://ox_inventory/web/images/${slot1}.png`"></div>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <li><a class="dropdown-item" v-on:click="changeSlot(1, null)">{{lang.none}}</a></li>
+                                        <template v-for="(item, value) in warehouse">
+                                            <li><a class="dropdown-item" v-on:click="changeSlot(1, item.name)" v-if="item.name!=slot1 && item.name!=slot2 && item.name!=slot3 && item.name!=slot4 &&item.name!=slot5 && item.name!=slot6">{{item.label}} ({{item.count}})</a></li>
+                                        </template>
+                                    </div>
+                                    <div v-if="slot1!=null"><center><span class="smallbtnbg" v-on:click="changeAmount(1, -1)">-</span>&nbsp;&nbsp;{{slot1_amount}}&nbsp;&nbsp;<span class="smallbtnbg" v-on:click="changeAmount(1, +1)">+</span></center></div>
+                                </div>
+                            
+                                <div class="col">
+                                    <h5>{{correctName(slot2)}}</h5>
+                                    <a href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        <div class="specialboxfast"><img v-if="slot2==null" src="plus.png"><img v-if="slot2!=null" :src="`nui://ox_inventory/web/images/${slot2}.png`"></div>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <li><a class="dropdown-item" v-on:click="changeSlot(2, null)">{{lang.none}}</a></li>
+                                        <template v-for="(item, value) in warehouse">
+                                            <li><a class="dropdown-item" v-on:click="changeSlot(2, item.name)" v-if="item.name!=slot1 && item.name!=slot2 && item.name!=slot3 && item.name!=slot4 &&item.name!=slot5 && item.name!=slot6">{{item.label}} ({{item.count}})</a></li>
+                                        </template>
+                                    </div>
+                                    <div v-if="slot2!=null"><center><span class="smallbtnbg" v-on:click="changeAmount(2, -1)">-</span>&nbsp;&nbsp;{{slot2_amount}}&nbsp;&nbsp;<span class="smallbtnbg" v-on:click="changeAmount(2, +1)">+</span></center></div>
+                                </div>
+                            
+                                <div class="col">
+                                    <h5>{{correctName(slot3)}}</h5>
+                                    <a href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        <div class="specialboxfast"><img v-if="slot3==null" src="plus.png"><img v-if="slot3!=null" :src="`nui://ox_inventory/web/images/${slot3}.png`"></div>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <li><a class="dropdown-item" v-on:click="changeSlot(3, null)">{{lang.none}}</a></li>
+                                        <template v-for="(item, value) in warehouse">
+                                            <li><a class="dropdown-item" v-on:click="changeSlot(3, item.name)" v-if="item.name!=slot1 && item.name!=slot2 && item.name!=slot3 && item.name!=slot4 &&item.name!=slot5 && item.name!=slot6">{{item.label}} ({{item.count}})</a></li>
+                                        </template>
+                                    </div>
+                                    <div v-if="slot3!=null"><center><span class="smallbtnbg" v-on:click="changeAmount(3, -1)">-</span>&nbsp;&nbsp;{{slot3_amount}}&nbsp;&nbsp;<span class="smallbtnbg" v-on:click="changeAmount(3, +1)">+</span></center></div>
+                                </div>
+                            
+                                <div class="col">
+                                    <h5>{{correctName(slot4)}}</h5>
+                                    <a href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        <div class="specialboxfast"><img v-if="slot4==null" src="plus.png"><img v-if="slot4!=null" :src="`nui://ox_inventory/web/images/${slot4}.png`"></div>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <li><a class="dropdown-item" v-on:click="changeSlot(4, null)">{{lang.none}}</a></li>
+                                        <template v-for="(item, value) in warehouse">
+                                            <li><a class="dropdown-item" v-on:click="changeSlot(4, item.name)" v-if="item.name!=slot1 && item.name!=slot2 && item.name!=slot3 && item.name!=slot4 &&item.name!=slot5 && item.name!=slot6">{{item.label}} ({{item.count}})</a></li>
+                                        </template>
+                                    </div>
+                                    <div v-if="slot4!=null"><center><span class="smallbtnbg" v-on:click="changeAmount(4, -1)">-</span>&nbsp;&nbsp;{{slot4_amount}}&nbsp;&nbsp;<span class="smallbtnbg" v-on:click="changeAmount(4, +1)">+</span></center></div>
+                                </div>
+                            
+                                <div class="col">
+                                    <h5>{{correctName(slot5)}}</h5>
+                                    <a href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        <div class="specialboxfast"><img v-if="slot5==null" src="plus.png"><img v-if="slot5!=null" :src="`nui://ox_inventory/web/images/${slot5}.png`"></div>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <li><a class="dropdown-item" v-on:click="changeSlot(5, null)">{{lang.none}}</a></li>
+                                        <template v-for="(item, value) in warehouse">
+                                            <li><a class="dropdown-item" v-on:click="changeSlot(5, item.name)" v-if="item.name!=slot1 && item.name!=slot2 && item.name!=slot3 && item.name!=slot4 &&item.name!=slot5 && item.name!=slot6">{{item.label}} ({{item.count}})</a></li>
+                                        </template>
+                                    </div>
+                                    <div v-if="slot5!=null"><center><span class="smallbtnbg" v-on:click="changeAmount(5, -1)">-</span>&nbsp;&nbsp;{{slot5_amount}}&nbsp;&nbsp;<span class="smallbtnbg" v-on:click="changeAmount(5, +1)">+</span></center></div>
+                                </div>
+                            
+                                <div class="col">
+                                    <h5>{{correctName(slot6)}}</h5>
+                                    <a href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        <div class="specialboxfast"><img v-if="slot6==null" src="plus.png"><img v-if="slot6!=null" :src="`nui://ox_inventory/web/images/${slot6}.png`"></div>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <li><a class="dropdown-item" v-on:click="changeSlot(6, null)">{{lang.none}}</a></li>
+                                        <template v-for="(item, value) in warehouse">
+                                            <li><a class="dropdown-item" v-on:click="changeSlot(6, item.name)" v-if="item.name!=slot1 && item.name!=slot2 && item.name!=slot3 && item.name!=slot4 &&item.name!=slot5 && item.name!=slot6">{{item.label}} ({{item.count}})</a></li>
+                                        </template>
+                                    </div>
+                                    <div v-if="slot6!=null"><center><span class="smallbtnbg" v-on:click="changeAmount(6, -1)">-</span>&nbsp;&nbsp;{{slot6_amount}}&nbsp;&nbsp;<span class="smallbtnbg" v-on:click="changeAmount(6, +1)">+</span></center></div>
+                                </div>
+                            </div>
+                            <div class="row craftbuttonlists justify-content-center">
+                                <div class="col-12 errormessage" v-if="errorMessage!=null">{{errorMessage}}</div>
+                                <template v-if="counterReceipts()>0">
+                                    <a href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                        <button type="button" class="btn specialbutton">{{lang.select_receipt}}</button>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <template v-for="(name, value) in data" v-if="name.display==1">
+                                            <li><a class="dropdown-item" v-on:click="setReceipt(name.products)">{{correctNameReceipt(name.itemid)}} <span class="smalltext"><template v-for="namex in name.products" :key="namex">{{correctNameReceipt(namex.item)}} (x{{namex.amount}}) </template></span></a></li>
+                                        </template>
+                                    </div>
+                                </template>
+                                <input type="number" class="btn specialbutton smallSizeInput" v-model="multiplier" step="1" @change="if(multiplier<=0){multiplier=1}multiplier= parseFloat(multiplier).toFixed(0);">
+                                <button type="button" class="btn specialbutton" v-on:click="craftStart();">{{lang.start_crafting}}</button>
+                            </div>
+                            <template v-if="counterReceipts()>0">
+                                <div class="headertext"><h4>{{lang.fast_crafting}}</h4></div>
+                                <div class="row justify-content-center">
+                                    <template v-for="(item, value) in data">
+                                        <div class="col col-2 specialhover" v-if="item.display==1" v-on:click="fastCraft(item.products, item.itemid)"><div class="specialboxfast"><img :src="`nui://ox_inventory/web/images/${item.itemid}.png`"></div></div>
+                                    </template>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>        
+            </main>
+        </div>
+    </div> 
+    <script src="jquery.min.js"></script>
+    <script src="vue.min.js"></script>
+    <script src="script.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>    
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+</html>

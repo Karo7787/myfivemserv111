@@ -1,0 +1,23 @@
+{
+    "server": {
+        "modules": {
+            "job": {
+                "inventory": {
+                    "private_stash": "Szafka Prywatna",
+                    "stash": "Szafka"
+                }
+            }
+        }
+    },
+    "client": {
+        "modules": {
+            "job": {
+                "slide": "Zjedź",
+                "open": {
+                    "private_stash": "Otwórz szafkę prywatną",
+                    "stash": "Otwórz szafkę"
+                }
+            }
+        }
+    }
+}

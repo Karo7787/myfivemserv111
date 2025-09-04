@@ -1,0 +1,432 @@
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.3.0/tinycolor.min.js'></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+
+		<script src="app.js"></script>
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css">
+        <link rel=stylesheet href=https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css>		
+	</head>
+
+	<body style="overflow: hidden;">
+        <div id="help" style="opacity:1">
+            <div id="text"></div>
+        </div>
+        <div class="interactionAndProgressbar">
+            <div id="progressbar">
+                <div id="progressbar-title"></div>
+                <div id="progressbar-bg">
+                    <div id="progressbar-val"></div>
+                </div>
+            </div>
+        </div>
+        <div class='watermark'>
+            <div class='watermark--container'>
+                <div class='main--info'>
+                    <h2 class='title'>MirageRP 2.0</h2>
+                    <span class='subtitle' id="scoreboard-subtitle"></span>				
+                </div>
+                <div class='main--logo'>
+                    <img src="./img/logo.png" alt="Logo" style="width: 70px;" />
+                </div>
+            </div>
+        </div>
+        <div class="content content-hidden" id="scoreboard"  element-scoreboard>
+            <div class="header" element-scoreboard>
+              <div class="job" id="job" element-scoreboard>Bezrobotny</div>
+              <div class="header-item" element-scoreboard>
+                  <div class="header-item-content" element-scoreboard>
+                      <i class="fa-solid fa-users header-item-value" style="margin-top:2px; margin-left: 1px;" element-scoreboard></i>
+                      <div class="header-item-bg" element-scoreboard></div>
+                      <svg class="header-item-bg-hexagon" xmlns="http://www.w3.org/2000/svg" viewBox="-10 -40 1024 1024" element-scoreboard>
+                          <path fill="transparent" stroke="var(--main)" stroke-width="22" 
+                              d="M896 704C896 720.213333 887.04 734.293333 873.386667 741.546667L536.32 930.986667C529.493333 936.106667 520.96 938.666667 512 938.666667 503.04 938.666667 494.506667 936.106667 487.68 930.986667L150.613333 741.546667C136.96 734.293333 128 720.213333 128 704L128 320C128 303.786667 136.96 289.706667 150.613333 282.453333L487.68 93.013333C494.506667 87.893333 503.04 85.333333 512 85.333333 520.96 85.333333 529.493333 87.893333 536.32 93.013333L873.386667 282.453333C887.04 289.706667 896 303.786667 896 320L896 704Z" />
+                      </svg>
+                  </div>
+                  <div class="header-item-count" id="playerCount" element-scoreboard>0/128</div>
+              </div>
+              <div class="header-item" element-scoreboard>
+                  <div class="header-item-content" element-scoreboard>
+                      <i class="fas fa-bomb header-item-value" style="margin-top:1px; margin-left: 1px;"" element-scoreboard></i>
+                      <div class="header-item-bg" id="dangerColor" element-scoreboard></div>
+                      <svg class="header-item-bg-hexagon" id="dangerColorStroke" xmlns="http://www.w3.org/2000/svg" viewBox="-10 -40 1024 1024" element-scoreboard>
+                          <path stroke-width="22" fill="transparent" stroke="var(--main)" 
+                              d="M896 704C896 720.213333 887.04 734.293333 873.386667 741.546667L536.32 930.986667C529.493333 936.106667 520.96 938.666667 512 938.666667 503.04 938.666667 494.506667 936.106667 487.68 930.986667L150.613333 741.546667C136.96 734.293333 128 720.213333 128 704L128 320C128 303.786667 136.96 289.706667 150.613333 282.453333L487.68 93.013333C494.506667 87.893333 503.04 85.333333 512 85.333333 520.96 85.333333 529.493333 87.893333 536.32 93.013333L873.386667 282.453333C887.04 289.706667 896 303.786667 896 320L896 704Z" />
+                      </svg>
+                  </div>
+              </div>
+              <div class="header-item" element-scoreboard>
+                  <div class="header-item-content" element-scoreboard>
+                      <i class="fa-solid fa-signal header-item-value" style="margin-top:1px" element-scoreboard></i>
+                      <div class="header-item-bg" element-scoreboard></div>
+                      <svg class="header-item-bg-hexagon" xmlns="http://www.w3.org/2000/svg" viewBox="-10 -40 1024 1024" element-scoreboard>
+                          <path fill="transparent" stroke="var(--main)" stroke-width="22" 
+                              d="M896 704C896 720.213333 887.04 734.293333 873.386667 741.546667L536.32 930.986667C529.493333 936.106667 520.96 938.666667 512 938.666667 503.04 938.666667 494.506667 936.106667 487.68 930.986667L150.613333 741.546667C136.96 734.293333 128 720.213333 128 704L128 320C128 303.786667 136.96 289.706667 150.613333 282.453333L487.68 93.013333C494.506667 87.893333 503.04 85.333333 512 85.333333 520.96 85.333333 529.493333 87.893333 536.32 93.013333L873.386667 282.453333C887.04 289.706667 896 303.786667 896 320L896 704Z" />
+                      </svg>
+                  </div>
+                  <div class="header-item-count" id="adminsOnline" style="font-size: 10px;" element-scoreboard>0</div>
+              </div>
+          </div>
+          
+          <div class="fractions" element-scoreboard>
+              <div class="fraction" element-scoreboard><img src="img/scoreboard/police.png" class="fraction-img" element-scoreboard /> <div class="count" data-job="police" element-scoreboard>0</div></div>
+              <div class="fraction" element-scoreboard><img src="img/scoreboard/ems.png" class="fraction-img" element-scoreboard /> <div class="count" data-job="ambulance" element-scoreboard>0</div></div>
+              <div class="fraction" element-scoreboard><img src="img/scoreboard/lsfd.png" class="fraction-img" element-scoreboard /> <div class="count" data-job="lsfd" element-scoreboard>0</div></div>
+              <div class="fraction" element-scoreboard><img src="img/scoreboard/mech.png" class="fraction-img" element-scoreboard /> <div class="count" data-job="mechanic" element-scoreboard>0</div></div>
+              <div class="fraction" element-scoreboard><img src="img/scoreboard/doj.png" class="fraction-img" element-scoreboard /> <div class="count" data-job="doj" element-scoreboard>0</div></div>
+          </div>
+          
+          <div class="footer" element-scoreboard>
+              <svg class="footer-bg" xmlns="http://www.w3.org/2000/svg" viewBox="-2 0 165 12" element-scoreboard>
+                  <path fill="transparent" stroke="#ffffff0d" stroke-width="2" stroke-linecap="round" 
+                      d="M0,41L161,41L140.875,4.164C139.472,1.597 136.78,0 133.855,0L27.145,0C24.22,0 21.528,1.597 20.125,4.164L0,41Z" />
+              </svg>
+              <div class="footer-text" id="footerDate" element-scoreboard>--</div>
+          </div>
+        </div>
+        <div class="notifications" id="notifications" data-v-748e3f0e></div>
+        <div class="streetlabel slide" data-v-2f683e8c>
+            <div class="direction" data-v-2f683e8c>
+            <div class="direction-text" data-v-2f683e8c>NW</div>
+            <svg
+                class="hexagon"
+                data-v-2f683e8c
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="45 45 930 930"
+            >
+                <path
+                fill="#1b0404"
+                stroke="var(--main)"
+                stroke-width="24"
+                d="M896 704C896 720.213333 887.04 734.293333 873.386667 741.546667L536.32 930.986667C529.493333 936.106667 520.96 938.666667 512 938.666667 503.04 938.666667 494.506667 936.106667 487.68 930.986667L150.613333 741.546667C136.96 734.293333 128 720.213333 128 704L128 320C128 303.786667 136.96 289.706667 150.613333 282.453333L487.68 93.013333C494.506667 87.893333 503.04 85.333333 512 85.333333 520.96 85.333333 529.493333 87.893333 536.32 93.013333L873.386667 282.453333C887.04 289.706667 896 303.786667 896 320L896 704Z"
+                />
+            </svg>
+            <div class="background" data-v-2f683e8c></div>
+            </div>
+    
+            <div class="street" data-v-2f683e8c>
+            <div class="header" id="street-header" data-v-2f683e8c>Los Santos</div>
+            <div class="footer" id="street-footer" data-v-2f683e8c>Vespucci Blvd</div>
+            </div>
+        </div>
+        <div class="element-carhud">
+            <div class="carhud_container">
+                <div class="carhud_temp_box" id="carhud_speed">0<span style="color: white;">00</span></div>
+                <div class="carhud_uppr_box">
+                    <div class="icon" id="seatbelt" style="margin-top: 4px">
+                        <svg class="main" style="filter: url(#shadowsvg-seatbelt);" xmlns="http://www.w3.org/2000/svg"
+                            width="64" height="64" viewBox="0 0 1024 1024">
+                            <defs class="seatbelt-defs">
+                                <linearGradient id="gradient-seatbelt">
+                                    <stop offset="75%" stop-color="#ffffff" stop-opacity="1"></stop>
+                                    <stop offset="75%" stop-color="#040e1b" stop-opacity="1"></stop>
+                                </linearGradient>
+                                <filter id="shadowsvg-seatbelt">
+                                    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="var(--seatbeltOffColor)"></feDropShadow>
+                                </filter>
+                            </defs>
+                            <path  id="seatbelt_main" fill="#040e1be1" stroke="var(--seatbeltOffColor)" stroke-width="35" stroke-linecap="round"
+                                d="M 509.5,68.5 C 515.871,69.0043 522.205,69.8377 528.5,71C 528.167,71.3333 527.833,71.6667 527.5,72C 629.378,129.028 731.711,186.528 834.5,244.5C 841.852,249.847 846.852,256.847 849.5,265.5C 850.833,385.833 850.833,506.167 849.5,626.5C 846.133,635.543 840.466,642.876 832.5,648.5C 732.268,703.907 631.268,760.573 529.5,818.5C 523.582,820.858 517.416,822.524 511,823.5C 504.955,822.592 499.122,821.092 493.5,819C 389.007,759.276 285.34,700.776 182.5,643.5C 178.609,638.06 175.443,632.06 173,625.5C 172.333,505.833 172.333,386.167 173,266.5C 174.151,261.883 175.984,257.549 178.5,253.5C 181.5,251.167 184.167,248.5 186.5,245.5C 270.214,197.626 353.214,151.126 435.5,106C 455.526,94.5954 475.526,83.0954 495.5,71.5C 500.234,70.2089 504.901,69.2089 509.5,68.5 Z">
+                            </path>
+                        </svg>
+                        <img src="./img/hud/seatbelt.svg">
+                    </div>
+                    <div class="icon" id="engine">
+                        <svg class="main" style="filter: url(#shadowsvg-engine);" xmlns="http://www.w3.org/2000/svg"
+                            width="64" height="64" viewBox="0 0 1024 1024">
+                            <defs class="engine-defs">
+                                <linearGradient id="gradient-engine">
+                                    <stop offset="75%" stop-color="#ffffff" stop-opacity="1"></stop>
+                                    <stop offset="75%" stop-color="#040e1b" stop-opacity="1"></stop>
+                                </linearGradient>
+                                <filter id="shadowsvg-engine">
+                                    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="var(--engineColor)"></feDropShadow>
+                                </filter>
+                            </defs>
+                            <path id="main" fill="#040e1be1" stroke="var(--engineColor)" stroke-width="35" stroke-linecap="round"
+                                d="M 509.5,68.5 C 515.871,69.0043 522.205,69.8377 528.5,71C 528.167,71.3333 527.833,71.6667 527.5,72C 629.378,129.028 731.711,186.528 834.5,244.5C 841.852,249.847 846.852,256.847 849.5,265.5C 850.833,385.833 850.833,506.167 849.5,626.5C 846.133,635.543 840.466,642.876 832.5,648.5C 732.268,703.907 631.268,760.573 529.5,818.5C 523.582,820.858 517.416,822.524 511,823.5C 504.955,822.592 499.122,821.092 493.5,819C 389.007,759.276 285.34,700.776 182.5,643.5C 178.609,638.06 175.443,632.06 173,625.5C 172.333,505.833 172.333,386.167 173,266.5C 174.151,261.883 175.984,257.549 178.5,253.5C 181.5,251.167 184.167,248.5 186.5,245.5C 270.214,197.626 353.214,151.126 435.5,106C 455.526,94.5954 475.526,83.0954 495.5,71.5C 500.234,70.2089 504.901,69.2089 509.5,68.5 Z">
+                            </path>
+                            <path id="background" fill="url(#gradient-engine)" stroke="var(--engineColor)" stroke-width="35"
+                                stroke-linecap="round"
+                                d="M 849.5,603.5 C 850.831,652.002 850.831,700.668 849.5,749.5C 846.133,758.543 840.466,765.876 832.5,771.5C 732.268,826.907 631.268,883.573 529.5,941.5C 523.582,943.858 517.416,945.524 511,946.5C 504.955,945.592 499.122,944.092 493.5,942C 389.007,882.276 285.34,823.776 182.5,766.5C 178.609,761.06 175.443,755.06 173,748.5C 172.333,704.167 172.333,659.833 173,615.5C 174.079,621.819 176.079,627.819 179,633.5C 183.907,639.078 189.407,643.911 195.5,648C 295.69,706.266 396.69,763.266 498.5,819C 507.795,822.977 517.129,822.643 526.5,818C 630.268,761.201 733.268,703.201 835.5,644C 842.391,638.055 846.557,630.555 848,621.5C 848.831,615.523 849.331,609.523 849.5,603.5 Z">
+                            </path>
+                        </svg>
+                        <img src="./img/hud/engine.svg">
+                    </div>
+                    <div class="icon" id="fuel">
+                        <svg class="main" style="filter: url(#shadowsvg-fuel);" xmlns="http://www.w3.org/2000/svg"
+                            width="64" height="64" viewBox="0 0 1024 1024">
+                            <defs class="fuel-defs">
+                                <linearGradient id="gradient-fuel">
+                                    <stop offset="75%" stop-color="#ffffff" stop-opacity="1"></stop>
+                                    <stop offset="75%" stop-color="#040e1b" stop-opacity="1"></stop>
+                                </linearGradient>
+                                <filter id="shadowsvg-fuel">
+                                    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="var(--fuelColor)"></feDropShadow>
+                                </filter>
+                            </defs>
+                            <path id="main" fill="#040e1be1" stroke="var(--fuelColor)" stroke-width="35" stroke-linecap="round"
+                                d="M 509.5,68.5 C 515.871,69.0043 522.205,69.8377 528.5,71C 528.167,71.3333 527.833,71.6667 527.5,72C 629.378,129.028 731.711,186.528 834.5,244.5C 841.852,249.847 846.852,256.847 849.5,265.5C 850.833,385.833 850.833,506.167 849.5,626.5C 846.133,635.543 840.466,642.876 832.5,648.5C 732.268,703.907 631.268,760.573 529.5,818.5C 523.582,820.858 517.416,822.524 511,823.5C 504.955,822.592 499.122,821.092 493.5,819C 389.007,759.276 285.34,700.776 182.5,643.5C 178.609,638.06 175.443,632.06 173,625.5C 172.333,505.833 172.333,386.167 173,266.5C 174.151,261.883 175.984,257.549 178.5,253.5C 181.5,251.167 184.167,248.5 186.5,245.5C 270.214,197.626 353.214,151.126 435.5,106C 455.526,94.5954 475.526,83.0954 495.5,71.5C 500.234,70.2089 504.901,69.2089 509.5,68.5 Z">
+                            </path>
+                            <path id="background" fill="url(#gradient-fuel)" stroke="var(--fuelColor)" stroke-width="35"
+                                stroke-linecap="round"
+                                d="M 849.5,603.5 C 850.831,652.002 850.831,700.668 849.5,749.5C 846.133,758.543 840.466,765.876 832.5,771.5C 732.268,826.907 631.268,883.573 529.5,941.5C 523.582,943.858 517.416,945.524 511,946.5C 504.955,945.592 499.122,944.092 493.5,942C 389.007,882.276 285.34,823.776 182.5,766.5C 178.609,761.06 175.443,755.06 173,748.5C 172.333,704.167 172.333,659.833 173,615.5C 174.079,621.819 176.079,627.819 179,633.5C 183.907,639.078 189.407,643.911 195.5,648C 295.69,706.266 396.69,763.266 498.5,819C 507.795,822.977 517.129,822.643 526.5,818C 630.268,761.201 733.268,703.201 835.5,644C 842.391,638.055 846.557,630.555 848,621.5C 848.831,615.523 849.331,609.523 849.5,603.5 Z">
+                            </path>
+                        </svg>
+                        <img src="./img/hud/fuel.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="carhud_rpm_container"><div class="carhud_rpm"></div></div>
+        </div>
+        <div class="app-cinematic">
+			<div class="app-cinematic-top"></div>
+			<div class="app-cinematic-bottom"></div>
+		</div>
+        <div class="settings">
+            <div class="header">
+                <div class="text">Ustawienia GUI</div>
+            </div>
+            <div class="category">
+                <div class="title">Watermark</div>
+                <div class="setting">
+                    <div class="name">Pokazuj watermark na ekranie</div>
+                    <form>
+                        <div class="radio-group">
+                            <input type="radio" id="1-1" class="off" name="selector"
+                                onclick="ChangeWatermark(false)">
+                            <label for="1-1">
+                                <div class="text">Off</div>
+                            </label>
+                            <input type="radio" id="1-2" class="on" name="selector" onclick="ChangeWatermark(true)"
+                                checked="checked">
+                            <label for="1-2">
+                                <div class="text">On</div>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="title">Elementy hudu</div>
+                <div class="setting">
+                    <div class="name">Tryb kinowy</div>
+                    <form>
+                        <div class="radio-group">
+                            <input type="radio" id="2-1" class="off" name="selector"
+                                onclick="ChangeCinematic(true)" 
+                                checked="checked">
+                            <label for="2-1">
+                                <div class="text">Off</div>
+                            </label>
+                            <input type="radio" id="2-2" class="on" name="selector" onclick="ChangeCinematic(false)">
+                            <label for="2-2">
+                                <div class="text">On</div>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="category">
+                    <div class="title">Edytowanie Hudu</div>
+                    <div class="category" id="hud_edit">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bodycam" data-v-5d22788a>
+            <div class="icon" data-v-5d22788a>
+              <img class="icon-value" src="data:image/png;base64,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" data-v-5d22788a />
+              <div class="icon-bg" data-v-5d22788a></div>
+              <svg class="icon-bg-hexagon" xmlns="http://www.w3.org/2000/svg" viewBox="-10 -40 1024 1024" data-v-5d22788a>
+                <path
+                  fill="transparent"
+                  stroke-width="30"
+                  stroke="rgba(255,255,255,0.8)"
+                  d="M507.545 75.066a50 50 0 0 0-44.953 0L133.595 255.066A50 50 0 0 0 108.57 298v428a50 50 0 0 0 25.025 42.934l329.002 180a50 50 0 0 0 44.953 0l329.002-180A50 50 0 0 0 861.57 726V298a50 50 0 0 0-25.025-42.934z"
+                />
+              </svg>
+            </div>
+          
+            <div class="description" data-v-5d22788a>
+              <div class="name" id="bodycam_name" data-v-5d22788a>
+                <span>[BADGE]</span> IMIĘ NAZWISKO
+              </div>
+              <div class="job" id="bodycam_job" data-v-5d22788a>
+                STANOWISKO - ORGANIZACJA
+              </div>
+              <div class="date" id="bodycam_date" data-v-5d22788a>
+                DATA
+              </div>
+            </div>
+        </div>    
+        <div class="app-hud-container">
+            <div class="app-hud">
+                <div class="content">
+                    <div class="icon" id="health">
+                        <svg class="main" style="filter: url(#shadowsvg-health);" xmlns="http://www.w3.org/2000/svg"
+                            width="64" height="64" viewBox="0 0 1024 1024">
+                            <defs class="health-defs">
+                                <linearGradient id="gradient-health">
+                                    <stop offset="75%" stop-color="#ffffff" stop-opacity="1"></stop>
+                                    <stop offset="75%" stop-color="#040e1b" stop-opacity="1"></stop>
+                                </linearGradient>
+                                <filter id="shadowsvg-health">
+                                    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="var(--healthColor)"></feDropShadow>
+                                </filter>
+                            </defs>
+                            <path id="main" fill="#040e1be1" stroke="var(--healthColor)" stroke-width="35" stroke-linecap="round"
+                                d="M 509.5,68.5 C 515.871,69.0043 522.205,69.8377 528.5,71C 528.167,71.3333 527.833,71.6667 527.5,72C 629.378,129.028 731.711,186.528 834.5,244.5C 841.852,249.847 846.852,256.847 849.5,265.5C 850.833,385.833 850.833,506.167 849.5,626.5C 846.133,635.543 840.466,642.876 832.5,648.5C 732.268,703.907 631.268,760.573 529.5,818.5C 523.582,820.858 517.416,822.524 511,823.5C 504.955,822.592 499.122,821.092 493.5,819C 389.007,759.276 285.34,700.776 182.5,643.5C 178.609,638.06 175.443,632.06 173,625.5C 172.333,505.833 172.333,386.167 173,266.5C 174.151,261.883 175.984,257.549 178.5,253.5C 181.5,251.167 184.167,248.5 186.5,245.5C 270.214,197.626 353.214,151.126 435.5,106C 455.526,94.5954 475.526,83.0954 495.5,71.5C 500.234,70.2089 504.901,69.2089 509.5,68.5 Z">
+                            </path>
+                            <path id="background" fill="url(#gradient-health)" stroke="var(--healthColor)" stroke-width="35"
+                                stroke-linecap="round"
+                                d="M 849.5,603.5 C 850.831,652.002 850.831,700.668 849.5,749.5C 846.133,758.543 840.466,765.876 832.5,771.5C 732.268,826.907 631.268,883.573 529.5,941.5C 523.582,943.858 517.416,945.524 511,946.5C 504.955,945.592 499.122,944.092 493.5,942C 389.007,882.276 285.34,823.776 182.5,766.5C 178.609,761.06 175.443,755.06 173,748.5C 172.333,704.167 172.333,659.833 173,615.5C 174.079,621.819 176.079,627.819 179,633.5C 183.907,639.078 189.407,643.911 195.5,648C 295.69,706.266 396.69,763.266 498.5,819C 507.795,822.977 517.129,822.643 526.5,818C 630.268,761.201 733.268,703.201 835.5,644C 842.391,638.055 846.557,630.555 848,621.5C 848.831,615.523 849.331,609.523 849.5,603.5 Z">
+                            </path>
+                        </svg>
+                        <img src="./img/hud/health.svg">
+                    </div>
+                    <div class="icon" id="armour">
+                        <svg class="main" style="filter: url(#shadowsvg-armour);" xmlns="http://www.w3.org/2000/svg"
+                            width="64" height="64" viewBox="0 0 1024 1024">
+                            <defs class="armour-defs">
+                                <linearGradient id="gradient-armour">
+                                    <stop offset="75%" stop-color="#ffffff" stop-opacity="1"></stop>
+                                    <stop offset="75%" stop-color="#040e1b" stop-opacity="1"></stop>
+                                </linearGradient>
+                                <filter id="shadowsvg-armour">
+                                    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="var(--armourColor)"></feDropShadow>
+                                </filter>
+                            </defs>
+                            <path id="main" fill="#040e1be1" stroke="var(--armourColor)" stroke-width="35" stroke-linecap="round"
+                                d="M 509.5,68.5 C 515.871,69.0043 522.205,69.8377 528.5,71C 528.167,71.3333 527.833,71.6667 527.5,72C 629.378,129.028 731.711,186.528 834.5,244.5C 841.852,249.847 846.852,256.847 849.5,265.5C 850.833,385.833 850.833,506.167 849.5,626.5C 846.133,635.543 840.466,642.876 832.5,648.5C 732.268,703.907 631.268,760.573 529.5,818.5C 523.582,820.858 517.416,822.524 511,823.5C 504.955,822.592 499.122,821.092 493.5,819C 389.007,759.276 285.34,700.776 182.5,643.5C 178.609,638.06 175.443,632.06 173,625.5C 172.333,505.833 172.333,386.167 173,266.5C 174.151,261.883 175.984,257.549 178.5,253.5C 181.5,251.167 184.167,248.5 186.5,245.5C 270.214,197.626 353.214,151.126 435.5,106C 455.526,94.5954 475.526,83.0954 495.5,71.5C 500.234,70.2089 504.901,69.2089 509.5,68.5 Z">
+                            </path>
+                            <path id="background" fill="url(#gradient-armour)" stroke="var(--armourColor)" stroke-width="35"
+                                stroke-linecap="round"
+                                d="M 849.5,603.5 C 850.831,652.002 850.831,700.668 849.5,749.5C 846.133,758.543 840.466,765.876 832.5,771.5C 732.268,826.907 631.268,883.573 529.5,941.5C 523.582,943.858 517.416,945.524 511,946.5C 504.955,945.592 499.122,944.092 493.5,942C 389.007,882.276 285.34,823.776 182.5,766.5C 178.609,761.06 175.443,755.06 173,748.5C 172.333,704.167 172.333,659.833 173,615.5C 174.079,621.819 176.079,627.819 179,633.5C 183.907,639.078 189.407,643.911 195.5,648C 295.69,706.266 396.69,763.266 498.5,819C 507.795,822.977 517.129,822.643 526.5,818C 630.268,761.201 733.268,703.201 835.5,644C 842.391,638.055 846.557,630.555 848,621.5C 848.831,615.523 849.331,609.523 849.5,603.5 Z">
+                            </path>
+                        </svg>
+                        <img src="./img/hud/armour.svg">
+                    </div>
+                    <div class="icon" id="hunger">
+                        <svg class="main" style="filter: url(#shadowsvg-hunger);" xmlns="http://www.w3.org/2000/svg"
+                            width="64" height="64" viewBox="0 0 1024 1024">
+                            <defs class="hunger-defs">
+                                <linearGradient id="gradient-hunger">
+                                    <stop offset="75%" stop-color="#ffffff" stop-opacity="1"></stop>
+                                    <stop offset="75%" stop-color="#040e1b" stop-opacity="1"></stop>
+                                </linearGradient>
+                                <filter id="shadowsvg-hunger">
+                                    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="var(--hungerColor)"></feDropShadow>
+                                </filter>
+                            </defs>
+                            <path id="main" fill="#040e1be1" stroke="var(--hungerColor)" stroke-width="35" stroke-linecap="round"
+                                d="M 509.5,68.5 C 515.871,69.0043 522.205,69.8377 528.5,71C 528.167,71.3333 527.833,71.6667 527.5,72C 629.378,129.028 731.711,186.528 834.5,244.5C 841.852,249.847 846.852,256.847 849.5,265.5C 850.833,385.833 850.833,506.167 849.5,626.5C 846.133,635.543 840.466,642.876 832.5,648.5C 732.268,703.907 631.268,760.573 529.5,818.5C 523.582,820.858 517.416,822.524 511,823.5C 504.955,822.592 499.122,821.092 493.5,819C 389.007,759.276 285.34,700.776 182.5,643.5C 178.609,638.06 175.443,632.06 173,625.5C 172.333,505.833 172.333,386.167 173,266.5C 174.151,261.883 175.984,257.549 178.5,253.5C 181.5,251.167 184.167,248.5 186.5,245.5C 270.214,197.626 353.214,151.126 435.5,106C 455.526,94.5954 475.526,83.0954 495.5,71.5C 500.234,70.2089 504.901,69.2089 509.5,68.5 Z">
+                            </path>
+                            <path id="background" fill="url(#gradient-hunger)" stroke="var(--hungerColor)" stroke-width="35"
+                                stroke-linecap="round"
+                                d="M 849.5,603.5 C 850.831,652.002 850.831,700.668 849.5,749.5C 846.133,758.543 840.466,765.876 832.5,771.5C 732.268,826.907 631.268,883.573 529.5,941.5C 523.582,943.858 517.416,945.524 511,946.5C 504.955,945.592 499.122,944.092 493.5,942C 389.007,882.276 285.34,823.776 182.5,766.5C 178.609,761.06 175.443,755.06 173,748.5C 172.333,704.167 172.333,659.833 173,615.5C 174.079,621.819 176.079,627.819 179,633.5C 183.907,639.078 189.407,643.911 195.5,648C 295.69,706.266 396.69,763.266 498.5,819C 507.795,822.977 517.129,822.643 526.5,818C 630.268,761.201 733.268,703.201 835.5,644C 842.391,638.055 846.557,630.555 848,621.5C 848.831,615.523 849.331,609.523 849.5,603.5 Z">
+                            </path>
+                        </svg>
+                        <img src="./img/hud/hunger.svg">
+                    </div>
+                    <div class="icon" id="thirst">
+                        <svg class="main" style="filter: url(#shadowsvg-thirst);" xmlns="http://www.w3.org/2000/svg"
+                            width="64" height="64" viewBox="0 0 1024 1024">
+                            <defs class="thirst-defs">
+                                <linearGradient id="gradient-thirst">
+                                    <stop offset="75%" stop-color="#ffffff" stop-opacity="1"></stop>
+                                    <stop offset="75%" stop-color="#040e1b" stop-opacity="1"></stop>
+                                </linearGradient>
+                                <filter id="shadowsvg-thirst">
+                                    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="var(--thirstColor)"></feDropShadow>
+                                </filter>
+                            </defs>
+                            <path id="main" fill="#040e1be1" stroke="var(--thirstColor)" stroke-width="35" stroke-linecap="round"
+                                d="M 509.5,68.5 C 515.871,69.0043 522.205,69.8377 528.5,71C 528.167,71.3333 527.833,71.6667 527.5,72C 629.378,129.028 731.711,186.528 834.5,244.5C 841.852,249.847 846.852,256.847 849.5,265.5C 850.833,385.833 850.833,506.167 849.5,626.5C 846.133,635.543 840.466,642.876 832.5,648.5C 732.268,703.907 631.268,760.573 529.5,818.5C 523.582,820.858 517.416,822.524 511,823.5C 504.955,822.592 499.122,821.092 493.5,819C 389.007,759.276 285.34,700.776 182.5,643.5C 178.609,638.06 175.443,632.06 173,625.5C 172.333,505.833 172.333,386.167 173,266.5C 174.151,261.883 175.984,257.549 178.5,253.5C 181.5,251.167 184.167,248.5 186.5,245.5C 270.214,197.626 353.214,151.126 435.5,106C 455.526,94.5954 475.526,83.0954 495.5,71.5C 500.234,70.2089 504.901,69.2089 509.5,68.5 Z">
+                            </path>
+                            <path id="background" fill="url(#gradient-thirst)" stroke="var(--thirstColor)" stroke-width="35"
+                                stroke-linecap="round"
+                                d="M 849.5,603.5 C 850.831,652.002 850.831,700.668 849.5,749.5C 846.133,758.543 840.466,765.876 832.5,771.5C 732.268,826.907 631.268,883.573 529.5,941.5C 523.582,943.858 517.416,945.524 511,946.5C 504.955,945.592 499.122,944.092 493.5,942C 389.007,882.276 285.34,823.776 182.5,766.5C 178.609,761.06 175.443,755.06 173,748.5C 172.333,704.167 172.333,659.833 173,615.5C 174.079,621.819 176.079,627.819 179,633.5C 183.907,639.078 189.407,643.911 195.5,648C 295.69,706.266 396.69,763.266 498.5,819C 507.795,822.977 517.129,822.643 526.5,818C 630.268,761.201 733.268,703.201 835.5,644C 842.391,638.055 846.557,630.555 848,621.5C 848.831,615.523 849.331,609.523 849.5,603.5 Z">
+                            </path>
+                        </svg>
+                        <img src="./img/hud/thirst.svg">
+                    </div>
+                    <div class="icon" id="sprint">
+                        <svg class="main" style="filter: url(#shadowsvg-sprint);" xmlns="http://www.w3.org/2000/svg"
+                            width="64" height="64" viewBox="0 0 1024 1024">
+                            <defs class="sprint-defs">
+                                <linearGradient id="gradient-sprint">
+                                    <stop offset="75%" stop-color="#ffffff" stop-opacity="1"></stop>
+                                    <stop offset="75%" stop-color="#040e1b" stop-opacity="1"></stop>
+                                </linearGradient>
+                                <filter id="shadowsvg-sprint">
+                                    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="var(--sprintColor)"></feDropShadow>
+                                </filter>
+                            </defs>
+                            <path id="main" fill="#040e1be1" stroke="var(--sprintColor)" stroke-width="35" stroke-linecap="round"
+                                d="M 509.5,68.5 C 515.871,69.0043 522.205,69.8377 528.5,71C 528.167,71.3333 527.833,71.6667 527.5,72C 629.378,129.028 731.711,186.528 834.5,244.5C 841.852,249.847 846.852,256.847 849.5,265.5C 850.833,385.833 850.833,506.167 849.5,626.5C 846.133,635.543 840.466,642.876 832.5,648.5C 732.268,703.907 631.268,760.573 529.5,818.5C 523.582,820.858 517.416,822.524 511,823.5C 504.955,822.592 499.122,821.092 493.5,819C 389.007,759.276 285.34,700.776 182.5,643.5C 178.609,638.06 175.443,632.06 173,625.5C 172.333,505.833 172.333,386.167 173,266.5C 174.151,261.883 175.984,257.549 178.5,253.5C 181.5,251.167 184.167,248.5 186.5,245.5C 270.214,197.626 353.214,151.126 435.5,106C 455.526,94.5954 475.526,83.0954 495.5,71.5C 500.234,70.2089 504.901,69.2089 509.5,68.5 Z">
+                            </path>
+                            <path id="background" fill="url(#gradient-sprint)" stroke="var(--sprintColor)" stroke-width="35"
+                                stroke-linecap="round"
+                                d="M 849.5,603.5 C 850.831,652.002 850.831,700.668 849.5,749.5C 846.133,758.543 840.466,765.876 832.5,771.5C 732.268,826.907 631.268,883.573 529.5,941.5C 523.582,943.858 517.416,945.524 511,946.5C 504.955,945.592 499.122,944.092 493.5,942C 389.007,882.276 285.34,823.776 182.5,766.5C 178.609,761.06 175.443,755.06 173,748.5C 172.333,704.167 172.333,659.833 173,615.5C 174.079,621.819 176.079,627.819 179,633.5C 183.907,639.078 189.407,643.911 195.5,648C 295.69,706.266 396.69,763.266 498.5,819C 507.795,822.977 517.129,822.643 526.5,818C 630.268,761.201 733.268,703.201 835.5,644C 842.391,638.055 846.557,630.555 848,621.5C 848.831,615.523 849.331,609.523 849.5,603.5 Z">
+                            </path>
+                        </svg>
+                        <img src="./img/hud/sprint.svg">
+                    </div>
+                    <div class="icon" id="oxygen">
+                        <svg class="main" style="filter: url(#shadowsvg-oxygen);" xmlns="http://www.w3.org/2000/svg"
+                            width="64" height="64" viewBox="0 0 1024 1024">
+                            <defs class="oxygen-defs">
+                                <linearGradient id="gradient-oxygen">
+                                    <stop offset="75%" stop-color="#ffffff" stop-opacity="1"></stop>
+                                    <stop offset="75%" stop-color="#040e1b" stop-opacity="1"></stop>
+                                </linearGradient>
+                                <filter id="shadowsvg-oxygen">
+                                    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="var(--oxygenColor)"></feDropShadow>
+                                </filter>
+                            </defs>
+                            <path id="main" fill="#040e1be1" stroke="var(--oxygenColor)" stroke-width="35" stroke-linecap="round"
+                                d="M 509.5,68.5 C 515.871,69.0043 522.205,69.8377 528.5,71C 528.167,71.3333 527.833,71.6667 527.5,72C 629.378,129.028 731.711,186.528 834.5,244.5C 841.852,249.847 846.852,256.847 849.5,265.5C 850.833,385.833 850.833,506.167 849.5,626.5C 846.133,635.543 840.466,642.876 832.5,648.5C 732.268,703.907 631.268,760.573 529.5,818.5C 523.582,820.858 517.416,822.524 511,823.5C 504.955,822.592 499.122,821.092 493.5,819C 389.007,759.276 285.34,700.776 182.5,643.5C 178.609,638.06 175.443,632.06 173,625.5C 172.333,505.833 172.333,386.167 173,266.5C 174.151,261.883 175.984,257.549 178.5,253.5C 181.5,251.167 184.167,248.5 186.5,245.5C 270.214,197.626 353.214,151.126 435.5,106C 455.526,94.5954 475.526,83.0954 495.5,71.5C 500.234,70.2089 504.901,69.2089 509.5,68.5 Z">
+                            </path>
+                            <path id="background" fill="url(#gradient-oxygen)" stroke="var(--oxygenColor)" stroke-width="35"
+                                stroke-linecap="round"
+                                d="M 849.5,603.5 C 850.831,652.002 850.831,700.668 849.5,749.5C 846.133,758.543 840.466,765.876 832.5,771.5C 732.268,826.907 631.268,883.573 529.5,941.5C 523.582,943.858 517.416,945.524 511,946.5C 504.955,945.592 499.122,944.092 493.5,942C 389.007,882.276 285.34,823.776 182.5,766.5C 178.609,761.06 175.443,755.06 173,748.5C 172.333,704.167 172.333,659.833 173,615.5C 174.079,621.819 176.079,627.819 179,633.5C 183.907,639.078 189.407,643.911 195.5,648C 295.69,706.266 396.69,763.266 498.5,819C 507.795,822.977 517.129,822.643 526.5,818C 630.268,761.201 733.268,703.201 835.5,644C 842.391,638.055 846.557,630.555 848,621.5C 848.831,615.523 849.331,609.523 849.5,603.5 Z">
+                            </path>
+                        </svg>
+                        <img src="./img/hud/oxygen.svg">
+                    </div>
+                    <div class="icon" id="voice">
+                        <svg class="main" style="filter: url(#shadowsvg-voice);" xmlns="http://www.w3.org/2000/svg"
+                            width="64" height="64" viewBox="0 0 1024 1024">
+                            <defs class="voice-defs">
+                                <linearGradient id="gradient-voice">
+                                    <stop offset="75%" stop-color="#ffffff" stop-opacity="1"></stop>
+                                    <stop offset="75%" stop-color="#040e1b" stop-opacity="1"></stop>
+                                </linearGradient>
+                                <filter id="shadowsvg-voice">
+                                    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="var(--voiceColor)"></feDropShadow>
+                                </filter>
+                            </defs>
+                            <path id="main" fill="#040e1be1" stroke="var(--voiceColor)" stroke-width="35" stroke-linecap="round"
+                                d="M 509.5,68.5 C 515.871,69.0043 522.205,69.8377 528.5,71C 528.167,71.3333 527.833,71.6667 527.5,72C 629.378,129.028 731.711,186.528 834.5,244.5C 841.852,249.847 846.852,256.847 849.5,265.5C 850.833,385.833 850.833,506.167 849.5,626.5C 846.133,635.543 840.466,642.876 832.5,648.5C 732.268,703.907 631.268,760.573 529.5,818.5C 523.582,820.858 517.416,822.524 511,823.5C 504.955,822.592 499.122,821.092 493.5,819C 389.007,759.276 285.34,700.776 182.5,643.5C 178.609,638.06 175.443,632.06 173,625.5C 172.333,505.833 172.333,386.167 173,266.5C 174.151,261.883 175.984,257.549 178.5,253.5C 181.5,251.167 184.167,248.5 186.5,245.5C 270.214,197.626 353.214,151.126 435.5,106C 455.526,94.5954 475.526,83.0954 495.5,71.5C 500.234,70.2089 504.901,69.2089 509.5,68.5 Z">
+                            </path>
+                            <path id="background" fill="url(#gradient-voice)" stroke="var(--voiceColor)" stroke-width="35"
+                                stroke-linecap="round"
+                                d="M 849.5,603.5 C 850.831,652.002 850.831,700.668 849.5,749.5C 846.133,758.543 840.466,765.876 832.5,771.5C 732.268,826.907 631.268,883.573 529.5,941.5C 523.582,943.858 517.416,945.524 511,946.5C 504.955,945.592 499.122,944.092 493.5,942C 389.007,882.276 285.34,823.776 182.5,766.5C 178.609,761.06 175.443,755.06 173,748.5C 172.333,704.167 172.333,659.833 173,615.5C 174.079,621.819 176.079,627.819 179,633.5C 183.907,639.078 189.407,643.911 195.5,648C 295.69,706.266 396.69,763.266 498.5,819C 507.795,822.977 517.129,822.643 526.5,818C 630.268,761.201 733.268,703.201 835.5,644C 842.391,638.055 846.557,630.555 848,621.5C 848.831,615.523 849.331,609.523 849.5,603.5 Z">
+                            </path>
+                        </svg>
+                        <img src="./img/hud/voice.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>gbpolsultanrsx</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0 
+            112
+            0 
+            0
+            6
+            0		
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="flase" />
+            <Item value="false" />
+          </liveries>
+        </Item>		  	
+      </colors>
+      <kits>
+        <Item>66811111_gbpolsultanrsx_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="170" />
+      <sirenSettings value="6808" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

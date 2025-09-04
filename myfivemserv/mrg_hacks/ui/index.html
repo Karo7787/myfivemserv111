@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>MirageRP Hacks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="overflow: hidden;">
+	<div class="wordgame">
+		<div class="game-container" id="gameContainer">
+			<div id="gameScreen">
+				<div class="game-header">
+					<h1 class="game-title">Word Memory</h1>
+					<div class="game-stats">
+						<div class="stat">TIme: <span id="timeLeft">30</span>s</div>
+						<div class="stat">Words: <span id="wordCount">0</span>/<span id="totalWords">10</span></div>
+						<div class="stat errors">Errors: <span id="errors">0</span>/<span id="maxErrors">3</span></div>
+					</div>
+					<div class="progress-bar">
+						<div class="progress-fill" id="progressBar"></div>
+					</div>
+				</div>
+	
+				<div class="word-display" id="wordDisplay">Starting...</div>
+	
+				<div class="buttons-container" id="gameButtons">
+					<button class="btn btn-seen" id="btnSeen">SEEN</button>
+					<button class="btn btn-new" id="btnNew">NEW</button>
+				</div>
+			</div>
+	
+			<div id="resultScreen" class="result-screen">
+				<h2 class="result-title" id="resultTitle">Results</h2>
+				<div id="resultStats"></div>
+			</div>
+		</div>
+	</div>
+	<div class="fish">
+		<div id="container">
+		<div class="game">
+	
+			<!-- /////////// -->
+			<!-- Fishing rod -->
+			<!-- /////////// -->
+		  
+	
+			<link rel="stylesheet" href="style.css">
+			<script src="https://code.jquery.com/jquery-3.7.1.js" type="text/javascript"></script>
+	
+	
+			<div class="fishing-rod">
+			  <img class="fill-container" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-fishing-rod.svg" alt="">
+			  <canvas class="reel-line-tension" data-element="reel-line-tension" width="38" height="96"></canvas>
+			  <div class="reel-handle">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-reel-handle.svg" alt="">
+			  </div>
+			  <div class="reel-line"></div>
+			</div>
+		  
+			<!-- ///////// -->
+			<!-- Game body -->
+			<!-- ///////// -->
+		  
+			<div class="game-body">
+			  <img class="fill-container" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-game-body-bg.svg" alt="">
+			  <canvas class="bubbles" data-element="bubbles" width="68" height="666"></canvas>
+			  <canvas class="seaweed" data-element="seaweed" width="68" height="134"></canvas>
+			  <img class="seafloor fill-container" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-sea-floor.svg" alt="">
+			  <div class="fish" style="transform: translateY(-80.1103px);">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-fish.svg" alt="">
+			  </div>
+			  <div class="indicator" style="transform: translateY(-13.65px);">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-indicator.svg" alt="">
+			  </div>
+			  <img class="glass fill-container" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-glass.svg" alt="">
+			</div>
+		  
+			<!-- //////////// -->
+			<!-- Progress bar -->
+			<!-- //////////// -->
+		  
+			<div class="progress-bar">
+			  <img class="fill-container" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-progress-bar-bg.svg" alt="">
+			  <div class="progress-gradient-wrapper" style="height: 11.2%;">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-progress-gradient.svg" class="progress-gradient" alt="">
+			  </div>
+			</div>
+		  
+		  </div>
+		  <!-- .game -->
+		  
+		  <!-- /////// -->
+		  <!-- Success -->
+		  <!-- /////// -->
+		  
+		  <div class="success">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-nice-catch.png" alt="" class="nice-catch">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-perfect.png" alt="" class="perfect">
+		  </div>
+		</div>
+	</div>
+    <div class="utk_fingerprint">
+        <img class="utk_fingerprint_img" src="./assets/utk_fingerprint/blank.png" alt=""/>        
+    </div>
+    <div class="simonsays">
+        <div class="container" id="container">
+            <div class="keypad" id="keypad">
+            </div>
+        </div>
+    </div>
+    <div class="hack2">
+        <div class="container">
+			<div class="hackBox">
+				<div class="hackBar">
+					<div class="hackButtonsWin">
+						<div class="buttons"></div>
+						<div class="buttons"></div>
+						<div class="buttons"></div>
+					</div>
+					<div class="dev">MirageRP</div>
+				</div>
+				<div class="hackInfo" style="display: none">
+					<h2 id="textInfo"></h2>
+				</div>
+				<div class="hackText" style="display: none">
+					<h2 id="textInfo">Zaznacz wszystkie rozwiązania</h2>
+					<h4>-LPM <span>Parzyste</span> | <span>Nieparzyste</span> RPM-</h4>
+				</div>
+
+				<div class="hackFunction" style="display: none">
+					<div id="hackAllButtons" class="hackAllButtons"></div>
+				</div>
+
+				<div class="hackFooter">
+					<div id="progressBox" style="display: none">
+						<div class="progressBox">
+							<div class="progressBar" id="progress-bar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    <div class="powerStationHack">
+        <div id="mainSpot">
+			<div id="container2">
+				<div class="text">
+					<div class="col-6">
+						<p class="h3 text-white" id="navText2">PRZYGOTUJ SIĘ</p>
+					</div>
+				</div>
+				<div class="load">
+					<div class="progress  m-1 mt-4 mb-3" style="height: 6px; background-color: #474747;">
+						<div class="" role="progressbar" id="progress-bar" style=" background-color: white; "></div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row3 align-content-center">
+					<div class="col-6">
+						<p class="h3 text-white" id="navText" style="display: none;" >PRZYGOTUJ SIĘ</p>
+					</div>
+				</div>
+			</div>
+			<div id="maze" >
+				
+				<div class="row">
+					<span class="square" id="00"></span> 
+					<span class="square" id="01" onclick="squareClick(0,1)"></span> 
+					<span class="square" id="02" onclick="squareClick(0,2)"></span> 
+					<span class="square" id="03" onclick="squareClick(0,3)"></span> 
+					<span class="square" id="04" onclick="squareClick(0,4)"></span> 
+					<span class="square" id="05" onclick="squareClick(0,5)"></span> 
+					<span class="square" id="06" onclick="squareClick(0,6)"></span> 
+					<span class="square" id="07" onclick="squareClick(0,7)"></span>
+				</div>
+				<div class="row">
+					<span class="square" id="10" onclick="squareClick(1,0)"></span> 
+					<span class="square" id="11" onclick="squareClick(1,1)"></span> 
+					<span class="square" id="12" onclick="squareClick(1,2)"></span> 
+					<span class="square" id="13" onclick="squareClick(1,3)"></span> 
+					<span class="square" id="14" onclick="squareClick(1,4)"></span> 
+					<span class="square" id="15" onclick="squareClick(1,5)"></span> 
+					<span class="square" id="16" onclick="squareClick(1,6)"></span> 
+					<span class="square" id="17" onclick="squareClick(1,7)"></span>
+				</div>
+				<div class="row">
+					<span class="square" id="20" onclick="squareClick(2,0)"></span> 
+					<span class="square" id="21" onclick="squareClick(2,1)"></span> 
+					<span class="square" id="22" onclick="squareClick(2,2)"></span> 
+					<span class="square" id="23" onclick="squareClick(2,3)"></span> 
+					<span class="square" id="24" onclick="squareClick(2,4)"></span> 
+					<span class="square" id="25" onclick="squareClick(2,5)"></span> 
+					<span class="square" id="26" onclick="squareClick(2,6)"></span> 
+					<span class="square" id="27" onclick="squareClick(2,7)"></span>
+				</div>
+				<div class="row">
+					<span class="square" id="30" onclick="squareClick(3,0)"></span> 
+					<span class="square" id="31" onclick="squareClick(3,1)"></span> 
+					<span class="square" id="32" onclick="squareClick(3,2)"></span> 
+					<span class="square" id="33" onclick="squareClick(3,3)"></span> 
+					<span class="square" id="34" onclick="squareClick(3,4)"></span> 
+					<span class="square" id="35" onclick="squareClick(3,5)"></span> 
+					<span class="square" id="36" onclick="squareClick(3,6)"></span> 
+					<span class="square" id="37"></span>
+				</div>
+			</div>
+			<div class="container" >
+				<div class="row2 align-content-center">
+					<div class="col-6 my-auto align-content-center">
+						<div class="progress  m-1 mt-4 mb-3" style="height: 6px; background-color: #474747;">
+							<div class="" role="progressbar" id="progress-bar2" style=" background-color: white; "></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/utk_hackdependency.js"></script>
+    <script src="scripts/utk_fingerprint.js"></script>
+    <script src="scripts/untangle.js"></script>
+    <script src="scripts/simonsays.js"></script>
+    <script src="scripts/hack2.js"></script>
+	<script src="scripts/fish.js"></script>
+	<script src="scripts/wordgame.js"></script>
+    <script src="scripts/powerStationHack.js"></script>
+</body>
+</html>

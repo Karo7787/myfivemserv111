@@ -1,0 +1,478 @@
+return {
+	{
+		coords = vec3(1065.62, -807.12, 59.12),
+		target = {
+			loc = vec3(1065.62, -807.12, 59.12),
+			length = 1.2,
+			width = 5.6,
+			heading = 0,
+			minZ = 58.80,
+			maxZ = 59.80,
+			label = 'Prywatna szafka'
+		},
+		name = 'policelocker',
+		label = 'Prywatna szafka',
+		owner = true,
+		slots = 50,
+		weight = 50000,
+		groups = shared.police
+	}, 
+	{
+		coords = vector3(-1077.31, -827.4, 19.3),
+		target = {
+			loc = vector3(-1077.31, -827.4, 19.3),
+			length = 3.2,
+			width = 7.6,
+			heading = 92.43,
+			minZ = 53.10,
+			maxZ = 53.90,
+			label = 'Depozyt'
+		},
+		name = 'policeevidence',
+		label = 'Depozyta',
+		owner = false,
+		slots = 1000,
+		weight = 15000000,
+		groups = shared.police
+	},
+	-- {
+	-- 	coords = vec3(353.5436, -155.7750, 73.6479),
+	-- 	target = {
+	-- 		loc = vec3(353.5436, -155.7750, 73.6479),
+	-- 		length = 1.2,
+	-- 		width = 5.6,
+	-- 		heading = 0,
+	-- 		minZ = 72.49,
+	-- 		maxZ = 73.09,
+	-- 		label = 'Lodowka'
+	-- 	},
+	-- 	name = 'apartamentfridge',
+	-- 	label = 'Lodowka',
+	-- 	owner = true,
+	-- 	slots = 5,
+	-- 	weight = 1000,
+	-- },
+	-- {
+	-- 	coords = vector3(-1797.24, 421.13, 128.22),
+	-- 	target = {
+	-- 		loc = vec3(-1797.24, 421.13, 128.22),
+	-- 		length = 1.2,
+	-- 		width = 5.6,
+	-- 		heading = 0,
+	-- 		minZ = 72.49,
+	-- 		maxZ = 73.09,
+	-- 		label = 'Otwórz Schowek'
+	-- 	},
+	-- 	name = 'Spokoziomdom',
+	-- 	label = 'Schowek',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 1000,
+	-- },
+	-- {
+	-- 	coords = vec3(125.58, -1033.51, 29.3),  
+	-- 	target = {
+	-- 		loc = vec3(125.58, -1033.51, 29.3), 
+	-- 		length = 1,
+	-- 		width = 1,
+	-- 		heading = 340.1,
+  	-- 		minZ = 28.3,
+  	-- 		maxZ = 29.8,
+	-- 		label = 'Sprawdz tace'
+	-- 	},
+	-- 	name = 'bm_tray',
+	-- 	label = 'Taca #1',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 5000,
+	-- },
+	-- {
+	-- 	coords = vec3(-584.05, -1062.09, 22.34),  
+	-- 	target = {
+	-- 		loc = vec3(-584.05, -1062.09, 22.34), 
+	-- 		length = 0.6,
+	-- 		width = 1,
+	-- 		heading = 0,
+  	-- 		minZ = 21.3,
+  	-- 		maxZ = 22.40,
+	-- 		label = 'Sprawdz tace'
+	-- 	},
+	-- 	name = 'ct_tray',
+	-- 	label = 'Taca #1',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 5000,
+	-- },
+	-- {
+	-- 	coords = vec3(-1461.5060, -349.9043, 43.6865),  
+	-- 	target = {
+	-- 		loc = vec3(-1461.5060, -349.9043, 43.6865), 
+	-- 		length = 1,
+	-- 		width = 1,
+	-- 		heading = 111.1,
+  	-- 		minZ = 41.34,
+  	-- 		maxZ = 42.79,
+	-- 		label = 'Sprawdz tace'
+	-- 	},
+	-- 	name = 'kawka1',
+	-- 	label = 'Taca #1',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 5000,
+	-- },
+
+	-- {
+	-- 	coords = vec3(126.1780, -1036.8590, 30.4485),  
+	-- 	target = {
+	-- 		loc = vec3(126.1780, -1036.8590, 30.4485), 
+	-- 		length = 1,
+	-- 		width = 1,
+	-- 		heading = 210.1,
+  	-- 		minZ = 30.34,
+  	-- 		maxZ = 30.79,
+	-- 		label = 'Sprawdz Szafke'
+	-- 	},
+	-- 	name = 'piwo2',
+	-- 	label = 'Szafka',
+	-- 	owner = false,
+	-- 	slots = 8,
+	-- 	weight = 5000,
+	-- },
+
+	-- {
+	-- 	coords = vec3(-1460.0950, -344.4637, 50.4087),  
+	-- 	target = {
+	-- 		loc = vec3(-1460.0950, -344.4637, 50.4087), 
+	-- 		length = 1,
+	-- 		width = 1,
+	-- 		heading = 130.8103,
+  	-- 		minZ = 49.4087,
+  	-- 		maxZ = 51.4087,
+	-- 		label = 'Sprawdz Szafke'
+	-- 	},
+	-- 	name = 'italian',
+	-- 	label = 'Szafka Szefa',
+	-- 	owner = false,
+	-- 	slots = 15,
+	-- 	weight = 5000,
+	-- },
+
+	-- {
+	-- 	coords = vec3(-1467.5886, -347.6673, 44.7805),  
+	-- 	target = {
+	-- 		loc = vec3(-1467.5886, -347.6673, 44.7805), 
+	-- 		length = 1,
+	-- 		width = 1,
+	-- 		heading = 136.8103,
+  	-- 		minZ = 44.7805,
+  	-- 		maxZ = 45.7805,
+	-- 		label = 'Sprawdz Szafke'
+	-- 	},
+	-- 	name = 'italian2',
+	-- 	label = 'Szafka',
+	-- 	owner = false,
+	-- 	slots = 25,
+	-- 	weight = 25000,
+	-- },
+
+
+	-- {
+	-- 	coords = vector3(89.17, 288.18, 110.21),  
+	-- 	target = {
+	-- 		loc = vector3(89.17, 288.18, 110.21), 
+	-- 		length = 0.8,
+	-- 		width = 0.4,
+	-- 		heading = 23,
+  	-- 		minZ = 110.11,
+  	-- 		maxZ = 110.31,
+	-- 		label = 'Sprawdz tace'
+	-- 	},
+	-- 	name = 'atom_trace_01',
+	-- 	label = 'Taca #1',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 5000,
+	-- },
+	-- {
+	-- 	coords = vector3(89.74, 286.92, 110.21),  
+	-- 	target = {
+	-- 		loc = vector3(89.74, 286.92, 110.21), 
+	-- 		length = 0.8,
+	-- 		width = 0.4,
+	-- 		heading = 24,
+  	-- 		minZ = 110.11,
+  	-- 		maxZ = 110.31,
+	-- 		label = 'Sprawdz tace'
+	-- 	},
+	-- 	name = 'atom_trace_02',
+	-- 	label = 'Taca #2',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 5000,
+	-- },
+	-- {
+	-- 	coords = vector3(90.25, 285.76, 110.21),  
+	-- 	target = {
+	-- 		loc = vector3(90.25, 285.76, 110.21), 
+	-- 		length = 0.8,
+	-- 		width = 0.4,
+	-- 		heading = 23,
+  	-- 		minZ = 110.11,
+  	-- 		maxZ = 110.31,
+	-- 		label = 'Sprawdz tace'
+	-- 	},
+	-- 	name = 'atom_trace_03',
+	-- 	label = 'Taca #3',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 5000,
+	-- },
+
+	-- {
+	-- 	coords = vector3(-1188.32, -894.15, 13.8),  
+	-- 	target = {
+	-- 		loc = vector3(-1188.32, -894.15, 13.8), 
+	-- 		length = 0.8,
+	-- 		width = 0.4,
+	-- 		heading = 23,
+  	-- 		minZ = 13.5,
+  	-- 		maxZ = 14,
+	-- 		label = 'Sprawdz tace'
+	-- 	},
+	-- 	name = 'bs_trace_01',
+	-- 	label = 'Taca #1',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 5000,
+	-- },
+	-- {
+	-- 	coords = vector3(-1189.9, -895.2, 13.8),  
+	-- 	target = {
+	-- 		loc = vector3(-1189.9, -895.2, 13.8), 
+	-- 		length = 0.8,
+	-- 		width = 0.4,
+	-- 		heading = 23,
+  	-- 		minZ = 13.5,
+  	-- 		maxZ = 14,
+	-- 		label = 'Sprawdz tace'
+	-- 	},
+	-- 	name = 'bs_trace_02',
+	-- 	label = 'Taca #2',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 5000,
+	-- },
+	-- {
+	-- 	coords = vector3(-1191.41, -896.19, 13.8),  
+	-- 	target = {
+	-- 		loc = vector3(-1191.41, -896.19, 13.8), 
+	-- 		length = 0.8,
+	-- 		width = 0.4,
+	-- 		heading = 23,
+  	-- 		minZ = 13.5,
+  	-- 		maxZ = 14,
+	-- 		label = 'Sprawdz tace'
+	-- 	},
+	-- 	name = 'bs_trace_03',
+	-- 	label = 'Taca #3',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 5000,
+	-- },
+	-- {
+	-- 	coords = vector3(-561.05, 284.71, 82.18),  
+	-- 	target = {
+	-- 		loc = vector3(-561.05, 284.71, 82.18), 
+	-- 		length = 0.8,
+	-- 		width = 0.8,
+	-- 		heading = 355,
+  	-- 		minZ = 81,
+  	-- 		maxZ = 82.38,
+	-- 		label = 'Sprawdz tace'
+	-- 	},
+	-- 	name = 'tequila_trace_01',
+	-- 	label = 'Taca #1',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 5000,
+	-- },
+	-- {
+	-- 	coords = vector3(-560.88, 286.09, 82.18),  
+	-- 	target = {
+	-- 		loc = vector3(-560.88, 286.09, 82.18), 
+	-- 		length = 0.8,
+	-- 		width =  0.8,
+	-- 		heading = 355,
+	-- 		minZ = 81,
+	-- 		maxZ = 82.38,
+	-- 		label = 'Sprawdz tace'
+	-- 	},
+	-- 	name = 'tequila_trace_02',
+	-- 	label = 'Taca #2',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 5000,
+	-- },
+	-- {
+	-- 	coords = vector3(-560.77, 287.38, 82.18),  
+	-- 	target = {
+	-- 		loc = vector3(-560.77, 287.38, 82.18), 
+	-- 		length = 0.8,
+	-- 		width =  0.8,
+	-- 		heading = 355,
+	-- 		minZ = 81,
+	-- 		maxZ = 82.38,
+	-- 		label = 'Sprawdz tace'
+	-- 	},
+	-- 	name = 'tequila_trace_03',
+	-- 	label = 'Taca #3',
+	-- 	owner = false,
+	-- 	slots = 5,
+	-- 	weight = 5000,
+	-- },
+	-- {
+	-- 	coords = vec3(301.3, -600.23, 43.28),
+	-- 	target = {
+	-- 		loc = vec3(301.82, -600.99, 43.29),
+	-- 		length = 0.6,
+	-- 		width = 1.8,
+	-- 		heading = 340,
+	-- 		minZ = 43.34,
+	-- 		maxZ = 44.74,
+	-- 		label = 'Prywatna szafka'
+	-- 	},
+	-- 	name = 'emslocker',
+	-- 	label = 'Prywatna szafka',
+	-- 	owner = true,
+	-- 	slots = 70,
+	-- 	weight = 70000,
+	-- 	groups = {['ambulance'] = 0}
+	-- },
+	-- {
+	-- 	coords = vec3(806.23, -761.93, 26.78),
+	-- 	target = {
+	-- 		loc = vec3(806.23, -761.93, 26.78),
+	-- 		length = 1.2,
+	-- 		width = 5.6,
+	-- 		heading = 0,
+	-- 		minZ = 26.20,
+	-- 		maxZ = 27.10,
+	-- 		label = 'Lodowka'
+	-- 	},
+	-- 	name = 'papalocker',
+	-- 	label = 'Lodowka',
+	-- 	owner = false,
+	-- 	slots = 500,
+	-- 	weight = 350000,
+	-- 	groups = {['papa'] = 0}
+	-- },
+	-- {
+	-- 	coords = vec3(129.46, -1281.21, 29.27), 
+	-- 	target = {
+	-- 		loc = vec3(129.46, -1281.21, 29.27),
+	-- 		length = 1.2,
+	-- 		width = 5.6,
+	-- 		heading = 0,
+	-- 		minZ = 29.10,
+	-- 		maxZ = 29.80,
+	-- 		label = 'Schowek'
+	-- 	},
+	-- 	name = 'vanillalocker',
+	-- 	label = 'Schowek',
+	-- 	owner = false,
+	-- 	slots = 500,
+	-- 	weight = 350000,
+	-- 	groups = {['vanilla'] = 0}
+	-- },
+	-- {
+	-- 	coords = vec3(-1068.57, -1444.69, -1.42), 
+	-- 	target = {
+	-- 		loc = vec3(-1068.57, -1444.69, -1.42),
+	-- 		length = 1.2,
+	-- 		width = 5.6,
+	-- 		heading = 0,
+	-- 		minZ = -1.10,
+	-- 		maxZ = -1.80,
+	-- 		label = 'Lodowka'
+	-- 	},
+	-- 	name = 'sakuralocker',
+	-- 	label = 'Lodowka',
+	-- 	owner = false,
+	-- 	slots = 500,
+	-- 	weight = 350000,
+	-- 	groups = {['sakura'] = 0}
+	-- },
+	-- {
+	-- 	coords = vec3(-1197.2, -1141.82, 7.83), 
+	-- 	target = {
+	-- 		loc = vec3(-1197.2, -1141.82, 7.83),
+	-- 		length = 1.2,
+	-- 		width = 5.6,
+	-- 		heading = 0,
+	-- 		minZ = -1.10,
+	-- 		maxZ = -1.80,
+	-- 		label = 'Lodowka'
+	-- 	},
+	-- 	name = 'beanlocker',
+	-- 	label = 'Lodowka',
+	-- 	owner = false,
+	-- 	slots = 500,
+	-- 	weight = 350000,
+	-- 	groups = {['bean'] = 0}
+	-- },
+	-- {
+	-- 	coords = vector3(-225.6, -841.56, 30.68), 
+	-- 	target = {
+	-- 		loc = vector3(-225.6, -841.56, 30.68),
+	-- 		length = 1.2,
+	-- 		width = 5.6,
+	-- 		heading = 271.78,
+	-- 		minZ = -1.10,
+	-- 		maxZ = -1.80,
+	-- 		label = 'Schowek'
+	-- 	},
+	-- 	name = 'grup6locker',
+	-- 	label = 'Schowek',
+	-- 	owner = false,
+	-- 	slots = 500,
+	-- 	weight = 50000,
+	-- 	groups = {['gruppe6'] = 0}
+	-- },
+	-- {
+	-- 	coords = vector3(-1293.12, -297.37, 36.05), 
+	-- 	target = {
+	-- 		loc = vector3(-1293.12, -297.37, 36.05),
+	-- 		length = 1.2,
+	-- 		width = 5.6,
+	-- 		heading = 271.78,
+	-- 		minZ = -1.10,
+	-- 		maxZ = -1.80,
+	-- 		label = 'Schowek'
+	-- 	},
+	-- 	name = 'arcadelocker',
+	-- 	label = 'Schowek',
+	-- 	owner = false,
+	-- 	slots = 500,
+	-- 	weight = 350000,
+	-- 	groups = {['arcade'] = 0}
+	-- },
+	-- {
+	-- 	coords = vector3(720.2, -962.56, 30.4),
+	-- 	target = {
+	-- 		loc = vector3(720.2, -962.56, 30.4),
+	-- 		length = 1.2,
+	-- 		width = 5.6,
+	-- 		heading = 271.78,
+	-- 		minZ = -1.10,
+	-- 		maxZ = -1.80,
+	-- 		label = 'Schowek'
+	-- 	},
+	-- 	name = 'client',
+	-- 	label = 'Schowek',
+	-- 	owner = false,
+	-- 	slots = 500,
+	-- 	weight = 350000,
+	-- 	groups = {['szwalnia'] = 0}
+	-- },
+
+}

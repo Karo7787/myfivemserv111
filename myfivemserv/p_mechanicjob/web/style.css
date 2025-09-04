@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+:root {
+    font-size: min(.83333333vw, 1.8009478673vh);
+    transition: font-size .15s linear;
+    --bg-color: #191c12df;
+    --main-color: #DDFF00;
+    --border-color: #f2f9c268;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(Background.png);
+    overflow: hidden;
+    color: #fff;
+}
+
+.vehicle-info-wrapper {
+    position: absolute;
+    top: 50%;
+    right: -40rem;
+    transform: translateY(-50%);
+    background-color: var(--bg-color);
+    border: .125rem solid var(--border-color);
+    border-radius: .5rem;
+    padding: 1.25rem;
+    opacity: 0.0;
+    display: flex; flex-direction: column; gap: .75rem;
+}
+
+/* .vehicle-data-wrapper {
+    right: -20rem !important;
+    opacity: 0.0 !important;
+} */
+
+.vehicle-info-title {
+    display: flex; flex-direction: column; align-items: center; gap: .25rem;
+    border-bottom: .0625rem solid var(--border-color); padding-bottom: 1rem;
+    font-weight: 550;
+}
+
+.vehicle-info-main {
+    display: flex; flex-direction: column; gap: .75rem; font-size: .9rem;
+    width: 100%;
+    padding-bottom: .25rem;
+}
+
+.vehicle-info-row {
+    display: flex; align-items: center; justify-content: space-between; font-weight: 500;
+}
+
+.vehicle-info-row font {
+    color: var(--main-color);
+}
+
+.vehicle-info-title span {
+    letter-spacing: .2rem;
+}
+
+.vehicle-info-title span:first-child {
+    font-size: 1.25rem;
+}
+
+.vehicle-info-title span:last-child { 
+    letter-spacing: .15rem;
+    font-size: .85rem; color: var(--main-color);
+}
+
+.vehicle-info-bot-title {
+    display: flex; align-items: center; gap: .5rem; font-size: .8rem; line-height: .1rem;
+    font-weight: 550; letter-spacing: .05rem;
+}
+
+.vehicle-info-bot-title hr {
+    width: 100%; border-radius: 1rem;
+}
+
+.info-bot-line {
+    width: 100%;
+    height: .1rem;
+    background-color: var(--border-color); border-radius: 1rem;
+}
+
+.vehicle-repair-list {
+    display: flex; flex-direction: column; margin-top: .75rem;
+}
+
+.vehicle-repair-list ul {
+    font-size: .75rem; line-height: .5rem;
+    padding-left: 1.25rem; font-weight: 500;
+}
+
+.vehicle-repair-list li:not(:first-child) {
+    margin-top: 1.25rem;
+}
+
+.vehicle-repair-list li {
+    position: relative;
+    display: flex; align-items: center; justify-content: space-between;
+}
+
+.vehicle-repair-list li::before {
+    position: absolute;
+    content: "";
+    width: .25rem; height: .25rem; border-radius: 50%; background-color: #fff;
+    left: -1rem;
+}
+
+.vehicle-repair-list li font {
+    color: var(--main-color);
+}
+
+.vehicle-info-btn {
+    background-color: #2e3421e8;
+    border: .0625rem solid #f2f9c26d;
+    border-radius: .25rem;
+    width: 100%;
+    padding: .75rem 1rem;
+    text-align: center;
+    color: #FBFFDF; font-weight: 550;
+    font-size: .85rem;
+    margin-top: .5rem;
+    letter-spacing: .025rem;
+    cursor: pointer;
+    transition: background-color 250ms ease;
+}
+
+.vehicle-info-btn:hover {
+    background-color: #394128e8;
+}
+
+.vehicle-repair-list > span {
+    font-size: .9rem;
+}
+
+.vehicle-repair-list > span:not(:first-child) {
+    margin-top: .25rem;
+}
+
+.vehicle-history-wrapper {
+    right: -40rem;
+}
+
+.vehicle-history-wrapper .vehicle-info-main > span {
+    font-size: .7rem; color: #ffffff54;
+}
+
+.vehicle-history-wrapper .vehicle-info-row {
+    font-size: .8rem;
+}
+
+.vehicle-tasks-wrapper {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex; flex-direction: column; gap: .25rem;
+    font-size: .9rem; width: 17.5rem;
+}
+
+.vehicle-task {
+    position: relative;
+    display: flex; align-items: center; justify-content: space-between;
+    background-color: #13150edb; padding: .75rem; border-radius: .25rem;
+}
+
+.finished::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0000006f;
+    left: 0;
+    top: 0;
+    border-radius: .25rem;
+}
+
+.vehicle-task font {
+    color: var(--main-color);
+}
+
+.vehicle-info-desc {
+    text-align: center; font-size: .75rem; color: rgba(255, 255, 255, 0.6);
+    margin: auto; width: 100%; margin-top: .5rem;
+}

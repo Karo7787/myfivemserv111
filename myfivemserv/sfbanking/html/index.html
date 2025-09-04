@@ -1,0 +1,1087 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sfbanking</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.1.1/css/pro.min.css">
+    <script src="../config.js"></script>
+</head>
+
+<body>
+    <div id="Bank">
+        <div class="Main" v-if="atm == false">
+            <template v-if="bank_number==0 && crypto_number==0 && loading == false">
+                <section id="Accounts" style="height: auto;">
+                    <h3>Nie Posiadasz Konta!</h1>
+                        <div class="AccountsButtons">
+                            <div class="ActionBtn" v-on:click="createNewAccount()" v-if="bank_number==0"
+                                style="color: black; background-color: var(--maincolor);">Utwórz Konto</div>
+                        </div>
+                </section>
+            </template>
+            <template v-if="(bank_number!=0 || crypto_number!=0) && loading == false">
+                <section id="MainMenu" v-if="page == 'HomeCrypto'">
+                    <div class="SectionTop" style="display: flex;">
+                        <img src="logo2.png" style="height: 40px; top: -5px; position: relative; margin-right: 20px;">
+                        <div style="display: flex; width: 100%; justify-content: space-between;">
+                            <span style=" margin-top: 0.5vh;">{{lang.text_32}}: {{crypto_number}} <span v-if="crypto_number==main_account">
+                                {{lang.text_36}}</span>
+                            </span>
+                            <div style="margin-top: -0.8vh; width: 10vw;" v-if="accounts.length>1" class="col-md-3" id="AccountSelectDiv">
+                                <select id="AccountSelect" v-if="accounts.length>1"  v-model="active_account" @change="changeAccountCrypto($event)">
+                                    <template v-if="accounts.length>1" v-for="(name, value) in accounts">
+                                        <option :value="name.crypto_number">{{name.crypto_number}}<span v-if="name.crypto_number==main_account"> {{lang.text_36}}</span></option>
+                                    </template>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: space-between; padding: 2.5vh 0;">
+                        <div class="MainInfo">
+                            <div>
+                                <span style="font-size: 1.5vh;">{{lang.text_31}}</span>
+                                <span style="font-size: 2.5vh; color: var(--cryptocolor);">
+                                    <template v-if="crypto_amount.length>0" v-for="(name, value) in crypto_amount">
+                                        {{parseCrypto(name.amount)}} {{name.name}}
+                                    </template>
+                                </span>
+                            </div>
+                            <div>
+                                <span style="font-size: 1.3vh;">{{lang.text_55}}</span>
+                                <span style="font-size: 2.2vh; color: var(--cryptocolor);">{{crypto_logs.length}}</span>
+                            </div>
+                            <div style="border-bottom: 0; padding-bottom: 1vh;">
+                                <span style="font-size: 1.3vh;">{{lang.text_8}}</span>
+                                <span style="font-size: 2.2vh; color: var(--cryptocolor);">${{money_in_eq}}</span>
+                            </div>
+                        </div>
+                        <div class="MainButtons">
+                            <div class="MainBtn" v-on:click="changePage('BuyCrypto')">
+                                <img src="img/cash.svg">
+                                <span>{{lang.text_38}}</span>
+                            </div>
+                            <div class="MainBtn" v-on:click="changePage('SellCrypto')">
+                                <img src="img/cash.svg">
+                                <span>{{lang.text_37}}</span>
+                            </div>
+                            <div class="MainBtn" v-on:click="changePage('TransferCrypto')">
+                                <img src="img/cash.svg">
+                                <span>{{lang.text_6}}</span>
+                            </div>
+                            <div class="MainBtn" v-on:click="changePage('HistoryCrypto')">
+                                <img src="img/cash.svg">
+                                <span>{{lang.text_9}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="LastActions">
+                        <span>{{lang.text_58}}</span>
+                        <table id="LastActions">
+                            <tr>
+                                <th id="Info" style="text-align: left;">{{lang.text_57}}</th>
+                                <th id="Info">{{lang.text_10}}</th>
+                                <th id="Info">{{lang.text_11}}</th>
+                                <th id="Info" style="text-align: right;">{{lang.text_12}}</th>
+                            </tr>
+                            <tr v-for="(name, value) in crypto_logs" v-if="value < 4">
+                                <th>
+                                    <div class="RowName">
+                                        <div class="circle"></div>
+                                        <div>
+                                            <span style="margin-top: 8px;">
+                                                <span
+                                                    v-if="name.type==1 && name.tonumber==crypto_number">{{name.number}}</span>
+                                                <span
+                                                    v-if="name.type==1 && name.number==crypto_number">{{name.tonumber}}</span>
+                                                <span v-if="name.type==2">{{lang.text_56}}</span>
+                                                <span v-if="name.type==3">{{lang.text_56}}</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th style="color: #30ff41;" v-if="name.tonumber==crypto_number">
+                                    +{{parseCrypto(name.amount)}} {{name.currency}}</th>
+                                <th style="color: #ff3030;" v-if="name.number==crypto_number">
+                                    -{{parseCrypto(name.amount)}} {{name.currency}}</th>
+                                <th>
+                                    <span v-if="name.type==1 && name.tonumber==crypto_number">{{lang.text_39}}</span>
+                                    <span v-if="name.type==1 && name.number==crypto_number">{{lang.text_40}}</span>
+                                    <span v-if="name.type==2">{{lang.text_37}}</span>
+                                    <span v-if="name.type==3">{{lang.text_38}}</span>
+                                </th>
+                                <th>
+                                    <div class="RowDate">
+                                        <span style="font-size: 1.5vh;">{{goodDate(name.date)}}</span>
+                                        <span
+                                            style="font-size: 1.3vh; color: rgb(184, 184, 184);">{{goodTime(name.date)}}</span>
+                                    </div>
+                                </th>
+                                <th style="width: 10%; text-align: right; padding-right: 2vh;">
+                                    <i style="color: var(--cryptocolor);" class="fa-solid fa-chevron-right"></i>
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+                <section id="MainMenu" v-if="page == 'SellCrypto'">
+                    <div class="SectionTop">
+                        <img src="logo2.png" style="height: 40px; top: -5px; position: relative; margin-right: 20px;">
+                        <span style="font-size: 20px;">{{lang.text_41}}</span>
+                        <span style="right: 36px;position: absolute;top: 36px;">{{lang.text_32}}: {{crypto_number}}
+                            <span v-if="crypto_number==main_account"> {{lang.text_36}}</span></< /span></span>
+                    </div>
+
+                    <div class="ActionMain">
+                        <div class="ActionTop">
+                            <template v-if="crypto_amount.length > 0">
+                                <div class="ActionRow">
+                                    <span>{{lang.text_42}}</span>
+                                    <div>
+                                        <input type="number" step="0.01" v-model="sellcrypto_amount"
+                                            @change="if(sellcrypto_amount <= 0){ sellcrypto_amount = 0.01 } sellcrypto_amount = parseFloat(sellcrypto_amount).toFixed(5); sfbanking.sellcrypto_amount = sellcrypto_amount;"
+                                            :placeholder="lang.text_42">
+                                    </div>
+                                </div>
+
+                                <div class="ActionRow">
+                                    <span>{{lang.text_43}}</span>
+                                    <div style="display: flex;">
+                                        <select id="CryptoSelect" v-model="sellcrypto_currency"
+                                            @change="setCrypto($event)">
+                                            <option v-for="(name, value) in crypto_amount" :value="name.name">
+                                                {{name.name}}</option>
+                                        </select>
+                                        <i style="margin-top: 0.5vh;" class="fa-regular fa-chevron-down"></i>
+                                    </div>
+                                </div>
+
+                                <div class="ActionRow">
+                                    <span>{{lang.text_20}}</span>
+                                    <div>
+                                        <input type="text"
+                                            :value="sellcrypto_amount * getPriceCrypto(sellcrypto_currency) + '$'"
+                                            placeholder="0$" readonly>
+                                    </div>
+                                </div>
+                            </template>
+
+                            <template v-else>
+                                <div class="ActionRow">
+                                    <span style="text-align: center; width: 100%;">
+                                        <br><br>{{lang.text_44}}<br><br>
+                                    </span>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                    <div class="ActionButtons">
+                        <div class="ActionBtn" v-on:click="backToMainCrypto()">{{lang.text_22}}</div>
+                        <div class="ActionBtn" v-on:click="sendSellCrypto()"
+                            :style="(sellcrypto_amount > 0 && sellcrypto_currency && checkHaveCrypto()) && (sellcrypto_amount > 0 && sellcrypto_currency) ? 'opacity: 1.0' : 'opacity: 0.6'"
+                            style="color: black; background-color: var(--cryptocolor);">
+                            {{lang.text_45}}
+                        </div>
+                    </div>
+                </section>
+                <section id="MainMenu" v-if="page == 'BuyCrypto'">
+                    <div class="SectionTop">
+                        <img src="logo2.png" style="height: 40px; top: -5px; position: relative; margin-right: 20px;">
+                        <span style="font-size: 20px;">{{lang.text_46}}</span>
+                        <span style="right: 36px; position: absolute; top: 36px;">
+                            {{lang.text_32}}: {{crypto_number}}
+                            <span v-if="crypto_number == main_account"> {{lang.text_36}}</span>
+                        </span>
+                    </div>
+
+                    <div class="ActionMain">
+                        <div class="ActionTop">
+                            <template v-if="currency.length > 0">
+                                <div class="ActionRow">
+                                    <span>{{lang.text_42}}</span>
+                                    <div>
+                                        <input type="number" step="0.01" v-model="buycrypto_amount"
+                                            @change="if(buycrypto_amount <= 0){ buycrypto_amount = 0.01 } buycrypto_amount = parseFloat(buycrypto_amount).toFixed(5); sfbanking.buycrypto_amount = buycrypto_amount;"
+                                            :placeholder="lang.text_42">
+                                    </div>
+                                </div>
+
+                                <div class="ActionRow">
+                                    <span>{{lang.text_43}}</span>
+                                    <div style="display: flex;">
+                                        <select id="CryptoSelect" v-model="buycrypto_currency"
+                                            @change="setCryptoBuy($event)">
+                                            <option :value="null">{{lang.text_43}}</option>
+                                            <option v-for="(name, value) in currency" :value="name.name">
+                                                {{name.name}} (1/{{name.price}}$)
+                                            </option>
+                                        </select>
+                                        <i style="margin-top: 0.5vh;" class="fa-regular fa-chevron-down"></i>
+                                    </div>
+                                </div>
+
+                                <div class="ActionRow">
+                                    <span>{{lang.text_20}}</span>
+                                    <div>
+                                        <input type="text"
+                                            :value="buycrypto_amount * getPriceCrypto(buycrypto_currency) + '$'"
+                                            placeholder="0$" readonly>
+                                    </div>
+                                </div>
+                            </template>
+
+                            <template v-else>
+                                <div class="ActionRow">
+                                    <span style="text-align: center; width: 100%;">
+                                        <br><br>{{lang.text_44}}<br><br>
+                                    </span>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                    <div class="ActionButtons">
+                        <div class="ActionBtn" v-on:click="backToMainCrypto()">{{lang.text_22}}</div>
+                        <div class="ActionBtn" v-on:click="sendBuyCrypto()"
+                            :style="(buycrypto_amount > 0 && buycrypto_currency && (buycrypto_amount * getPriceCrypto(buycrypto_currency)) <= bank_amount) ? 'opacity: 1.0' : 'opacity: 0.6'"
+                            style="color: black; background-color: var(--cryptocolor);">
+                            {{lang.text_47}}
+                        </div>
+                    </div>
+                </section>
+                <section id="MainMenu" v-if="page == 'TransferCrypto'">
+                    <div class="SectionTop">
+                        <img src="logo2.png" style="height: 40px; top: -5px; position: relative; margin-right: 20px;">
+                        <span style="font-size: 20px;">{{lang.text_48}}</span>
+                        <span style="right: 36px; position: absolute; top: 36px;">
+                            {{lang.text_32}}: {{crypto_number}}
+                            <span v-if="crypto_number == main_account"> {{lang.text_36}}</span>
+                        </span>
+                    </div>
+
+                    <div class="ActionMain">
+                        <div class="ActionTop">
+                            <template v-if="crypto_amount.length > 0">
+                                <div class="ActionRow">
+                                    <span>{{lang.text_49}}</span>
+                                    <div>
+                                        <input type="number" maxlength="40" v-model="transfer_number"
+                                            :placeholder="lang.text_49">
+                                    </div>
+                                </div>
+
+                                <div class="ActionRow">
+                                    <span>{{lang.text_42}}</span>
+                                    <div>
+                                        <input type="number" step="0.01" v-model="sellcrypto_amount"
+                                            @change="if(sellcrypto_amount <= 0){ sellcrypto_amount = 0.01 } sellcrypto_amount = parseFloat(sellcrypto_amount).toFixed(5); sfbanking.sellcrypto_amount = sellcrypto_amount;"
+                                            :placeholder="lang.text_42">
+                                    </div>
+                                </div>
+
+                                <div class="ActionRow">
+                                    <span>{{lang.text_43}}</span>
+                                    <div style="display: flex;">
+                                        <select id="CryptoSelect" v-model="sellcrypto_currency"
+                                            @change="setCrypto($event)">
+                                            <option :value="null">{{lang.text_43}}</option>
+                                            <option v-for="(name, value) in crypto_amount" :value="name.name">
+                                                {{name.name}}</option>
+                                        </select>
+                                        <i style="margin-top: 0.5vh;" class="fa-regular fa-chevron-down"></i>
+                                    </div>
+                                </div>
+                            </template>
+
+                            <template v-else>
+                                <div class="ActionRow">
+                                    <span style="text-align: center; width: 100%;">
+                                        <br><br>{{lang.text_51}}<br><br>
+                                    </span>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                    <div class="ActionButtons">
+                        <div class="ActionBtn" v-on:click="backToMainCrypto()">{{lang.text_22}}</div>
+                        <div class="ActionBtn" v-on:click="sendTransferCrypto()"
+                            :style="(sellcrypto_amount > 0 && transfer_number > 0 && checkHaveCrypto()) ? 'opacity: 1.0' : 'opacity: 0.6'"
+                            style="color: black; background-color: var(--cryptocolor);">
+                            {{lang.text_50}}
+                        </div>
+                    </div>
+                </section>
+                <section id="MainMenu" v-if="page == 'HistoryCrypto'">
+                    <div class="SectionTop">
+                        <img src="logo2.png" style="height: 40px; top: -5px; position: relative; margin-right: 20px;">
+                        <span style="font-size: 20px;">{{lang.text_9}}</span>
+                        <span style="right: 36px; position: absolute; top: 36px;">
+                            {{lang.text_32}}: {{crypto_number}}
+                            <span v-if="crypto_number == main_account"> {{lang.text_36}}</span>
+                        </span>
+                    </div>
+                    <div class="HistoryTop">
+                        <div v-on:click="backToMainCrypto()"
+                            style="width: 100%; justify-content: center; cursor: pointer;">
+                            <span>Powrót</span>
+                        </div>
+                    </div>
+                    <div class="HistoryList" style="margin-top: 2vh;">
+                        <div>
+                            <span style="text-align: left;">Adresat</span>
+                            <span>Kwota</span>
+                            <span>Typ transakcji</span>
+                            <span style="text-align: right;">Data</span>
+                            <span style="width: 7.5%; opacity: 0;"><i class="fa-solid fa-chevron-right"></i></span>
+                        </div>
+                        <div style="padding-top: 5vh; overflow-y: scroll; max-height: 50vh;">
+                            <table id="HistoryList">
+                                <tr v-for="(name, value) in crypto_logs">
+                                    <th id="HistoryRow">
+                                        <div class="RowName">
+                                            <div class="circle"></div>
+                                            <span style="margin-top: 0.5vh;">
+                                                <span style="font-size: 1.3vh;"
+                                                    v-if="name.type==1 && name.tonumber==crypto_number">{{name.number}}</span>
+                                                <span style="font-size: 1.3vh;"
+                                                    v-if="name.type==1 && name.number==crypto_number">{{name.tonumber}}</span>
+                                                <span style="font-size: 1.3vh;"
+                                                    v-if="name.type==2">{{lang.text_56}}</span>
+                                                <span style="font-size: 1.3vh;"
+                                                    v-if="name.type==3">{{lang.text_56}}</span>
+                                            </span>
+                                        </div>
+                                    </th>
+                                    <th id="HistoryRow" style="color: #30ff41;" v-if="name.tonumber==crypto_number">
+                                        +{{parseCrypto(name.amount)}} {{name.currency}}</th>
+                                    <th id="HistoryRow" style="color: #ff3030;" v-if="name.number==crypto_number">
+                                        -{{parseCrypto(name.amount)}} {{name.currency}}</th>
+                                    <th id="HistoryRow" style="text-align: center;">
+                                        <span
+                                            v-if="name.type==1 && name.tonumber==crypto_number">{{lang.text_39}}</span>
+                                        <span v-if="name.type==1 && name.number==crypto_number">{{lang.text_40}}</span>
+                                        <span v-if="name.type==2">{{lang.text_37}}</span>
+                                        <span v-if="name.type==3">{{lang.text_38}}</span>
+                                    </th>
+                                    <th id="HistoryRow">
+                                        <div class="RowDate">
+                                            <span style="font-size: 1.5vh;">{{goodDate(name.date)}}</span>
+                                            <span
+                                                style="font-size: 1.3vh; color: rgb(184, 184, 184);">{{goodTime(name.date)}}</span>
+                                        </div>
+                                    </th>
+                                    <th id="HistoryRow" style="width: 10%; text-align: right; padding-right: 1vh;">
+                                        <i style="color: var(--cryptocolor);" class="fa-solid fa-chevron-right"></i>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <section id="MainMenu" v-if="page == 'Home'">
+                    <div class="SectionTop" style="display: flex;">
+                        <img src="logo.png" style="height: 40px; margin-right: 20px;">
+                        <div style="display: flex; width: 100%; justify-content: space-between;">
+                            <span style=" margin-top: 0.5vh;">{{lang.text_7}}: {{bank_number}} <span v-if="bank_number==main_account">
+                                {{lang.text_36}}</span></span>
+                            <div style="margin-top: -0.8vh; width: 10vw;" v-if="accounts.length>1" class="col-md-3" id="AccountSelectDiv">
+                                <select id="AccountSelect" v-if="accounts.length>1"  v-model="active_account" @change="changeAccount($event)">
+                                    <template v-if="accounts.length>1" v-for="(name, value) in accounts">
+                                        <option :value="name.bank_number">{{name.bank_number}}<span v-if="name.bank_number==main_account"> {{lang.text_36}}</span></option>
+                                    </template>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: space-between; padding: 2.5vh 0;">
+                        <div class="MainInfo">
+                            <div>
+                                <span style="font-size: 1.5vh;">{{lang.text_3}}</span>
+                                <span style="font-size: 2.5vh; color: var(--maincolor);">${{bank_amount}}</span>
+                            </div>
+                            <div>
+                                <span style="font-size: 1.3vh;">{{lang.text_55}}</span>
+                                <span style="font-size: 2.2vh; color: var(--maincolor);">{{bank_logs.length}}</span>
+                            </div>
+                            <div style="border-bottom: 0; padding-bottom: 1vh;">
+                                <span style="font-size: 1.3vh;">{{lang.text_8}}</span>
+                                <span style="font-size: 2.2vh; color: var(--maincolor);">${{money_in_eq}}</span>
+                            </div>
+                        </div>
+                        <div class="MainButtons">
+                            <div class="MainBtn" v-on:click="changePage('Payment')">
+                                <img src="img/cash.svg">
+                                <span>{{lang.text_4}}</span>
+                            </div>
+                            <div class="MainBtn" v-on:click="changePage('Withdraw')">
+                                <img src="img/cash.svg">
+                                <span>{{lang.text_5}}</span>
+                            </div>
+                            <div class="MainBtn" v-on:click="changePage('Transfer')">
+                                <img src="img/cash.svg">
+                                <span>{{lang.text_6}}</span>
+                            </div>
+                            <div class="MainBtn" v-on:click="changePage('History')">
+                                <img src="img/cash.svg">
+                                <span>{{lang.text_9}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="LastActions">
+                        <span>{{lang.text_58}}</span>
+                        <table id="LastActions">
+                            <tr>
+                                <th id="Info" style="text-align: left;">{{lang.text_57}}</th>
+                                <th id="Info">{{lang.text_10}}</th>
+                                <th id="Info">{{lang.text_11}}</th>
+                                <th id="Info" style="text-align: right;">{{lang.text_12}}</th>
+                            </tr>
+                            <tr v-for="(name, value) in bank_logs" v-if="value < 4">
+                                <th>
+                                    <div class="RowName">
+                                        <div class="circle"></div>
+                                        <div>
+                                            <span style="margin-top: 8px;">
+                                                <span
+                                                    v-if="name.type==1 && name.tonumber==bank_number">{{name.tonumber}}</span>
+                                                <span
+                                                    v-if="name.type==1 && name.number==bank_number">{{name.number}}</span>
+                                                <span
+                                                    v-if="name.type==2 && name.tonumber==bank_number">{{lang.text_56}}</span>
+                                                <span
+                                                    v-if="name.type==2 && name.number==bank_number">{{lang.text_56}}</span>
+                                                <span
+                                                    v-if="name.type==3 && name.number==bank_number">{{lang.text_56}}</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th style="color: #30ff41;" v-if="name.tonumber==bank_number">+{{name.amount}}$</span>
+                                <th style="color: #ff3030;" v-if="name.number==bank_number">-{{name.amount}}$</span>
+                                <th>
+                                    <span v-if="name.type==1 && name.tonumber==bank_number">{{lang.text_13}}</span>
+                                    <span v-if="name.type==1 && name.number==bank_number">{{lang.text_14}}</span>
+                                    <span v-if="name.type==2 && name.tonumber==bank_number">{{lang.text_15}}</span>
+                                    <span v-if="name.type==2 && name.number==bank_number">{{lang.text_16}}</span>
+                                    <span v-if="name.type==3 && name.number==bank_number">{{lang.text_17}}</span>
+                                </th>
+                                <th>
+                                    <div class="RowDate">
+                                        <span style="font-size: 1.5vh;">{{goodDate(name.date)}}</span>
+                                        <span
+                                            style="font-size: 1.3vh; color: rgb(184, 184, 184);">{{goodTime(name.date)}}</span>
+                                    </div>
+                                </th>
+                                <th style="width: 10%; text-align: right; padding-right: 2vh;">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+                <section id="MainMenu" v-if="page == 'Payment'">
+                    <div class="SectionTop">
+                        <img src="logo.png" style="height: 40px; margin-right: 20px;">
+                        <span style="font-size: 20px;">{{lang.text_4}}</span>
+                        <span style="right: 36px;position: absolute;top: 36px;;">{{lang.text_7}}: {{bank_number}} <span
+                                v-if="bank_number==main_account"> {{lang.text_36}}</span></span>
+                    </div>
+                    <div class="ActionMain">
+                        <div class="ActionTop">
+                            <div class="ActionRow">
+                                <span>{{lang.text_27}}</span>
+                                <div>
+                                    <input disabled style="color: gray;" type="number" maxlength="40"
+                                        :value="bank_number">
+                                </div>
+                            </div>
+                            <div class="ActionRow">
+                                <span>{{lang.text_20}}</span>
+                                <div>
+                                    <span style="color: #30FF83;">$</span>
+                                    <div>
+                                        <input type="number" v-model="payment_amount" min="0" maxlength="40"
+                                            :placeholder="lang.text_20">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ActionRow">
+                            <span>{{lang.text_21}}</span>
+                            <div>
+                                <input v-model="payment_desc" :placeholder="lang.text_19" type="text" maxlength="80">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ActionButtons">
+                        <div class="ActionBtn" v-on:click="backToMain()">Powrót</div>
+                        <div class="ActionBtn" v-on:click="sendPaymentMoney()"
+                            :style="payment_amount>=1 && payment_amount<=money_in_eq ? 'opacity: 1.0' : 'opacity: 0.6'"
+                            style="color: black; background-color: var(--maincolor);">Potwierdź</div>
+                    </div>
+                </section>
+                <section id="MainMenu" v-if="page == 'Withdraw'">
+                    <div class="SectionTop">
+                        <img src="logo.png" style="height: 40px; margin-right: 20px;">
+                        <span style="font-size: 20px;">{{lang.text_5}}</span>
+                        <span style="right: 36px;position: absolute;top: 36px;;">{{lang.text_7}}: {{bank_number}} <span
+                                v-if="bank_number==main_account"> {{lang.text_36}}</span></span>
+                    </div>
+                    <div class="ActionMain">
+                        <div class="ActionTop">
+                            <div class="ActionRow">
+                                <span>{{lang.text_27}}</span>
+                                <div>
+                                    <input disabled style="color: gray;" type="number" maxlength="40"
+                                        :value="bank_number">
+                                </div>
+                            </div>
+                            <div class="ActionRow">
+                                <span>{{lang.text_20}}</span>
+                                <div>
+                                    <span style="color: #30FF83;">$</span>
+                                    <div>
+                                        <input type="number" v-model="withdraw_amount" min="0" maxlength="40"
+                                            :placeholder="lang.text_20">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ActionRow">
+                            <span>{{lang.text_21}}</span>
+                            <div>
+                                <input v-model="withdraw_desc" :placeholder="lang.text_24" type="text" maxlength="80">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ActionButtons">
+                        <div class="ActionBtn" v-on:click="backToMain()">Powrót</div>
+                        <div class="ActionBtn" v-on:click="sendWithdrawMoney()"
+                            :style="withdraw_amount>=1 && withdraw_amount<=bank_amount ? 'opacity: 1.0' : 'opacity: 0.6'"
+                            style="color: black; background-color: var(--maincolor);">Potwierdź</div>
+                    </div>
+                </section>
+                <section id="MainMenu" v-if="page == 'Transfer'">
+                    <div class="SectionTop">
+                        <img src="logo.png" style="height: 40px; margin-right: 20px;">
+                        <span style="font-size: 20px;">{{lang.text_26}}</span>
+                        <span style="right: 36px;position: absolute;top: 36px;;">{{lang.text_7}}: {{bank_number}} <span
+                                v-if="bank_number==main_account"> {{lang.text_36}}</span></span>
+                    </div>
+                    <div class="ActionMain">
+                        <div class="ActionTop">
+                            <div class="ActionRow">
+                                <span>{{lang.text_27}}</span>
+                                <div>
+                                    <input type="number" maxlength="40" v-model="transfer_number">
+                                </div>
+                            </div>
+                            <div class="ActionRow">
+                                <span>{{lang.text_20}}</span>
+                                <div>
+                                    <span style="color: #30FF83;">$</span>
+                                    <div>
+                                        <input type="number" v-model="transfer_amount" min="0" maxlength="40"
+                                            :placeholder="lang.text_20">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ActionRow">
+                            <span>{{lang.text_21}}</span>
+                            <div>
+                                <input v-model="transfer_desc" :placeholder="lang.text_26" type="text" maxlength="80">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ActionButtons">
+                        <div class="ActionBtn" v-on:click="backToMain()">Powrót</div>
+                        <div class="ActionBtn" v-on:click="sendTransferMoney()"
+                            :style="transfer_amount>=1 && transfer_amount<=bank_amount && transfer_number > 0 && transfer_number != bank_number ? 'opacity: 1.0' : 'opacity: 0.6'"
+                            style="color: black; background-color: var(--maincolor);">Potwierdź</div>
+                    </div>
+                </section>
+                <section id="MainMenu" v-if="page == 'History'">
+                    <div class="SectionTop">
+                        <img src="logo.png" style="height: 40px; margin-right: 20px;">
+                        <span style="font-size: 20px;">{{lang.text_9}}</span>
+                        <span style="right: 36px;position: absolute;top: 36px;;">{{lang.text_7}}: {{bank_number}} <span
+                                v-if="bank_number==main_account"> {{lang.text_36}}</span></span>
+                    </div>
+                    <div class="HistoryTop">
+                        <div v-on:click="backToMain()" style="width: 100%; justify-content: center; cursor: pointer;">
+                            <span>Powrót</span>
+                        </div>
+                    </div>
+                    <div class="HistoryList" style="margin-top: 2vh;">
+                        <div>
+                            <span style="text-align: left;">Adresat</span>
+                            <span>Kwota</span>
+                            <span>Tytuł</span>
+                            <span>Typ transakcji</span>
+                            <span style="text-align: right;">Data</span>
+                            <span style="width: 7.5%; opacity: 0;"><i class="fa-solid fa-chevron-right"></i></span>
+                        </div>
+                        <div style="padding-top: 5vh; overflow-y: scroll; max-height: 50vh;">
+                            <table id="HistoryList">
+                                <tr v-for="(name, value) in bank_logs">
+                                    <th id="HistoryRow">
+                                        <div class="RowName">
+                                            <div class="circle"></div>
+                                            <span style="margin-top: 0.5vh;">
+                                                <span style="font-size: 1.3vh;"
+                                                    v-if="name.type==1 && name.tonumber==bank_number">{{name.tonumber}}</span>
+                                                <span style="font-size: 1.3vh;"
+                                                    v-if="name.type==1 && name.number==bank_number">{{name.number}}</span>
+                                                <span style="font-size: 1.3vh;"
+                                                    v-if="name.type==2 && name.tonumber==bank_number">{{lang.text_56}}</span>
+                                                <span style="font-size: 1.3vh;"
+                                                    v-if="name.type==2 && name.number==bank_number">{{lang.text_56}}</span>
+                                                <span style="font-size: 1.3vh;"
+                                                    v-if="name.type==3 && name.number==bank_number">{{lang.text_56}}</span>
+                                            </span>
+                                        </div>
+                                    </th>
+                                    <th id="HistoryRow" style="color: #30ff41;text-align: center;"
+                                        v-if="name.tonumber==bank_number">+ {{name.amount}}$</span>
+                                    <th id="HistoryRow" style="color: #ff3030;text-align: center;"
+                                        v-if="name.number==bank_number">- {{name.amount}}$</span>
+                                    <th id="HistoryRow" style="text-align: center;">{{name.reason || "Brak"}}</th>
+                                    <th id="HistoryRow" style="text-align: center;">
+                                        <span v-if="name.type==1 && name.tonumber==bank_number">{{lang.text_13}}</span>
+                                        <span v-if="name.type==1 && name.number==bank_number">{{lang.text_14}}</span>
+                                        <span v-if="name.type==2 && name.tonumber==bank_number">{{lang.text_15}}</span>
+                                        <span v-if="name.type==2 && name.number==bank_number">{{lang.text_16}}</span>
+                                        <span v-if="name.type==3 && name.number==bank_number">{{lang.text_17}}</span>
+                                    </th>
+                                    <th id="HistoryRow">
+                                        <div class="RowDate">
+                                            <span style="font-size: 1.5vh;">{{goodDate(name.date)}}</span>
+                                            <span
+                                                style="font-size: 1.3vh; color: rgb(184, 184, 184);">{{goodTime(name.date)}}</span>
+                                        </div>
+                                    </th>
+                                    <th id="HistoryRow" style="width: 10%; text-align: right; padding-right: 1vh;">
+                                        <i class="fa-solid fa-chevron-right" style="margin-left: 20px"></i>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </template>
+            <section id="Notify" v-if="loading == true">
+                <span class="loader" v-if="page == 'Home'"></span>
+                <span class="loadercrypto" v-if="page == 'HomeCrypto'"></span>
+            </section>
+        </div>
+        <div class="Atm" v-if="atm == true">
+            <template v-if="bank_number!=0 && loading == false">
+                <div class="SectionTop" style="display: flex; justify-content: space-between;">
+                    <span style="font-size: 3vh;">Bankomat</span>
+                    <div class="col-md-3"  v-if="accounts.length>1" id="AccountSelectDiv">
+                        <select id="AccountSelect"  v-if="accounts.length>1" v-model="active_account" @change="changeAccount($event)">
+                            <template v-if="accounts.length>1" v-for="(name, value) in accounts">
+                                <option :value="name.bank_number">{{name.bank_number}}<span v-if="name.bank_number==main_account"> {{lang.text_36}}</span></option>
+                            </template>
+                        </select>
+                    </div>
+                </div>
+                <input hidden style="color: gray;" type="number" maxlength="40"
+                :value="bank_number">
+                <input hidden v-model="withdraw_desc" :placeholder="lang.text_24" type="text" maxlength="80">
+
+                <div class="AtmRow" style="margin-top: 3vh;">
+                    <span>Stan konta</span>
+                    <span id="AtmMoney"
+                        style="font-size: 2.5vh; color: var(--maincolor);">{{bank_amount}}$</span>
+                </div>
+                <div class="AtmRow" style="margin-top: 3vh;">
+                    <span>Kwota do wypłaty</span>
+                    <div>
+                        <span>$</span>
+                        <input id="AtmInput" type="number" v-model="withdraw_amount" min="0" maxlength="40">
+                    </div>
+                </div>
+                <div class="AtmBtn"
+                :style="withdraw_amount>=1 && withdraw_amount<=bank_amount ? 'opacity: 1.0' : 'opacity: 0.6'"
+                v-on:click="sendWithdrawMoney()">Potwierdź</div>
+            </template>
+            <div id="atmNotify" v-if="loading == true">
+                <span class="loader" v-if="page == 'Home'"></span>
+                <span class="loadercrypto" v-if="page == 'HomeCrypto'"></span>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="bankTab">
+    <div id="content">
+        <main id="main">
+            <template v-if="loading == true">
+                <div class="row d-flex justify-content-center" style="height: 61.8vh">
+                    <div v-if="page == 'Home'" class="row col-md-12">
+                        <div class="col-md-12" style="margin: 0;">
+                            <div class="specialbgpadding">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col col-lg-4 specialbordercute">
+                                        <div class="specialpaddingheight alwaysonmiddle">
+                                            <h3 style="text-align: center;">
+                                                <div class="spinner-border text-info" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
+                                            </h3>
+                                        </div>                              
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div v-if="page == 'HomeCrypto'" class="row col-md-12">
+                        <div class="col-md-12" style="margin: 0;">
+                            <div class="specialbgpadding">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col col-lg-4 specialbordercute">
+                                        <div class="specialpaddingheight alwaysonmiddle">
+                                            <h3 style="text-align: center;">
+                                                <div class="spinner-border text-danger" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
+                                            </h3>
+                                        </div>                              
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+            <template v-if="bank_number==0 && crypto_number==0 && loading == false">
+            <div class="row d-flex justify-content-center" style="height: 61.8vh">
+                <div v-if="page == 'Home'" class="row col-md-12">
+                    <div class="col-md-12 specialbg" style="margin: 0;">
+                        <div class="specialbgpadding">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col col-lg-4 specialbordercute">
+                                    <div class="specialpaddingheight alwaysonmiddle">
+                                        <h3 style="text-align: center;">{{lang.text_1}}</h3>
+                                        <button v-on:click="createNewAccount()" v-if="bank_number==0" type="button" class="btn btn-outline-light btn-sm">{{lang.text_2}}</button>                                         
+                                    </div>                              
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </template>
+            <template v-if="bank_number!=0 && loading == false">
+                <div id="filterek" class="row" style="height: 61vh;">
+                    <nav id="sidebarMenu" v-if="loading == false" class="col-md-4 d-md-block sidebar">
+                        <div class="sidebar-sticky pt-3">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <img src="logo.png" style="margin-bottom: 3vh; margin-top: 1vh;" />
+                                    <a class="nav-link specialbuttonmenu nav-active">
+                                        <span style="color: #fff; font-size: 0.8rem;">{{lang.text_3}}</span><br>
+                                        <span style="color: #fff; font-size: 1.3rem;">{{bank_amount}}$</span>
+                                        <hr>
+                                        <button v-on:click="changePage('Payment')" v-if="atm==false" type="button" id="Payment" class="btn btn-outline-light btn-sm">{{lang.text_4}}</button>
+                                        <button v-on:click="changePage('Withdraw')" type="button" id="Withdraw" class="btn btn-outline-light btn-sm">{{lang.text_5}}</button>
+                                        <button v-on:click="changePage('Transfer')" type="button" id="Transfer" class="btn btn-outline-light btn-sm">{{lang.text_6}}</button>
+                                        <hr>
+                                        <span style="color: #fff; font-size: 0.9rem;">{{lang.text_7}}{{ bank_number }}</span>
+                                    </a>
+                                    <a class="nav-link specialbuttonmenu text-center">
+                                        <span style="color: #fff; font-size: 0.9rem;">{{lang.text_8}}{{ money_in_eq }}$</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div v-if="page == 'Home'" class="row col-md-8">
+                        <div class="col-md-12 specialbg">
+                            <div class="headertext">
+                                <div class="row">
+                                    <div class="col-md-9"><h3>{{lang.text_9}}</h3></div>
+                                    <div class="col-md-3">
+                                        <span class="smallText" v-if="accounts.length>1">{{lang.text_53}}</span>
+                                        <select class="inputaa inputaaS" v-if="accounts.length>1" v-model="active_account" @change="changeAccount($event)">
+                                            <template v-if="accounts.length>1" v-for="(name, value) in accounts">
+                                                <option :value="name.bank_number">{{name.bank_number}}<span v-if="name.bank_number==main_account"> {{lang.text_36}}</span></option>
+                                            </template>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="specialbgpadding" v-if="bank_logs.length>0">
+                                <div class="row">
+                                    <div class="specialonly2">
+                                        <div class="row">
+                                            <div class="col col-lg-2">{{lang.text_10}}</div>
+                                            <div class="col col-lg-6">{{lang.text_11}}</div>
+                                            <div class="col col-lg-4">{{lang.text_12}}</div>
+                                        </div>
+                                    </div>
+                                    <div class="listhistory">
+                                        <div class="specialonlyborder"v-for="(name, value) in bank_logs">
+                                            <div class="row">
+                                                <div class="col col-lg-2">
+                                                    <span class="align-middle" v-if="name.tonumber==bank_number">+{{name.amount}}$</span>
+                                                    <span class="align-middle" v-if="name.number==bank_number">-{{name.amount}}$</span>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    {{lang.text_29}}&nbsp;
+                                                    <span v-if="name.type==1 && name.tonumber==bank_number">{{lang.text_13}} ({{name.number}})</span>
+                                                    <span v-if="name.type==1 && name.number==bank_number">{{lang.text_14}} ({{name.tonumber}})</span>
+                                                    <span v-if="name.type==2 && name.tonumber==bank_number">{{lang.text_15}}</span>
+                                                    <span v-if="name.type==2 && name.number==bank_number">{{lang.text_16}}</span>
+                                                    <span v-if="name.type==3 && name.number==bank_number">{{lang.text_17}}</span>
+                                                    <span v-if="name.reason"><br>{{lang.text_18}} {{name.reason}}</span>
+                                                </div>
+                                                <div class="col col-lg-4">
+                                                    <span class="align-middle">{{goodDate(name.date)}}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="specialbgpadding" v-if="bank_logs.length==0" >
+                                <div class="row">
+                                    <div class="specialonly">
+                                        <div class="row">
+                                            <div class="col col-lg-12">{{lang.text_30}}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div v-if="page == 'Payment'" class="row col-md-8">
+                        <div class="col-md-12 specialbg">
+                            <div class="row">
+                                <div class="contentcenter">
+                                    <h3 style="text-align: center;">{{lang.text_19}}</h3>
+                                    <center><div class="col-6">
+                                        <input class="inputaa bottominput" type="number" step="1.0" v-model="payment_amount" :placeholder="lang.text_20">
+                                        <input class="inputaa bottominput" type="text" v-model="payment_desc" :placeholder="lang.text_21">
+                                    </div></center>
+                                    <button v-on:click="backToMain()" type="button" class="btn btn-outline-light btn-sm">{{lang.text_22}}</button>
+                                    <button v-on:click="sendPaymentMoney()" v-if="payment_amount>=1 && payment_amount<=money_in_eq" type="button" class="btn btn-outline-light btn-sm">{{lang.text_23}}</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div v-if="page == 'Withdraw'" class="row col-md-8">
+                        <div class="col-md-12 specialbg">
+                            <div class="row">
+                                <div class="contentcenter">
+                                    <h3 style="text-align: center;">{{lang.text_24}}</h3>
+                                    <center><div class="col-6">
+                                        <input class="inputaa bottominput" type="number" step="1.0" v-model="withdraw_amount" :placeholder="lang.text_20">
+                                        <input class="inputaa bottominput" type="text" v-model="withdraw_desc" :placeholder="lang.text_21">
+                                    </div></center>
+                                    <button v-on:click="backToMain()" type="button" class="btn btn-outline-light btn-sm">{{lang.text_22}}</button>
+                                    <button v-on:click="sendWithdrawMoney()" v-if="withdraw_amount>=1 && withdraw_amount<=bank_amount" type="button" class="btn btn-outline-light btn-sm">{{lang.text_25}}</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div v-if="page == 'Transfer'" class="row col-md-8">
+                        <div class="col-md-12 specialbg">
+                            <div class="row">
+                                <div class="contentcenter2">
+                                    <h3 style="text-align: center;">{{lang.text_26}}</h3>
+                                    <center><div class="col-6">
+                                        <input class="inputaa bottominput" type="number" step="1.0" v-model="transfer_number" :placeholder="lang.text_27">
+                                        <input class="inputaa bottominput" type="number" step="1.0" v-model="transfer_amount" :placeholder="lang.text_20">
+                                        <input class="inputaa bottominput" type="text" v-model="transfer_desc" :placeholder="lang.text_21">
+                                    </div></center>
+                                    <button v-on:click="backToMain();" type="button" class="btn btn-outline-light btn-sm">{{lang.text_22}}</button>
+                                    <button v-on:click="sendTransferMoney();" v-if="transfer_amount>=1 && transfer_amount<=bank_amount && transfer_number > 0 && transfer_number != bank_number" type="button" class="btn btn-outline-light btn-sm">{{lang.text_28}}</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+            <template v-if="crypto_number!=0 && loading == false">
+                <div id="filterek" class="row" style="height: 61vh;">
+                    <nav id="sidebarMenu" v-if="loading == false" class="col-md-3 d-md-block sidebar">
+                        <div class="sidebar-sticky pt-3">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <img src="logo2.png" style="margin-bottom: 3vh; margin-top: 1vh;" />
+                                    <a class="nav-link specialbuttonmenu nav-active">
+                                        <span style="color: #fff; font-size: 0.8rem;">{{lang.text_3}}</span><br>
+                                        <span style="color: #fff; font-size: 1.3rem;">
+                                            <template v-if="crypto_amount.length>0" v-for="(name, value) in crypto_amount">
+                                                <div class="row">
+                                                    <div class="col-md-12">{{parseCrypto(name.amount)}} {{name.name}}</div>
+                                                </div>
+                                            </template>
+                                            <template v-if="crypto_amount.length==0">
+                                                <div class="row">
+                                                    <div class="col-md-12">{{lang.text_52}}</div>
+                                                </div>
+                                            </template>
+                                        </span>
+                                        <hr>
+                                        <button v-on:click="changePage('SellCrypto')" type="button" id="SellCrypto" class="btn btn-outline-light btn-sm">{{lang.text_33}}</button>
+                                        <button v-on:click="changePage('BuyCrypto')" type="button" id="BuyCrypto" class="btn btn-outline-light btn-sm">{{lang.text_34}}</button>
+                                        <button v-on:click="changePage('TransferCrypto')" type="button" id="TransferCrypto" class="btn btn-outline-light btn-sm">{{lang.text_35}}</button>
+                                        <hr>
+                                        <span style="color: #fff; font-size: 0.9rem;">{{lang.text_32}}{{ crypto_number }}</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div v-if="page == 'HomeCrypto'" class="row col-md-9">
+                        <div class="col-md-12 specialbg">
+                            <div class="headertext">
+                                <div class="row">
+                                    <div class="col-md-9"><h3>{{lang.text_9}}</h3></div>
+                                    <div class="col-md-3">
+                                        <span class="smallText" v-if="accounts.length>1" >{{lang.text_54}}</span>
+                                        <select class="inputaa inputaaS" v-if="accounts.length>1" v-model="active_account" @change="changeAccountCrypto($event)">
+                                            <template v-if="accounts.length>1" v-for="(name, value) in accounts">
+                                                <option :value="name.crypto_number">{{name.crypto_number}}<span v-if="name.crypto_number==main_account"> {{lang.text_36}}</span></option>
+                                            </template>
+                                        </select>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="specialbgpadding" v-if="crypto_logs.length>0" >
+                                <div class="row">
+                                    <div class="specialonly2">
+                                        <div class="row">
+                                            <div class="col col-lg-2">{{lang.text_10}}</div>
+                                            <div class="col col-lg-2">{{lang.text_31}}</div>
+                                            <div class="col col-lg-4">{{lang.text_11}}</div>
+                                            <div class="col col-lg-4">{{lang.text_12}}</div>
+                                        </div>
+                                    </div>
+                                    <div class="listhistory">
+                                        <div class="specialonlyborder" v-for="(name, value) in crypto_logs">
+                                            <div class="row">
+                                                <div class="col col-lg-2">
+                                                    <span class="align-middle" v-if="name.tonumber==crypto_number">+{{parseCrypto(name.amount)}}</span>
+                                                    <span class="align-middle" v-if="name.number==crypto_number">-{{parseCrypto(name.amount)}}</span>
+                                                </div>
+                                                <div class="col col-lg-2">
+                                                    <span class="align-middle">{{name.currency}}</span>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <span v-if="name.type==1 && name.tonumber==crypto_number">{{lang.text_39}} ({{name.number}})</span>
+                                                    <span v-if="name.type==1 && name.number==crypto_number">{{lang.text_40}} ({{name.tonumber}})</span>
+                                                    <span v-if="name.type==2">{{lang.text_37}}</span>
+                                                    <span v-if="name.type==3">{{lang.text_38}}</span>
+                                                </div>
+                                                <div class="col col-lg-4">
+                                                    <span class="align-middle">{{goodDate(name.date)}}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="specialbgpadding" v-if="crypto_logs.length==0" >
+                                <div class="row">
+                                    <div class="specialonly">
+                                        <div class="row">
+                                            <div class="col col-lg-12">{{lang.text_30}}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div v-if="page == 'SellCrypto'" class="row col-md-8">
+                        <div class="col-md-12 specialbg">
+                            <div class="row">
+                                <div class="contentcenter3">
+                                    <h3 style="text-align: center;">{{lang.text_41}}</h3>
+                                    <center><div class="col-6">
+                                        <template v-if="crypto_amount.length>0">
+                                            <input class="inputaa bottominput" type="number" step="0.01" onchange="if(this.value<=0){this.value=0.01}this.value = parseFloat(this.value).toFixed(5); sfbanking.sellcrypto_amount=this.value;"  v-model="sellcrypto_amount" :placeholder="lang.text_42">
+                                            <select class="inputaa bottominput" v-if="crypto_amount.length>0" v-model="sellcrypto_currency" @change="setCrypto($event)">
+                                                <option :value="null">{{lang.text_43}}</option>
+                                                <template v-if="crypto_amount.length>0" v-for="(name, value) in crypto_amount">
+                                                    <option :value="name.name">{{name.name}}</option>
+                                                </template>
+                                            </select>
+                                            <input class="inputaa bottominput" type="text" :value="sellcrypto_amount*getPriceCrypto(sellcrypto_currency)+'$'" placeholder="0$" readonly>
+                                        </template>
+                                        <template v-else>
+                                            <br><br>{{lang.text_44}}<br><br>
+                                        </template>
+                                    </div></center>
+                                    <button v-on:click="backToMainCrypto()" type="button" class="btn btn-outline-light btn-sm">{{lang.text_22}}</button>
+                                    <button v-on:click="sendSellCrypto()" v-if="sellcrypto_amount>0 && sellcrypto_currency && checkHaveCrypto()" type="button" class="btn btn-outline-light btn-sm">{{lang.text_45}}</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div v-if="page == 'BuyCrypto'" class="row col-md-8">
+                        <div class="col-md-12 specialbg">
+                            <div class="row">
+                                <div class="contentcenter3">
+                                    <h3 style="text-align: center;">{{lang.text_46}}</h3>
+                                    <center><div class="col-6">
+                                        <input class="inputaa bottominput" type="number" step="0.01" onchange="if(this.value<=0){this.value=0.01;}this.value = parseFloat(this.value).toFixed(5); sfbanking.buycrypto_amount=this.value;" v-model="buycrypto_amount" :placeholder="lang.text_42">
+                                        <select class="inputaa bottominput" v-if="currency.length>0" v-model="buycrypto_currency" @change="setCryptoBuy($event)">
+                                            <option :value="null">{{lang.text_43}}</option>
+                                            <template v-if="currency.length>0" v-for="(name, value) in currency">
+                                                <option :value="name.name">{{name.name}} (1/{{name.price}}$)</option>
+                                            </template>
+                                        </select>
+                                        <input class="inputaa bottominput" type="text" :value="buycrypto_amount*getPriceCrypto(buycrypto_currency)+'$'" placeholder="0$" readonly>
+                                    </div></center>
+                                    <button v-on:click="backToMainCrypto()" type="button" class="btn btn-outline-light btn-sm">{{lang.text_22}}</button>
+                                    <button v-on:click="sendBuyCrypto()" v-if="buycrypto_amount>0 && buycrypto_currency && (buycrypto_amount*getPriceCrypto(buycrypto_currency))<=bank_amount" type="button" class="btn btn-outline-light btn-sm">{{lang.text_47}}</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div v-if="page == 'TransferCrypto'" class="row col-md-8">
+                        <div class="col-md-12 specialbg">
+                            <div class="row">
+                                <div class="contentcenter3">
+                                    <h3 style="text-align: center;">{{lang.text_48}}</h3>
+                                    <center><div class="col-6">
+                                        <template v-if="crypto_amount.length>0">
+                                            <input class="inputaa bottominput" type="number" v-model="transfer_number" :placeholder="lang.text_49">
+                                            <input class="inputaa bottominput" type="number" step="0.01" onchange="if(this.value<=0){this.value=0.01}this.value = parseFloat(this.value).toFixed(5);sfbanking.sellcrypto_amount=this.value;" v-model="sellcrypto_amount" :placeholder="lang.text_42">
+                                            <select class="inputaa bottominput" v-if="crypto_amount.length>0" v-model="sellcrypto_currency" @change="setCrypto($event)">
+                                                <option :value="null">{{lang.text_43}}</option>
+                                                <template v-if="crypto_amount.length>0" v-for="(name, value) in crypto_amount">
+                                                    <option :value="name.name">{{name.name}}</option>
+                                                </template>
+                                            </select>
+                                        </template>
+                                        <template v-else>
+                                            <br><br>{{lang.text_51}}<br><br>
+                                        </template>
+                                    </div></center>
+                                    <button v-on:click="backToMainCrypto();" type="button" class="btn btn-outline-light btn-sm">{{lang.text_22}}</button>
+                                    <button v-on:click="sendTransferCrypto();" v-if="sellcrypto_amount>0 && transfer_number>0 && checkHaveCrypto()" type="button" class="btn btn-outline-light btn-sm">{{lang.text_50}}</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>  
+        </main>
+    </div>
+</div>  -->
+    <script src="jquery.min.js"></script>
+    <script src="vue.min.js"></script>
+    <script src="mirage.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+
+</html>

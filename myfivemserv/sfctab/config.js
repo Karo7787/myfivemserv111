@@ -1,0 +1,177 @@
+var language = "pl"; // default support for pl, en
+var ownerCanDeleteGroup = true; // true if the owner will be able to delete the group
+var ownerCanForwardGroup = true; // true if the owner will be able to transfer the group to another member
+
+// ############ INFO ############
+// 1 podgląd stanu konta i portfela crypto                  // 1 account balance preview and crypto wallet
+// 2 wypłaty z konta i portfela crypto                      // 2 withdrawals from your account and crypto wallet
+// 3 podgląd członków                                       // 3 member previews
+// 4 dodawanie członków                                     // 4 adding members
+// 5 wyrzucanie członków                                    // 5 kicking members
+// 6 zmiana rangi członka                                   // 6 member rank change
+// 7 zarządzanie dostępem do konta bankowego/kryptowalut    // 7 managing access to your bank account/crypto wallet
+// 8 podgląd ulepszeń                                       // 8 preview of upgrades
+// 9 zakup ulepszeń                                         // 9 purchase upgrades
+// 10 podgląd statystyk grupy                               // 10 preview of group statistics
+// 11 rozpoczynanie/zakończenie zlecenia                    // 11 start/end the mission
+var groupPermissions = [
+	{ rang: 10, permissions: [ {"id":1}, {"id":2}, {"id":3}, {"id":4}, {"id":5}, {"id":6}, {"id":7}, {"id":8}, {"id":9}, {"id":10}, {"id":11} ] },
+    { rang: 9, permissions: [ {"id":1}, {"id":2}, {"id":3}, {"id":4}, {"id":5}, {"id":6}, {"id":8}, {"id":9}, {"id":10}, {"id":11} ] },
+    { rang: 3, permissions: [ {"id":1}, {"id":2}, {"id":3}, {"id":8}, {"id":9}, {"id":10}, {"id":11} ] },
+    { rang: 2, permissions: [ {"id":1}, {"id":3}, {"id":8}, {"id":10}, {"id":11}, ] },
+    { rang: 1, permissions: [ {"id":3}, {"id":8}, {"id":10} ] },
+    { rang: 0, permissions: [ {"id":8}, {"id":10} ] }
+];
+
+// languages
+if(language=="pl")
+{
+    var locales = {
+        mission_start_error: "Aktualnie nie możesz rozpocząć zlecenia.",
+        rang10: "Założyciel",
+        rang9: "Współzałożyciel",
+        rang3: "Zasłużony",
+        rang2: "Starszy członek",
+        rang1: "Członek",
+        rang0: "Klapek",
+        text_new_name: "Wprowadź nazwę Organizacji!",
+        text_new_name2: "Wpisz nazwę organizacji",
+        text_header_transfer: "Przelew gotówki",
+        text_header_transfer_crypto: "Przelew kryptowaluty",
+        text_header_change_position: "Zmiana pozycji",
+        text_header_add_player: "Dodaj członka do organizacji",
+        text_input_numberbank: "Numer konta bankowego",
+        text_input_amount: "Kwota",
+        text_input_numbercrypto: "Numer portfela",
+        text_input_amountcrypto: "Kryptowaluta",
+        text_input_idplayer: "Wpisz id gracza",
+        button_confirm: "Zatwierdź",
+        button_back: "Wróć",
+        button_transfer: "Przelej",
+        button_drop: "Tak, wyrzuć",
+        button_position: "Zmień",
+        button_add: "Dodaj",
+        button_start: "Rozpocznij",
+        button_end: "Zakończ",
+        text_confirm_drop_player: "Czy na pewno chcesz wyrzucić",
+        menu_1: "Strona główna",
+        menu_2: "Członkowie",
+        menu_3: "Ulepszenia",
+        menu_4: "Statystyki",
+        menu_5: "Zlecenia",
+        menu_6: "Zamknij",
+        text_name_oraganizations: "Organizacja",
+        text_account: "Konto",
+        text_account_available: "Dostępne środki",
+        text_account_crypto: "WalletC",
+        text_nodata: "Brak danych",
+        text_people_name: "Imię i nazwisko",
+        text_people_position: "Pozycja",
+        text_people_date: "Data przyjęcia",
+        text_people_actions: "Akcje",
+        text_settings_need: "Wymagane ulepszenie",
+        text_settings_buy: "Kup ulepszenie",
+        text_settings_price: "Koszt",
+        text_stats_1: "Rozpoczętych zleceń",
+        text_stats_2: "Zakończonych zleceń",
+        text_stats_3: "Przerwanych zleceń",
+        text_stats_4: "Poziom",
+        text_button_access: "Zarządzaj dostępem",
+        text_accounts_header: "Zarządzaj dostępem do konta bankowego/kryptowalut",
+        text_accounts_bank: "Konto bankowe",
+        text_accounts_crypto: "Konto kryptowalut",
+        text_accounts_hp: "Ma dostęp",
+        text_accounts_nhp: "Brak dostępu",
+        text_accounts_gp: "Nadaj dostęp",
+        text_access_header: "Nadaj dostęp do konta bankowego i portfela kryptowalut",
+        text_access_bank: "Dostęp do konta bankowego",
+        text_access_crypto: "Dostęp do portfela kryptowalut",
+        text_access_yes: "Tak",
+        text_access_no: "Nie",
+        text_access_button: "Nadaj dostęp",
+        text_access_confirm: "Czy na pewno chcesz odebrać dostęp",
+        text_access_confirm_button: "Odbierz dostęp",
+        text_confirm_quit_player: "Czy na pewno chcesz opuścić grupę?",
+        button_quit: "Opuść",
+
+        menu_7: "Usuń grupę",
+        text_confirm_delete_group: "Czy na pewno chcesz usunąć grupę? Usunięcie grupy jest nieodwracalne!",
+        button_confirm_deleteG: "Tak, chcę usunąć grupę",
+    }
+}
+
+if(language=="en")
+{
+    var locales = {
+        mission_start_error: "Currently you cannot start the job.",
+        rang10: "Founder",
+        rang9: "Co-Founder",
+        rang3: "Deserved",
+        rang2: "Senior member",
+        rang1: "Member",
+        rang0: "Flip Flops",
+        text_new_name: "New organization name",
+        text_new_name2: "Enter organization name",
+        text_header_transfer: "Cash Transfer",
+        text_header_transfer_crypto: "Cryptocurrency Transfer",
+        text_header_change_position: "Change Position",
+        text_header_add_player: "Add Member to Organization",
+        text_input_numberbank: "Bank account number",
+        text_input_amount: "Amount",
+        text_input_numbercrypto: "Wallet number",
+        text_input_amountcrypto: "Cryptocurrency",
+        text_input_idplayer: "Enter player id",
+        button_confirm: "Confirm",
+        button_back: "Back",
+        button_transfer: "Transfer",
+        button_drop: "Yes, Drop",
+        button_position: "Change",
+        button_add: "Add",
+        button_start: "Start",
+        button_end: "Finish",
+        text_confirm_drop_player: "Are you sure you want to drop",
+        menu_1: "Home",
+        menu_2: "Members",
+        menu_3: "Enhancements",
+        menu_4: "Statistics",
+        menu_5: "Jobs",
+        menu_6: "Close",
+        text_name_oraganizations: "Organization",
+        text_account: "Account",
+        text_account_available: "Available Funds",
+        text_account_crypto: "WalletC",
+        text_nodata: "No data",
+        text_people_name: "Name",
+        text_people_position: "Position",
+        text_people_date: "Admission Date",
+        text_people_actions: "Actions",
+        text_settings_need: "Upgrade Required",
+        text_settings_buy: "Buy Upgrade",
+        text_settings_price: "Cost",
+        text_stats_1: "Started Jobs",
+        text_stats_2: "Completed Jobs",
+        text_stats_3: "Aborted Jobs",
+        text_stats_4: "Level",
+        text_button_access: "Manage access",
+        text_accounts_header: "Manage access to your bank account/cryptocurrencies",
+        text_accounts_bank: "Bank account",
+        text_accounts_crypto: "Cryptocurrency account",
+        text_accounts_hp: "There is access",
+        text_accounts_nhp: "Lack of access",
+        text_accounts_gp: "Grant access",
+        text_access_header: "Grant access to bank account and cryptocurrency wallet",
+        text_access_bank: "Access to bank account",
+        text_access_crypto: "Access to cryptocurrency wallet",
+        text_access_yes: "Yes",
+        text_access_no: "No",
+        text_access_button: "Grant access",
+        text_access_confirm: "Are you sure you want to revoke access",
+        text_access_confirm_button: "Take away access",
+        text_confirm_quit_player: "Are you sure you want to leave the group?",
+        button_quit: "Leave",
+
+        menu_7: "Delete a group",
+        text_confirm_delete_group: "Are you sure you want to delete the group? Deleting a group is irreversible!",
+        button_confirm_deleteG: "Yes, I want to delete the group",
+    }
+}

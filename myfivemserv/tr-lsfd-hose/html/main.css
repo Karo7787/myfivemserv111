@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.mainDiv {
+    margin-top: 100%;
+    margin-left: 100%;
+}
+
+.box{
+    background-color: rgba(20, 20, 20, 0.85);
+    width: 46px;
+    height: 13%;
+    display: block;
+    position: absolute;
+    bottom: 2%;
+    left: 1%;
+    border-radius: 5px;
+}
+
+.box i {
+    color: white;
+    font-size: 12px;
+    bottom: 12%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.progress-box {
+    height: 60%;
+    width: 25%;
+    position: relative;
+    background: rgb(41 199 255 / 53%);
+    top: 50%;
+    border-radius: 5px;
+    left: 50%;
+    transform: translateX(-50%) translatey(-65%);
+}
+
+.progress{
+    height: 100%;
+    width: 100%;
+    transition: 2s all;
+    background: #1fc4ff;
+    box-shadow: 0px 0px 24px -2px #1fc4ff;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+}

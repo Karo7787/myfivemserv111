@@ -1,0 +1,37 @@
+{
+    "notify": {
+        "cooldown": "Musisz jeszcze troche odczekać...",
+        "not_enough_police": "Za mało policji...",
+        "already_blown": "Wysadziłeś skrzynke elektryczną...",
+        "dont_have_item": "Brakuje ci przedmiotu...",
+        "failed": "Nie udało ci się złamać zabezpieczeń...",
+        "item_removed": "Zabrało ci przedmiot...",
+        "c4_placed": "Ładunek podłożony, SPIERDALAJ!",
+        "gate_unlocked": "Brama się otworzyła",
+        "entrance_closed": "Wejście jest zamknięte...",
+        "not_hacked": "Nie złamałeś zabezpieczeń, co ty tu jeszcze robisz?",
+        "successfully_searched": "Udało ci się przeszukać boxa!",
+        "already_searched": "Ktoś tu już był...",
+        "exit_locked": "Wyjście jest zamknięte...",
+        "successfully_locked": "Udało ci się zamknąć wejście",
+        "successfully_hacked": "Udało ci się złamać zabezpieczenia w laptopie",
+        "failed_hack": "Ehh, ile jeszcze będziesz próbował dobrze że tu nic nie potrzebujesz...",
+        "already_hacked": "Ktoś tu już grzebał idź gdzieś indziej...",
+        "already_doing": "A tego swojego kolegi nie widzisz on już tu coś robi..."
+    },
+    "progress": {
+        "searching_box": "Przeszukiwanie...",
+        "placing_c4": "Podkładanie ładunku..."
+    },
+    "interaction": {
+        "place_c4": "Podłóż C4",
+        "search_box": "Przeszukaj",
+        "exit_warehouse": "Wyjście z magazynu",
+        "enter_warehouse": "Wejście do magazynu",
+        "hack_laptop": "Hakowanie laptopa",
+        "lock_gates": "Zamknij brame"
+    },
+    "exploit": {
+        "exploiting_server": "Kurwa hakuje"
+    }
+}

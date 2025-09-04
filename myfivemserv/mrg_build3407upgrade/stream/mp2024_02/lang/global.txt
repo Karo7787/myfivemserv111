@@ -1,0 +1,2022 @@
+0x002A6CAF = Wydech z tytanowym końcem
+
+0x0052A0B7 = Plastikowa prof. dokładka
+
+0x00532D12 = Leśne moro Yeti
+
+0x00AFD649 = Chromowany wypośrodk. grill
+
+0x00F5E09A = Karbonowa wentylowana maska
+
+0x012DDDB8 = Czarna w napisy HS
+
+0x016F4020 = Chromowane sześciokąty
+
+0x02578D62 = Farbowana z kapturem Honkers
+
+0x02B86134 = Seled. Sand Castle w kratkę
+
+0x03063268 = Szare moro Yeti
+
+0x032B9267 = Wentylowana maska, kolor #2
+
+0x03338C7B = Częściowa klatka
+
+0x03943793 = Karbonowe skrzydło GT
+
+0x03E37DC1 = Nieb. dwubarw. kowbojka dżins.
+
+0x04089273 = Karbonowy zestaw rajdowy
+
+0x041199A3 = Biała z pęknięciem Blagueurs
+
+0x045C4F16 = Balonowa roboksiężniczka
+
+0x04BF299C = Rajdowa restomod, kol. #2
+
+0x0503C956 = Pas przeciwsłoneczny, kol. #2
+
+0x05071B2D = Duster 300-H
+
+0x05423261 = Skrzydło na bagażniku, k. #2
+
+0x057F2304 = Kute karb. rajd. skrzydło HSW
+
+0x05B92F76 = Plastikowy rajdowy dyfuzor
+
+0x05DA99BE = Karbonowe listwy progowe
+
+0x064425C6 = SZCZEGÓŁY AKT:
+
+0x0695A61E = Pancerz Merryweather
+
+0x071E6A6F = Karbon. dok. pod zderzakiem
+
+0x073516BD = Pas przeciwsłoneczny, kol. #1
+
+0x073F7F7F = Seled. Sand Castle w kratkę
+
+0x0757E04A = Dokładka pod zderzakiem
+
+0x0796B7A5 = Coquette D5
+
+0x0855B7E0 = Wyblakły kamuflaż
+
+0x0887A8D6 = Plastikowy dyfuzor z lotkami
+
+0x08C9ED01 = Maska typu restomod
+
+0x090DBFAC = Niebieska Bigness w cętki
+
+0x0963B868 = Niebieska dwubarw. dżinsowa
+
+0x0A05850F = Zielonkawa farbowana Manor
+
+0x0A5F3277 = Karbonowe poszerzone progi
+
+0x0A8D4897 = Ruchatek PRB
+
+0x0A30E405 = Wycięty kaczy spojler, k. #2
+
+0x0A84F066 = Burgundowa w napisy HS
+
+0x0A873387 = Pom. Strapz w cętki, tył
+
+0x0AA06282 = Prosto na tor
+
+0x0ACEA71D = Czarna z pęknięciem Blagueurs
+
+0x0AD9604A = Karb. autocrossowe skrzydło
+
+0x0AFBFEFD = Wyścigowe wyblakłe Modular
+
+0x0B5EE88A = Nieb. Bigness w cętki, przód
+
+0x0B95C81A = Poczwórne tylne wydechy
+
+0x0B7319EE = Złoty wąż Santo Capra
+
+0x0B228086 = Wydechy Hotring
+
+0x0BC91A98 = Nocne operacje
+
+0x0BCCC3F5 = Pomarańczowe Bigness w cętki
+
+0x0C2F0E30 = Wyścigowe wyblakłe Bastion
+
+0x0C9F8595 = Chrom. podwójny pod kątem
+
+0x0CE87DFB = Wyścigowe lusterka, kolor #1
+
+0x0D03BF5D = Biała Heat w zebrę
+
+0x0D081725 = Czy jest coś bardziej stylowego niż likwidacja nielojalnych przydupasów przy pomocy pozłacanego karabinu? Część aktualizacji Agents of Sabotage.
+
+0x0D8F2140 = Liliowa farbowana Bigness
+
+0x0D1654C6 = Plastik. obły kaczy spojler
+
+0x0D496245 = Czarna z pajęczyną HS
+
+0x0DBDC348 = Plastik. wyścigowe skrzydło
+
+0x0E73B36D = Rajdowa dokładka z akc., k #2
+
+0x0EED72C4 = Wypośrodkowany grill
+
+0x0F4DDBE9 = Chromowany poziomy grill
+
+0x0F20BE88 = Dwa pasy na nadwoziu
+
+0x0F7642F0 = Rajdowy dyfuzor, kolor #2
+
+0x0FBE9E8C = Poszerzone progi, kolor #2
+
+0x1A0DC950 = Niebieska Bigness w cętki
+
+0x1A8CAAEB = Wyścigowe Xero
+
+0x1A9B62CE = Białe pasy na progach
+
+0x1A692128 = Podwójny z tytan. końcami
+
+0x1ABBE666 = Poczwórne z tytan. końcem
+
+0x1AE29050 = Niebieskie Heat w zebrę
+
+0x1AEEB1B9 = Farbowana Honkers
+
+0x1B05264B = Różowozłoty wisiorek 420
+
+0x1B4F7DC6 = Złoty wisiorek 420
+
+0x1B9D5481 = Karbonowe wykończenie
+
+0x1B931293 = Zestaw rajdowy
+
+0x1BB6CF34 = Karbonowy dyfuzor z lotkami
+
+0x1BB650A3 = Konfiguracja uliczna
+
+0x1BCEE409 = Czarne Heat w zebrę
+
+0x1BD7A8B3 = Wściekle różowa farb. Güffy
+
+0x1C00F29B = Obły kaczy spojler, k. #2
+
+0x1C0682CF = Wyścigowy dyfuzor, kolor #2
+
+0x1C7CD772 = Nieb. Strapz w cętki, tył
+
+0x1C7E569C = Pas przeciwsłoneczny, kol. #2
+
+0x1C384DFC = Pom. Strapz w cętki, tył
+
+0x1D2E3FE7 = Kute karbonowe sześciokąty
+
+0x1D47CBA7 = Interwencyjny Faction
+
+0x1D6989ED = Malowane sportowe lusterka
+
+0x1DAA1717 = Różowe farbowane Squash
+
+0x1DD40B57 = Kaczy spojler, kolor #2
+
+0x1DEA3973 = Czterdzieści lat temu, gdzieś w North Yankton, pewien rolnik-marzyciel nawdychał się środka owadobójczego, spojrzał na swój ukochany traktor i szepnął: "niech zacznie latać". Dziś te narkotykowe marzenia się spełniają, gdyż firma Western opracowała Dustera 300-H. To samolot użytkowy, obok którego żaden tradycyjny farmer nie powinien przejść obojętnie. A jeśli chcesz mu nadać jeszcze bardziej zabytkowego stylu, zamontuj w nim karabiny maszynowe i flary, by wyglądał jak wyjęty z lat 40.~n~~n~– Bojowy
+
+0x1E06264D = Podwójne zaokrąglone
+
+0x1E09E01B = Plastikowy praktyczny
+
+0x1E2E8C56 = Niebieska Heat w zebrę
+
+0x1E565CF3 = Retro wyścigowe
+
+0x1EAFB235 = Wyścigowe Stance Andreas
+
+0x1EC5499A = Wyścigowa wentylowana maska
+
+0x1EDC3D2B = Plastikowe skrzydlate progi
+
+0x1F24F272 = PRZEŁADOWANIE
+
+0x1F87C49A = Lakierowane sześciokąty
+
+0x1F8466D5 = Wyścigowe skrzydło, kolor #2
+
+0x1F785484 = Liliowa Bigness w cętki, tył
+
+0x2A0967D6 = Niebieska Sword Boy PRB
+
+0x2A160EC1 = Kaczy spojler, kolor #2
+
+0x2A86089F = Karb. wycięty kaczy spojler
+
+0x2A112647 = Bagażnik na pace
+
+0x2AB341C0 = Pionowe zewnętrzne wydechy
+
+0x2B02E647 = Elitarne HSW
+
+0x2B99DF86 = Wyścigowy pas przeciwsł.
+
+0x2B736866 = Czarna z logo Blagueurs
+
+0x2BEBF81E = Detale LozSpeed alt.
+
+0x2CC52C4C = THIS LABEL NEEDS TO BE HERE !!!
+
+0x2D5FAC8F = Różowa Yeti w moro, przód
+
+0x2D13F1EE = Karb. wyścig. z akc., k. #2
+
+0x2D560001 = Leśne moro Yeti
+
+0x2E302722 = Karbonowy wyścigowy dyfuzor
+
+0x2EA9E147 = Biała z czachą HS
+
+0x2EACB91C = Niebieskie farbowane Squash
+
+0x2EEA1B15 = Lakierowany siatkowy grill
+
+0x2F2B615C = Miejski kamuflaż
+
+0x2F136C2F = Plastikowe wyścigowe progi
+
+0x2F779257 = Czarna Turbo Güffy
+
+0x2FB42918 = El Strickler
+
+0x2FBBD549 = Ekstremalne
+
+0x2FC5AF2E = Karbon. sport. z wykończeniem
+
+0x2FFA78E7 = Policja LS, zimowy z krawatem
+
+0x2FFA2050 = Plastik. sportowy spojler
+
+0x3A63C6E1 = Nieb. Strapz w cętki, przód
+
+0x3A2707EA = Czarna Turbo Güffy
+
+0x3AA5CA34 = Chrom. wypośrodk. z akcentem
+
+0x3AA51C85 = Chiński Nowy Rok
+
+0x3B0E0227 = Karbonowa maska fabryczna
+
+0x3B371B82 = Owalny wlot powietrza
+
+0x3B407CA2 = Szara HS z pająkiem
+
+0x3B973E12 = CHŁODZENIE
+
+0x3B25481A = Szara Yeti w moro, przód
+
+0x3BD7B10E = Biały Mistrz PRB
+
+0x3BFB17FB = Wisiorek srebrny renifer
+
+0x3C2F553F = Spojler LozSpeed
+
+0x3C97E970 = Złoty wisiorek 420
+
+0x3C431D09 = Strażnik parku, letni
+
+0x3C1904CF = Amerykańskie Drink US
+
+0x3C6918EF = Karbon. wentyl. wyścigowa
+
+0x3CCBD4F7 = Biała z graf. Los Santos HS
+
+0x3CDE041D = Maska ze środ. wlotem, k. #2
+
+0x3CEE87E9 = Karbonowe wyścigowe progi
+
+0x3D4CF1FB = Świąteczna kolorowa 420
+
+0x3D6DA736 = Niebieskie Bigness w cętki
+
+0x3D16FD35 = Czarny wąż Yogarishima
+
+0x3D170BAD = Pomar. w graffiti Blagueurs
+
+0x3D640D49 = Mała dokładka
+
+0x3E1D8F8E = Biała w drut kolczasty Bigness
+
+0x3E3D3DBD = Zmrużone osłony reflektorów
+
+0x3E89E114 = Wzywamy wszystkich milenialsów. Łapcie luźne dżinsy, żelujcie włosy i pakujcie starą ekipę do Uranusa – mistrzowskiego samochodu wyczynowego w statystykach wypadków wśród młodzieży z lat 90. Oto najbardziej nieprzyzwoita i nostalgiczna podróż do przeszłości, podczas której będziecie czerpać przyjemność z przejażdżki i wspominać słabą grę wstępną na tylnym siedzeniu wozu, którym wracaliście ze szkolnych dyskotek.~n~~n~– Dostępny zagłuszacz namierzania rakiet
+
+0x3E1271F6 = Wyścigowe Modular
+
+0x3F1DD9A8 = Wyścig. maska z wlotem, k. #2
+
+0x3FD5520C = Pom. Bigness w cętki, przód
+
+0x3FEC97DE = Rajdowe skrzydło
+
+0x4A0F7DAB = Wisiorek złoty renifer
+
+0x4A4D3239 = Pas przeciwsłoneczny, kol. #1
+
+0x4A1265F4 = Leśna Yeti w moro, przód
+
+0x4A243616 = Wyścigowe Kabel
+
+0x4AE1F2A4 = Spojler LozSpeed z lotką
+
+0x4B7C2504 = Karb. wyścig. z akc., k. #2
+
+0x4BA9A9D4 = Usunięta fabryczna dokładka
+
+0x4BCAD8D8 = Żółte klosze reflektorów
+
+0x4C2B8D2C = Czarny pas
+
+0x4C5FF482 = Zielonkawe farbowane Manor
+
+0x4C84C5F5 = Maska ze środ. wlotem, k. #2
+
+0x4C9330EC = Dyfuzor z lotkami, kolor #2
+
+0x4C661803 = Szara HS z pająkiem
+
+0x4CAF30F4 = Restomod II
+
+0x4D4EA6A8 = Wentylowana maska
+
+0x4D5C9814 = Białe pasy
+
+0x4D6D9ECE = Czarna metalowa HS
+
+0x4D88EA5B = Paszcza rekina
+
+0x4D588AF5 = Srebrny wisiorek 420
+
+0x4D3574F5 = Leśne moro Yeti
+
+0x4D3736FB = Złota gwiazda
+
+0x4DABED7C = Praktyczna klatka
+
+0x4E45ED0A = Szara król węży, tył
+
+0x4ED7080C = Podwójne zaokrąglone
+
+0x4FB344BB = Niebieska Heat w zebrę
+
+0x4FC61252 = Karbonowe lusterka
+
+0x4FCFAFE0 = Zwiadowczy kamuflaż
+
+0x4FEA7C06 = Plastikowa dokładka
+
+0x5A0105D1 = Niebieska Heat w zebrę, przód
+
+0x5A7C90BB = Liliowe farbowane Bigness
+
+0x5A47617A = Karbonowa ze środk. wlotem
+
+0x5A86657A = Wyścigowe skrzydło, kolor #2
+
+0x5B0A4EF2 = Eberhard
+
+0x5B2C358F = Liliowa farbowana Bigness
+
+0x5B500859 = Wyścigowa dokładka
+
+0x5BFCF032 = Czerwona kurtka, skóra węża
+
+0x5C64EC5C = Karbonowe fabryczne skrzydło
+
+0x5CA29576 = Karb. dokładka z akcentem
+
+0x5CB52C0F = Czarna Barfs
+
+0x5D1DB96A = Burgundowa w wymioty Barfs
+
+0x5D813EF5 = Czarna z czachą HS
+
+0x5D924B65 = Wyścigowe HSW
+
+0x5DB88D8A = Szara Yeti w moro, przód
+
+0x5DCD81C1 = Wlot na dachu
+
+0x5E01DFD2 = Kuty karbonowy zderzak
+
+0x5E3F3416 = Cheburek
+
+0x5E545C2B = Płaskie stopnie
+
+0x5EB239EB = Dummy label.
+
+0x5EB8995D = Chromowany klasyczny grill
+
+0x5F8EC97E = Maska typu restomod, k. #2
+
+0x5F9FE494 = Szare moro Yeti
+
+0x5F89FFCE = Karb. wytrzymały z akcentem
+
+0x5F398909 = Kute kar. autocross. skrzydło
+
+0x5FD61C94 = Lotka tylnej klapy II
+
+0x5FD65FC9 = Karb. rajd. restomod z akc.
+
+0x5FF21E91 = Karbon. bez bocznej wentyl.
+
+0x6A0157F5 = Czarna z pęknięciem Blagueurs
+
+0x6A5ADD5B = CELE:
+
+0x6A59B8D4 = Karbonowe zamont. na masce
+
+0x6A125E35 = Pancerz Merryweather
+
+0x6A866A9B = Czarna Heat w zebrę, tył
+
+0x6ACB68E9 = Czarna w drut kolczasty Bigness
+
+0x6ADE5E3E = Zmierzwione do ramion
+
+0x6AE9F0B7 = Czapka LD Organics 420
+
+0x6AF4FA6C = Świąteczny zielony 420
+
+0x6B13A570 = Sokół I
+
+0x6B67073B = Karbonowe wyścigowe skrzydło
+
+0x6BAF05C8 = Karbonowe małe skrzydło
+
+0x6BB5DC6F = Podwójny z tytanową końcówką
+
+0x6BCE77E2 = Rajdowe Chepalle
+
+0x6CA59ACD = Funkcjonalny dyfuzor
+
+0x6CAF2B77 = Różowa Yeti w moro, przód
+
+0x6DA1B82B = Niski spojler
+
+0x6DA8B9FE = Maska bez środkowej wentyl.
+
+0x6E57CF0C = Biała Turbo Güffy
+
+0x6E4900CC = Agresywne żaluzje boczne
+
+0x6E61695F = Sportowe pasy
+
+0x6E113941 = Wzorzysta bluza Strapz
+
+0x6EBBB9A8 = Wyścigowa dokładka, kol. #2
+
+0x6ED05357 = Karbonowy klasyczny grill
+
+0x6F05AFC4 = Zderzak rajdowy
+
+0x6F8B0A13 = Szara król węży, przód
+
+0x6FFB07D5 = Karbonowe sk. na bagażniku
+
+0x7A1D5026 = Wyścigowy grill
+
+0x7A17C72E = Karb. poszerz. z akc., k. #2
+
+0x7AB9F88B = Policja (duże)
+
+0x7B3C7A6B = Biała metalowa HS
+
+0x7B31AE8D = Specjalne żaluzje
+
+0x7BC646D5 = Siły powietrzne
+
+0x7BFE15BB = Karbonowe skrzydlate progi
+
+0x7C4C9032 = Zderzak typu restomod
+
+0x7C396D47 = Wyścigowe Trickster
+
+0x7C5302B6 = Patrol drog., letni z krawatem
+
+0x7CCB16F3 = THIS LABEL NEEDS TO BE HERE !!!
+
+0x7D880524 = Patrol drog., zimowy z krawatem
+
+0x7DA32831 = Maska ze środ. wlotem
+
+0x7DBCA3B6 = Karbonowa wyścigowa dokładka
+
+0x7DBF9B01 = Rurowe stopnie
+
+0x7DFF7327 = Wyścigowe Tamarro
+
+0x7E603E42 = Karbonowy rajdowy z akcentem
+
+0x7E923652 = Gruchot
+
+0x7F4C1745 = Policja LS, letni
+
+0x7F5C1253 = Biała Smokey Barf
+
+0x7F9C7C93 = Uliczny ścigant
+
+0x7F58F177 = Kute karbonowe lusterka
+
+0x7F5132AA = Szara króla węży, przód
+
+0x7F814729 = Karbonowe wyścigowe progi
+
+0x7FC7961B = Plastik. wentyl. wyścigowa
+
+0x8A1DDA61 = Wyścigowy wlot na dachu
+
+0x8A9CAD19 = Karb. wyścig. wentyl. z akc.
+
+0x8A5944C7 = Maska z garbem, kolor #2
+
+0x8AD25DC7 = Plastikowe boczne listwy
+
+0x8B14CF87 = Biała Smokey Barf
+
+0x8B36A07D = Patrol drogowy, letni
+
+0x8BCB6738 = Plastikowy kaczy spojler
+
+0x8C3ADEE4 = Strażnik parku
+
+0x8C6EF4C9 = Chrom. klasyczny z akcentem
+
+0x8C71BCB1 = Karbonowy zderzak
+
+0x8D16199D = Skrzydlate progi, kolor #2
+
+0x8DA288B5 = Sportowe lusterka
+
+0x8E80D52B = Agresywne żaluzje, kolor #2
+
+0x8E85C705 = Chromowany wentylowany grill
+
+0x8F6D3566 = Wentylowana wyścigowa, k. #2
+
+0x8F98B2D0 = Niebieski Mistrz PRB
+
+0x8F734723 = Plastik. wyścigowa dokładka
+
+0x8FF4F202 = Leśna Yeti w moro, przód
+
+0x9A6C53AF = Liliowa Bigness w cętki, tył
+
+0x9B0BEA66 = Wyścigowe Rimmers
+
+0x9B75CEF7 = Wyścigowe skrzydło
+
+0x9B995B6C = Karbonowe żaluzje boczne
+
+0x9C007572 = Specjalne żaluzje, kolor #2
+
+0x9C2CAAB9 = Czarna Turbo Güffy
+
+0x9C4E940C = Zestaw rajdowy, kol. #2
+
+0x9C54D089 = Karbon. wyścig. wentylowana
+
+0x9C33687B = Karbonowa maska z garbem
+
+0x9DF10241 = Wyścigowe Lube Motor Oil
+
+0x9E7B85BE = Czarny wąż Yogarishima
+
+0x9E64F582 = Biała Barfs
+
+0x9E6267C1 = Czerwona dusza węża, przód
+
+0x9E305218 = Czapka LS Panic
+
+0x9EAB2E58 = Niebieska farbowana Squash
+
+0x9EB4BCDA = Plastikowe poszerzone progi
+
+0x9F00C864 = Złota gwiazda dopasowana
+
+0x11BED3E8 = Karbon. skrzyd. GT z wykończ.
+
+0x11C0412C = Plast. pas przeciwsłoneczny
+
+0x12CA41A0 = Dwa podwójne wydechy
+
+0x12F32BFA = Wyścigowa klatka
+
+0x14BCEFD7 = Wyścigowe Xero Gas
+
+0x14BE6D23 = Czapka LD Organics 420
+
+0x14CC428B = Strój NOOSE
+
+0x15BABF0E = Biała Księżniczka PRB
+
+0x16F0CDFF = Karbon. profesjonalna z akc.
+
+0x17B3C32B = Biała Sword Boy PRB
+
+0x17BDE8DB = Biała Księżniczka PRB
+
+0x17ECD45D = Świąteczny Cluckin' Bell
+
+0x18B3346E = Handlarz broni
+
+0x19AF3664 = Morski kamuflaż
+
+0x19CAB89A = Wydech sportowy
+
+0x20D6FADF = Maska z wlotem powietrza
+
+0x20EEEE39 = Liliowe Bigness w cętki
+
+0x22B27D9C = Agresywne żaluzje
+
+0x22BAFA53 = Zderzak, kolor #2
+
+0x22CB9767 = Nieb. Strapz w cętki, przód
+
+0x22E8806A = Sportowy spojler, kolor #2
+
+0x22F8A2D0 = Karnawałowa sukienka w pióra
+
+0x23CC9230 = Średni kaczy spojler
+
+0x23D28928 = Wytrzymały dyfuzor
+
+0x24CD6F12 = Możesz wierzyć lub nie, ale na początku nowego tysiąclecia reszta świata była pewna dwóch rzeczy, jeśli chodzi o Amerykę: jej przemysł zbrojeniowy udał się na zasłużone wakacje, a sportowe auta nie radziły sobie z zakrętami. Lecz gdy już wszystkim się wydawało, że amerykański przemysł się sypie, pokazali Coquette D5 i zaczęli obalać reżimy, aby prywatni najemnicy nie głodowali przez kolejne dziesięciolecia. Dorzuć do tego zajebiste podwozie, superwytrzymały silnik V8 oraz niezapomnianą dawkę szoku i przerażenia, a otrzymasz spektakularny powrót, dzięki któremu ten kraj stał się tak wielki.~n~~n~– Dostępny zagłuszacz namierzania rakiet
+
+0x25AE71D3 = Plastikowe chlapacze
+
+0x26B130A7 = Nieb. dwubarw. kowbojka dżins.
+
+0x28A1F161 = Plastikowa rajdowa restomod
+
+0x28C9549E = Złote ho ho ho
+
+0x31BBEF83 = Maska fabryczna, kolor #2
+
+0x31C30BC4 = Karb. wyścig. z akc., k. #2
+
+0x31E29CF6 = Wentylowana maska
+
+0x31E447F2 = Lusterka zamont. na masce
+
+0x31E57068 = Dwa kolory Hot Rod
+
+0x31FFB3F8 = Biała Heat w zebrę
+
+0x32D124F0 = Kuty karbonowy pas
+
+0x33A636FB = Karbonowy kaczy spojler
+
+0x33B224A5 = Plastikowe sześciokąty
+
+0x34A099AF = Skrzydło na bagażniku, k. #2
+
+0x34BEDBDB = Sword Boy PRB
+
+0x35CB33BE = Plastikowe wyścigowe progi
+
+0x35D667CF = Karb. poszerzone z akcentem
+
+0x36DD8B01 = Wykończenie, kolor #2
+
+0x36EFDA35 = Boczne wydechy
+
+0x38AE9675 = Kuta karbonowa wentylowana
+
+0x38B0EEBD = Czarne pasy
+
+0x39F2A248 = Karbonowy wytrzymały
+
+0x39FA0B8A = Restomod z dyfuzorem
+
+0x40CB5350 = Plastikowa dokładka LozSpeed
+
+0x41C73721 = Wycięty kaczy spojler
+
+0x41DA82E4 = Zielona w wymioty Barfs
+
+0x41FA990D = Koszula Bigness ze szkicem
+
+0x42FDD5AA = Karb. wycięty kaczy spojler
+
+0x43AB6B80 = Karbon. wyścigowe lusterka
+
+0x43DC27FE = Ekipa Xero
+
+0x43E72D23 = Niebieska Strapz w cętki
+
+0x43E8383E = Wyścigowe skrzydło, kolor #2
+
+0x45EF450F = Wentylowana z owalnymi wlot.
+
+0x46DE5FAC = Biała Chunky Barf
+
+0x46EED58F = Biała z graf. Los Santos HS
+
+0x47B968A5 = HANGAR MCKENZIEGO
+
+0x47BF4184 = Zielona Kociak Wasabi PRB
+
+0x48EAB7B7 = Gruby splot z kapturem Güffy
+
+0x49C6B7C8 = Żaluzje boczne
+
+0x50A97101 = Plast. wycięty kaczy spojler
+
+0x50E6A4D2 = Merryweather Security
+
+0x50ECC65C = Strażnik parku, zimowy
+
+0x51FADD54 = Różowa Księżniczka PRB
+
+0x52AC58C0 = Kociak Wasabi PRB
+
+0x52EF7075 = Niski kaczy spojler
+
+0x53B65AEC = Mistrz Hentai PRB
+
+0x53D231B5 = Policja LS, zimowy
+
+0x53FE0286 = Niebieskie Strapz w cętki
+
+0x56A4B2EF = Dżinsy Bigness w szkice
+
+0x57DD2F2C = Karb. skrzydlate z akcentem
+
+0x58ACFC1B = Karb. dyf. z lot. i akcentem
+
+0x58C8C412 = Poszerzona dokładka
+
+0x58F3E3ED = Biała Księżniczka PRB
+
+0x59A7BE76 = Wściekle różowe farb. Güffy
+
+0x59AD7A52 = Wyścigowe Tamarro
+
+0x59BE2851 = Pasy GTS
+
+0x59D9CA38 = Plastik. poszerzona dokładka
+
+0x59E1C1CF = Skrzydlate progi, kolor #2
+
+0x59FB0146 = Antena
+
+0x60FD32FD = Czarna w kratkę Sand Castle
+
+0x61ABBA80 = Wyścigowe Bastion
+
+0x62D9B810 = Zielona w wymioty Barfs
+
+0x63C25F89 = Kute karb. fabryczne HSW
+
+0x64AAAD10 = Karbonowe fabryczne
+
+0x65A0A1E3 = Sweter Krampus
+
+0x65E05605 = Świąteczna kolorowa 420
+
+0x65F3FF4F = Księżniczka PRB
+
+0x66DF6B04 = Wykończenie, kolor #1
+
+0x66F9287C = Różowe moro Yeti
+
+0x68D401BD = Maska, kolor #2
+
+0x68DAE794 = Sweter Krampus
+
+0x68F6C82A = ZAPŁATA
+
+0x69A869D5 = Poszerzona dokładka, k. #2
+
+0x69DA510F = Dwa białe pasy
+
+0x70D395F6 = Wyścigowe Neds
+
+0x70E1ECEA = Seled. Sand Castle w kratkę
+
+0x70E53DB6 = Klasyczny grill
+
+0x71CB83AB = Plast. wentylowana wyścigowa
+
+0x71D06E01 = Karbonowa typu restomod
+
+0x71EE88B6 = Szmaragdowa farbowana Güffy
+
+0x71FD287E = EL STRICKLER
+
+0x76BC2267 = Chavos V6
+
+0x76C0AEC3 = Emblemat alt.
+
+0x77B704F8 = Szara Yeti w moro, tył
+
+0x77F6C1A6 = Zestaw rajdowy
+
+0x78C5A1A0 = Maska z garbem
+
+0x79A1DF54 = Lusterka, kolor #2
+
+0x79A3A3B4 = Karbon. s. wyścig. z wykończ.
+
+0x80A13FCD = Koszula Bigness ze szkicem
+
+0x80F8C8E8 = Płomienie
+
+0x81AB6203 = Wentylowana maska
+
+0x81AEFD14 = Wyścigowe lusterka, kolor #2
+
+0x81CB55AF = Niebieska Heat w zebrę, przód
+
+0x82DB101A = Zestaw rajdowy, kol. #2
+
+0x85E05BE5 = Czapka Pole McKenziego
+
+0x85E27579 = Dżinsy Los Santos Tattoo
+
+0x88EC535A = Funkcjonalny dyfuzor, kol. #2
+
+0x90CC5AC6 = Gruchot alt.
+
+0x90D5C293 = Wentylowana wyścigowa, k. #2
+
+0x91B095C1 = Ruchatek PRB
+
+0x91B66E2D = Karb. wyścig. dyf. z akcentem
+
+0x92D06C97 = Futurystyczne wyblakłe
+
+0x92E1EFC5 = El Strickler
+
+0x92E1FB31 = PRIORYTETOWE AKTA
+
+0x93ABCC30 = Czarna Sand Castle w kratkę
+
+0x96A87AA0 = Wyścigowa antena
+
+0x96D8347B = Słyszysz? To grzmot przed nadchodzącą burzą, drżenie przed trzęsieniem ziemi, głębokie wstrząsy sejsmiczne zwiastujące puszczenie twoich zwieraczy. Przedstawiamy Titana 250 D, wojskowy samolot bojowy Eberhard: jedynym azylem jest kokpit. Bądź hardy, zainwestuj w Eberhardy.~n~~n~– Bojowy
+
+0x96D34145 = Biały Ruchatek PRB
+
+0x97C38B72 = Praktyczny grill
+
+0x98BD8E62 = Podwójny spojler LozSpeed
+
+0x98ED6B38 = Czarna Turbo Güffy
+
+0x112A0594 = Pościgowy Coquette D10
+
+0x116A17AA = Wyścigowe Bravado
+
+0x156E36EC = Karbonowa wentylowana maska
+
+0x160FB472 = Pas przeciwsłoneczny, kol. #2
+
+0x162F0B0C = Klasyczna maska
+
+0x175AD692 = Karbonowy sportowy spojler
+
+0x183E27A6 = Wyścigowe Redwood
+
+0x189D42BA = Limonkowa z logo Blagueurs
+
+0x199DBD81 = Świąteczna zielona 420
+
+0x205D2A70 = Dżinsy Bigness w szkice
+
+0x215DC5C1 = Dżunglowy kamuflaż
+
+0x216D72EC = Firebolt może i jest, technicznie rzecz biorąc, prostym i pokornym robotnikiem, ale z takim wyglądem zwyczajnie się marnuje przy fizycznej pracy. Nie, nie, jego stworzono w dużo ważniejszym celu: by się nim przechwalać do utraty tchu. Więc gdy te wszystkie coupe na międzystanowej zobaczą, jak wyprzedzasz je w zaoranym polu, może nie będą widzieć, że masz na sobie tylko obcisłe gacie, ale na pewno będą wiedzieli, że rządzisz.~n~~n~– Dostępny zagłuszacz namierzania rakiet
+
+0x221F0C66 = Karbon. boczne listwy z wyk.
+
+0x222E99C4 = Federal Investigation Bureau
+
+0x229C5341 = Wyścigowe progi, kolor #2
+
+0x254B7E2A = Kaczy spojler
+
+0x254C9CB3 = Pom. Strapz w cętki, przód
+
+0x256D6066 = Nieb. Strapz w cętki, tył
+
+0x260CC343 = Wyścigowe Globe Oil
+
+0x271EFEA8 = Karbon. skrzydło z wykończ.
+
+0x284C709E = Wisiorek złoty renifer
+
+0x308C4A19 = Fraktalne
+
+0x319E2F4B = Futbolówka LS Panic
+
+0x330F3838 = Nieb. Bigness w cętki, przód
+
+0x368CA169 = Zużyte abstrakcyjne
+
+0x404DD2C0 = Tylna klatka z ogniwem
+
+0x424DA86A = Zderzak, kolor #2
+
+0x431C7B0E = Abstrakcyjne wzory
+
+0x433BB285 = Chlapacze, kolor #2
+
+0x471D907D = Możesz się zastanawiać, co policja robi z całą flotą oklejonych pickupów, poza oczywistymi sprawami. Cóż, dzięki ostatniej fali cięć budżetowych policja również się nad tym zastanawia, dlatego też w rozpaczliwej próbie odzyskania wydanych pieniędzy starają się odsprzedać je cywilom. Jeśli nie jest to przykład korzyści podatkowych, to nie wiemy, co nim jest.~n~~n~– Dostępne wezwania policyjne~n~– Dostępny zagłuszacz namierzania rakiet~n~~n~Uwaga: Ten pojazd można modyfikować wyłącznie we własnych nieruchomościach i ma zerową wartość w odsprzedaży.
+
+0x476CF65B = Klasyczne lusterka
+
+0x476D18EB = Policja LS, zimowy z krawatem
+
+0x487A5BB6 = Plastikowy wyścigowy dyfuzor
+
+0x501D15F1 = Prosty grill
+
+0x518AC35B = Wyścigowe Atomic
+
+0x521E19EB = Karbonowy fabryczny grill
+
+0x538A1E3D = Ekstremalne pół na pół
+
+0x555FD4BE = Wyścigowy grill
+
+0x565BE616 = Biały Ruchatek PRB
+
+0x588A9752 = Kuta karb. HSW bez wlotu
+
+0x607E0049 = Plast. pas przeciwsłoneczny
+
+0x612E601C = Plastikowe skrzydlate progi
+
+0x618B4288 = Plastikowe progi Aero
+
+0x627E5898 = Biała Turbo Güffy
+
+0x653B6238 = Karbonowy z lotk. i akcentem
+
+0x660C943C = Boczne listwy, kolor #2
+
+0x669F069C = Biała Turbo Güffy
+
+0x676D4489 = Fabryczny grill, kolor #1
+
+0x680E2B7B = Czerwona z pajęczyną HS
+
+0x692DBEB0 = Pionowe wydechy na nadwoziu
+
+0x720FF576 = Odwrócona LD Organics 420
+
+0x726D00F5 = Cieniowane na ośmiornicę
+
+0x730B0A18 = Karbon. prakt. z akc., k. #2
+
+0x745BD315 = Małe poszerzone wydechy
+
+0x747DC7A8 = Karbonowa bez środk. wentyl.
+
+0x755E70CF = Rama bezpieczeństwa
+
+0x787DA462 = Czarna Barfs
+
+0x787E8909 = Uliczne skrzydło
+
+0x789AE392 = Kociak Wasabi PRB
+
+0x791EFC4E = Strój NOOSE
+
+0x798F2523 = Zielona Kociak Wasabi PRB
+
+0x801BA471 = Karb. agresyw. żaluzje boczne
+
+0x816F167D = Biały Mistrz PRB
+
+0x819C070A = Pomar. w graffiti Blagueurs
+
+0x830B12B6 = Flaga
+
+0x849A4A76 = Wycieraczki reflektorów
+
+0x858E757A = Zaokrąglone wydechy
+
+0x866CE763 = Pomarańczowe Strapz w cętki
+
+0x866D9F5F = Rajdowa z hakiem
+
+0x868C2AD7 = Karb. skrzydlate z akc., k. #2
+
+0x893C2A84 = Karbonowe uniesione skrzydło
+
+0x895FEEF0 = Plastik. wyścigowa dokładka
+
+0x906F5797 = Czerwona kurtka, skóra węża
+
+0x908C071C = Karbonowa klasyczna maska
+
+0x940E614A = Ekstremalna ekipa driftowa
+
+0x949F3BC2 = Rajdowa dokładka
+
+0x959A3ECF = Biała Lady Barf
+
+0x965E8B6D = Karbonowa prosta maska
+
+0x966EB1E0 = Tuningowy z tytan. końcówką
+
+0x978BF099 = Karbon. funkcjonalny dyfuzor
+
+0x986BF6FD = Rajdowy wlot na dachu
+
+0x1361E411 = Lakierowany poziomy grill
+
+0x1376E623 = Białe ho ho ho
+
+0x1484B712 = Karb. boczne z akc., k. #2
+
+0x1755C6B1 = Kuty karb. wycięty kaczy HSW
+
+0x2219C6DF = Twoja wyobraźnia kreowała ten obraz już tysiąc razy. To dlatego pracujesz w policji. Siedzisz za kółkiem, a pęd powietrza na autostradzie rozwiewa twoją bujną czuprynę rodem z lat 80. Twój partner siedzi obok, popijając zimniutkiego Pisswassera. Podejrzany leży nieprzytomny z tyłu. Kochanka w nogach. Odpalasz Redwooda. Twoja odznaka błyszczy. Tak właśnie to wyglądało w legendarnym Willardzie. I niech tak pozostanie w klasycznym interwencyjnym Factionie.~n~~n~– Dostępne wezwania policyjne~n~– Dostępny zagłuszacz namierzania rakiet~n~~n~Uwaga: Ten pojazd można modyfikować wyłącznie we własnych nieruchomościach i ma zerową wartość w odsprzedaży.
+
+0x2439DEF9 = Karbonowa rajdowa dokładka
+
+0x2885ED99 = Szampański nastrój
+
+0x3002EC15 = Wyścig. wentylowana, k. #2
+
+0x3018B1EB = Zderzak Gen2
+
+0x3112A9D7 = Czarna z graf. Los Santos HS
+
+0x3168B51F = Część aktualizacji Agents of Sabotage
+
+0x3339D4A2 = Standardowa pojemność karabinu El Strickler.
+
+0x3502F37E = Szampański nastrój dopasowana
+
+0x3769B96A = Wysoki kaczy spojler
+
+0x3875CCAE = Czarne farbowane Manor
+
+0x3915EF84 = Niebieska dwubarw. dżinsowa
+
+0x3934D1EA = Zaspokój swoje fantazje i przeprowadzaj najbardziej zmilitaryzowane na świecie kontrole zezwoleń na połowy dzięki Predatorowi: najmocniejszej łodzi patrolowej we flocie straży przybrzeżnej San Andreas. Jest szybka, zwinna i posiada mnóstwo miejsca w kokpicie na przechwyconą kontrabandę. Żaden przemytnik w stanie nie chciałby ujrzeć na falach jej ostrych kształtów – no chyba, że ta łódź należałaby do niego.~n~~n~Uwaga: to jest pojazd Pegasus i nie może być przechowywany w garażu.
+
+0x4005DC3D = Karbonowa wyścig. dokładka
+
+0x4117BF7C = Plastikowy poziomy grill
+
+0x4209D5B7 = Czarna w drut kolczasty Bigness
+
+0x4268EF12 = Ośmiokątne wydechy
+
+0x4341EF84 = Futurystyczne
+
+0x4522A0CA = Karb. poszerzona dokładka
+
+0x4582B31F = Oto Attack-A-Taco. Zanim zapytasz: tak, zanim ten model został zatwierdzony do sprzedaży w celach niehandlowych, usunięto z niego cały sprzęt spożywczy. Bo choć w naszym wspaniałym stanie San Andreas znajdzie się na ulicach miejsce dla narkotykowych przemytników i handlarzy bronią, to prokuratura nie toleruje słabej jakości taco...~n~~n~Uwaga: to jest pojazd Pegasus i nie może być przechowywany w garażu.
+
+0x4659BEB9 = Różowa Księżniczka PRB
+
+0x4704B808 = Ryflowany grill
+
+0x4716C1C0 = Małe skrzydło
+
+0x4766BFAF = Wyścigowe boczne wydechy
+
+0x5004A50D = Tuningowy wydech
+
+0x5026B852 = Karbonowe wyścigowe skrzydło
+
+0x5210F683 = Lil. Bigness w cętki, przód
+
+0x5299F6ED = Pomalowana dokł. LozSpeed
+
+0x5342E7C8 = Okrągłe osłony reflektorów
+
+0x5547A7EA = Dwa niebieskie pasy
+
+0x6127FF90 = Chromowany siatkowy grill
+
+0x6213B6ED = Lusterka, kolor #2
+
+0x6508E8C4 = Patrol drogowy
+
+0x6609FF93 = Biała Turbo Güffy
+
+0x6719EAE6 = Strażnik parku
+
+0x7010FFA4 = Rurowe stopnie II
+
+0x7030D78A = Wyścigowe Chromophonic
+
+0x7182EB5B = Plast. pas przeciwsłoneczny
+
+0x7364E63B = Karbonowe skrzydlate progi
+
+0x7410D1D6 = Wzorzyste Strapz
+
+0x7474A247 = Fioletowy Ruchatek PRB
+
+0x7520C729 = Wyścigowy spojler
+
+0x7574E581 = Patrolowy Terminus
+
+0x7861D4EC = Fabryczne lusterka, k. #2
+
+0x8077A5C8 = Wściekle różowa farb. Güffy
+
+0x8173DEA9 = Białe farbowane Bigness
+
+0x8342B0F5 = Farbowana Honkers
+
+0x8532DC34 = Czarna Heat w zebrę, przód
+
+0x8534AC34 = Wyczynowa maska
+
+0x8835D933 = Złote ho ho ho
+
+0x8887DE5F = Turbulizator
+
+0x9400B32B = Niebieskie farbowane Squash
+
+0x9417B4CF = Dwa niebieskie pasy
+
+0x9697D310 = Z kapturem Dzień Ziemi Yeti
+
+0x9741CCFE = Różowa Yeti w moro, tył
+
+0x9863B3CB = Klasyczny Mule (ciemny)
+
+0x17466DDB = Pas przeciwsłoneczny, kol. #1
+
+0x24569A67 = Dodatkowe wloty
+
+0x27745B86 = Klasyczne Vapid
+
+0x28282E91 = Gruby splot z kapturem Güffy
+
+0x29167D2B = Czapka Gong Xi Fa Cai
+
+0x29973D71 = Tytanowe wydechy
+
+0x31203D87 = Czapka Pole McKenziego
+
+0x46847F66 = Księżniczka PRB
+
+0x50789E3A = Bezrękawnik Pavla
+
+0x52457FF7 = Karbon. wyścig. z wylotem
+
+0x60328FAE = Pisswasser
+
+0x65174E01 = Limonkowa z logo Blagueurs
+
+0x69160A56 = Karbonowe specjalne żaluzje
+
+0x70038CF2 = Karbonowa wentylowana maska
+
+0x70715A99 = Karbon. wyścigowe lusterka
+
+0x76126F29 = Klasyczny Mule (jasny)
+
+0x78632F98 = Zielona Kociak Wasabi PRB
+
+0x80849F88 = Czarna Heat w zebrę, tył
+
+0x81356F2D = Znoszone niebieskie
+
+0x86908A7B = Łowca detali
+
+0x91386A97 = Wyścigowe progi, kolor #2
+
+0x93692AA4 = Czarna z logo Blagueurs
+
+0x99087AD8 = Złoty wąż Santo Capra
+
+0x99954BD7 = Policja LS, letni z krawatem
+
+0x101153B6 = Karbonowy kaczy spojler
+
+0x137564FC = PRZEGRZANIE
+
+0x149557A5 = Każdy doświadczony oficer policji wie, że nie jest ważne, jak szybko dotrzesz na miejsce zbrodni, lecz jak szybko stamtąd uciekniesz. A dzięki nowej bryce, Coquette D10, na bank uciekniesz tak szybko, że nikt nie uwierzy jakimkolwiek oskarżeniom o manipulacje. Gratulacje, pierwszy etap zaawansowanego szkolenia policyjnego został ukończony.~n~~n~– Dostępne wezwania policyjne~n~– Dostępny zagłuszacz namierzania rakiet~n~~n~Uwaga: Ten pojazd można modyfikować wyłącznie we własnych nieruchomościach i ma zerową wartość w odsprzedaży.
+
+0x224083B6 = Świąteczny Cluckin' Bell
+
+0x265005CF = Wybl. ekstr. ekipa driftowa
+
+0x288781F1 = Boczne wydechy
+
+0x303993F3 = Burgundowa w wymioty Barfs
+
+0x312278CA = Plastik. rajdowa dokładka
+
+0x543362FB = Plastikowy kaczy spojler
+
+0x672101A9 = Sword Boy PRB
+
+0x673760EF = Klasyczna dokładka
+
+0x710816EC = Kuty karbonowy zderzak
+
+0x762846AF = Dawno temu oryginalny Banshee był twoją obsesją, jak na przepoconego i pryszczatego nastolatka przystało. Parę lat później jego bliźniak-kabriolet podarował ci przejażdżkę życia za bardzo niską cenę w postaci wszystkich twoich pieniędzy. A teraz? Kupujesz wóz pół wieku młodszy od siebie wraz z obietnicą, że umrzesz, robiąc to, co kochasz. Przedstawiamy Bravado Banshee GTS: tak właśnie WYGLĄDA szczęśliwe zakończenie.~n~~n~– Dostępny zagłuszacz namierzania rakiet
+
+0x818861B9 = Prosta maska
+
+0x937448B3 = Karbonowa podwójnie wentyl.
+
+0x952858BA = Uniesione skrzydło
+
+0x955279ED = Morski kamuflaż
+
+0x966359B1 = Wentylowana maska, kolor #2
+
+0x1758126C = Fabryczne, kolor #2
+
+0x1964744C = Karbon. wytrzymały dyfuzor
+
+0x3329757E = Titan 250 D
+
+0x4334896E = Straż przybrzeżna
+
+0x5649392F = Płomienie
+
+0x5882160F = Poszerzony Jester RR
+
+0x5954285F = Klasyczny grill
+
+0x6115836D = Połowiczne osłony reflektorów
+
+0x7064854F = Strażnik parku, zimowy z kraw.
+
+0x8278417C = Odwrócona Gong Xi Fa Cai
+
+0x8643918E = Podwójny wydech
+
+0x11827526 = Tylna klatka
+
+0x16633728 = Maska typu restomod
+
+0x20964740 = Rama bezpiecz. z otuliną
+
+0x37510527 = Karb. poszerz. z akc., k. #2
+
+0x40484213 = Wytrzymały dyfuzor, kolor #2
+
+0x41963694 = Zielona w wymioty Barfs
+
+0x42255443 = Leśne moro Yeti
+
+0x46290609 = Fabryczne lusterka, kolor #2
+
+0x48249535 = Pustynny kamuflaż
+
+0x53810272 = Karbon. maska typu restomod
+
+0x57996863 = Wentylowana maska z osłoną
+
+0x58500383 = Wydech Hotring
+
+0x68347580 = Kuta karbonowa wyczynowa
+
+0x69017716 = Potrójny wlot powietrza
+
+0x79891357 = Wyścigowe Pisswasser
+
+0x80671390 = Czarna w graffiti Blagueurs
+
+0x84171358 = Czarne farbowane Manor
+
+0x91854856 = Różowe moro Yeti
+
+0x95780728 = Karb. wyścig. z akcentem
+
+0x95784285 = Restomod II z dyfuzorem
+
+0x97973320 = Biała z pęknięciem Blagueurs
+
+0xA040DE40 = Progi aero, kolor #2
+
+0xA05D08DA = Wzorzysta bluza Strapz
+
+0xA0CD659C = Wytrzymały, kolor #2
+
+0xA0D5F9D5 = Karbonowe agresywne żaluzje
+
+0xA0F3E062 = Szara Yeti w moro, tył
+
+0xA1B2652F = Podwójnie wentylowana, k. #2
+
+0xA2CB4A99 = Poczwórny wydech
+
+0xA5F40873 = Szara króla węży, tył
+
+0xA6F5366C = Dummy label.
+
+0xA7F7C4C7 = Pasy Bravado
+
+0xA12C9D4E = Pomarańczowe Bigness w cętki
+
+0xA23D6953 = Seled. Sand Castle w kratkę
+
+0xA31F7B1A = Karbonowy zderzak
+
+0xA39D08BB = Plastikowy rajdowy dyfuzor
+
+0xA59E6C5A = Czapka Pole McKenziego
+
+0xA74EA78B = Zderzak rajdowy restomod
+
+0xA75B2B9D = Potrójny spojler dociskowy
+
+0xA77CDA23 = Szmaragdowe farbowane Güffy
+
+0xA77ED961 = Karbonowa ze środk. wlotem
+
+0xA78B89B2 = Karbon. obły kaczy spojler
+
+0xA86F7FB7 = Koszt przygotowania:
+
+0xA93B34F4 = Wisiorek dusza węża
+
+0xA127CC63 = Policja LS, letni z krawatem
+
+0xA375A1E0 = Niebieskie Bigness w cętki
+
+0xA562E04F = Różowa Yeti w moro, tył
+
+0xA673CA41 = Wyścigowe Xero
+
+0xA853B283 = Koszulka Los Santos Tattoo
+
+0xA866D03E = Karbonowe poszerzone progi
+
+0xA1362CC5 = Wydech od katalizatora
+
+0xA3968EE1 = Burgundowa w napisy HS
+
+0xA5799FE2 = Chrom. wyścigowy z akcentem
+
+0xA7448D5A = Różowa Księżniczka PRB
+
+0xA59729DE = Maska bez bocznej wentylacji
+
+0xA3109370 = Malowane żaluzje
+
+0xAA022FEF = Chromowany listwowy grill
+
+0xAA59F272 = Plastikowe progi Aero
+
+0xAAAE3402 = Rajdowy zderzak z hakiem
+
+0xAB5C9E67 = Futbolówka LS Panic
+
+0xABBFE80F = Czapka Pole McKenziego
+
+0xABC26F19 = Stuningowany
+
+0xABF77991 = Podwójny filtr
+
+0xAC456C29 = Fioletowy Ruchatek PRB
+
+0xAC252111 = Orzeł bielik
+
+0xAD36F279 = Karbonowe uliczne skrzydło
+
+0xAD357FC2 = Pomarańczowa Strapz w cętki
+
+0xAD300294 = Dokł. pod zderzakiem, k. #2
+
+0xAE0B9B4E = Świąteczny z reniferami
+
+0xAE8E1C5B = Strażnik parku, letni
+
+0xAE3937E1 = Karbonowy zestaw rajdowy
+
+0xAEC37B41 = Karbon. Aero z akc., k. #2
+
+0xAEE7B92D = Czarna z graf. Los Santos HS
+
+0xAF019947 = Futurystyczne pełne
+
+0xAF47CB9C = Czarne Heat w zebrę
+
+0xAF896922 = Patrol drogowy, zimowy
+
+0xAFA0C984 = Tłumiki wydechów
+
+0xAFB9168E = Koszulka Blarneys Stout
+
+0xAFF6E3BF = Czarna w graffiti Blagueurs
+
+0xB01E6A50 = Policja LS, letni
+
+0xB1E993EB = Garb z wlotem
+
+0xB1E9859D = Podwójnie wentylowana
+
+0xB1ED3326 = Powietrzne Junk
+
+0xB2A39E7A = Maska typu restomod
+
+0xB2DD2D6E = Czarna w napisy HS
+
+0xB3AFEC62 = Podwójny tuningowy wydech
+
+0xB3C03C6F = Chromowany wyścigowy grill
+
+0xB7F78DA9 = Plastikowe poszerzone progi
+
+0xB8A47BAC = Zestaw rajdowy
+
+0xB8BA6ECE = Płomienie
+
+0xB8BA7E14 = Pomoc drogowa
+
+0xB8E41F5D = H-65
+
+0xB8EDBF2A = Plastikowe żaluzje
+
+0xB11A8B75 = Odwrócona LD Organics 420
+
+0xB13B6CD9 = Szampański nastrój dopasowana
+
+0xB14D9038 = Wyścigowe ERIS
+
+0xB26F9D08 = Żaluzje, kolor #2
+
+0xB35D8535 = Leśna Yeti w moro, tył
+
+0xB56A8A56 = Praktyczne stopnie
+
+0xB63F98D8 = Pomarańczowe Strapz w cętki
+
+0xB89E9F93 = Czapka LS Panic
+
+0xB327FA66 = Futo
+
+0xB366B8E9 = Czarna Heat w zebrę, przód
+
+0xB649F7BD = Zielonkawe farbowane Manor
+
+0xB706AA98 = Czerwona dusza węża, tył
+
+0xB908D0B7 = Rajdowy dyfuzor
+
+0xB2602BAA = Wyścigowe Modular
+
+0xB3556C77 = Bezrękawnik Pavla
+
+0xB6489DDC = Koszulka Los Santos Tattoo
+
+0xB8329D3B = Karbonowa maska fabryczna
+
+0xB8373B03 = Karbonowe szosowe skrzydło
+
+0xB8804B89 = Szare moro Yeti
+
+0xB9438ADB = Patrol drogowy, letni
+
+0xB50363BC = Wyścigowe lusterka
+
+0xB86198A1 = Karbonowe skrzydło GT
+
+0xB520432E = Zderzak typu restomod
+
+0xB684823F = Liliowa Bigness w cętki
+
+0xB708849C = Rajdowa dokładka, kolor #2
+
+0xB1345738 = Białe pasy
+
+0xBA7CA565 = Sportowy spojler, kolor #2
+
+0xBA100A39 = Czarna farbowana Manor
+
+0xBAC01A60 = Niebieska farbowana Squash
+
+0xBAC5B4C2 = Świąteczny z pingwinami
+
+0xBAE15840 = Wisiorek król węży
+
+0xBB6A3031 = Biała Lady Barf
+
+0xBBE798B6 = Plastikowa wentylowana
+
+0xBBEADDD9 = Klasyczna maska z klamrami
+
+0xBC5AE2F8 = Zaokrąglone wydechy
+
+0xBC5EE8D4 = Złota gwiazda
+
+0xBC1084C0 = Dwa czarne pasy
+
+0xBCB29DF2 = Świąteczny z pingwinami
+
+0xBCC4F120 = Szlafrok w złamane serca
+
+0xBCDEC284 = Handlarz broni
+
+0xBD28F316 = Czarna farbowana Manor
+
+0xBD421C26 = Maska z dużym filtrem
+
+0xBDAA9F56 = Karbon. rajd. z akc., k. #2
+
+0xBDFA56E9 = Czarne Sand Castle w kratkę
+
+0xBE43BBC6 = Strażnik parku, letni z kraw.
+
+0xBE92884E = Liliowe farbowane Bigness
+
+0xBE479583 = Policja LS, zimowy
+
+0xBF7C9076 = Czarna z czachą HS
+
+0xBF727144 = Mistrz Hentai PRB
+
+0xBF789122 = Pościgowa Caracara
+
+0xC0047D69 = Oto Iron Mule – jak dotąd najbardziej wytrzymały i niezawodny śmigłowiec towarowy Buckingham, który opracowano do działań w szczególnie nieprzyjaznych i odosobnionych bazach operacyjnych w najdalszych zakątkach świata. Ale czy dałby radę przetrwać zwyczajny weekend w Davis? To już inne pytanie...
+
+0xC011C1A4 = Rajdowy dyfuzor, kolor #2
+
+0xC035CC02 = DZIAŁKO
+
+0xC0561635 = Pom. Bigness w cętki, tył
+
+0xC06471CA = Różowa farbowana Squash
+
+0xC0787C31 = Jester Classic
+
+0xC0CCA046 = Patrol drogowy
+
+0xC2FB93FD = Listwy progowe, kolor #2
+
+0xC3B9D75A = Szare moro Yeti
+
+0xC3C090FB = Złota gwiazda dopasowana
+
+0xC3E33563 = Wyścigowe Exsorbeo
+
+0xC5E8B05E = Świąteczny kolorowy 420
+
+0xC7AF642E = Granatowa kurtka Eberhard
+
+0xC7C724C4 = Pomarańczowa Bigness w cętki
+
+0xC9A87954 = Karbon. klasyczna z klamrami
+
+0xC9E02949 = Nieb. Bigness w cętki, tył
+
+0xC9EEB4C4 = Karb. wentylowana z akcentem
+
+0xC10F9B52 = Bokserki w złamane serca
+
+0xC22F3D91 = Zestaw rajdowy
+
+0xC27BD443 = Straż przybrzeżna
+
+0xC35BE3A2 = Lotka tylnej klapy
+
+0xC41A4167 = Zestaw LozSpeed
+
+0xC56FBAF7 = Garb z wlotem, kol. #2
+
+0xC70FAF02 = Went. dokładka, kolor #2
+
+0xC92BA816 = Kociak Wasabi
+
+0xC93D25B7 = Czapka LS Panic
+
+0xC97BD1C8 = Zielona Kociak Wasabi PRB
+
+0xC97F37DE = Szara farbowana Bigness
+
+0xC183A0C1 = Karbon. progi Aero
+
+0xC540FF59 = Uliczny ścigant
+
+0xC574E6D4 = Chromowany praktyczny grill
+
+0xC600F136 = Firebolt ASP
+
+0xC782BA41 = Czerwone chlapacze
+
+0xC1523DE8 = Futurystyczne Bollokan alt.
+
+0xC3263E75 = Karbonowe żaluzje
+
+0xC6950C3A = Karbonowe progi Aero
+
+0xC9103EF6 = Wentylowana maska
+
+0xC84540F6 = Karbon. skrzydło na bagażniku
+
+0xC95594F5 = ZADANIE - DO ZROBIENIA
+
+0xC185309F = Wyścigowe Schlott
+
+0xC5159788 = Niebieska Sword Boy PRB
+
+0xCA3DCFBF = Futurystyczne Bollokan
+
+0xCA3F3C5C = Plastik. GT z akcentem, k. #2
+
+0xCA6FB4F2 = Karbonowa profesjonalna
+
+0xCA8E36BE = Wyczynowa maska, kolor #2
+
+0xCA5420B5 = Karbon. wyścig. wentylowana
+
+0xCAD9C35D = Pomarańczowa Bigness w cętki
+
+0xCAED0671 = Biała panelowa PRB
+
+0xCB2B5D98 = Gdy garaż masz wypełniony batyskafami i bojowymi łazikami Dune, zastanawiasz się, czy nie nadeszła pora, by kupić najzwyczajniejszego sedana i rozpocząć normalne życie. Nie wstydź się, każdemu może się to przytrafić. A gdy już dotrze do ciebie, jak katastrofalny w skutkach był to błąd, będziesz o krok od wizyty w LS Customs i wskoczenia za kółko wyścigowego cacka, by poczuć swąd spalin i palonych opon. W tym mieście jest to najlepsza polisa.~n~~n~– Dostępny zagłuszacz namierzania rakiet
+
+0xCB3BB5F8 = Stopnie Stinger
+
+0xCB74D620 = Świąteczny kolorowy 420
+
+0xCBA2D684 = Strażnik parku, zimowy
+
+0xCC7C3CF9 = Karbonowy praktyczny
+
+0xCCDFC88C = Hokejowa LD Organics 420
+
+0xCD64A5F2 = Białe farbowane Bigness
+
+0xCDEE8838 = Chromowany wydech
+
+0xCE3B8C91 = Szampański nastrój
+
+0xCE9E49A5 = Niebieskie Heat w zebrę
+
+0xCE9801A2 = Pikietujący w całym stanie mogą potwierdzić, że gdy policja bierze się do roboty, nic nie jest w stanie jej powstrzymać. Dlatego właśnie najbardziej oddani sprawie oficerowie jeżdżą Terminusem. To przykład ładu i porządku z napędem 4x4, zaprojektowany, by pokonać nawet najcięższe przeszkody. Sprawy wewnętrzne siedzą ci na dupie? Świadek nie współpracuje? Wskakuj za kółko, wybekaj honorową przysięgę, wciśnij gaz do dechy i zeskrob swój problem z maski, jakikolwiek by on nie był.~n~~n~– Dostępne wezwania policyjne~n~– Dostępny zagłuszacz namierzania rakiet~n~~n~Uwaga: Ten pojazd można modyfikować wyłącznie we własnych nieruchomościach i ma zerową wartość w odsprzedaży.
+
+0xCF0E569A = Granatowa kurtka Eberhard
+
+0xCF8C36E0 = Plastikowy wyścigowy dyfuzor
+
+0xCF80B755 = Patrol drog., letni z krawatem
+
+0xCF87C3A1 = ZDOBYTO
+
+0xCF61503E = Karbonowe wyścigowe skrzydło
+
+0xCFDB7E5C = Wyścigowy dyfuzor
+
+0xD0407B75 = Liliowe Bigness w cętki
+
+0xD0AB8B9B = Podwójne ujścia
+
+0xD1C7350B = Biała z czachą HS
+
+0xD1F7656F = Karbonowy rajdowy dyfuzor
+
+0xD2B8F5E5 = Wyścigowe lusterka
+
+0xD2BDCDAF = Karbon. dok. pod zderzakiem
+
+0xD2EC3335 = Biała Sword Boy PRB
+
+0xD3C374D5 = Reflektory dachowe
+
+0xD4E3A8D7 = Progi Aero, kolor #2
+
+0xD4EACA1D = Szeroki pas na nadwoziu
+
+0xD4EE85A1 = Szmaragdowe farbowane Güffy
+
+0xD5C14C65 = Karb. wentylowana dokładka
+
+0xD5D663D5 = Żaluzje
+
+0xD8A914D3 = Banshee GTS
+
+0xD8B5AEC4 = Wyścigowe Sprunk
+
+0xD8B950F3 = Przewiercone stopnie
+
+0xD8E4DE22 = Różowe moro Yeti
+
+0xD9CDD53D = Karbonowa wyczynowa maska
+
+0xD9D372DD = Świąteczny zielony 420
+
+0xD9D639C1 = Wyścigowa klatka z otuliną
+
+0xD9DD43E0 = Koszulka Blarneys Stout
+
+0xD16AC5C7 = Biała Barfs
+
+0xD17D5701 = Czerwona dusza węża, przód
+
+0xD29B80A5 = Maska typu restomod, k. #2
+
+0xD48AF13B = Karbonowe boczne listwy
+
+0xD71C5E50 = Karbonowy garb z wlotem
+
+0xD75C14BB = Kuta karb. HSW z wlotem
+
+0xD85DD8FB = Wyścigowa dokładka, kol. #2
+
+0xD89D7F0B = Patrol drogowy
+
+0xD97D7239 = Strażnik parku, zimowy z kraw.
+
+0xD97EF95C = Wyścigowe Shark
+
+0xD666FCB4 = Różowe moro Yeti
+
+0xD753F73B = Furażerka Pavla
+
+0xD1277EDC = Gdy główni projektanci Dinki przerobili Jestera na RR, działali z wręcz chirurgiczną precyzją. Następnie naćpali się amfą do upadłego i zamontowali w nim tak dużą liczbę dodatkowych ulepszeń, że musieli stanąć twarzą w twarz z nakoksowanym, poszerzonym RR: powyginanym, dopakowanym, oklejonym i z błotnikami tak szerokimi, że potrzebuje dwóch pasów na autostradzie. Lekcja na przyszłość. Bądź bardziej jak Dinka.~n~~n~– Wbudowany zagłuszacz namierzania rakiet
+
+0xD39285CA = Uliczny dyfuzor
+
+0xD61559C7 = E-11
+
+0xD348901F = Wisiorek srebrny renifer
+
+0xD7885311 = Plastikowy wytrzymały
+
+0xDA6AE1AB = Maska fabryczna, kolor #2
+
+0xDAE4767C = Karnawałowa koszula w pióra
+
+0xDB9A5747 = Prof. dokładka, kol. #2
+
+0xDB1187C4 = Biała w drut kolczasty Bigness
+
+0xDB9720BF = Biała Chunky Barf
+
+0xDC9366D0 = Liliowa Bigness w cętki
+
+0xDCC314E3 = Czarna z pajęczyną HS
+
+0xDD000A80 = Odwrócona Gong Xi Fa Cai
+
+0xDD7F5FDE = Zielonkawa farbowana Manor
+
+0xDD27F37C = Pomalowane i cieniowane
+
+0xDDC7462D = Maska ze środ. wlotem
+
+0xDDC16360 = Skrzydło GT, kolor #2
+
+0xDDD1EC93 = Tylne wydechy
+
+0xDDEADD9F = Karb. maska z dwoma wlotami
+
+0xDE06DA87 = Niebieska Heat w zebrę, tył
+
+0xDE3B09B8 = Reflektory dach. i bagażnik
+
+0xDE980425 = Wisiorek dusza węża
+
+0xDF17E2B0 = Białe ho ho ho
+
+0xDF77B14E = Burgundowa w wymioty Barfs
+
+0xDF77D06C = Biała metalowa HS
+
+0xDF30228B = Karbonowe fabryczne
+
+0xE0CF2910 = Farbowana z kapturem Honkers
+
+0xE1A30094 = Plastikowy siatkowy grill
+
+0xE2BD5D42 = Karbonowy wyścigowy dyfuzor
+
+0xE2EA9528 = Podniebny jastrząb
+
+0xE2FF6E32 = Plastikowa pod zderzakiem
+
+0xE3ADDFAF = Patrol drogowy, zimowy
+
+0xE3F1CA93 = Czapka LS Panic
+
+0xE4A81B1D = Pom. Bigness w cętki, przód
+
+0xE4BE3A7D = Szara farbowana Bigness
+
+0xE4F0DF6A = Leśna Yeti w moro, tył
+
+0xE5B33BFD = Czerwona panelowa PRB
+
+0xE5C0693A = Poszerzone progi, kolor #2
+
+0xE5E7F964 = Biały podwójny pas
+
+0xE6EEB3E0 = Kuta karb. klasyczna HSW
+
+0xE7CB9F91 = Niebieska Strapz w cętki
+
+0xE8C15E68 = Bustier w złamane serca
+
+0xE8C88AC3 = Agresywna wentylowana maska
+
+0xE8CD81B2 = Maska z dwoma wlotami
+
+0xE9DF5138 = FABRYKA ODZIEŻY
+
+0xE10C0CB0 = Kute karbonowe skrzydło GT
+
+0xE26E7279 = Prolaps Beast
+
+0xE80B7C6F = Niebieskie Strapz w cętki
+
+0xE85BD6DA = Burgundowa w wymioty Barfs
+
+0xE410DBBB = Różowa Księżniczka PRB
+
+0xE643A84B = Wściekle różowe farb. Güffy
+
+0xE2692F16 = Podwójne zaostrzone
+
+0xE3437A8D = Czapka Gong Xi Fa Cai
+
+0xE4244B87 = Leśny kamuflaż
+
+0xE7928BDB = KARABIN
+
+0xE38911E1 = Tyl. dyf. z lotkami, k. #2
+
+0xE558261E = Wyścigowa maska z wlotem
+
+0xE672834A = Dummy label.
+
+0xE3381133 = Plastikowy dyfuzor z lotkami
+
+0xE3782595 = Wydłużony fabryczny
+
+0xE4888271 = Niebieski Mistrz PRB
+
+0xE6905029 = Orzeł bielik
+
+0xEA037C46 = Karbon. z akcentem, kol. #2
+
+0xEA9D2733 = Furażerka Pavla
+
+0xEA644123 = Chromowany wydech pod kątem
+
+0xEAF55AF0 = Podwójny owalny wydech
+
+0xEAFA7EB7 = DH-7 Iron Mule
+
+0xEB7AA4C9 = Patrol drogowy
+
+0xEB9A8824 = Okrągłe tylne wydechy
+
+0xEB32FB45 = Różowa farbowana Squash
+
+0xEB265BF4 = Dżinsy Los Santos Tattoo
+
+0xEBA11622 = Biała Księżniczka PRB
+
+0xEBAB7920 = Maska z dwoma wlotami, k. #2
+
+0xEBF17BE3 = Praktyczny, kolor #2
+
+0xEC0E1F05 = Wyścig. wyblakłe Tricolore
+
+0xEC72C341 = Podwójne wydechy
+
+0xEC972017 = Wyścigowe wyblakłe Tamarro
+
+0xECE06110 = Eberhard
+
+0xED4922B7 = Karbon. wyścig. progi z wyk.
+
+0xEDA9A895 = Bagażnik dachowy
+
+0xEE4F53F1 = Czerwona panelowa PRB
+
+0xEE7DF497 = Rajdowe zapinki
+
+0xEE197AAC = Pom. Bigness w cętki, tył
+
+0xEEAC72E1 = Niebieska Heat w zebrę, tył
+
+0xEED668CD = Karnawałowe w pióra
+
+0xEFBDA6A3 = Różowozłoty wisiorek 420
+
+0xF0C06CA9 = Różowe farbowane Squash
+
+0xF0D6028E = Karbonowa z akcentem
+
+0xF1C19E1D = Karbonowy kaczy spojler
+
+0xF3F38BEB = Karbonowy rajdowy dyfuzor
+
+0xF5BD8FFF = Świąteczny z reniferami
+
+0xF5D847E3 = Dok. pod zderzakiem, k. #2
+
+0xF8E92566 = Usunięty fabryczny spojler
+
+0xF15A29A9 = Wisiorek król węży
+
+0xF15F7B12 = Patrol drog., zimowy z krawatem
+
+0xF22B8E57 = Poziomy grill
+
+0xF24C3518 = Czerwona dusza węża, tył
+
+0xF34BC25B = Czarne Sand Castle w kratkę
+
+0xF62A7277 = Zielona w wymioty Barfs
+
+0xF91DC235 = Pomarańczowa Strapz w cętki
+
+0xF135C110 = Usunięty fabryczny
+
+0xF520B9E5 = Karbonowy sportowy spojler
+
+0xF556B57C = Karbonowy dyfuzor z lotkami
+
+0xF570DBE2 = Szmaragdowa farbowana Güffy
+
+0xF659FE30 = Czarna metalowa HS
+
+0xF807FE19 = Plastikowe listwy progowe
+
+0xF4090FEF = Plastikowe sk. na bagażniku
+
+0xF36106E0 = Karbonowa rajdowa restomod
+
+0xF72834AE = Wyścigowe Oilio
+
+0xF79406EF = Wyścigowy dyfuzor, kolor #2
+
+0xF91643C7 = Usunięte wloty
+
+0xF221360F = Lil. Bigness w cętki, przód
+
+0xF582830B = Karbonowe rajdowe skrzydło
+
+0xF9296971 = Świąteczna zielona 420
+
+0xFA669514 = Detale LozSpeed
+
+0xFAA62E7E = Wentylowana maska z wlotem
+
+0xFAAF9D2C = Karbon. wyścigowe skrzydło
+
+0xFBBC7D94 = Wyścigowe Redwood
+
+0xFBD740F4 = Hokejowa LD Organics 420
+
+0xFC1E25D4 = Wyścigowe Bulko
+
+0xFC6ED4C7 = Listwowy grill
+
+0xFCB8921B = Pościgowy taran
+
+0xFCBBFE7D = Owalny wydech
+
+0xFCE740F6 = Srebrny wisiorek 420
+
+0xFCEBFF7F = Wzorzyste Strapz
+
+0xFD2C4C25 = Pom. Strapz w cętki, przód
+
+0xFD36BA3D = Szlafrok w złamane serca
+
+0xFDA3CA9A = Waleczny gryf
+
+0xFDF7C687 = Karbonowe skrzydło GT
+
+0xFE452D79 = Tytanowe wydechy
+
+0xFEFBB244 = Wyścigowe Junk
+
+0xFF1AA2B9 = Strażnik parku, letni z kraw.
+
+0xFF89C5FC = Wyścigowe Tricolore
+
+0xFF725D26 = Z kapturem Dzień Ziemi Yeti
+
+0xFFADC70E = Czerwona z pajęczyną HS
+
+0xFFD81E29 = Nieb. Bigness w cętki, tył
+
+0xFFE4F71C = Biała panelowa PRB
+
+URANUS = Uranus LozSpeed
+

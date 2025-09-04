@@ -1,0 +1,104 @@
+<html style="overflow-y: hidden;scrollbar-width: none; ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sffishing</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../config.js"></script>
+</head>
+<body>
+<main id="main">
+<div id="fishingTab" class="bg-image">
+    <div id="content">
+        <div class="row setMaxheight" id="tablet">
+            <template v-if="loading">
+                <div class="col-12" v-if="loading==true">
+                    <div class="position-absolute top-50 start-50 translate-middle">
+                        <h3 style="text-align: center;">
+                            <div class="spinner-border text-light" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </h3>
+                    </div>
+                </div>
+            </template>
+            <template v-if="loading==false">            
+                <div class="col-md-12 d-flex flex-column flex-shrink-0">
+                    <div class="row textMain trimText">
+                        <div class="col-6 topLeftInfo">
+                            <template v-if="page == 'home'"><div class="headerText">{{lang.desc_menu_1}}</div><div class="buttonMenu" v-on:click="changePage('catalog')">{{lang.button_menu_1}}</div></template>
+                            <template v-if="page == 'catalog'"><div class="headerText">{{lang.desc_menu_2}}</div><div class="buttonMenu" v-on:click="changePage('home')">{{lang.button_menu_2}}</div></template>
+                        </div>
+                        <div class="col-6 topRightInfo d-flex flex-column justify-content-end">
+                            <div class="namePlayer">{{mychar.name}}</div>
+                            <div class="ms-auto">
+                                <div class="statsPlayer">{{mychar.level}} <span class="statsPlayerSmall">LVL</span></div>
+                                <div class="statsPlayer">{{mychar.exp}} <span class="statsPlayerSmall">EXP</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-100">
+                        <template v-if="page == 'home'">
+                            <div class="col col-lg-12">
+                                <div class="row d-flex justify-content-center">
+                                    <swiper-container space-between="0" slides-per-view="3" navigation="true">
+                                        <template v-for="(name, value) in infoPlace">
+                                            <swiper-slide>
+                                                <div class="missioncard">
+                                                    <img v-bind:src="name.img" class="w-100 place-img">
+                                                    <div class="place-name">{{name.name}}<span class="place-level">{{lang.needLevel}} {{getLevelForPlace(name.id)}}</span></div>                                  
+                                                    <div class="place-description">{{name.description}}</div>
+                                                    <div class="place-button" v-on:click="setGps(name.id)">{{lang.setGps}}</div>
+                                                </div>
+                                            </swiper-slide>
+                                        </template>
+                                    </swiper-container>                    
+                                </div>
+                            </div>
+                        </template>
+                        <template v-if="page == 'catalog'">
+                            <div class="col col-12">
+                                <div class="scrollContent">
+                                    <template v-for="(name, value) in infoPlace">
+                                        <div class="headerCatalog">{{lang.placeFishing}} <span class="headerCatalogName">{{name.name}}</span></div>
+                                        <div class="contentCatalog">
+                                            <template v-for="(n, v) in fishList[name.id]" v-if="n.item.includes('fish_')">
+                                                <div class="boxFish" v-if="caughtFish(n.item)">
+                                                    <div class="boxFishCount">{{caughtFishCount(n.item)}}</div>
+                                                    <img :src="`nui://${images}${n.item}.png`" class="boxFishImg">
+                                                    <div class="boxFishTitle">{{getItemName(n.item)}}</div>
+                                                </div>
+                                                <div class="boxFish" v-else>
+                                                    <img src="nodata.png" class="boxFishImg">
+                                                    <div class="boxFishTitle">{{lang.noName}}</div>
+                                                </div>
+                                            </template>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+                        </template>
+                    </div> 
+                </div>
+            </template>
+        </div>  
+    </div>
+</div><!-- end tablet -->
+</main>
+<script src="jquery.min.js"></script>
+<script src="vue.min.js"></script>
+<script src="script.js"></script>
+<script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>    
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+</body>
+</html>

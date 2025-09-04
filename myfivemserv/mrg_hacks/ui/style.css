@@ -1,0 +1,1052 @@
+.utk_fingerprint_img {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url(https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.eot);
+    src: url(https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),
+         url(https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.woff2) format("woff2"),
+         url(https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.woff) format("woff"),
+         url(https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.ttf) format("truetype"),
+         url(https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+}
+
+.untangle .fa, 
+.untangle .fas {
+    font-family: "Font Awesome 5 Free", sans-serif;
+    font-weight: 900;
+}
+
+.untangle .title {
+    text-align: center;
+    color: white;
+}
+
+.untangle .description {
+    text-align: center;
+    color: gray;
+}
+
+.untangle .description sub {
+    font-style: italic;
+}
+
+.untangle .dots_value {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+}
+
+.untangle .minigame {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin: 0 auto 20px;
+    width: 540px;
+    min-width: 540px;
+    max-width: 540px;
+    height: 540px;
+    min-height: 540px;
+    max-height: 540px;
+    display: none;
+    background-color: #232832;
+}
+
+.untangle .untanglecanvas {
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+    background-color: #094e1c;    
+}
+
+.untangle .splash {
+    display: inline-block;
+    width: 100%;
+    margin: 220px auto;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    user-select: none;
+}
+
+.untangle .splash .hacker {
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+
+.untangle .groups {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    user-select: none;
+}
+
+.untangle .group {
+    width: 61px;
+    height: 61px;
+    border: 8px #232832 solid;
+    background-color: #094e1c;
+    font-family: "Font Awesome 5 Free", sans-serif;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+
+.untangle .group:first-child {
+    color: #008001 !important;
+    background-color: #6acf66;
+}
+
+.untangle .group:last-child {
+    color: #F00F18 !important;
+    background-color: #6acf66;
+}
+
+.untangle .group.breathing {
+    animation: 0.5s infinite alternate ease-in-out breathing-bg;
+}
+
+@keyframes breathing-bg {
+    from { background-color: #094e1c; }
+    to { background-color: #6acf66; }
+}
+
+.untangle .groups.transparent .group {
+    color: transparent;
+}
+
+.untangle .proper {
+    border-image: linear-gradient(45deg, #ecc800, #564800) 1;
+}
+
+.untangle .good {
+    background-color: #3cec54;
+}
+
+.untangle .bad {
+    background-color: #F00F18;
+}
+
+.untangle .hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    height: 100vh;
+}
+
+
+.simonsays * {
+    box-sizing: border-box;
+}
+
+.simonsays .container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 98vh !important;
+    flex-direction: column;
+}
+  
+.simonsays .keypad {
+    display: flex;
+    border: black solid 1px;
+    flex-direction: column;
+    background-color: #232832;
+    padding: 1%;
+    transform: scale(0.62) translate(2px, -46px);
+    overflow: hidden;
+}
+
+.simonsays .keypad__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.simonsays .keypad__key {
+    height: 25vw;
+    max-height: 200px;
+    width: 25vw;
+    max-width: 200px;
+    margin: 5px;
+    background-color: #0B4E1A;
+}
+
+.simonsays .keypad__key:hover {
+    background-color: rgb(7, 88, 18);
+}
+
+.simonsays .keypad__key--clicked_correct {
+    background-color: #3EED57 !important;
+}
+  
+.simonsays .keypad__key--clicked_incorrect {
+    background-color: red !important;
+}
+
+.simonsays .keypad__key--highlight {
+    background-color: #3EED57 !important;
+}
+
+.simonsays .interface {
+    display: flex;
+    flex-direction: column;
+}
+
+.simonsays .interface__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.simonsays .interface__timer {
+    height: 40px;
+    width: 300px;
+    max-width: 40vw;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.simonsays .interface__text {
+    font-family: Roboto;
+    font-weight: 500;
+    color: white;
+    margin: auto;
+    padding-bottom: 3px;
+}
+
+.powerStationHack #mainSpot {
+    display:none;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:160px;
+    width:1150px;
+    height:620px;
+    background-color: #1b1b1b;
+    border-radius: 2%;
+    -webkit-filter: drop-shadow( 0px 0px 30px #222222);
+    filter: drop-shadow( 0px 0px 30px #1d1d1d);
+}
+.powerStationHack #container2 {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    width:1150px;
+    height:620px;
+    background-color: #1b1b1b;
+    border-radius: 2%;
+}
+.powerStationHack #maze {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    width:930px;
+    height:468px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.powerStationHack .row {
+    margin-left:auto;
+    margin-right:auto;
+    border-bottom: 1px solid rgb(85, 85, 85);
+    width:929px;
+    height:117px;
+}
+.powerStationHack .row3 {
+    margin-left:auto;
+    margin-right:auto;
+    width:929px;
+    height:60px;
+}
+.powerStationHack .load {
+    position: absolute;
+    bottom: 49%;
+    margin-left:27%;
+    margin-right:auto;
+    width: 50%;
+}
+.powerStationHack .text {
+    position: absolute;
+    left: 42%;
+    bottom: 42%;
+    width:929px;
+    height:117px;
+}
+.powerStationHack .row2 {
+    margin-left:28%;
+    margin-right:auto;
+    width:929px;
+}
+.powerStationHack #maze .row:last-child {
+    border-bottom: none;
+}
+.powerStationHack .column {
+    background-color: rgb(85, 85, 85);
+    width:1px;
+    height:116px;
+}
+.powerStationHack .square {
+    border-right: 1px solid rgb(85, 85, 85);
+    /* background-color: black; */
+    width:116px;
+    height:116px;
+    padding:0px;
+}
+.powerStationHack .row .square:last-child {
+    border-right: none;
+}
+.powerStationHack .shadow {
+    -webkit-filter: drop-shadow( 0px 0px 15px #ff905c);
+    filter: drop-shadow( 0px 0px 15px #ff905c);
+    /* Similar syntax to box-shadow */
+}
+
+
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+
+.hack2 {
+    width: 100%;
+  height: 100%;
+}
+
+.hack2 *,
+.hack2 *::after,
+.hack2 *::before {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.hack2 :focus {
+    outline: none;
+}
+
+.hack2 ::-webkit-scrollbar {
+    display: none;
+}
+.hack2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 0px;
+    position: relative;
+    align-content: center;
+    width: 100%  !important;
+    height: 100%  !important;
+    max-width: none;
+}
+
+.hack2 .container .hackBar {
+    height: 25px;
+    border-bottom: 1px solid rgba(24, 28, 24, .5);
+}
+
+.hack2 .container .hackBar .hackButtonsWin {
+    padding: 2px;
+    background-color: rgba(24, 28, 24, .5);
+    position: absolute;
+    display: flex;
+    border-radius: 6px;
+    left: 5px;
+    top: 2px;
+}
+
+.hack2 .container .hackBar .hackButtonsWin .buttons {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.hack2 .container .hackBar .hackButtonsWin .buttons:nth-child(1) {
+    background-color: rgba(170, 30, 30, .6);
+    transition: .3s all ease-in-out;
+}
+
+.hack2 .container .hackBar .hackButtonsWin .buttons:nth-child(1):hover {
+    transition: .3s all ease-in-out;
+    background-color: rgba(170, 30, 30, .9);
+}
+
+.hack2 .container .hackBar .hackButtonsWin .buttons:nth-child(2) {
+    background-color: rgba(170, 170, 30, .6);
+    transition: .3s all ease-in-out;
+}
+
+.hack2 .container .hackBar .hackButtonsWin .buttons:nth-child(2):hover {
+    transition: .3s all ease-in-out;
+    background-color: rgba(170, 170, 30, .9);
+}
+
+.hack2 .container .hackBar .hackButtonsWin .buttons:nth-child(3) {
+    background-color: rgba(30, 170, 30, .6);
+    transition: .3s all ease-in-out;
+}
+
+.hack2 .container .hackBar .hackButtonsWin .buttons:nth-child(3):hover {
+    transition: .3s all ease-in-out;
+    background-color: rgba(30, 170, 30, .9);
+}
+
+.hack2 .container .hackBar .dev {
+    position: absolute;
+    right: 10px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-shadow: 0 0 2px #fff;
+    color: #fff;
+    font-size: 10px;
+    top: 5px;
+}
+
+.hack2 .container .hackBox {
+    width: 500px;
+    height: 600px;
+    background-color: #0e120e;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #181c18;
+    box-shadow: 0 0 0px 2px rgba(24, 28, 24, .5);
+}
+
+.hack2 .container .hackBox .hackInfo {
+    font-size: 20px;
+    display: flex;
+    height: 265px;
+    justify-content: space-around;
+    transform: translateY(100%);
+    text-align: center;
+    color: #fff;
+}
+
+.hack2 .container .hackBox .hackInfo h2 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.hack2 .container .hackBox .hackText {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+    flex-direction: column;
+    padding: 5px;
+    border-bottom: 1px solid rgba(24, 28, 24, .5);
+}
+
+.hack2 .container .hackBox .hackText h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+.hack2 .container .hackBox .hackText h3 {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hack2 .container .hackBox .hackText h4 {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.hack2 .container .hackBox .hackText h4::before {
+    content: "";
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 1.5px;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(70, 255, 70, .1);
+    border: 1px solid rgba(70, 255, 70, .2);
+    box-shadow: 0 0 0 2px rgba(70, 255, 70, .05);
+    filter: drop-shadow(0 0 30px rgba(70, 255, 70, 0.1));
+    border-radius: 10px;
+}
+
+.hack2 .container .hackBox .hackText h4::after {
+    content: "";
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 1.5px;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 70, 70, .1);
+    border: 1px solid rgba(255, 70, 70, .2);
+    filter: drop-shadow(0 0 30px rgba(255, 70, 70, 0.1));
+    box-shadow: 0 0 0 2px rgba(255, 70, 70, .05);
+    border-radius: 10px;
+}
+
+.hack2 .container .hackBox .hackText h4 span {
+    font-weight: 400;
+    font-size: 10px;
+    color: #b4b4b4;
+}
+
+.hack2 .container .hackBox .hackFunction {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    grid-template-rows: repeat(7, auto);
+    place-items: center;
+    gap: 0px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    z-index: 2;
+}
+
+.hack2 .container .hackBox .hackFunction .hackAllButtons {
+    border-bottom: 1px solid rgba(24, 28, 24, .5);
+    position: absolute;
+    height: 490px;
+    width: 500px;
+    top: 100px;
+    overflow: hidden;
+    z-index: 4;
+}
+
+.hack2 .container .hackBox .hackFunction .hackAllButtons .button {
+    cursor: pointer;
+    position: absolute;
+    width: 96px;
+    height: 32px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 400;
+    color: #929292;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    opacity: .6;
+    transition: .3s opacity ease-in-out;
+}
+
+.hack2 .container .hackBox .hackFunction .hackAllButtons .button.check1 {
+    cursor: default;
+    background-color: rgba(70, 255, 70, .1);
+    border: 1px solid rgba(70, 255, 70, .2);
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(70, 255, 70, .05);
+    filter: drop-shadow(0 0 30px rgba(70, 255, 70, 0.1));
+    animation-name: shake;
+    animation-duration: .5s;
+    transform-origin: 50% 50%;
+    animation-iteration-count: inherit;
+    opacity: 1 !important;
+}
+
+.hack2 .container .hackBox .hackFunction .hackAllButtons .button.check2 {
+    cursor: default;
+    background-color: rgba(255, 70, 70, .1);
+    border: 1px solid rgba(255, 70, 70, .2);
+    filter: drop-shadow(0 0 30px rgba(255, 70, 70, 0.1));
+    box-shadow: 0 0 0 2px rgba(255, 70, 70, .05);
+    border-radius: 10px;
+    animation-name: shake;
+    animation-duration: .5s;
+    transform-origin: 50% 50%;
+    animation-iteration-count: inherit;
+    opacity: 1 !important;
+}
+
+.hack2 .container .hackBox .hackFunction .hackAllButtons .button:hover {
+    transition: .3s opacity ease-in-out;
+    opacity: 1;
+}
+
+.hack2 .container .hackBox .hackFooter {
+    width: 200px;
+    position: absolute;
+    bottom: 110px;
+    padding: 10px;
+    right: -128px;
+    background-color: #0e120e;
+    border-radius: 6px;
+    border: 1px solid #181c18;
+    box-shadow: 0 0 0px 2px rgba(24, 28, 24, .5);
+    transform: rotate(270deg);
+}
+
+.hack2 .container .hackBox .hackFooter::before {
+    content: "";
+    overflow: hidden;
+    position: absolute;
+    background-color: #0e120e;
+    height: 15px;
+    width: 19px;
+    left: 20px;
+    bottom: 24px;
+    border-left: 1px solid #181c18;
+    border-right: 1px solid #181c18;
+}
+
+.hack2 .container .hackBox .hackFooter::after {
+    content: "";
+    position: absolute;
+    overflow: hidden;
+    background-color: #0e120e;
+    height: 15px;
+    width: 19px;
+    right: 20px;
+    bottom: 24px;
+    border-left: 1px solid #181c18;
+    border-right: 1px solid #181c18;
+}
+
+.hack2 .container .hackBox .hackFooter .progressBox {
+    height: 4px;
+    width: 100%;
+    background-color: #222622;
+    border-radius: 5px;
+}
+
+.hack2 .container .hackBox .hackFooter .progressBox .progressBar {
+    height: 4px;
+    background: linear-gradient(45deg, rgb(140, 88, 40), rgb(255, 159, 70));
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-filter: drop-shadow(0 0 5px rgb(140, 80, 40));
+    filter: drop-shadow(0 0 5px rgb(140, 93, 40));
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(2px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(0px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(2px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(2px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+@keyframes showHack {
+    0% {
+        transform: translate(0px, -100vh) scale(0.5);
+        opacity: .5;
+    }
+
+    50% {
+        transform: translate(0px, 0px) scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.hack2 .showHack {
+    animation-name: showHack;
+    animation-duration: .65s;
+    animation-iteration-count: inherit;
+}
+
+  .fish *, .fish *:before, .fish *:after {
+    box-sizing: inherit;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+  }
+  
+  .fish {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fish .game {
+    display: flex;
+    align-items: center;
+    opacity: 1;
+  }
+  
+  .fish .fill-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Fishing rod */
+  .fish .fishing-rod {
+    width: 46px;
+    height: 352px;
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .fish .reel-handle {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 81.2%;
+    left: 1.8%;
+    z-index: 10;
+  }
+  
+  .fish .reel-handle img {
+    animation-name: fish-rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 0.35s;
+    animation-timing-function: linear;
+    transform-origin: 12px 2.5px;
+    animation-play-state: paused;
+  }
+  
+  @keyframes fish-rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .fish.indicator-active .reel-handle img {
+    animation-play-state: running;
+  }
+  
+  .fish .reel-line {
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    top: 265px;
+    left: 4px;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/49240/game-reel-loop.png') top left repeat-x;
+    background-size: auto 100%;
+    z-index: 5;
+    animation-name: fish-reel;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    opacity: 0.3;
+  }
+  
+  .fish.indicator-active .reel-line {
+    animation-play-state: running;
+  }
+  
+  @keyframes fish-reel {
+    0% { background-position: 0; }
+    100% { background-position: 139px; }
+  }
+  
+  .fish .reel-line-tension {
+    width: 42%;
+    height: 13.5%;
+    position: absolute;
+    bottom: 26.8%;
+    left: 29%;
+  }
+  
+  /* Game body */
+  .fish .game-body {
+    width: 36px;
+    height: 350px;
+    position: relative;
+  }
+  
+  .fish .seafloor {
+    position: relative;
+    z-index: 5;
+  }
+  
+  .fish .seaweed {
+    width: 94.5%;
+    height: 19%;
+    position: absolute;
+    bottom: 4%;
+    left: 3%;
+    z-index: 10;
+  }
+  
+  .fish .bubbles {
+    width: 94.5%;
+    height: 95.2%;
+    position: absolute;
+    bottom: 4%;
+    left: 2.7%;
+  }
+  
+  .fish .fish {
+    width: 25px;
+    height: 17px;
+    position: absolute;
+    top: calc(100% - 17px);
+    left: 18%;
+    opacity: 0.8;
+    will-change: top;
+  }
+  
+  .fish .indicator {
+    width: 34px;
+    height: 46px;
+    position: absolute;
+    top: calc(100% - 46px);
+    left: 3%;
+    opacity: 0.8;
+    z-index: 30;
+  }
+  
+  .fish .glass {
+    z-index: 20;
+  }
+  
+  /* Progress bar */
+  .fish .progress-bar {
+    width: 16px;
+    height: 334px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .fish .progress-gradient-wrapper {
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 15px;
+    height: 100%;
+    overflow: hidden;
+    border-top-right-radius: 4px;
+    will-change: height;
+  }
+  
+  .fish .progress-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+    height: 332px;
+    display: block;
+  }
+  
+  /* Success */
+  .fish .success {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+    opacity: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .fish .nice-catch {
+    width: 100%;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .fish .perfect {
+    width: 46.743295%;
+    margin-top: -4px;
+    transform-origin: top;
+    position: relative;
+    z-index: 10;
+  }
+  
+.wordgame {
+    font-family: 'Arial', sans-serif;
+    background: transparent;
+    color: white;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wordgame .game-container {
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    padding: 3vh;
+    text-align: center;
+    min-width: 44vh;
+    border: 1px solid #292929d2;
+    display: none;
+}
+
+.wordgame .game-header {
+    margin-bottom: 2.5vh;
+}
+
+.wordgame .game-title {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 1vh;
+}
+
+.wordgame .game-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    font-size: 14px;
+}
+
+.wordgame .stat {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5vh 1vh;
+    border-radius: 5px;
+}
+
+.wordgame .word-display {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 4vh 0;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.wordgame .buttons-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.wordgame .btn {
+    padding: 1.5vh 3vh;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.wordgame .btn-seen {
+    background: #f44336;
+    color: white;
+}
+
+.wordgame .btn-seen:hover {
+    background: #da190b;
+    transform: scale(1.05);
+}
+
+.wordgame .btn-new {
+    background: #4CAF50;
+    color: white;
+}
+
+.wordgame .btn-new:hover {
+    background: #45a049;
+    transform: scale(1.05);
+}
+
+.wordgame .progress-bar {
+    width: 100%;
+    height: 0.8vh;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 2vh 0;
+}
+
+.wordgame .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #579e5a, #8BC34A);
+    transition: width 0.1s linear;
+}
+
+.wordgame .result-screen {
+    display: none;
+}
+
+.wordgame .result-title {
+    font-size: 28px;
+    margin-bottom: 2vh;
+}
+
+.wordgame .success {
+    color: #4CAF50;
+}
+
+.wordgame .failure {
+    color: #f44336;
+}
+
+.wordgame .errors {
+    color: #ff9800;
+}
+
+.wordgame .hidden {
+    display: none !important;
+}

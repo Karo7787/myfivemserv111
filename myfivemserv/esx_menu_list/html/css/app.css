@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.menu {
+	/* opacity: 0.85; */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 15px; 
+	border-bottom-right-radius: 15px;  
+	font-family: 'Poppins', sans-serif;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 0px 50px 0px #000;
+	overflow-y: auto;
+	max-height: 90%;
+	color: #fff !important;
+}
+
+.menu button {
+	font-size: 16px !important;
+	font-family: 'Poppins', sans-serif;
+	background-color: rgb(255, 132, 0);
+	color: #ffffff;
+	outline: none;	
+	border: none;
+	border-radius: 5px;
+	transition: all 0.35s ease-in-out;
+}
+
+.menu button:hover {
+	color: #ffffff;
+	transform: scale(1.05);
+}
+
+
+.menu>table {
+	box-shadow: 0px 0px 50px 0px #000;
+	border-spacing: 0;
+	min-width: 400px;
+	background-color: transparent;
+}
+
+.s {
+	background: rgb(255, 132, 0);
+}
+
+.menu>table>thead {
+	background: linear-gradient(270deg, rgb(255, 132, 0), rgb(255, 132, 0));
+  	background-size: 400% 400%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-weight: 700;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	color: #fff;
+}
+
+.menu td {
+	font-size: 16px;
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+}
+
+.menu tbody tr:nth-child(even) {
+	color: #fff !important;
+	background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.menu tbody tr:nth-child(odd) {
+	color: #fff !important;
+	background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+
+@keyframes GradientAnim { 
+  0%{background-position:0% 52%}
+  50%{background-position:100% 49%}
+  100%{background-position:0% 52%}
+}

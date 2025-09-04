@@ -1,0 +1,10 @@
+{
+    "not_enough_cops": "Brak funkcjonariuszy na służbie",
+    "empty_cash_register": "Ta kasa jest pusta",
+    "no_items": "Nie masz potrzebnych przedmiotów",
+    "empty_safe": "Ten sejf jest pusty",
+    "error": "Nie możesz tego zrobić",
+    "wait": "Odczekaj chwile",
+    "open_safe": "Otwórz",
+    "rob_cash_register": "Okradnij"
+}

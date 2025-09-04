@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.1.1/css/pro.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>AmbulanceJob</title>
+</head>
+<body>
+    <div class="radius-wrapper"></div>
+    <div class="damage-wrapper">
+        <div class="damage-info-wrapper">
+            <div class="damage-wrapper-box damage-info-box">
+            </div>
+            <div class="damage-wrapper-box damage-part-box" id="drop-zone">
+            </div>
+        </div>
+        <div class="damage-items-wrapper">
+            <div class="damage-wrapper-box">
+                <span id="healing-items">Przedmioty do leczenia</span>
+            </div>
+            <div class="damage-items-list">
+            </div>
+        </div>
+    </div>
+    <div class="death-wrapper">
+        <span>Jesteś nieprzytomny</span>
+        <span id="death-time">00:00</span>
+        <span>Przytrzymaj <div class="death-key">G</div> aby wezwać służby</span>
+        <span>Przytrzymaj <div class="death-key">E</div> po upływie czasu aby wezwać lokalne służby</span>
+    </div>
+    <img src="images/blood_1.png" alt="" class="blood-image">
+    <div class="human-wrapper">
+        <div class="human">
+            <img src="images/human.png" class="human-image">
+        </div>
+    </div>
+</body>
+<script src="mirage.js"></script>
+</html>

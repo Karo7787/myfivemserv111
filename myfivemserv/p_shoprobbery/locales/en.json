@@ -1,0 +1,10 @@
+{
+    "not_enough_cops": "No officers on duty",
+    "empty_cash_register": "This cash register is empty",
+    "no_items": "You don't have the required items",
+    "empty_safe": "This safe is empty",
+    "error": "You can't do this",
+    "wait": "Wait a moment",
+    "open_safe": "Open",
+    "rob_cash_register": "Rob"
+}

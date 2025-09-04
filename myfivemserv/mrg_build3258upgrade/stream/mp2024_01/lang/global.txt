@@ -1,0 +1,3238 @@
+0x0018B458 = Z karbonową dokładką
+
+0x008CFA81 = Gruby srebrny naszyjnik
+
+0x00B7DA4F = Poziome listwy na grillu
+
+0x00BD7DB5 = Dżinsowa motocyklowa SA
+
+0x00C3C6C8 = Chrom. klasyczne lusterka
+
+0x00DD7801 = Dach, kolor #2
+
+0x01127ECB = Srebrna mankietowa (P)
+
+0x012D9CC2 = Zielona płonąca czaszka
+
+0x015F0888 = Karbonowe szosowe skrzydło
+
+0x016BF351 = Kaczy spojler
+
+0x019B00BD = SCHOWEK NA BROŃ
+
+0x01A94475 = Usunięte światła p-mgielne
+
+0x01D19E30 = Czarno-żółte przeciwsłon.
+
+0x01E7AE05 = Czarne wyścigowe Benefactor
+
+0x02B3FED3 = Gruby złoty naszyjnik
+
+0x02CE16E1 = Czarne technopasy
+
+0x02E04E4E = Biała rybacka LC
+
+0x032DE3FF = Rajdowa maska, kolor #2
+
+0x033C7C7D = Bestia 76
+
+0x0361FC49 = Kwadratowe alt. lusterka
+
+0x03665104 = Sportowy spojler z wykończ.
+
+0x0387C1C2 = Kremowy słomiany letni
+
+0x03A37B3D = Ciemnoszary bezręk. w kropki
+
+0x03A1325C = Koszulka Día de Muertos
+
+0x03B4E5C0 = Chromowane pełne rzęsy
+
+0x03BB1EBB = Wydłużona dokładka
+
+0x03E97930 = Progi HSW I
+
+0x03EB762C = Policja Los Santos
+
+0x0461AFC4 = Uliczny rozłam
+
+0x04C297FA = Rurowe stopnie
+
+0x04F6567F = Rybacka z moro Yeti
+
+0x0526DFEB = Strój Ghosts Exposed
+
+0x052FA993 = Usunięty elem. pionowy
+
+0x05303058 = Seledynowy krótki kombinezon
+
+0x0538E1B0 = Różowa ryb. Bigness w zebrę
+
+0x0544926E = Podwójne wyścigowe wydechy
+
+0x05A613F2 = Dach, kolor #1
+
+0x05D6436D = Maska GT
+
+0x05FAC671 = Brąz. warstwowy naszyjnik
+
+0x0652110A = Kobaltowa wyścigowa Jackal
+
+0x065A36E2 = Czarne dolne pasy
+
+0x067F230E = Ciemnosrebrno-ziel. okrągłe
+
+0x068F02A3 = Torpedowe na nadkolu
+
+0x06B78A8F = Driftowe geom. T-East
+
+0x06E7AB8C = Skrzydło GT III, k. #2
+
+0x070F5E13 = Alt. czarne orurowanie
+
+0x072002D9 = Karb. agresyw. żaluzje boczne
+
+0x07214FED = Z morskim pikselowym moro
+
+0x074FC924 = Czarno-żółte za kostkę
+
+0x07ADA557 = Owalne wydechy
+
+0x07CD25CF = Fioletowy cardigan Güffy
+
+0x07F1B8E0 = Wyścigowy dyfuzor
+
+0x081FCF5E = Koszula jesiennego święta
+
+0x08381791 = Agresywna wentyl. maska, k. #2
+
+0x0840CBEA = Duży dyfuzor
+
+0x084E06EE = Srebrny księżyc. naszyjnik
+
+0x08AE728C = Gęstsza krata, kolor #2
+
+0x08DD4497 = Kute karb. uniesione skrzydło
+
+0x08E4326B = Białe pasy
+
+0x08F32BE3 = Złoty naszyjnik DS
+
+0x094A9B8B = Karbonowe lusterka
+
+0x09972A6F = Pełna dokładka III
+
+0x09F18C67 = Plastikowa dokładka
+
+0x0A067A11 = Wystające rury
+
+0x0A3DE937 = Boczne orurowanie, kolor #2
+
+0x0A4D53E7 = Koszulka Pizza This...
+
+0x0A44BB5E = Proste orurowanie, kolor #2
+
+0x0A5880BA = Złoty naszyjnik ze spluwą
+
+0x0ACD86F8 = Progi HSW II
+
+0x0ACE338C = Czarna kamizela
+
+0x0ADED196 = Srebrno-czarne okrągłe
+
+0x0AE5585A = Białe pasy Cypher
+
+0x0B03005C = Skrzydło Annis
+
+0x0B3FBBC7 = Zakładasz spodnie, wciągając obie nogawki naraz. Pizzę zaczynasz od brzegów. Wciąż masz telefon stacjonarny. Nie obchodzi cię, jak wiele postów musisz wrzucić na Snapmatica, by udowodnić wszystkim, że nie dbasz o ich zdanie. Więc gdy nagrywasz filmik, na którym twoje zaniedbane stopy wyskakują z SUV-a prosto do wody kanionu Raton, w kadrze może być tylko jedna maszyna: oto Castigator, czyli jedyny na świecie ekologiczny SUV, który potrafi przemielić każdy nietknięty zakątek w błotnistą paćkę.
+
+0x0B4D59A8 = Karbonowe uliczne progi
+
+0x0B8CC583 = Klasyczne wyścigowe T-East
+
+0x0B996665 = Ekstr. niestandardowy błękit
+
+0x0BC8CBB8 = Karb. wysunięte na brzegach
+
+0x0BE8605E = Czarna rybacka z monetą SC
+
+0x0BF08890 = Płytowa went. maska III, k. #1
+
+0x0BFA6441 = Karbonowy podwójny wlot
+
+0x0C0318DE = Sportowe skrzydło
+
+0x0C4C8A8D = Dom. dokł. II z wykończ. w k. #2
+
+0x0C4D44A2 = Obniżona dokładka
+
+0x0C56F897 = Zaokrąglony
+
+0x0C89B06E = Skrzydło na tor
+
+0x0C334909 = Plastikowe domont. nadkola
+
+0x0CA32E59 = Podwójnie wentyl. maska, k. #2
+
+0x0CAA996E = Gruby różany łańcuch (L)
+
+0x0CCC3AAD = Odchylony spojler, k. #2
+
+0x0CD2F86D = Fioletowy bezręk. w kropki
+
+0x0CFCD1C2 = Wyścigowa maska
+
+0x0D90D75D = Dwa czarne pasy
+
+0x0D8016A9 = Karb. skrzydlate z akc., k. #2
+
+0x0D713227 = Wydłużona dokładka I
+
+0x0E340CE1 = Duży kaczy spojler
+
+0x0EA3C44C = Ciemna manga
+
+0x0EF7AC64 = Rurowe stopnie II
+
+0x0EF895F7 = Srebrny księżyc. naszyjnik
+
+0x0F48B27B = Strój Ghosts Exposed
+
+0x0F9039AD = Biało-szare przeciwsłoneczne
+
+0x0F255667 = Zderzak, kolor #1
+
+0x0F626001 = Cypher
+
+0x0FC72F22 = Ekstraktor ciepła
+
+0x0FCEF199 = Szeryf hrabstwa (gruchot)
+
+0x0FCF93E0 = Karbonowe żaluzje
+
+0x0FDA85A7 = Wygładzana maska
+
+0x1A14A61D = Domontowana dokładka II
+
+0x1A5699E2 = Wściekle różowy krótki kom.
+
+0x1AB0B10A = Skrzydlate progi, kolor #2
+
+0x1AC13B0F = Czarny pas przeciwsłoneczny
+
+0x1AC493BA = Czapka Pizza This...
+
+0x1B3A050A = Niska motylkowa dmuchawa
+
+0x1B7D69D7 = Dwuczęści. skrzydło, k. #1
+
+0x1B34E60F = Biuro kaucyjne Bottom Dollar
+
+0x1B443760 = Karbonowa lotka
+
+0x1B688108 = Kaczy spojler
+
+0x1BBF6BA5 = Wysunięte progi na brzegach
+
+0x1BDF0410 = Dach z wlotem, kolor #2
+
+0x1BFB5ECB = Otaczające orur., kolor #1
+
+0x1C2CCF9A = Pełna dokładka IV
+
+0x1C9BCB37 = Lusterka, kolor #2
+
+0x1C91A99C = Sportowy spojler
+
+0x1C99750B = Srebrno-różowe okrągłe
+
+0x1CBD5407 = Biało-bursztynowe przeciwsł.
+
+0x1D005FF8 = Cytrynowy krótki kombinezon
+
+0x1D035489 = Uliczne pasy
+
+0x1D09D552 = Pas z tyłu
+
+0x1D4A9838 = Podwójnie wentylowana, k. #1
+
+0x1D26A4A3 = Obręczowe skrzydło, kolor #2
+
+0x1D96964E = Ekipa 76
+
+0x1DB76243 =  Zapętlone orur., kolor #1
+
+0x1DC070F3 = Karbonowe wyścigowe skrzydło
+
+0x1DD0B1A9 = Czarny kontur
+
+0x1E5AFFB7 = Sportowe progi
+
+0x1E9B693E = Karbon. obniżona dokładka
+
+0x1E219C2C = Podwójny zaokrąglony
+
+0x1EBF3B8F = Gradientowe krzyże
+
+0x1F0630BA = Ogłuszacz
+
+0x1F2DFA97 = Potrójne białe pasy boczne
+
+0x1F64C456 = Pas przeciwsłoneczny, kol. #2
+
+0x1F909DE8 = Lawendowy bezręk. w kropki
+
+0x1F1475F1 = Wentylowana maska
+
+0x1F5055FB = Skrzydło na asfalt
+
+0x1F8324F8 = Przegroda maski, kolor #2
+
+0x1FBEDC53 = Wykończenie, kolor #2
+
+0x1FBF5D3B = Skrzydło GT III, ramię k. #2
+
+0x1FC785FF = Malowane kwadratowe lusterka
+
+0x1FCD9DE1 = Chromowane rzęsy
+
+0x2A4E64A7 = Zestaw uliczny
+
+0x2A5C39ED = Beżowy krótki kombinezon
+
+0x2A5FA355 = Wlot powietrza
+
+0x2A6C7295 = Skrzydło GT III
+
+0x2AC8F014 = Uliczny kamuflaż
+
+0x2B0EF0AA = Biało-żółte przeciwsłoneczne
+
+0x2B4C4CE2 = Antena, kolor #2
+
+0x2B12B265 = Malowane fabryczne lusterka
+
+0x2B286C4C = Podwójne małe wydechy
+
+0x2B575DFE = Gdy tępy uraz nie wystarczy, możesz nieco urozmaicić swoje podejście do rozbojów i sięgnąć po dawkę 30 000 woltów.
+
+0x2BC592E3 = Wyścigowy dyfuzor
+
+0x2BE0C2D7 = Kratowany zderzak
+
+0x2C13CE2F = Retro kultowe
+
+0x2C14C545 = Dyfuzor HSW I
+
+0x2C677D01 = Karbonowa dokładka
+
+0x2C7556FB = Tagi graffiti
+
+0x2CAA7F1F = Moro z mackami
+
+0x2CB02486 = Koszula jesiennego święta
+
+0x2CC52C4C = THIS LABEL NEEDS TO BE HERE !!!
+
+0x2CE11B70 = Z czarnym pikselowym moro
+
+0x2CE18F7B = W brązowe plastry
+
+0x2CEC0845 = Klasyczne mangowe
+
+0x2D2E7D1F = Karbonowy zderzak
+
+0x2D563BDB = Grill z emblematem, kolor #2
+
+0x2DE5FB01 = W niebieskie plastry
+
+0x2E1A92B3 = Różana mankietowa (P)
+
+0x2E28FA5D = Różana mankietowa (P)
+
+0x2E785EC1 = Wyścigowe płomienie retro
+
+0x2EB1B21E = Alt. orur., kolor #2 i błot.
+
+0x2EDCF514 = Sportowe skrzydło
+
+0x2EE9D2F7 = Sześciokątna krata, k. #2
+
+0x2EF578F3 = Szeryf Los Santos
+
+0x2F0AC86B = Karbonowe uliczne skrzydło
+
+0x2F8A9358 = Karbonowa wentylowana maska
+
+0x2F98E4D5 = Płyty pancerne
+
+0x2F7904E9 = Liliowy krótki kombinezon
+
+0x2F9384B7 = Czarne zachodu słońca
+
+0x2FB735B3 = Beżowy słomiany letni
+
+0x3A6A531A = Przymknięte osłony
+
+0x3A998FBD = Szczęśliwe wyścigowe
+
+0x3A364825 = Specjalne pasy
+
+0x3A985105 = Zielone 69 za kostkę
+
+0x3AC15153 = Białe 69 za kostkę
+
+0x3ACF14D3 = W morskie fale
+
+0x3AF1F8B7 = Dokładka
+
+0x3AFBAE09 = Wydł. dokładka z wcięciem IV
+
+0x3B176C78 = Karbonowy dach
+
+0x3B671DD6 = Itasha Run Neds
+
+0x3BC3EE41 = Szary słomiany letni
+
+0x3BCEB3D8 = Dwa białe pasy
+
+0x3BF4454B = Zaklejone św. p-mgiel. i hak
+
+0x3C4A6D2D = Agresyw. żaluzje boczne, k. #2
+
+0x3C9BF038 = Wyścigowe światła
+
+0x3C13914B = Srebrny naszyjnik DS
+
+0x3CB3188A = Gruby srebrny łańcuch (L)
+
+0x3CC16F07 = Wyścigowe na nadkolu
+
+0x3CC152CF = Szary słomiany letni
+
+0x3CDF17C9 = Brązowa mankietowa (P)
+
+0x3D3E0E69 = Fioletowy świecący szkielet
+
+0x3D8C401E = Czarny naszyjnik ze spluwą
+
+0x3D49C3A3 = Marmurowy kam. naszyjnik
+
+0x3D8148B0 = Usuń wykończenie
+
+0x3DB42588 = Wyeliminowano
+
+0x3DBE4F49 = Różana mankietowa (P)
+
+0x3DC714A4 = Zapinki maski
+
+0x3E064C04 = Orurowanie, kolor #1
+
+0x3E1B378E = Karbonowy duży dyfuzor
+
+0x3E2EDD8C = Wąski grill
+
+0x3F26ACBA = Zdezelowane mangowe
+
+0x3FA01838 = Grill kratowany
+
+0x3FA8C1D4 = Białe wyścigowe Pisswasser
+
+0x3FCDCE31 = Obudowana dmuchawa
+
+0x3FE215D3 = Srebrno-morskie okrągłe
+
+0x4A2DBA13 = Fioletowe body Calaca
+
+0x4A78B890 = Impaler SZ Cruiser
+
+0x4AAFFBD1 = Drelichy khaki 247
+
+0x4AB43580 = Bottom Dollar
+
+0x4AE403C0 = Popielata kamizela
+
+0x4AFB273E = Technopasy Bollokan
+
+0x4B00BCD9 = Czarne otaczające orurowanie
+
+0x4B06CBC5 = Kontrastowe moro SC
+
+0x4B3C6B99 = Kremowy słomiany letni
+
+0x4B6A00D0 = Zielona płonąca czaszka
+
+0x4B62039F = Różowe 69 za kostkę
+
+0x4BD37A92 = Tylna klatka
+
+0x4BF9B8A1 = Wyścigowe Terroil
+
+0x4BF36D64 = Dokładka HSW I
+
+0x4C0713DA = Wyścigowe progi, kolor #2
+
+0x4C7D8E1E = Czarna krata
+
+0x4C10ADDA = Karbon. progi Aero
+
+0x4C69D64E = Srebrna mankietowa (L)
+
+0x4CB8F7B7 = Czarne rzęsy
+
+0x4CC6B079 = Ciemna mankietowa (L)
+
+0x4CC634C8 = Gruby różany łańcuch (P)
+
+0x4CD7F580 = Czarne 69 za kostkę
+
+0x4CDD29C0 = Domontowany zestaw
+
+0x4CF2F5BA = Różowe 69 za kostkę
+
+0x4CFFEDB7 = Malowana taśma na reflektorach
+
+0x4D6AC1AD = Czarne zapętlone orurowanie
+
+0x4D7CA9E0 = Podwójne białe pasy
+
+0x4D14AEAA = Podwójne wzory
+
+0x4DBB412E = Niebieskie body z ziołem
+
+0x4DC465BF = Lotka
+
+0x4DD0B1B0 = Srebrno-różowe okrągłe
+
+0x4DF2780F = Castigator
+
+0x4E4D8E68 = Wycięte skrzyd. progi, k. #2
+
+0x4E29F38D = Rybacka Bigness w zebrę
+
+0x4E78D8B3 = Driftowe Arrow
+
+0x4E176D06 = Z czarnym pikselowym moro
+
+0x4E781514 = Sweter z czerw. logo Rockstar
+
+0x4EAE3654 = Ryflowany grill
+
+0x4EFE12EA = Maska HSW II
+
+0x4F9C1127 = Dzielona dokładka II
+
+0x4F17C864 = Wyścigowe geometryczne
+
+0x4F81FA24 = Zdezelowane T-East
+
+0x4F729ADE = Koszula z drutem kolczastym
+
+0x4FA9D58F = Poszerzone nadkola, kolor #1
+
+0x4FF1A87D = Brązowa mankietowa (P)
+
+0x5A5DCFCB = Patrol drogowy (jasne)
+
+0x5A9DA333 = Musztardowa kamizela
+
+0x5A35C670 = Kute karb. wyścig. wywietrz.
+
+0x5A81F813 = Szara czaszka z kapturem
+
+0x5A83AC0F = Niebieskie światła
+
+0x5AA4987A = Nowoczesna wkładka, k. #2
+
+0x5AC8700B = Srebrny warstwowy naszyjnik
+
+0x5B9B6E50 = Gruby ciemny łańcuch (L)
+
+0x5B488021 = Otagowane graffiti
+
+0x5B790387 = Niebieska ryb. z monetą SC
+
+0x5BBF1496 = Plastikowe płetwy
+
+0x5C75D1E3 = Grill wyścigowy
+
+0x5C482DB3 = Chromowana krata
+
+0x5C86883E = Driftowe z fraktalami
+
+0x5CC86F48 = Szare moro SC
+
+0x5CE3CFD6 = Srebrno-czarne okrągłe
+
+0x5CF32BB3 = Skrzydlate progi, kolor #2
+
+0x5D041FF9 = Maska, kolor #2
+
+0x5D4CE4CE = Czarny wyścigowy płomień
+
+0x5D4E20A5 = Przedstawiamy bezdyskusyjną gwiazdę lat dwutysięcznych. Na rynek powraca czempion pełnej krwi, czyli Yosemite 1500, 20-letni koń roboczy, którego możesz batożyć do woli. Nieważne, czy wieziesz stos trupów, czy kilka beczek acetonu – to transport bez zbędnych pytań, który sprawił, że Sandy Shores stało się kwitnącym centrum niczym nieskrępowanej przedsiębiorczości.
+
+0x5D6E077F = Zestaw poszerzający
+
+0x5D38B286 = Szeroki wydech
+
+0x5DA63EB3 = Czerwone wąskie linie
+
+0x5DD2B771 = Karbon. wyścigowe z akcentem
+
+0x5DE7AA3E = Niski dyfuzor
+
+0x5E002DEF = Karb. dzielona dokładka II
+
+0x5E2B66BE = Dominator FX
+
+0x5E9FCD45 = Zestaw wyścigowy
+
+0x5E12B440 = Gruby ciemny łańcuch (P)
+
+0x5EB140C9 = Czarne pasy Canis
+
+0x5EB239EB = Dummy label.
+
+0x5EBDA3F9 = Sądowa boazeria
+
+0x5ECA98B3 = Kratkowana wkładka grilla
+
+0x5ECF87D5 = Skrzydło GT, wer. 2
+
+0x5F7A2FBD = Czerwona rybacka FB
+
+0x5F8C735B = Karb. sportowa wentyl. maska
+
+0x5F638F45 = Niebieska czacha z kapturem
+
+0x5FD8B51E = Karb. wentylowana dokładka
+
+0x5FD174C0 = Złota mankietowa (P)
+
+0x6A0F40F9 = Dwutonowe 69 za kostkę
+
+0x6A1C0FA7 = Zderzak z przetłoczeniami
+
+0x6A2D6A69 = Złoto-czerwone okrągłe
+
+0x6A70AC1E = Biała rybacka Güffy
+
+0x6A71C549 = Kiedyś odznaka coś znaczyła. Nocne imprezy w magazynie dowodów. Zabieganie o czwartą z rzędu rotację w obyczajówce. Jazda nieoznakowanym Impalerem LX przez Davis i rozwożenie forsy na różne projekty społeczne. Dni chwały może i przeminęły, ale radiowóz LX wciąż jest najlepszym wyborem na rundę honorową. Jeśli gliniarzom brakuje już ikry, to bandziory muszą przejąć pałeczkę.~n~~n~– Umożliwia przyjmowanie wezwań policyjnych~n~~n~Uwaga: Ten pojazd można modyfikować wyłącznie we własnych nieruchomościach i ma zerową wartość w odsprzedaży.
+
+0x6AA89861 = Progi z wlotami
+
+0x6AC0A4B2 = Driftowe Junk
+
+0x6B5B1277 = Zielone driftowe Wasabi
+
+0x6B88C78D = Długodystansowy spojler
+
+0x6B139B2C = Srebrny naszyjnik ze spluwą
+
+0x6B614C2F = Obniżona dokładka, kolor #2
+
+0x6BC2C952 = Skrzydlate progi
+
+0x6BCA4DE5 = Złoty księżycowy naszyjnik
+
+0x6C3B9AF9 = Driftowe Exotic
+
+0x6C88B42F = Wkładka grilla, kolor #2
+
+0x6C112BF2 = Złota mankietowa (P)
+
+0x6C622C80 = Pas przeciwsłoneczny
+
+0x6CB998BB = Różowa rybacka z moro Yeti
+
+0x6CC04D75 = Lodowy bezrękawnik w kropki
+
+0x6CD210A9 = Ekstremalna dokładka IV
+
+0x6CF25C07 = Wyścigowe progi
+
+0x6CF17817 = Skrzydlate progi, kolor #2
+
+0x6D0E400D = Przegroda maski z wykończ.
+
+0x6D7F248E = Wyścigowe Terroil
+
+0x6D51A738 = Różowa rybacka z monetą SC
+
+0x6D451B75 = Importowane lusterka
+
+0x6D182466 = Montaż na zderzaku
+
+0x6DA3752A = Brązowy naszyjnik DS
+
+0x6E04C65E = Alt. uliczne uniesione, k. #2
+
+0x6E5A9890 = Ciemnosrebr.-czarne okrągłe
+
+0x6E8F87F6 = Kute karb. skrzydło Overflod
+
+0x6E21CA3B = Krwista kamizela
+
+0x6E213A69 = Skrzydło na bagażniku
+
+0x6EB7C2AB = Czekolad. krótki kombinezon
+
+0x6F085625 = Chrom. szeroki wydech
+
+0x6F7A7FE9 = Ciemna mankietowa (L)
+
+0x6F21E1AA = Białe pasy
+
+0x6F493A0E = Żaluzje HSW
+
+0x6FBBA286 = Niebieska czacha z kapturem
+
+0x7A4AFBD5 = Agresywna wentyl. maska, k. #1
+
+0x7A20EA8E = Różany księżycowy naszyjnik
+
+0x7A98EA9E = Karb. wentylowana z akc., k #2
+
+0x7A456ED3 = Złota mankietowa (P)
+
+0x7AA7CC03 = Sierżant policji
+
+0x7AAB65D2 = Aerodynamiczny spojler
+
+0x7B1E10C5 = Wyścigowe Pure Lube
+
+0x7B3CFF6E = Lusterka, kolor #2
+
+0x7B8517B7 = Czerwone wzory
+
+0x7B278857 = Rajdowe wywietrzniki, k. #2
+
+0x7BDCE494 = Zielone 69 za kostkę
+
+0x7BFC15E2 = Ciemnozielona kamizela
+
+0x7C1C0715 = Policja (gruchot)
+
+0x7C8B69DF = Rybacka Bigness w zebrę
+
+0x7C6775E5 = Plemienne Rimmers
+
+0x7C111610 = Pomarańczowa kamizela
+
+0x7CA5F150 = Czarny księżycowy naszyjnik
+
+0x7CAEE755 = Lodowa kamizela
+
+0x7CCB16F3 = THIS LABEL NEEDS TO BE HERE !!!
+
+0x7CD81F3F = Czarne wschodu słońca
+
+0x7CE6AAFC = Potrójny wlot powietrza
+
+0x7D8BB6D8 = Różowe driftowe Wasabi
+
+0x7D75D08B = Zielony świecący szkielet
+
+0x7D65946C = Karbonowe nadkola
+
+0x7D518260 = Kamuflaż - rekin
+
+0x7DDDDCA3 = Skrzydło HSW I
+
+0x7E8FC9B4 = Rybacka Krapea
+
+0x7E72F32E = Turbulizatory, kolor #2
+
+0x7E209538 = Różowe Modular
+
+0x7EBA0297 = Czarny warstwowy naszyjnik
+
+0x7EBC0211 = Usunięte chromowane listwy
+
+0x7EC1A85A = Skrzydło Overflod, kolor #2
+
+0x7F5FA94C = Sportowy dyfuzor bez zderzaka
+
+0x7F35A5B8 = Karb. skrzydlate wykończenie
+
+0x7F4980B5 = Sportowe progi
+
+0x7FC7C192 = Malowane wyścigowe lusterka
+
+0x7FED9FF2 = Pom.-czarne body z mandalą
+
+0x7FED5058 = Szara czaszka z kapturem
+
+0x8A9F4D06 = Czarno-żółte za kostkę
+
+0x8ABFB36D = Czerwona kamizela
+
+0x8AFF3D59 = Ekstremalne skrzydło Aero
+
+0x8B44BEFB = Coquette D1
+
+0x8B321F08 = Karbonowy dach
+
+0x8B706C22 = Kaczy spojler
+
+0x8BAF0114 = Obręczowe skrzydło
+
+0x8BB705D8 = Domontowany dyfuzor, k. #2
+
+0x8BF078C8 = Skrzydło HSW II
+
+0x8C2D5851 = Dominator FX Interceptor
+
+0x8C6E6294 = Płomienie
+
+0x8C7D288C = Karb. maska z dwoma wlotami
+
+0x8C9A514D = Wydł. dokładka z wcięciem I
+
+0x8C96FDAF = Granatowy bezręk. w kropki
+
+0x8C6663DA = Kuty karbonowy pełen wlot
+
+0x8CBFB0D8 = Skrzydło do driftu
+
+0x8D6DDED5 = Przetwarzanie
+
+0x8D8E2D24 = Rajdowe wywietrzniki
+
+0x8D44AF7E = Skośne tylne podw. wydechy
+
+0x8D884B0F = Karbonowa maska z wlotem
+
+0x8D273345 = Fioletowe Modular
+
+0x8DA83C11 = Zabezpieczono
+
+0x8DF5D646 = Kuty karb. kratkowany grill
+
+0x8E0708EF = Biało-żółte przeciwsłoneczne
+
+0x8E6D108A = Stoisz przed wyborem między ciepłym kocykiem nostalgii a szalonym technopopędem posthumanistycznego futuryzmu? Elektryczna retromieszanka, jaką oferuje Bollokan Envisage, sprawia, że już nie musisz wybierać. Doświadcz całego wilgotnego seksapilu lat 70. ze swobodnym seksem bez zabezpieczeń i zarośniętymi klatami, ale bez kryzysu paliwowego. Jednocześnie posmakuj zroszonego deszczem, oświetlonego neonami, dystopijnego stylu holograficznych fantazji z niedalekiej przyszłości, ale bez szorowania materaca nad ranem.~n~~n~Można zamontować ulepszenia Imani w warsztacie agencji.
+
+0x8E7A125C = Wyścigowa dokładka, kol. #2
+
+0x8E420B6C = Koszula z drutem kolczastym
+
+0x8E450E45 = Ciemnoorzechowa kamizela
+
+0x8E8601A5 = Liliowy bezrękawnik w kropki
+
+0x8E88927D = Itasha 96
+
+0x8EE2A097 = Wyścigowa dokładka
+
+0x8EEA44DB = Driftowe Dense
+
+0x8EF6C3E3 = Szmarag. krótki kombinezon
+
+0x8F0A7AF8 = Pas przeciwsłoneczny, kol. #2
+
+0x8F4EE448 = Białe geometryczne
+
+0x8FD56C3F = Czarna rybacka LC
+
+0x8FEE24FF = Złoty warstwowy naszyjnik
+
+0x9A0E4AD4 = Złota mankietowa (L)
+
+0x9A1F3CA3 = Biało-fioletowe 69 za kostkę
+
+0x9A2D2507 = Płytowa went. maska I, k. #1
+
+0x9A8B9AE5 = Białe gromowe pasy
+
+0x9AE86A7A = Limonkowy krótki kombinezon
+
+0x9AEC29D0 = Szary bezrękawnik w kropki
+
+0x9AF7E49D = Maska wentylowana III
+
+0x9B0659E8 = Brązowa mankietowa (L)
+
+0x9B070AEB = Skrzydło na tor
+
+0x9B2C442D = Chromowany skośny wydech
+
+0x9B2358F5 = Osłona turbosprężarki
+
+0x9BB94AAB = Zderzak, kolor #2
+
+0x9BD4247E = Białe w płomienie za kostkę
+
+0x9BEEFBE2 = Marmurowy kam. naszyjnik
+
+0x9C2C0471 = Poczwórne wloty
+
+0x9C2CACAD = Kremowy słomiany letni
+
+0x9C6FDE96 = Fioletowe body z ziołem
+
+0x9C61B197 = Analogowa legenda Annis Euros X32 pozwala wrzucić bieg wsteczny i wrócić do dni chwały XX wieku, gdy pagery były szczytem nowoczesności, a gra wstępna opcjonalna. Ten wóz sportowy z silnikiem V6 stanowi ostatnią próbę uchwycenia kultury z czasów, zanim SI zabrała wszystkim pracę, a algorytmy mediów społecznościowych — wolną wolę. Tutaj nie ma żadnej ściemy i dostajesz to, co na obrazku: szybkość, styl i ryk silnika, który usłyszy cały świat. Genialny powrót do ostatniej chwili, zanim wszystko szlag trafił.
+
+0x9CCA1B73 = Karbonowe wykończenie
+
+0x9CDDA352 = Plast. pas przeciwsłoneczny
+
+0x9D7AB34D = Rajdowa dokładka, kolor #2
+
+0x9D831AF1 = Potrójny wydech
+
+0x9D36274D = Czarne szylkretowe przeciwsł.
+
+0x9D57653B = Wyścigowy dyfuzor
+
+0x9DC4F764 = Srebrno-morskie okrągłe
+
+0x9E008806 = Sportowa maska
+
+0x9E5EF488 = Przesunięty wlot
+
+0x9E9C3C20 = Dokładka, kolor #2
+
+0x9E40D119 = Wyścigowe retro
+
+0x9E463292 = Promienne
+
+0x9EA71925 = Dwutonowe 69 za kostkę
+
+0x9ED3F5C0 = Wydł. dokładka z wcięciem II
+
+0x9ED55503 = Fabryczny spojler
+
+0x9EF6AEC7 = Dorado Cruiser
+
+0x9F0EE7C0 = Wlot na dachu
+
+0x9F69DCBD = Krwista kamizela
+
+0x9F870799 = Żółta rybacka Panic
+
+0x9FD836B7 = Zielone światła
+
+0x10A52714 = Karbonowe skrzydło GT
+
+0x10B897BB = Karbonowy dach z anteną
+
+0x10C5B2D0 = Białe podwójne pasy
+
+0x12A3968C = Oldskulowy
+
+0x12B9039A = Spojler na zderzaku
+
+0x12DB7275 = Sweter z czerw. logo Rockstar
+
+0x13AC1F6E = Wydech w stylu shakotan
+
+0x13B55F77 = Wytrzymały zderzak II
+
+0x13C919A3 = Montowany znak stopu
+
+0x13E1C6F7 = Torpedowy tylny zderzak
+
+0x15B41D36 = Wycięte dok. na progi, k. #2
+
+0x15D42A85 = Poszerzony Sentinel Classic
+
+0x15E845B4 = Malowana dokładka
+
+0x16A1B639 = Kute karbonowe lusterka
+
+0x16A676C6 = Antena retro
+
+0x16A54747 = Czarny naszyjnik DS
+
+0x16ED42ED = Karbonowa podwójnie wentyl.
+
+0x17A3346F = Brąz. warstwowy naszyjnik
+
+0x17CD377F = Podwójny z tytanową końcówką
+
+0x17DB72C4 = Uliczne progi
+
+0x17DCA452 = Agresywne żaluzje boczne
+
+0x17E9E59C = W niebiesko-zielone paski
+
+0x18ABA6DC = Kwadratowe na nadkolu
+
+0x19AD0290 = Ekstr. niestandardowa czerwień
+
+0x19B81D8D = Czerwona płonąca czacha
+
+0x19B188E1 = Dokładka HSW II
+
+0x19EE5E12 = Białe wyścigowe Benefactor
+
+0x19EF6F47 = Dyfuzor, kolor #2
+
+0x21B20910 = Czarny pas
+
+0x21BC9AB7 = Turkusowa ryb. w cętki Güffy
+
+0x21EB9FA8 = Jasnoniebieskie 69 za kostkę
+
+0x22C0BC27 = Gruby różany łańcuch (L)
+
+0x22FF81C1 = Driftowe Neds
+
+0x22FFEFA0 = Kuty karbon. powięk. wlot
+
+0x23ABE13B = Chromowana dokładka
+
+0x23B2B55A = Ciemnozielona kamizela
+
+0x23BBB945 = Dokładka na próg, kolor #2
+
+0x23EF38A8 = Biała rybacka Cimicino
+
+0x24D88579 = Złoto-czarne okrągłe
+
+0x25ACBF9A = Karbonowe agresywne żaluzje
+
+0x25E7E310 = Pełna dokładka I
+
+0x25E26FFF = Szosowa dokładka z kut. karb.
+
+0x25FCF869 = Różany naszyjnik DS
+
+0x25FDC5D4 = Plast. pas przeciwsłoneczny
+
+0x26F1D3AD = Karb. autocrossowe skrzydło
+
+0x27B08B9C = Czarne kolczaste pasy
+
+0x27B1C359 = Burgun. bezrękawnik w kropki
+
+0x27B7E864 = Technopunk
+
+0x27FB0714 = Gruby srebrny łańcuch (L)
+
+0x28B14356 = Karbon. domont. dokładka II
+
+0x28FC9509 = Czerwona czacha z kapturem
+
+0x29B85B55 = Podwójny szeroki wydech
+
+0x30C51F5A = Białe paski Overlfod
+
+0x30E83F73 = Podwójnie wentylowana, k. #2
+
+0x31AE51CC = Domontowany dyfuzor
+
+0x31DE01B4 = Żaluzje boczne HSW
+
+0x31F8A6F2 = Wyścigowe progi
+
+0x32C586B7 = Wysokie wyś. skrzydło, k. #2
+
+0x33BFD7F8 = Zawinięty spojler
+
+0x33D3EEC8 = Karbonowa uliczna maska
+
+0x33FE8249 = Czarno-bursztynowe przeciwsł.
+
+0x34D223DC = Wyścigowe lusterka
+
+0x35B850A5 = Pomarańcz. krótki kombinez.
+
+0x35BBC114 = Brązowy indyk
+
+0x35D95215 = Karny klasyczny
+
+0x36C61BF5 = Zdezelowane Hardcore
+
+0x36E3696F = Karbonowe skrzydlate progi
+
+0x36ED5AB6 = Żółte Panic za kostkę
+
+0x37D1E691 = Różana mankietowa (P)
+
+0x38ABAED4 = Malowany aerodynamiczny
+
+0x38B7B3FE = Driftowa taksówka
+
+0x39A9563E = Użytkowa tylna klatka
+
+0x39C32E10 = Brązowy niepokojący kot
+
+0x39CB8AF1 = Kaczy spojler
+
+0x39D784F7 = Wyścigowe Junk
+
+0x39F2BCF5 = Turkusowy kam. naszyjnik
+
+0x39F269EC = Czarne paski ze strzałką
+
+0x39F20865 = Czerwone wzory retro
+
+0x40A9953C = Brązowy indyk
+
+0x40AAF21F = Niebieska rybacka FB
+
+0x40FC055F = Czarne boczne pasy
+
+0x41BF1D24 = Kute karbonowe nadkola
+
+0x41C16DD8 = Skrzydło Annis, kolor #2
+
+0x41D73B73 = Wojskowe za kostkę
+
+0x41E820A5 = Kute karbonowe wykończenie
+
+0x42A6D84F = Ciemnoorzechowa kamizela
+
+0x42B177F4 = Fioletowy cardigan Güffy
+
+0x42D623C7 = Envisage
+
+0x42F743BE = Czarne paski Overlfod
+
+0x44A7762A = Jasnoniebieskie 69 za kostkę
+
+0x44B7A3E3 = Burszt. szylkret. przeciwsł.
+
+0x44C03B16 = Plastikowe kaczki
+
+0x45A96431 = Grill listwowy
+
+0x45EFF2BB = STYL
+
+0x46A782C3 = Chromowane lusterka
+
+0x48A68796 = Karbon. dach z turbulizatorami
+
+0x49EACE5D = Pastelowe retro za kostkę
+
+0x50F1F4E5 = Kasztanowa kamizela
+
+0x50F629D0 = Kwadratowe wydechy
+
+0x51A9B1EB = Stopnie Stinger
+
+0x51AC1B71 = Wyczynowy wydech
+
+0x51D1D7E6 = Sportowa wentyl. maska, k. #2
+
+0x51FA582E = Wysunięte progi
+
+0x51FD0DE0 = Chromowane zapięcia maski
+
+0x53ADCA0B = Wklęsła maska z wlotem
+
+0x53DFCDD6 = Plast. pas przeciwsłoneczny
+
+0x53E77C89 = Alt. czarne boczne orurowanie
+
+0x53EBCDCE = Turkusowy krótki kombinezon
+
+0x54C852E7 = Kurtka Bottom Dollar
+
+0x54D99A2F = Spojler mostowy
+
+0x54EF5E34 = Gruby srebrny naszyjnik
+
+0x54FD4310 = Poprzeczne zapinki maski
+
+0x55CDF831 = Czarna rybacka z monetą SC
+
+0x55EA1FC9 = Pomarańczowy bezręk. w kropki
+
+0x56A4B7D5 = Gruby brązowy łańcuch (P)
+
+0x56ABBC35 = Patrol drogowy (gruchot)
+
+0x56EF01AE = Ciemna mankietowa (P)
+
+0x56FFDF95 = Karbonowe kaczki
+
+0x57AB469E = Wydłużona dokładka II
+
+0x58BC45CA = Czarny pas Meinmacht
+
+0x58C29BDA = Uliczne uniesione, kolor #2
+
+0x58D6A852 = Gruby brązowy łańcuch (L)
+
+0x59A217DE = Jasnonieb. bezręk. w kropki
+
+0x59A75525 = Koszulka grozy Halloween
+
+0x59B4F5F8 = Czerwone pasy Cypher
+
+0x59B988B5 = Skrzydło szosowe
+
+0x59EDEBF7 = Zderzak, kolor #2
+
+0x61B4720B = Płytowa wentylowana maska I
+
+0x62A51541 = Orurowanie, kolor #2
+
+0x62FBC834 = Czarne body z grzybami
+
+0x63A30BBC = BIURA KAUCYJNE
+
+0x63E2BFDE = Chrom. wyczynowy wydech
+
+0x64C1C8AA = Nebula Turbo
+
+0x64C36F7D = Jasnonieb. krótki kombinezon
+
+0x65C3EAB8 = Kontrastowe moro SC
+
+0x65CF40C1 = Chromowana gęsta krata
+
+0x66B195EF = Rybacka z moro Yeti
+
+0x66DCD8B3 = Kratkowany grill
+
+0x67A342B2 = AGENT 1
+
+0x67B104D3 = Rajdowe skrzydło, kolor #2
+
+0x68E93654 = Seledynowy bezręk. w kropki
+
+0x69AD47AF = Pas przeciwsłoneczny, kol. #1
+
+0x69C92469 = W czarną kratę
+
+0x70E47910 = Wydłużona dokładka III
+
+0x71C7DBAA = Gruby złoty łańcuch (P)
+
+0x71E5DA14 = Dach z wlotem
+
+0x71F2A667 = Czarna złamana geometria
+
+0x71FD99B2 = W czarne fale
+
+0x72AA218E = Biała wyścigowa flaga
+
+0x72AC59F4 = Żaluzje boczne, kolor #2
+
+0x72D90008 = Wyeliminowano
+
+0x73A6426A = Kratkowana wkładka, kolor #2
+
+0x73BF7AA8 = Praktyczny zderzak
+
+0x73D63691 = Prosta maska
+
+0x75D83568 = Kamuflaż miejski
+
+0x76FB90C0 = Dyfuzor, kolor #2
+
+0x77A4E46C = Krata, kolor #2
+
+0x77A9907E = Skrzydło GT II, kolor #2
+
+0x78AA7C4E = Kuty karb. podw. rozdz. grill
+
+0x78B625B2 = Maska, kolor #2
+
+0x78BAA93D = Magentowe Güffy za kostkę
+
+0x78EB8ACE = Grill, kolor #1
+
+0x79CA2583 = Atak krakena
+
+0x79E3B55C = Tytanowy wydech Hotring
+
+0x79E68264 = Praktyczne stopnie
+
+0x79FBAF46 = Malow. klasyczne lusterka
+
+0x80A33A71 = Praktyczny grill
+
+0x80C8DE75 = Pas przeciwsłoneczny, kol. #1
+
+0x81C27B99 = Wybuchowe rury
+
+0x81D09D48 = Lusterka, kolor #1
+
+0x81E2F581 = Kasztanowa kamizela
+
+0x81FDA333 = W brązowe plastry
+
+0x82BE0297 = Gruby srebrny łańcuch (P)
+
+0x82C34F3E = Pełny kamuflaż
+
+0x83C325D9 = Neonowe wyścigowe Junk
+
+0x83D3C93C = Wydech na nadkolu
+
+0x84D80894 = Plastikowa dokładka
+
+0x84ECE8C5 = Karbonowy rajdowy dyfuzor
+
+0x85F7AE9E = Wklęsła maska
+
+0x86DA20ED = Mocny zderzak
+
+0x86DDE8E3 = Itasha Run Neds
+
+0x87B1E5D2 = Stelaż do stójki i spadochron
+
+0x87B62863 = Karbonowy grill
+
+0x87BD17DF = Niebieskie 69 za kostkę
+
+0x88ADDA0A = Importowane chrom. lusterka
+
+0x88D2346D = Dyfuzor
+
+0x89A8841D = Różowa ryb. Bigness w zebrę
+
+0x89B8D140 = Pełen uliczny kamuflaż
+
+0x89BF807C = Biało-szare przeciwsłoneczne
+
+0x89CAB17F = Szkarłatna kamizela
+
+0x91AA18C4 = Karb. wyścig. z akc., k. #2
+
+0x91FB7F14 = Czarna kratkowana wkładka
+
+0x92A61C4F = Opalizujące światła
+
+0x92D5DED6 = Mocny grill
+
+0x92F6DA33 = Wentylowana maska
+
+0x92F57204 = Ozdoba Benefactor
+
+0x93C7BD81 = Podw. tytanowe małe wydechy
+
+0x93F8CBEB = Kobaltowe wyścigowe Jackal
+
+0x94C4D837 = Płytowa maska III
+
+0x94DBAD1D = Grafika Canis
+
+0x94E406DF = Karbonowe płetwy
+
+0x94FF7764 = Taśma na wsz. światłach i hak
+
+0x95C2069D = Nowoczesna wkładka grilla
+
+0x96ADBB30 = Chromowany wydech
+
+0x96B28C50 = Rajdowy dyfuzor
+
+0x96E59FB7 = Karb. wysokie skrzydlate progi
+
+0x97C8ED60 = Uliczny kamuflaż, lewa str.
+
+0x97D1E9FE = Kratkowany grill, kolor #2
+
+0x97DE240B = Specjalne żaluzje
+
+0x97E22090 = Czarna rybacka Cimicino
+
+0x97EAE7E6 = Ekstremalna dokładka I
+
+0x97F1EB52 = Tylny zderzak z owiewką
+
+0x98C06D41 = Mangowe Neds
+
+0x98C7AEA5 = Plemienne 76
+
+0x99EECCD8 = Różowy driftowy goryl
+
+0x104B6241 = W czarną kratę
+
+0x106FF67D = Pomarańcz. świecący szkielet
+
+0x135B82B3 = Złote szorty Pisswasser
+
+0x139BCB72 = Szosowa dokładka z karbonem
+
+0x147A1F9A = Gruby złoty łańcuch (L)
+
+0x163AE46A = Tablice Euro
+
+0x170DCECA = Moro eXsorbeo 720
+
+0x174FC588 = Brązowa mankietowa (L)
+
+0x180FE7E0 = Tuningowa maska
+
+0x187ADD05 = Karbonowy spojler
+
+0x189A87A5 = Sportowy zderzak
+
+0x190EA867 = Turbulizatory
+
+0x194C2DB0 = Złote szorty Pisswasser
+
+0x201FA4C2 = Bursztynowy bezręk. w kropki
+
+0x207AE1A4 = Moro ThriftEx
+
+0x221F8945 = Różany naszyjnik ze spluwą
+
+0x222FE574 = Wys. wyś. skrzydło, ramię k. #2
+
+0x226EBCF3 = Złoty szeroki wydech
+
+0x231A4D55 = Uliczna maska, kolor #2
+
+0x235C31CE = Wyścigowy ze światłami
+
+0x265ADDFA = Czarne podwójne pasy
+
+0x270EC4C3 = Gruby srebrny łańcuch (L)
+
+0x293F8E1D = Niebieskie wzory
+
+0x298A8D9F = Szary niepokojący kot
+
+0x298D6506 = Torpedowy przedni zderzak
+
+0x299B15D2 = Nagroda
+
+0x300E891D = Wyścigowy z wykończ. w k. #2
+
+0x309F8086 = Czarny jesienny sweter Yeti
+
+0x311D7F10 = Wykończenie, kolor #1
+
+0x314C5AEE = Rajdowa dokładka z akc., k #2
+
+0x317B36AE = Taśma na reflektorach
+
+0x318E2F6E = Karbonowy dach z wlotem
+
+0x321CD629 = Dzielona dokładka II, k. #2
+
+0x330D008E = Czarne szylkretowe przeciwsł.
+
+0x338EE013 = Skrzydlate karbonowe progi
+
+0x355C615E = Gruby ciemny łańcuch (L)
+
+0x358A82E7 = Czerwona demoniczna koza
+
+0x366F1FBE = Uniesione skrzydło, kolor #1
+
+0x369FA2F7 = W niebieskie plastry
+
+0x370E20FC = Rajdowe skrzydło
+
+0x381A75FA = Niskopoziom. kaczy spojler
+
+0x382F875D = Geom. wyścigowe Pisswasser
+
+0x387B910F = Białe body Barfs
+
+0x389EDD46 = Różany naszyjnik ze spluwą
+
+0x390EDC55 = Posmakuj niespotykanego dotąd luksusu. Schowek pełen nieoszlifowanych krwawych diamentów, świeży kawior bieługi w uchwytach na kubki oraz podgrzewacze foteli, które zrobią ci lo... No dobra, Enus Paragon S nie oferuje aż takich atrakcji. Ale to nieważne. Ważne jest natomiast, że każdy, kto cię w nim zobaczy, tak właśnie pomyśli. Musisz zadać sobie tylko jedno pytanie: czy chcesz wyglądać jak milion dolców? Bo jeśli tak, lepiej sięgnij po coś tańszego.~n~~n~Można zamontować ulepszenia Imani w warsztacie agencji.
+
+0x396CE388 = Rajdowa maska III, kol. #1
+
+0x398D7E19 = Rozdzielony grill, kolor #2
+
+0x398E5CB6 = Dżinsowa motocyklowa SA
+
+0x405B72A6 = Dziel. dokł. II z wykończ. w k. #2
+
+0x407B761A = Czarna sześciokątna krata
+
+0x420A173E = Zderzak Declasse z orurow.
+
+0x426ED121 = Podwójny wlot
+
+0x439ED98B = CZĘŚĆ BOTTOM DOLLAR BOUNTIES
+
+0x441EAF29 = Czarne proste orurowanie
+
+0x444A4A26 = Poczwórny wydech
+
+0x457F4318 = Wydł. dokładka z wcięciem
+
+0x469F11D8 = Panele boczne i listwy, k. #1
+
+0x470A2512 = Wyścigowe Pisswasser
+
+0x471C260A = Czarna demoniczna koza
+
+0x483B2B00 = Uliczny goryl
+
+0x489CB06E = W czarne fale
+
+0x493CB981 = Zdezelowane mangowe
+
+0x501D3530 = Zagięte podwójne wydechy
+
+0x510C9832 = Gruby ciemny łańcuch (L)
+
+0x534BBA80 = Pomarańcz. świecący szkielet
+
+0x535C0BF4 = Lodowy krótki kombinezon
+
+0x543B96E6 = Karbonowy niski dyfuzor
+
+0x546A90B2 = Czerwona demoniczna koza
+
+0x548B843F = Żart mangowy
+
+0x550BA01E = Białe paski ze strzałką
+
+0x551D496B = Szare geometryczne SC
+
+0x561D6DCC = Podwójny z chrom. końcówką
+
+0x568BD0B6 = Impaler LX Cruiser
+
+0x570ED525 = Manga T-East
+
+0x579EFB5F = Kobaltowa wyścigowa Jackal
+
+0x581F6AC6 = Abstrakcyjne za kostkę
+
+0x586DB575 = Panele boczne, kolor #1
+
+0x613D3E73 = Zielona koszula 247
+
+0x618B5797 = Białe wzory retro
+
+0x628EE8C2 = Srebrna mankietowa (L)
+
+0x628FCD03 = Podwójne karb. obudowane
+
+0x629BB235 = Czarne przeciwsłoneczne
+
+0x632BA3F9 = Karbonowa podwójnie wentyl.
+
+0x635FABFB = Czarny krótki kombinezon
+
+0x636B2CB7 = Kuty karbonowy wlot
+
+0x656DDE05 = Praktyczny zderzak z wyciąg.
+
+0x658F7226 = Driftowe Rimmers
+
+0x661A3411 = Jasnobrązowa demoniczna koza
+
+0x665C44F1 = Brązowy księżyc. naszyjnik
+
+0x666DC8A7 = Karbonowe wyścigowe progi
+
+0x672EE773 = Proste zapinki maski
+
+0x679BB8D3 = Pas przeciwsłoneczny, kol. #1
+
+0x681A87FD = Abstrakcyjne za kostkę
+
+0x687D8541 = Wentylowana maska, kolor #2
+
+0x707F477C = Kryminalne wzory
+
+0x714F114C = Płytowa wentylowana maska II
+
+0x720EE65A = Różowe body z grzybami
+
+0x722EB4DB = Czerwona czacha z kapturem
+
+0x724A2075 = Przetwarzanie
+
+0x736B8E24 = Skrzydlate wykończenie
+
+0x742FB4A2 = Podwójny wlot, kolor #2
+
+0x753CC81B = Karbon. agresywna wentyl.
+
+0x766B942C = Karbonowe wydłużone wykończ.
+
+0x771F3AE1 = Malowane poszerzenia
+
+0x781E6C08 = Wyścigowe progi
+
+0x784EF09D = Każdy uczciwy amerykański biznes potrzebuje dobrego ubezpieczenia na wypadek, gdyby interes nie wypalił. Dlatego też każdy dobry amerykański biznes potrzebuje schowka na broń. Idealne miejsce na twój plan B ze stali węglowej...
+
+0x788AC1EC = Z morskim pikselowym moro
+
+0x788FE2EC = Karbon. skrzydlate progi
+
+0x789A4C5C = Manga Wasabi
+
+0x789B8470 = Mocny zderzak z wyciągarką
+
+0x791F497B = Czarna rybacka Güffy
+
+0x794DB5AB = Tuningowe progi
+
+0x795D5C56 = Pas przeciwsłoneczny, kolor #2
+
+0x797DA7A5 = Lawendowy krótki kombinezon
+
+0x808CEC2E = Zestaw wyścigowy
+
+0x825F4E3E = Zapasowe koło
+
+0x834E848C = Gromy
+
+0x839CB038 = Karbonowy wyścigowy dyfuzor
+
+0x842E0BC2 = Alt. czerwone wąskie linie
+
+0x847B13EF = Kuty karbonowy rozdz. grill
+
+0x872CE229 = Srebrna mankietowa (P)
+
+0x876E9119 = Czarne body Barfs
+
+0x877B3DA4 = Płytowa maska II
+
+0x880D42EB = Srebrna mankietowa (P)
+
+0x881E3791 = Wydłużone wykończenie
+
+0x883BEBBB = Jazda po bandzie
+
+0x883CC630 = W morskie fale
+
+0x900C961F = Retro szarość
+
+0x925D3BC9 = Wyścigowe Atomic
+
+0x943C3CFC = Czarny pas
+
+0x944C857C = Karb. pas przeciwsłoneczny
+
+0x954F4395 = Grill listwowy
+
+0x956B6B60 = Ciemna mankietowa (L)
+
+0x959B79CB = Wysoka motylkowa dmuchawa
+
+0x965ABB9F = Górny czarny pas
+
+0x967AAF31 = Różowe body Calaca
+
+0x975F594B = Sportowy dyfuzor
+
+0x976C47E9 = Chromowane zapinki maski
+
+0x980A0B9E = Odwróc. czapka Pizza This...
+
+0x994B5825 = Białe wschodu słońca
+
+0x997B2C16 = Ciemna mankietowa (P)
+
+0x998F857E = OGŁUSZACZ
+
+0x1383F213 = Karbon. pełen wlot na dachu
+
+0x1388CC89 = Pierwszy dwuosobowy samochód sportowy stworzony przez Amerykanów dla Amerykanów. Coquette D1 jest równie legendarne, co grube steki, staniki DD, szarlotka i brak BHP. To idealny pojazd dla twoich mrzonek o europejskim wyrafinowaniu, więc załóż niezły garnitur i podjedź do mamuś grających w tenisa w Rockford Hills, żeby poczuć to słodkie uczucie zapomnienia o fakcie, że nie ma w tobie niczego wartego zapamiętania.
+
+0x1467A0EB = Gruby srebrny łańcuch (P)
+
+0x1565F363 = Czarny jesienny sweter Yeti
+
+0x1624FADC = Szeroki wlot powietrza
+
+0x1643A1F5 = Wentylowana dokładka
+
+0x1936C0E2 = Płaskie stopnie
+
+0x2052F3CC = Wklęsłe progi, kolor #2
+
+0x2078B8F7 = Różany księżycowy naszyjnik
+
+0x2100F0A9 = Płytowa wentylowana maska III
+
+0x2101DD0C = Szeryf Los Santos alt.
+
+0x2152A0CD = Skrzydło rajdowe
+
+0x2162B717 = Beżowy słomiany letni
+
+0x2476DCD7 = Strój alpejski
+
+0x2528BF85 = Czarna gęsta krata
+
+0x2604BD4E = Rdza
+
+0x2672C39F = Kremowy słomiany letni
+
+0x2767D237 = Czarne pasy
+
+0x2913CDD0 = Skrzydlate progi
+
+0x2915E914 = Różana mankietowa (L)
+
+0x2975E7FE = Maska z wlotem
+
+0x2976D3C5 = Lotka
+
+0x2985F903 = Granatowy krótki kombinezon
+
+0x3144F96C = Zapomniana legenda
+
+0x3455C64E = Maska wyścigowa, kolor #1
+
+0x3638B8C1 = Kuty karbonowy podw. wlot
+
+0x3648D283 = Osłona wlotu z wykończ.
+
+0x3686C0C5 = Złota taśma na reflektorach
+
+0x3745AD1B = Kwadratowe lusterka
+
+0x4057A6A6 = Ciemnozielony krótki kombi.
+
+0x4108E803 = Wygładzana maska, kolor #2
+
+0x4182B929 = Wykończenie, kolor #1
+
+0x4233DAD7 = Tuningowy zderzak
+
+0x4381F573 = Niski dyfuzor, kolor #2
+
+0x4476DB8C = Pas przeciwsłoneczny, kol. #2
+
+0x4507AB3B = Skrzydło GT II
+
+0x4511FB68 = Oldskulowy zardzewiały
+
+0x4540BEC4 = Sportowa wentylowana maska
+
+0x4563D444 = Zamknięcia bagażnika
+
+0x4766D1CE = Płaskie progi
+
+0x4820F576 = Burgund. krótki kombinezon
+
+0x4919FD49 = Tuningowy zderzak
+
+0x4955EDCA = Chromowana wkładka grilla
+
+0x5054E5AF = Brązowy naszyjnik ze spluwą
+
+0x5094B453 = Zderzak Declasse
+
+0x5330E0EB = Czarny niepokojący kot
+
+0x5514C834 = Złota mankietowa (P)
+
+0x5563C0C2 = Tytanowe wydechy
+
+0x5612EEA8 = Gromy
+
+0x5621A17C = Gruby srebrny łańcuch (L)
+
+0x5818CAF9 = Lusterka, kolor #2
+
+0x5944DD26 = Za często przesiadujesz w sądach, żeby łapać przestępców? W takim razie zatrudnij wykwalifikowanych agentów, którzy wykonają zlecenia za ciebie. Oni pracują, ty zgarniasz profity.
+
+0x5952C3ED = Wyścigowe Bollokan
+
+0x5990DCC5 = Karbonowy wlot na dachu
+
+0x6321FA99 = Gruby czarny naszyjnik
+
+0x6414FB09 = Uniesione skrzydło, kolor #2
+
+0x6514E818 = Musztardowa kamizela
+
+0x6654F395 = Otaczające orurowanie, kolor #2
+
+0x6708DCA9 = Przewiercone stopnie
+
+0x7060A27A = Klatka, kolor #2
+
+0x7245D8CF = Agresywne żaluzje
+
+0x7336DEF4 = Dokładka, kolor #2
+
+0x7865A63C = Skrzydło GT, kolor #2
+
+0x7949DF91 = Czarno-bursztynowe przeciwsł.
+
+0x7997B8DA = Czarne popękane
+
+0x8053A7AE = Zdezelowane
+
+0x8132CF08 = Poszerzenia nadkoli
+
+0x8152D74B = Alt. boczne orurowanie, k. #2
+
+0x8229BC64 = Ekstremalna dokładka
+
+0x8343FA7C = Szkarłatny bezręk. w kropki
+
+0x8388E858 = Pełna klatka
+
+0x8615BB52 = Niestandardowe lusterka
+
+0x8770DD76 = Wlot z widocznym filtrem
+
+0x8847D405 = Gruby brązowy łańcuch (P)
+
+0x9015C042 = Czarne body z kosmokotem
+
+0x9080EA81 = Mały stelaż
+
+0x9371B1DC = Podw. rozdziel. grill, k. #2
+
+0x9443BE43 = Niskie karbonowe progi
+
+0x9462D4D3 = Spojler
+
+0x9600ED26 = Uliczny zderzak
+
+0x9651CF6C = Dyfuzor z mostkiem
+
+0x9678E553 = Greenwood Cruiser
+
+0x9743AD6B = Karbonowa dokładka
+
+0x9762FDAA = Mały deflektor wiatrowy
+
+0x11306A67 = Fioletowe body Calaca
+
+0x12496ECA = Karbonowy sportowy spojler
+
+0x13161B50 = Chrom. sześciokątna krata
+
+0x13225D4B = Gruby brązowy łańcuch (L)
+
+0x13569DAE = Przednie wloty
+
+0x14446F1C = Gruby różany łańcuch (P)
+
+0x18135C96 = Złoty naszyjnik DS
+
+0x18962E4C = Uliczny rozłam
+
+0x20692DAE = Czerwone 69 za kostkę
+
+0x22227C61 = Zderzak terenowy II
+
+0x23478EC9 = Niebieskie body z ziołem
+
+0x24468B8E = Karbonowe wyścigowe progi
+
+0x25309F1C = Czarne boczne orurowanie
+
+0x26548E60 = Zabezpieczono
+
+0x27550A45 = Gruby ciemny łańcuch (P)
+
+0x29390A84 = Wydł. dokładka z wcięciem III
+
+0x30233E8C = Czarne pełne rzęsy
+
+0x30385DCB = Mamy lata 20. XXI wieku w Los Santos, więc wiadomo, że działasz na dwa fronty. I dlatego twój supersamochód potrafi to samo. Ubermacht Niobe zrzuca okowy binarnego rynku samochodowego z dozą superpłynnej technologii hybrydowej. Bo kto uchwyci lepiej niuanse twej seksualnej tożsamości niż niemiecki producent samochodów? Podsumowując, planeta płonie, tak samo jak twoja żądza, więc może chociaż wydymaj się czymś, co też cię może dymać, i to wszędzie tam, gdzie zechcesz.
+
+0x30833CD7 = Czerwone 69 za kostkę
+
+0x32635CCC = Złoty księżycowy naszyjnik
+
+0x32877F75 = Pomarańcz. płonąca czaszka
+
+0x37295F97 = Rdzawe graffiti
+
+0x45013E54 = Gruby brązowy naszyjnik
+
+0x46666B93 = Zielonkawy bezręk. w kropki
+
+0x47365B02 = Żółta rybacka Panic
+
+0x47367C61 = Pomarańczowa kamizela
+
+0x47532CB1 = Ciemna mankietowa (P)
+
+0x51065C87 = Czarny warstwowy naszyjnik
+
+0x52250D33 = Sukienka jesiennego święta
+
+0x52728EAD = Wiesz, czego potrzebuje twój Declasse? Pancerza. Bo pierwszą regułą kodeksu łowców nagród jest: każde życie jest cenne, jeśli nagroda jest dość wysoka.
+
+0x54404E10 = Białe zachodu słońca
+
+0x57604FEC = Skrzydło GT II, ramię k. #2
+
+0x60669EF4 = Duże skrzydło na bag.
+
+0x69233F21 = Fioletowe Panic za kostkę
+
+0x69593D07 = Karbon. uniesione uliczne
+
+0x69600D1B = Kratkowany grill, kolor #1
+
+0x69955D26 = Czapka Pizza This...
+
+0x70241EEA = Niobe
+
+0x71930DB3 = Uliczny dyfuzor
+
+0x73836EEA = Wydech z tytanowym końcem
+
+0x75599EA7 = Pizza Boy
+
+0x80326FDE = Impaler SZ był ulubionym wozem fabrycznym uciekinierów, którzy chcieli zasuwać jak najszybciej w linii prostej bez martwienia się zniszczonym mieniem czy ofiarami cywilnymi. Więc policja z Los Santos od razu kupiła całą flotę. Teraz nadwyżka została sprzedana w ręce prywatne i znowu daje przechodniom powód, żeby siedzieli w domach. Witaj na służbie.~n~~n~– Umożliwia przyjmowanie wezwań policyjnych~n~~n~Uwaga: Ten pojazd można modyfikować wyłącznie we własnych nieruchomościach i ma zerową wartość w odsprzedaży.
+
+0x80904D3A = Złota ozdoba Benefactor
+
+0x81423E5F = Czarne indygo okrągłe
+
+0x82911ADE = Niskie progi, kolor #2
+
+0x83259DA4 = Domont. kaczy spojler
+
+0x86485B75 = Duży deflektor wiatrowy
+
+0x87067B0A = Czarno-żółte przeciwsłon.
+
+0x89843CAF = Powiększony wlot na dachu
+
+0x95534B53 = Żółte wzory
+
+0x95886CA5 = Wydech sportowy
+
+0x97202F7F = Gruby brązowy łańcuch (L)
+
+0x97737E17 = Plemienne płomienie
+
+0x99084BB1 = Przycięte nadkola
+
+0x107241F9 = Wysokie wyścigowe skrzydło
+
+0x158098F6 = Czerwona kamizela
+
+0x175619C2 = Wyścigowy zderzak
+
+0x237240A9 = Biały pas Meinmacht
+
+0x315678BC = Czarne indygo okrągłe
+
+0x381144DD = Boczne orurowanie, kolor #1
+
+0x386764C4 = Wściekle róż. bezręk. w kropki
+
+0x404902CF = Czerw.-nieb. body z mandalą
+
+0x463426B4 = Czarne przeciwsłoneczne
+
+0x484037CE = Spojler w wyścig. wlotami
+
+0x500533F7 = Zielony świecący szkielet
+
+0x637084B0 = Czarny pas
+
+0x687733D9 = Tylna klatka z ogniwem
+
+0x705518BB = Ekstremalna dokładka III
+
+0x744207BC = Szare moro SC
+
+0x791606B0 = Dwa pasy
+
+0x808104C4 = Chromowany panel świetlny
+
+0x859546EB = Plemienne Neds
+
+0x941045B4 = Srebrna mankietowa (L)
+
+0x964462AB = Poszerzone nadkola
+
+0x969156C9 = Powięk. wlot na dachu, k. #2
+
+0x986546BC = Podwójne duże wydechy
+
+0x989722E9 = Ciemnoniebieska kamizela
+
+0x1643605D = Ciemna mankietowa (P)
+
+0x1840273A = Beżowy słomiany letni
+
+0x2227365F = Montowany znak policji
+
+0x2251306B = Gruby ciemny łańcuch (L)
+
+0x3028186A = Wydłużona dokładka IV
+
+0x3087669B = Pas przeciwsłoneczny, kol. #1
+
+0x3331572C = Zielona rybacka FB
+
+0x3436242E = Driftowe Tenshun
+
+0x3739279E = Chromowany grill
+
+0x3742808A = Wyścig. wywietrzniki, k. #2
+
+0x4162762D = AGENT 2
+
+0x4478452B = Czarna wyścigowa flaga
+
+0x5141727A = Alt. orurowanie, kolor #1
+
+0x5645910D = Cytrynowy bezręk. w kropki
+
+0x6014216F = Uliczna klatka
+
+0x6019571E = Srebrna mankietowa (L)
+
+0x6631010C = Zielonkawy krótki kombinez.
+
+0x6915642F = Karbon. wyścig. wywietrzniki
+
+0x7058894B = Pisswasser Good Time
+
+0x7148205F = Biały pas
+
+0x7203823B = Aerodynamiczne progi
+
+0x7570414F = Stelaż do stójki
+
+0x8068310F = Odwróc. czapka Pizza This...
+
+0x8605805F = Szary słomiany letni
+
+0x8833045E = Czeko. bezrękawnik w kropki
+
+0x9571409E = Progi Aero
+
+0x9745430E = Płomienie
+
+0x14310739 = Magentowy bezręk. w kropki
+
+0x18578649 = Koszulka wygrana w kasynie
+
+0x19941457 = Grill z emblematem
+
+0x24138153 = Listwowy grill
+
+0x25657500 = Białe pasy Benefactor
+
+0x32298501 = Auto Exotic
+
+0x33977873 = Plemienne
+
+0x34829053 = Spojler
+
+0x41227685 = Żaluzje, kolor #2
+
+0x41767365 = Wyścigowy spojler
+
+0x47663870 = Wlot na dachu, kolor #2
+
+0x52258592 = Częściowa klatka
+
+0x58457315 = Różana mankietowa (L)
+
+0x63362194 = Mangowe Hardstand
+
+0x66279607 = Czarna grafika Canis
+
+0x69634913 = Brązowy księżyc. naszyjnik
+
+0x71401615 = Czarny słomiany letni
+
+0x75246099 = Czarny księżycowy naszyjnik
+
+0x77459832 = Kuty karbon. wlot na dachu
+
+0x78686644 = Karbonowe lusterka
+
+0x80873643 = Aerod. karbonowe skrzydło
+
+0x80926660 = Szary krótki kombinezon
+
+0x84324989 = Wyścigowy zderzak
+
+0x86180952 = Driftowe kultowe
+
+0x88045116 = Gruby złoty łańcuch (P)
+
+0x89834974 = Złota mankietowa (L)
+
+0x91092001 = Driftowe Junk
+
+0x92243269 = Zewnętrzne pionowe wydechy
+
+0xA00F81B3 = Wydech Hotring
+
+0xA04DAF83 = Zielona koszula 247
+
+0xA05352AE = Kute karbon. rajd. wywietrz.
+
+0xA06B58A7 = Jasnobrązowa demoniczna koza
+
+0xA07B894E = Czarny niepokojący kot
+
+0xA0B75663 = Tylne podwójne wydechy
+
+0xA0C2DFB9 = Karbonowe progi
+
+0xA0DC09C0 = Fioletowe body z ziołem
+
+0xA0DEB8C0 = Malowane senne osłony
+
+0xA1AA4E4D = Podwójnie rozdzielony grill
+
+0xA1AD2055 = Plast. pas przeciwsłoneczny
+
+0xA1C21AC4 = Zielona rybacka FB
+
+0xA1D3319D = Szkarłatna kamizela
+
+0xA1DA7925 = Karbonowe rajdowe skrzydło
+
+0xA2CF4D5B = Dense wyścigowe moro
+
+0xA2EC9F75 = Duże płetwy, kolor #1
+
+0xA2EDBB4B = Wyścigowy karbonowy spojler
+
+0xA3C4571A = Maska z dwoma wlotami, k. #2
+
+0xA5B814D7 = Mały stelaż z bagażami
+
+0xA6B12B0F = Karbonowa rajdowa maska
+
+0xA6C0E205 = Białe wzory
+
+0xA6F5366C = Dummy label.
+
+0xA8BC3B5D = Czerwone zapinki maski
+
+0xA8DE60A6 = Klasyczne pasy
+
+0xA8E8D05F = Dense elektryczne
+
+0xA8FAD9D8 = Podwójne karbonowe złote
+
+0xA9E13F3D = Burrito (biuro kaucyjne)
+
+0xA12B5D65 = Policja stanowa (jasne)
+
+0xA14D182D = Strój alpejski
+
+0xA24CED98 = Wyścigowy dyfuzor, kolor #2
+
+0xA32F3815 = Jasnoniebieska kamizela
+
+0xA33C668F = Fioletowe body z kosmokotem
+
+0xA39A9669 = Driftowe Jackal
+
+0xA46E3AC8 = Wysokie skrzydlate progi
+
+0xA50C8FC7 = Białe popękane
+
+0xA52D16F2 = Fioletowa rybacka Panic
+
+0xA67DE3F8 = Driftowe Hardstand
+
+0xA71E2B53 = Kute karbonowe płetwy
+
+0xA87D5460 = Pasy Canis
+
+0xA95A2791 = Wyścigowe skrzydło
+
+0xA195C04D = Driftowe Junk
+
+0xA540E073 = Duże wydechy
+
+0xA606F5B4 = Karb. powięk. wlot na dachu
+
+0xA861BDC0 = Biało-bursztynowe przeciwsł.
+
+0xA901E1A1 = Wyścigowa maska, kolor #2
+
+0xA2207D6B = Chromowany listwowy grill
+
+0xA3145C36 = Złoto-brązowe okrągłe
+
+0xA8285F3A = Czarny łowca węży
+
+0xA9500A62 = Indukcyjny wlot powietrza
+
+0xA9528E7F = Złoto-brązowe okrągłe
+
+0xA28721F1 = Pas przeciwsłoneczny Vapid
+
+0xA77449C3 = Gruby złoty łańcuch (P)
+
+0xA77730CD = Kute karbonowe wykończenie
+
+0xA86305FE = Aerod. skrzydło, kol. #2
+
+0xA407844C = Biały pas
+
+0xA569192A = Karbon. skrzydło na nadwoziu
+
+0xA1284138 = Dzielona dokładka
+
+0xA1897311 = Wyczynowa maska
+
+0xA2131967 = Zestaw dociskowy
+
+0xAA1F0800 = Koszulka grozy Halloween
+
+0xAA8A81C3 = Malowany grill
+
+0xAAA683FA = Płytowa maska I
+
+0xAAE76EC5 = Zielony driftowy goryl
+
+0xAB0487B3 = Karbonowe niest. lusterka
+
+0xAB0D274A = Demoniczna motocyklowa
+
+0xAB4EE9D6 = Zderzak, kolor #1
+
+0xAB6A2E9B = Policyjny samochód wyścigowy
+
+0xAB450BFE = Karbonowe skrzydło GT
+
+0xAC3A30B8 = Ofensywny taran z syrenami
+
+0xAC8B8564 = Czarny naszyjnik DS
+
+0xAC26B370 = Manga
+
+0xAC70D6F4 = Pęknięcie
+
+0xAC490234 = Pełen wlot na dachu
+
+0xAC777826 = W niebiesko-zielone paski
+
+0xACA7B2EB = Duże płetwy, kolor #2
+
+0xACC5FD67 = Różana mankietowa (L)
+
+0xACCFAF06 = Strój Pizza This...
+
+0xACE867F1 = Boczne wydechy
+
+0xACFF1878 = Gruby srebrny łańcuch (P)
+
+0xAD0B7800 = Lodowa kamizela
+
+0xAD2ECF4A = Maska HSW I
+
+0xAD5D6CC2 = Karbonowe rajdowe wywietrz.
+
+0xAD6A2DD8 = Ciemnoniebieska kamizela
+
+0xAD63F550 = Wyścigowe Xero Gas
+
+0xAD4752A6 = Tuningowy wydech
+
+0xAD6801A6 = Proste orurowanie, kolor #1
+
+0xADF35E22 = Czarne body z kosmokotem
+
+0xAE0C820A = Bursztynowy krótki kombin.
+
+0xAE3A7BA2 = Usunięty tylny zderzak
+
+0xAE8C9AE7 = Uliczny kamuflaż, prawa str.
+
+0xAE58E073 = Czarny panel świetlny
+
+0xAE66A27B = Uliczny kamuflaż
+
+0xAE797B26 = Progi, kolor #2
+
+0xAE870D04 = Podwójny filtr
+
+0xAF04F2FE = Skośne boczne podw. wydechy
+
+0xAF0DD522 = Czerwone światła
+
+0xAF7A50E0 = Wysokie skrzyd. progi, k. #2
+
+0xAF39BE5E = Potrójny tytanowy wydech
+
+0xAF48933A = Fioletowy krótki kombinezon
+
+0xB01C3778 = Biała rybacka Cimicino
+
+0xB058D7B4 = Chromowane senne osłony
+
+0xB066400C = Nowoczesne światła na dachu
+
+0xB1C7166C = Skrzydło Overflod, kolor #1
+
+0xB1D832E4 = Ekstr. niestandardowy fiolet
+
+0xB1DDDD57 = Gruby brązowy łańcuch (L)
+
+0xB1E27CBB = Poziomy grill
+
+0xB1ECC872 = Turkusowy bezręk. w kropki
+
+0xB2CCFE4D = Pościgowy taran
+
+0xB2FDBB8E = Uliczny artysta
+
+0xB3B1CC9E = Ciemnoszary krótki kombi.
+
+0xB3BC9783 = Duży filtr
+
+0xB3F817EA = Wyczynowa maska, kolor #2
+
+0xB4A98095 = Pełna dokładka II
+
+0xB4B2074D = Szara kamizela
+
+0xB4B71778 = Karbonowe lusterka
+
+0xB4C41221 = Koszulka Día de Muertos
+
+0xB4E5B847 = Alt. aerod. karbon. skrzydło
+
+0xB4E54FB2 = Podwójne wyloty
+
+0xB4EAA1F3 = Wytrzymały zderzak
+
+0xB5B5E95A = Rdzawe Dense
+
+0xB5BC9609 = Uliczny dyfuzor bez zderzaka
+
+0xB5BF8689 = Policja miasta Los Santos alt.
+
+0xB5D935E7 = Kaczy spojler, kolor #2
+
+0xB5D80618 = Czerwona płonąca czacha
+
+0xB5EE6488 = Gruby różany łańcuch (L)
+
+0xB7A211F2 = Wysoki wylot powietrza
+
+0xB7BEBDD5 = Skrzydło na nadwoziu, k. #2
+
+0xB7C1E0C6 = Wyścigowe płomienie
+
+0xB7E8CFBC = Niebieskie 69 za kostkę
+
+0xB7EA5BE3 = Srebrny naszyjnik ze spluwą
+
+0xB8E83451 = Czerwone wyścigowe Pisswasser
+
+0xB8F6337D = Brązowa mankietowa (L)
+
+0xB9DEAE43 = Magentowe Güffy za kostkę
+
+0xB10E3BBC = Skrzydło wyścigowe
+
+0xB14A2EAD = Podwójne wloty
+
+0xB16FF8ED = Złoto-czarne okrągłe
+
+0xB27F290A = Ogłuszacz
+
+0xB33ED4F3 = Karbonowy zderzak
+
+0xB35EE5A5 = Karbon. dzielona dokładka
+
+0xB38E80FA = Sportowa dokładka
+
+0xB42CD2B1 = Uliczne skrzydło, kolor #2
+
+0xB51F7B81 = Driftowe Dense
+
+0xB54B588D = Czarna kamizela
+
+0xB56F8AF5 = Czarne body Barfs
+
+0xB57A2731 = Czarny pas
+
+0xB59D59A4 = Karbon. domont. dyfuzor
+
+0xB64AFB7B = Geometryczny łowca węży
+
+0xB78E44AF = Ocalony z Ludendorff
+
+0xB84A8AAC = Różana mankietowa (L)
+
+0xB85A8B39 = Technopasy
+
+0xB91B3E84 = Wyścigowe wywietrzniki
+
+0xB99A88F0 = Karbonowe panele boczne
+
+0xB147D7FF = Wyścigowa dokładka
+
+0xB211F3B5 = Maska z dwoma wlotami
+
+0xB256A8B1 = Turkusowy kam. naszyjnik
+
+0xB352B00C = Duży stelaż
+
+0xB659E0AB = Beżowy bezrękawnik w kropki
+
+0xB699BE01 = W niebieską kratę
+
+0xB756A013 = Niest. lusterka, kolor #2
+
+0xB26066E2 = Karbonowe sportowe progi
+
+0xB67410C3 = Złota mankietowa (L)
+
+0xB269559E = Brązowy kapelusz alpejski
+
+0xB426931F = Skrzydło GT
+
+0xB683913B = Kuta karbonowa dokładka
+
+0xB923669A = Czarny słomiany letni
+
+0xB928748C = Fioletowe body z kosmokotem
+
+0xB5180326 = Technopunk odwrotne
+
+0xB5384220 = Kobaltowe wyścigowe Jackal
+
+0xB8443913 = Różowa rybacka z monetą SC
+
+0xBA1F7961 = Srebrny warstwowy naszyjnik
+
+0xBA2B7269 = Rdzawe pęknięcie
+
+0xBAA90376 = Pionowe wydechy na nadwoziu
+
+0xBAB50453 = Łowca węży
+
+0xBAFD2247 = Srebrny naszyjnik DS
+
+0xBAFE8CE7 = Złota mankietowa (L)
+
+0xBB1E6497 = Policja hrabstwa LS
+
+0xBB3D95B2 = W czarno-białe paski
+
+0xBB3F94B2 = Progi, kolor #1
+
+0xBB4740C3 = Skrzydło wyścigowe
+
+0xBBD6B195 = Zajmij swoje miejsce w długiej tradycji słabo opłacanych, przepracowanych, o mały włos nie zabitych dostawców pizzy, którzy działają na ulicach San Andreas, i wsiądź na ten wyjątkowy skuter nieposiadający żadnych zabezpieczeń. I pamiętaj o kasku, bo to jedyna ochrona pracownika, jaką dostaniesz.
+
+0xBBE509BE = Drelichy khaki 247
+
+0xBBF3B3C1 = Złoto-czerwone okrągłe
+
+0xBC3DB649 = Geometria
+
+0xBC5F99FB = Specjalne żaluzje, kolor #2
+
+0xBC506A08 = Czarne wschodu słońca
+
+0xBD8CE98F = Zderzak, kolor #2
+
+0xBD97E792 = Gruby złoty łańcuch (L)
+
+0xBD5371AD = Żółte światła
+
+0xBDD5D064 = Błotniki
+
+0xBDD865AB = Pomarańcz. płonąca czaszka
+
+0xBE7F5535 = Driftowe Neds
+
+0xBE46DA3A = Karbonowa wyścigowa maska
+
+0xBE59564E = Duże kute karbonowe płetwy
+
+0xBE119763 = Żaluzje
+
+0xBE365149 = Superszybkie skrzydło
+
+0xBEA272B4 = Went. dokładka, kolor #2
+
+0xBEBE049E = Niestand. karbonowa maska
+
+0xBEC40D25 = Wyścigowa maska
+
+0xBF6C6983 = Vorschlaghammer
+
+0xBF6EF6F5 = Chrom. tuningowy wydech
+
+0xBF12CA73 = Kuty karbonowy potrój. wlot
+
+0xBF4353C7 = Skrzydło szosowe wer. 2
+
+0xBFA9FDE1 = Wyścigowe Modular
+
+0xBFE9D713 = Czerwona rybacka FB
+
+0xBFEE95EA = Ciemnosrebr.-czarne okrągłe
+
+0xBFF8C886 = Czerwony jesienny sweter Yeti
+
+0xC006AEBA = Maska wentylowana I
+
+0xC057F617 = Rajdowa dokładka
+
+0xC0A3F333 = Wycięte wysok. skrzyd. k. #2
+
+0xC0B576D6 = Rozlane 76
+
+0xC0D24257 = Kompleksy ojcowskie, część druga. Teraz w zupełnie nowym stylu Sadystycznego Autorytetu, kokainy w klimatyzacji, przyciemnianych awiatorów w schowku i plam krwi w bagażniku. Skrytka na pornosy jest opcjonalna, ale wysoce zalecana. Tym razem to na pewno będzie zdrowy związek.~n~~n~– Umożliwia przyjmowanie wezwań policyjnych~n~~n~Uwaga: Ten pojazd można modyfikować wyłącznie we własnych nieruchomościach i ma zerową wartość w odsprzedaży.
+
+0xC0F1D117 = Zielone driftowe moro
+
+0xC2BCDF19 = Płaskie skrzydło
+
+0xC2EC06B1 = Skrzydło wyścigowe
+
+0xC3A559E7 = Pas przeciwsłoneczny, kol. #1
+
+0xC3B1EBE4 = Niebieski bezręk. w kropki
+
+0xC3BD6C13 = Ciemnoziel. bezręk. w kropki
+
+0xC4F0B9EB = Maska z garbem, kolor #2
+
+0xC4F7E508 = Czarna nowoczesna wkładka
+
+0xC5D31F95 = Uliczny artysta
+
+0xC5DA81FC = Antena
+
+0xC6E52DE0 = Różowe body Calaca
+
+0xC7D58DBD = Klasyczne wyścigowe
+
+0xC8A7CA79 = Chromowany praktyczny grill
+
+0xC8EB310D = Morskie geometryczne SC
+
+0xC9A6AA57 = Dense 76
+
+0xC9AD2AB6 = Skrzydło RS
+
+0xC9CB8809 = Karbonowe specjalne żaluzje
+
+0xC9CE8A54 = Czarny słomiany letni
+
+0xC9D03DCB = Czarne podwójne pasy
+
+0xC9D60BC9 = Gruby różany łańcuch (P)
+
+0xC9FADC80 = Niebieska ryb. z monetą SC
+
+0xC10CD071 = Alt. karb. skrzydło na nadw.
+
+0xC32EE648 = Podwójny wydech
+
+0xC39C2242 = Policja miasta Los Santos
+
+0xC43AA16B = Rozlane Neds
+
+0xC46B66C2 = Euros X32
+
+0xC46CABA9 = Dyfuzor z mostkiem, kolor #2
+
+0xC49A84DF = Karbon. Aero z akc., k. #2
+
+0xC56A1FE8 = Maska z wlotem, kolor #2
+
+0xC79C754A = Paragon S
+
+0xC85C9F9E = Ekstremalne paski
+
+0xC90A92EA = Skrzydło wyścig., ramię k. #2
+
+0xC90D0BA0 = Gruby ciemny łańcuch (P)
+
+0xC94DA0BF = Podwójne tytanowe wydechy
+
+0xC94FD11D = Gruby brązowy łańcuch (P)
+
+0xC96AD14F = Gruby złoty łańcuch (P)
+
+0xC98AF300 = Biało-fioletowe 69 za kostkę
+
+0xC98F3151 = Skrzydlate progi
+
+0xC105DD32 = Zdezelowane Atomic
+
+0xC236F43A = Alt. czarne orur. i błotniki
+
+0xC325B4BA = Mangowe Neds
+
+0xC439A7B4 = Czerwony jesienny sweter Yeti
+
+0xC896A012 = Podwójne dolne pasy
+
+0xC4023AE2 = Skrzydło Overflod
+
+0xC5363A66 = Karbonowa wyczynowa maska
+
+0xC5960A13 = Dzielona dokładka, kolor #2
+
+0xC7601E51 = Karbon. wyścigowa maska
+
+0xC64140C7 = Karbonowa maska
+
+0xC75184A8 = Biały kontur
+
+0xC84134B6 = Szosowa dokładka
+
+0xC682855C = Karbonowy rajdowy spojler
+
+0xC876569A = Czerwony uliczny kamuflaż
+
+0xC5314280 = Praktyczny zderzak II
+
+0xCA1F7329 = Rajdowy dyfuzor, kolor #2
+
+0xCA374738 = Wyścigowe lusterka
+
+0xCACCE1B2 = Wyścigowa maska
+
+0xCB5A49DC = Wklęsłe progi
+
+0xCB612C7D = Panele boczne
+
+0xCBF33BC1 = Ciemna mankietowa (L)
+
+0xCBFBDDA1 = Biały pas
+
+0xCC3DE480 = Podwójna turbosprężarka V8
+
+0xCC39D2FA = Kurtka Bottom Dollar
+
+0xCC73F287 = Uniesione skrzydło
+
+0xCC124D98 = Alt. karbonowe skrzydło GT
+
+0xCC558FB1 = Złote senne osłony
+
+0xCCC4755F = Białe w płomienie za kostkę
+
+0xCCF721D4 = Podwójny wydech
+
+0xCD0D09F8 = MIESZKANIE
+
+0xCD6E4DBA = Dwuczęści. skrzydło, k. #2
+
+0xCD60A1E3 = Uliczna maska
+
+0xCD513D50 = Podwójne wyloty
+
+0xCDAB90DD = Okrągłe alt. lusterka
+
+0xCDC9A96B = Tytanowy wydech
+
+0xCDCF0CE4 = Klasyczne płomienie
+
+0xCDCF4AFC = Niest. lusterka, kolor #1
+
+0xCDF968C5 = Na jakimś etapie życia każdy policjant w Los Santos zadaje sobie jedno pytanie: mam na tylnym siedzeniu cztery dziewczyny na telefon, w bagażniku sześć toreb przeciwbólówek na receptę, więc gdzie miejsce na drzemkę? Dorado Cruiser zaprojektowano, by odpowiedzieć właśnie na to pytanie oraz zapewnić solidne możliwości terenowe na wypadek ucieczki przed obławą wydziału wewnętrznego. Teraz ten potencjał po raz pierwszy trafia w ręce mieszkańców San Andreas.~n~~n~– Umożliwia przyjmowanie wezwań policyjnych~n~~n~Uwaga: Ten pojazd można modyfikować wyłącznie we własnych nieruchomościach i ma zerową wartość w odsprzedaży.
+
+0xCE0A4AC1 = Maska wentylowana II
+
+0xCE3F73BE = Niebieska rybacka FB
+
+0xCE9D1485 = Gruby złoty łańcuch (L)
+
+0xCE96D029 = Szary słomiany letni
+
+0xCE733826 = Skrzydło na dachu
+
+0xCED7C9BC = Skrzydlata dokładka, kol. #2
+
+0xCF019B24 = Zestaw Sushi Neds
+
+0xCF3A7178 = Jasnoniebieska kamizela
+
+0xCF4E566B = Turkusowe Güffy za kostkę
+
+0xCF9B7A5D = Zdezelowane Junk
+
+0xCF219CD0 = Elitarne HSW
+
+0xCFEE7F1C = Klasyczne światła na dachu
+
+0xD006CA9D = Duży dyfuzor bez zderzaka
+
+0xD0B2A23E = Niskie GT, ramię kolor #2
+
+0xD0EC001F = Klasyczne osłony reflektorów
+
+0xD1BB6C0B = Biały jesienny sweter Yeti
+
+0xD2B29F2B = Biały pas Powermetal
+
+0xD2CDD2E7 = Gęsta krata, kolor #2
+
+0xD2D7DAE7 = Alt. karbon. rajdowe skrzydło
+
+0xD2DE5A65 = Brzoskwin. krótki kombinezon
+
+0xD2EEF275 = Biała rybacka LC
+
+0xD3DB0096 = Usunięty grill
+
+0xD3E14A70 = Niski wylot powietrza
+
+0xD3F919E3 = Karbonowa domont. dokładka
+
+0xD4D8099A = Podwójny tytanowy wydech
+
+0xD4EF446E = Rajdowe Nagasaki
+
+0xD4FD364F = Dwa fabryczne wydechy
+
+0xD5AA9C05 = Rajdowa maska I, kol. #1
+
+0xD5D8F7FF = Karbonowy potrójny wlot
+
+0xD5D893D4 = Czarna demoniczna koza
+
+0xD5EAEE4D = Beżowy słomiany letni
+
+0xD5ED2784 = Progi aero, kolor #2
+
+0xD6F7E60D = Zderzak terenowy
+
+0xD7ACF507 = Moro 76
+
+0xD7CA4DC7 = Karbonowe uliczne progi
+
+0xD7ECD26F = Wyścigowe wywietrzniki
+
+0xD8A7CF0D = Potężne skrzyd. docisk., k. #2
+
+0xD8AF898D = Czarny słomiany letni
+
+0xD8F4C8E9 = Wyścigowe Fukaru
+
+0xD9A28CE0 = Niski kaczy spojler
+
+0xD60B3716 = Rozdzielony grill
+
+0xD64C5D3C = Poszerzone nadkola
+
+0xD64C5E2C = Kute karbonowe kaczki
+
+0xD72B0A2C = Fioletowe Panic za kostkę
+
+0xD76BDED1 = Maska z garbem
+
+0xD83A8F3D = Brzoskwin. bezręk. w kropki
+
+0xD325BBAF = Podwójny wlot
+
+0xD368E215 = Itasha 01
+
+0xD411E3FD = Ciemnosrebrno-ziel. okrągłe
+
+0xD420FD82 = Dostrojone skrzydło
+
+0xD461E08A = Pastelowe retro za kostkę
+
+0xD551F04D = Czarne geometryczne
+
+0xD740CE97 = Czarne body z grzybami
+
+0xD2571DA5 = Karbonowe wydłużone progi
+
+0xD4008D37 = Szkarłatny krótki kombinezon
+
+0xD5366BF4 = Klatka, kolor #1
+
+0xD6408DB1 = Malowany fabryczny grill
+
+0xD6590F97 = Bagażnik na pace
+
+0xD7375E78 = Karbonowa maska z garbem
+
+0xD14349CA = Wyczynowe wykończenie
+
+0xD32168C3 = Moro z usterką
+
+0xD52788A6 = Zaklejone światła p-mgielne
+
+0xD249839A = Bagażnik dachowy
+
+0xD443587C = Owalny wlot powietrza
+
+0xD941477A = Poczwórne przednie wydechy
+
+0xD4118739 = Karbonowy wyścigowy dyfuzor
+
+0xD5772900 = Driftowe Backside
+
+0xDA22D372 = Torpedowy bez pion. elementu
+
+0xDA544FB2 = Policja LS
+
+0xDAAE8AFB = Fioletowy świecący szkielet
+
+0xDABF7E09 = Szara rybacka z moro Yeti
+
+0xDAC36234 = Ukryty grill
+
+0xDAD14487 = Czerwony łowca węży
+
+0xDAD82677 = Czarna rybacka Güffy
+
+0xDAF46F12 = Chromowany mocny grill
+
+0xDB7CCE55 = Skrzydło GT
+
+0xDB8A7592 = Gruby różany łańcuch (P)
+
+0xDB873CD5 = Wysokopoziom. kaczy spojler
+
+0xDB6596B5 = Pomarańcz.-ziel. 69 za kostkę
+
+0xDB28607B = Czarne pasy Benefactor
+
+0xDBACAF76 = Gruby brązowy łańcuch (P)
+
+0xDBB175DC = Gruby ciemny łańcuch (P)
+
+0xDBC2C3DA = Podwójny wydech shotgun
+
+0xDC8B0DD2 = Alt. orur., kolor #1 i błot.
+
+0xDC752D2C = Żaluzje
+
+0xDCAD77FF = Gruby srebrny łańcuch (P)
+
+0xDCDF384B = Wyścigowe HSW
+
+0xDD03EF7B = Wyścigowe skrzydło, kolor #2
+
+0xDD1DCB81 = Białe technopasy
+
+0xDD87A4F7 = Niebieskie zapinki maski
+
+0xDDA63D87 = Pom.-czarne body z mandalą
+
+0xDDC2A6A0 = Sportowy zderzak
+
+0xDDD587F8 = Potrójny wlot, kolor #2
+
+0xDDF1DB24 = Biały jesienny sweter Yeti
+
+0xDE5A40E0 = Demoniczna motocyklowa
+
+0xDE7AD178 = Biały pas
+
+0xDE8235FB = Karbonowe progi
+
+0xDEB75329 = Niskie progi
+
+0xDED7F5CF = Ekstremalna dokładka II
+
+0xDF47C1F8 = Białe boczne pasy
+
+0xDF290D85 = Niebieskie driftowe moro
+
+0xDF2037AC = Gruby brązowy naszyjnik
+
+0xDFAA4C29 = Gdyby twoje problemy z tatusiem miały 5-litrowy silnik i klasyczny styl, wyglądałyby właśnie tak. Zaczęło się od poczęcia na tylnym siedzeniu i porodu na przednim. Od tamtej pory brzmienie rzędowej szóstki budzi w tobie potężną potrzebę aprobaty. Wiernie trwasz przy swoich Stallionach, Gauntletach i Buccaneerach, ale nic nie spełnia tej jednej potrzeby. Czas się związać z jedynym kawałem emocjonalnie niedostępnej stali, jaki może cię w pełni zaspokoić. Oto Dominator FX.
+
+0xDFAC0BEB = Szara rybacka z moro Yeti
+
+0xDFC86DFF = Plemienne Neds
+
+0xDFE74836 = Pomarańcz.-ziel. 69 za kostkę
+
+0xE0028A3D = Skrzydło GT
+
+0xE03D3A40 = Pas przeciwsłoneczny, kol. #1
+
+0xE07941CB = Niskie skrzydło GT
+
+0xE07BD65B = Podwójny wlot, kolor #2
+
+0xE0E2C073 = KAUCJA NR:
+
+0xE1DF61C3 = Srebrna mankietowa (P)
+
+0xE1F0DDBE = Złota dokładka
+
+0xE1F7432D = Koszulka Pizza This...
+
+0xE2FBBEFC = Karbonowe skrzydlate progi
+
+0xE3F1FC8C = Magentowy krótki kombinezon
+
+0xE5B62028 = Alt. boczne orurowanie, k. #1
+
+0xE5CB62A0 = Driftowe rozlane
+
+0xE6BCAD63 = Zaostrzony
+
+0xE6F86BD9 = Popielata kamizela
+
+0xE7FAEE28 = Uliczne progi, kolor #2
+
+0xE8D91D69 = Różowa rybacka z moro Yeti
+
+0xE8F99A7D = Czarna rybacka LC
+
+0xE8F58055 = Itasha Neds
+
+0xE9A80A57 = Gruby złoty łańcuch (L)
+
+0xE9FD52E1 = Dzielona dok. z wykończ. w k. #2
+
+0xE13E3F9D = Driftowe T-East
+
+0xE16CB389 = Rajdowa maska II, kol. #1
+
+0xE17FD6EE = Ocalona z Ludendorff
+
+0xE24F23B4 = Karb. wyścigowy z akc., k. #2
+
+0xE49AD0F5 = Wyścig równoległy
+
+0xE51BC33C = Kaczki
+
+0xE53ED579 = Podw. rozdziel. grill, k. #1
+
+0xE62C86F2 = Wojskowe za kostkę
+
+0xE70B3C08 = Szara kamizela
+
+0xE83FAEA0 = Rajdowe skrzydło
+
+0xE90DC2E2 = Biała rybacka Güffy
+
+0xE135D3AB = Czarny pas Powermetal
+
+0xE194DC1F = Pomarańczowe driftowe Dinka
+
+0xE229B5BA = Czarne zachodu słońca
+
+0xE279EC37 = Karbon. wyczynowe wykończ.
+
+0xE324CB6B = Różany warstwowy naszyjnik
+
+0xE370A07C = Średni kaczy spojler
+
+0xE405B415 = Czarny naszyjnik ze spluwą
+
+0xE418DA1A = Usunięty przedni zderzak
+
+0xE599B126 = Osłona wlotu, kolor #2
+
+0xE636E3C9 = Wyczynowe skrzydło
+
+0xE720E339 = Długie boczne wydechy
+
+0xE819EB3D = Policja LS (jasne)
+
+0xE860BF17 = Policja stanowa LS
+
+0xE863D306 = Białe body Barfs
+
+0xE990AEF7 = Żółte Panic za kostkę
+
+0xE2755C2C = Pełna dokładka
+
+0xE6722B3B = Światła przeciwmgielne
+
+0xE7272F7E = Gęstsza krata
+
+0xE7526C62 = Potężne docisk., ramię k. #2
+
+0xE9855A95 = Koszulka wygrana w kasynie
+
+0xE9990AFB = Wyścigowa maska z karb.
+
+0xE38133E6 = Burszt. szylkret. przeciwsł.
+
+0xE382026D = Karbonowy dyfuzor
+
+0xE582147B = Wiesz, jak wygląda Szwed udający Włocha? Pierwsze próby w postaci carbonary z marynowanym śledziem i flirtu opartego na pasywnej agresji nie były zbyt obiecujące, ale popatrz, gdzie jesteśmy teraz: za kierownicą elektrycznego Överflöda Pipistrello ty także możesz uciec przed problemami z nonszalancką gracją godną premiera wiejącego przed kolejnym parlamentarnym seksskandalem. A więc powiedz "ssijcie klopsy, polizia", bo konsekwencje są dla ciamajd w samochodach produkcji krajowej.
+
+0xE672834A = Dummy label.
+
+0xE745253C = Kapitan policji
+
+0xE776435E = Agresywne żaluzje, kolor #2
+
+0xE3736810 = Skrzydło wyścigowe, k. #2
+
+0xE3999728 = Alt. orurowanie, kolor #2
+
+0xE6200209 = W czarno-białe paski
+
+0xEA4E5A80 = Sprawiedliwość nie śpi. Na szczęście ty jesteś łowcą nagród, więc drzemka i zmiana bielizny są dopuszczalne.
+
+0xEA7BCB69 = Greenwood ma za sobą długą drogę: od gruchota twojego brata, przez nieoznakowany wóz tajniaków z IAA, po najbardziej odjazdowy wóz policyjny w całym San Andreas. Do tego dochodzi tradycyjna szczekaczka, gdyby ktoś jakimś cudem nie zauważył twojego nieskazitelnego gustu.~n~~n~– Umożliwia przyjmowanie wezwań policyjnych~n~~n~Uwaga: Ten pojazd można modyfikować wyłącznie we własnych nieruchomościach i ma zerową wartość w odsprzedaży.
+
+0xEA61F4D9 = Różowe body z grzybami
+
+0xEA9090E4 = Klasyczne mangowe
+
+0xEA9496D4 = W niebieską kratę
+
+0xEAAC3078 = Czarna wkładka grilla
+
+0xEB011526 = Brązowy kapelusz alpejski
+
+0xEB3C6609 = Karbonowy ekstraktor ciepła
+
+0xEB8BF0BF = Plastikowe nadkola
+
+0xEB728F02 = Praktyczny zderzak
+
+0xEB97237B = Potrójny wlot
+
+0xEB438297 = Dokładka z płetwami
+
+0xEB444070 = Złote zapinki maski
+
+0xEBDFD9E0 = Gładkie progi łukowe
+
+0xEC5CDFDB = Maska niestandardowa
+
+0xEC712E80 = Jasnobrązowy indyk
+
+0xECB98C50 = Dwuczęściowe skrzydło
+
+0xECF9D35F = Gruby różany naszyjnik
+
+0xED8C2342 = Szary niepokojący kot
+
+0xED49469C = Brązowy naszyjnik ze spluwą
+
+0xED523848 = Maska wyścigowa, kolor #2
+
+0xEDB06127 = Średniopoziom. kaczy spojler
+
+0xEDFE7CA0 = Ogniste moro Disruption
+
+0xEE0B750D = Brązowa mankietowa (L)
+
+0xEE5F10E5 = Dokładki na progi, kolor #2
+
+0xEE9756F4 = Biały pas Fukaru
+
+0xEE49496B = Białe 69 za kostkę
+
+0xEEB672D0 = Karbonowy podwójny wlot
+
+0xEEBF571E = PŁYTY PANCERNE
+
+0xEEDB0079 = Zderzak, kolor #1
+
+0xEF02B1DF = Brązowa mankietowa (P)
+
+0xEF19E726 = Lusterka, kolor #1
+
+0xEFBA99F1 = Różany warstwowy naszyjnik
+
+0xEFD9A0D6 = Us. tablica i św. p-mgielne
+
+0xEFE4E785 = Dense wyścigowe
+
+0xF001B2A3 = Plast. pas przeciwsłoneczny
+
+0xF0155191 = Białe wschodu słońca
+
+0xF030ECB6 = Podwójny typu shotgun
+
+0xF037C50F = Szmaragd. bezręk. w kropki
+
+0xF05E2A36 = Duży stelaż z bagażami
+
+0xF06D54D1 = Czarny bezrękawnik w kropki
+
+0xF074F6A4 = Panele boczne, kolor #2
+
+0xF082871D = Pas przeciwsłoneczny, kol. #1
+
+0xF0AE7A52 = Niebieskie driftowe Dinka
+
+0xF0F31E22 = Potrójne czarne pasy boczne
+
+0xF1DACED4 = Fabryczny ze spojlerem
+
+0xF2AE3F81 = Pipistrello
+
+0xF2F4168B = Domontowane nadkola
+
+0xF3A0FB30 = Strój Pizza This...
+
+0xF3A957CC = Lotka na śrubach
+
+0xF3A9135A = Karb. obniżona z akc., k #2
+
+0xF3BC1D2D = Morskie geometryczne SC
+
+0xF4B4B1F3 = Rybacka Krapea
+
+0xF4F5DFF0 = Liga wyścigowa
+
+0xF5C04959 = Vorschlaghammer
+
+0xF5C3A6F0 = Dyfuzor
+
+0xF5FA4A15 = Skrzydło wyścigowe
+
+0xF5FA970F = Pisswasser Good Time
+
+0xF6F7452D = Czarna rybacka Cimicino
+
+0xF7E16089 = Turkusowa ryb. w cętki Güffy
+
+0xF7EA26DB = Gruby różany łańcuch (L)
+
+0xF9C71C8B = Domont. z wykończ. w k. #2
+
+0xF9F3E54E = Białe zachodu słońca
+
+0xF13AAD81 = Pełen wlot na dachu, k. #2
+
+0xF15BAB45 = Fioletowa rybacka Panic
+
+0xF37E3FDC = Grill Invetero
+
+0xF50FFC18 = Karbonowe lusterka
+
+0xF62D8045 = Jasnobrązowy indyk
+
+0xF65D8AED = Uliczne progi
+
+0xF84ECE41 = Rajdowa maska, kolor #1
+
+0xF84ED087 = Podwójny zaostrzony
+
+0xF84EE45E = Podwójne wydechy
+
+0xF87D97D0 = Zapętlone orurowanie, kolor #2
+
+0xF90D7ABD = Kuty karbonowy dach
+
+0xF294D37F = Policja stanowa
+
+0xF342DB1F = Karbonowe żaluzje boczne
+
+0xF551E1A9 = Plastikowe senne osłony
+
+0xF580B3AA = Mało znany fakt: w języku niemieckim nie ma jednego słowa na "silnik za duży na tę wnękę". Próbowali mówić inżynierom, że "zu groß" i "zu dick", ale "ona mówiła to samo" też się nie da dobrze przełożyć, więc mamy, co mamy. Lśniący, przypakowany V8 wciśnięty w bardzo ciasną przestrzeń, który pozwala Vorschlaghammerowi dojść do setki szybciej, niż wymówisz "oj, wybacz, chyba właśnie...". Ale nie przejmuj się, przedwczesne dotarcie jest tu jedyną wadą, więc pamiętaj, że możesz trochę zwolnić.~n~~n~Można zamontować tuning driftowy w warsztacie klubu samochodowego LS.
+
+0xF583C1B9 = Policja (wykrywanie bomb)
+
+0xF624EE88 = Bottom Dollar
+
+0xF630BC56 = Czarne orurowanie
+
+0xF684BC7D = Yosemite 1500
+
+0xF723FC6B = Podwójne skośne wydechy
+
+0xF2525E0C = Gruby czarny naszyjnik
+
+0xF3305E6B = Brązowa mankietowa (P)
+
+0xF7360F95 = Odchylony spojler
+
+0xF23259EA = Okrągłe na nadkolu
+
+0xF193417D = Zaklejone światła
+
+0xF196177F = Gruby złoty naszyjnik
+
+0xF587783A = Kute karbonowe skrzydło
+
+0xF2415532 = Płytowa went. maska II, k. #1
+
+0xF4999369 = Gradientowe geometryczne
+
+0xF5364407 = Duże fabryczne płetwy
+
+0xF7124304 = Uliczne skrzydło SPL
+
+0xF8479687 = Niebieski krótki kombinezon
+
+0xF9652134 = Wyścigowe T-East
+
+0xFA0A7B36 = Niest. maska, kolor #2
+
+0xFA0D03AE = Ekstraktor ciepła, kolor #2
+
+0xFA6189D6 = Podwójnie wentylowana maska
+
+0xFACA3019 = Turkusowe Güffy za kostkę
+
+0xFACBD45F = Limonkowy bezręk. w kropki
+
+0xFB061721 = Odchyl. spojler, ramię k. #2
+
+0xFB3DAE44 = Wyścigowa maska z plast.
+
+0xFB21103F = Różany naszyjnik DS
+
+0xFB462969 = Kute karb. dwucz. skrzydło
+
+0xFBD1F68A = Domontowana dokładka
+
+0xFBE4FF89 = Białe kolczaste pasy
+
+0xFBEBC001 = Brązowy niepokojący kot
+
+0xFC0664E5 = Czarne 69 za kostkę
+
+0xFC40037F = Rozdzielony grill, kolor #1
+
+0xFC142438 = Karb. skrzydlata dokładka
+
+0xFC339624 = Potężne skrzydło dociskowe
+
+0xFCAE85E3 = Czarny pas Fukaru
+
+0xFCB71477 = Patrol drogowy
+
+0xFCC0F6A2 = Plemienne
+
+0xFCC3199B = Czerw.-nieb. body z mandalą
+
+0xFCE68FC9 = Tytanowe owalne wydechy
+
+0xFD9DA7AB = Brązowy naszyjnik DS
+
+0xFD56BD3B = Jazda po bandzie
+
+0xFD69BFDA = Złoty naszyjnik ze spluwą
+
+0xFD112D49 = Karbonowe wklęsłe progi
+
+0xFD245A28 = AGENCI
+
+0xFD4520A2 = Pas przeciwsłoneczny, kol. #2
+
+0xFD7630A1 = Szare geometryczne SC
+
+0xFD333629 = Driftowe Jackal Racing
+
+0xFDA4ED3A = Domont. dokładka II, k. #2
+
+0xFDD97C8B = Sportowe skrzydło, kolor #2
+
+0xFE04F0A3 = Żaluzje boczne
+
+0xFF2BBC24 = Wyścigowy uliczny kamuflaż
+
+0xFF8BC219 = Karbonowe sportowe progi
+
+0xFF9FB392 = Gruby różany naszyjnik
+
+0xFF321F07 = Czarne pasy
+
+0xFF392B1F = Złoty grill i wykończenie
+
+0xFF88398C = Złoty warstwowy naszyjnik
+

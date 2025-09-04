@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help Menu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body style="display: none;">
+    <div class="help-menu">
+        <div class="help-header">
+            <div class="help-logo">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <h1>Menu Pomocy</h1>
+        </div>
+        <div class="help-content">
+            <ul>
+                <li><i class="fas fa-cogs"></i> Użyj <b style="color: #ffb753;">/togglehelp</b> by odpalić/wyłączyć powiadomienia o pomocy.</li>
+                <li><i class="fas fa-cogs"></i> Użyj <b style="color: #ffb753;">/togglefires</b> by odpalić/wyłączyć widoczność pożarów.</li>
+                <li><i class="fas fa-cogs"></i> Użyj <b style="color: #ffb753;">/report</b> by skierować problem do administracji na serwerze.</li>
+                <li><i class="fas fa-cogs"></i> Użyj <b style="color: #ffb753;">/streamermode</b> by wyłączyć muzykę z radia samochodowego i boomboxa.</li>
+                <li><i class="fas fa-cogs"></i> Użyj <b style="color: #ffb753;">/tv_streamermode</b> by wyłączyć muzykę z telewizorów.</li>
+                <li><i class="fas fa-cogs"></i> Użyj <b style="color: #ffb753;">/w [ID]</b> by napisać prywatną wiadomość do gracza.</li>
+                <li><i class="fas fa-cogs"></i> Użyj <b style="color: #ffb753;">/dostosuj</b> by edytować ustawienie emotki.</li>
+                <li><i class="fas fa-cogs"></i> Użyj <b style="color: #ffb753;">/hud</b> by edytować HUD.</li>
+                <li><i class="fas fa-cogs"></i> Pamietaj gdy <b style="color: rgb(98, 214, 98);">nie ma</b> administratora na serwerze, otworzyć w pilnej sprawie ticket!</li>
+            </ul>
+        </div>
+        <div class="help-footer">
+            <button class="close-btn" onclick="closeHelp()">Zamknij</button>
+        </div>
+    </div>
+
+    <script>
+        function closeHelp() {
+            fetch('https://mrg-help/closeHelp', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json; charset=UTF-8'
+                }
+            }).then(() => {
+                document.body.style.display = 'none';
+            });
+        }
+
+        window.addEventListener('message', function(event) {
+            if (event.data.type === 'openHelp') {
+                document.body.style.display = 'flex';
+            }
+        });
+    </script>
+</body>
+</html>

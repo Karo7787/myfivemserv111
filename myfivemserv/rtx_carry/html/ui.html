@@ -1,0 +1,51 @@
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">	
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+	<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+	<div class="full-screen">
+		<div class="carryrequest-container" id="carryreceiever">
+			<div class="carrytextkey">Ktoś chce ciebie podnieść</div>
+			<div class="carrytextkey"><span style="color:#9a6248">Y</span> aby się zgodzić</div>
+			<div class="carrytextkey"><span style="color:#9a6248">N</span> aby odrzucić </div>
+		</div>	
+		<div class="carryrequester-container" id="carryrequester">
+			<div class="carrytextkey">Wysłano prośbę, prośba wygasa za <span id="secondsremainingrequest" style="color:#9a6248">120</span> sekund</div>
+		</div>
+		<div class="carrysomeone-container" id="carryed">
+			<div class="carrytextkey">Jesteś noszony</div>
+		</div>	
+		<div class="carrytype-container" id="carrytype">
+			<div class="headercarrymenu">
+				<h1 class="HeaderCarryMenuText">Podnieś</h1>
+				<img class="closetypemenu" src="img/close.png" style="width:30px;height:30px" alt="CloseCarryMenu"/>
+			</div>	
+			<h1 class="CarryTypeMenuHeaderText">Wybierz styl noszenia</h1>
+			<div class="carrytype1"> 	
+				<img src="img/carrytype1.png" alt="Carry 1">
+				<div class="carrytextmain">Noszenie 1</div>
+				<div class="carry1select">Wybierz</div>	
+			</div>	
+			<div class="carrytype2"> 	
+				<img src="img/carrytype2.png" alt="Carry 2">
+				<div class="carrytextmain">Noszenie 2</div>
+				<div class="carry2select">Wybierz</div>	
+			</div>	
+			<div class="carrytype3"> 	
+				<img src="img/carrytype3.png" alt="Carry 3">
+				<div class="carrytextmain">Noszenie 3</div>
+				<div class="carry3select">Wybierz</div>	
+			</div>				
+		</div>				
+	</div>
+
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+	<script src="debounce.min.js" type="text/javascript"></script>
+
+</body>

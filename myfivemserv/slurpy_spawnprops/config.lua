@@ -1,0 +1,57 @@
+Config = {}
+
+Config.Debug = true -- Toggle Debug Off and On
+Config.Coords = {
+    --{Model = "prop_lectern_01", Coords = vector3(-325.67, -1977.02, 21.99), Heading = 26.68},
+    --{Model = "prop_lectern_01", Coords = vector3(-326.74, -1977.35, 21.99), Heading = 8.2}, 
+    --{Model = "prop_lectern_01", Coords = vector3(-328.42, -1977.11, 21.99), Heading = 333.26},
+    --{Model = "prop_lectern_01", Coords = vector3(-329.29, -1976.43, 21.99), Heading = 320.67},
+    --{Model = "prop_lectern_01", Coords = vector3(-330.4, -1975.63, 21.99), Heading = 311.59},
+    --{Model = "prop_lectern_01", Coords = vector3(-331.04, -1974.79, 21.99), Heading = 303.72},
+    --{Model = "prop_lectern_01", Coords = vector3(-331.5, -1973.55, 21.99), Heading = 276.54},
+    --{Model = "prop_lectern_01", Coords = vector3(-331.44, -1972.22, 21.99), Heading = 248.89}, 
+    --{Model = "prop_lectern_01", Coords = vector3(-330.85, -1971.18, 21.99), Heading = 230.78},
+    --{Model = "prop_lectern_01", Coords = vector3(-324.57, -1976.34, 21.99), Heading = 54.65},
+    --{Model = "prop_lectern_01", Coords = vector3(-327.94, -1973.32, 21.99), Heading = 142.93}, --prowadzacy
+    --{Model = "prop_tv_flat_03b", Coords = vector3(120.12, -1281.56, 28.88), Heading = 119.46}, --vanilla
+    --{Model = "prop_tv_flat_01", Coords = vector3(829.55, -824.41, 27.74), Heading = 181.99}, --lsc
+    -- {Model = "prop_atm_01", Coords = vector3(1091.2, -775.09, 57.28), Heading = 180.33}, --bankomatlspd 
+    -- {Model = "bzzz_photobox_3", Coords = vector3(-1673.7659, -950.5663, 6.7273), Heading = 166.25},
+    -- {Model = "bzzz_photobox_5", Coords = vector3(-1678.1499, -949.2032, 6.7271), Heading = 165.88},
+    -- {Model = "bzzz_photobox_6", Coords = vector3(-1682.5474, -947.9213, 6.7264), Heading = 162.97},
+    -- {Model = "bzzz_photobox_7", Coords = vector3(-1686.8243, -946.6833, 6.7264), Heading = 164.29},
+    -- {Model = "bzzz_photobox_8", Coords = vector3(-1691.2299, -944.7634, 6.7264), Heading = 163.57},
+    -- {Model = "bzzz_photobox_10", Coords = vector3(-1696.0027, -943.2208, 6.7264), Heading = 164.91},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(453.47, -999.05, 42.69), Heading = 5},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(-446.26, -298.57, 77.17), Heading = 112.14},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(-1105.89, -2872.28, 12.95), Heading = 154.63},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(-1140.25, -2852.78, 12.95), Heading = 154.63},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(-1172.88, -2834.78, 12.95), Heading = 154.63},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(-992.02, -3013.76, 12.95), Heading = 151.68},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(-970.91, -2976.86, 12.95), Heading = 151.68},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(-1256.97, -3391.1, 12.94), Heading = 68.85},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(-1288.51, -3372.97, 12.94), Heading = 68.85},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(-1635.91, -3151.57, 12.99), Heading = 68.85},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(-1667.74, -3132.31, 12.99), Heading = 68.85},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(-720.0, -1448.21, 4.01), Heading = 48.75},
+    --{Model = "prop_gas_pump_1c", Coords = vector3(-786.42, -1185.99, 52.03), Heading = 137.38},
+    {Model = "prop_tool_bench02_ld", Coords = vector3(1673.56, 4967.34, 41.8), Heading = 45.0},
+    --{Model = "prop_arcade_01", Coords = vector3(-1283.3, -305.05, 35.05), Heading = 202.57},
+    --{Model = "ch_prop_arcade_street_01c", Coords = vector3(-1284.96, -305.81, 35.05), Heading = 202.65},
+    --{Model = "vw_prop_vw_arcade_02b", Coords = vector3(-1286.47, -306.51, 35.05), Heading = 204.24},
+    --{Model = "bkr_prop_meth_table01a", Coords = vector3(709.27, -959.47, 29.4), Heading = 90.26},
+    --{Model = "bkr_prop_meth_table01a", Coords = vector3(704.46, -967.89, 29.4), Heading = 271.42},
+    {Model = "ch_prop_ch_metal_detector_01a", Coords = vector3(-549.03, -200.48, 37.22), Heading = 28.11},
+    {Model = "ch_prop_ch_metal_detector_01a", Coords = vector3(-548.2, -199.99, 37.22), Heading = 28.11},
+    {Model = "ch_prop_ch_metal_detector_01a", Coords = vector3(-547.36, -199.48, 37.22), Heading = 28.11},
+    {Model = "ch_prop_ch_metal_detector_01a", Coords = vector3(-546.18, -198.95, 37.22), Heading = 28.11},
+    {Model = "ch_prop_ch_metal_detector_01a", Coords = vector3(-514.75, -210.38, 37.36), Heading = 119.11},
+    {Model = "ch_prop_ch_metal_detector_01a", Coords = vector3(-515.23, -209.5, 37.36), Heading = 119.11},
+    {Model = "ch_prop_ch_metal_detector_01a", Coords = vector3(-533.05, -167.59, 37.22), Heading = 210.54},
+    {Model = "ch_prop_ch_metal_detector_01a", Coords = vector3(-534.18, -168.19, 37.22), Heading = 210.54},
+    {Model = "ch_prop_ch_metal_detector_01a", Coords = vector3(-562.88, -208.55, 37.17), Heading = 120.54},
+    {Model = "xm_prop_crates_pistols_01a", Coords = vector3(1672.56, 4971.3, 41.8), Heading = -35.00},
+    {Model = "xm_prop_crates_sam_01a", Coords = vector3(1675.96, 4969.87, 41.8), Heading = 46.03},
+    {Model = "prop_helipad_01", Coords = vector3(94.51, -419.04, 83.0), Heading = 155.04},
+
+}

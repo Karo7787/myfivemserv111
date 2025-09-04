@@ -1,0 +1,945 @@
+<html style="overflow-y: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sfpolice</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../config.js"></script>
+</head>
+<body>
+<div id="jobTab">
+<div id="content">
+    <main id="main">
+        <div class="row setMaxheight">  
+            <div class="col-md-12 specialbg" style="margin: 0;">
+                <div class="col">
+                    <div class="textMain">
+                        <div class="row">
+                            <div class="col-8 welcomeInfo">
+                                <template v-if="page=='home'">
+                                    <i class="fa-solid fa-briefcase mainIcon"></i> {{titleText('name')}}
+                                </template>
+                                <template v-else>
+                                    <i class="fa-solid fa-circle-chevron-left backButton" v-on:click="backLastPage()"></i> {{titleText('name')}}
+                                </template>
+                            </div>
+                            <div class="col-4 text-right">
+                                <i class="fa-regular fa-circle-xmark closeButton" v-on:click="closeTablet();"></i>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="specialbgpadding">
+                    <div v-if="page == 'home'">
+                        <div class="row row-cols-2">
+                            <div class="col" v-on:click="changePage('finances')">
+                                <div class="buttonMain">
+                                    <div class="row">
+                                        <div class="col-2 text-center">
+                                            <i class="fa-solid fa-money-bill-wave iconSize"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="nameMenu">{{lang.menu_button_finances}}</div>
+                                            <div class="descMenu">{{lang.menu_button_desc_finances}}</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col" v-on:click="changePage('employees')">
+                                <div class="buttonMain">
+                                    <div class="row">
+                                        <div class="col-2 text-center">
+                                            <i class="fa-solid fa-people-group iconSize"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="nameMenu">{{lang.menu_button_employees}}</div>
+                                            <div class="descMenu">{{lang.menu_button_desc_employees}}</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col" v-on:click="changePage('announcements')">
+                                <div class="buttonMain">
+                                    <div class="row">
+                                        <div class="col-2 text-center">
+                                            <i class="fa-solid fa-clipboard iconSize"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="nameMenu">{{lang.menu_button_announcements}}</div>
+                                            <div class="descMenu">{{lang.menu_button_desc_announcements}}</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col" v-on:click="changePage('stats')">
+                                <div class="buttonMain">
+                                    <div class="row">
+                                        <div class="col-2 text-center">
+                                            <i class="fa-solid fa-circle-info iconSize"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="nameMenu">{{lang.menu_button_stats}}</div>
+                                            <div class="descMenu">{{lang.menu_button_desc_stats}}</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col" v-on:click="changePage('updates')">
+                                <div class="buttonMain">
+                                    <div class="row">
+                                        <div class="col-2 text-center">
+                                            <i class="fa-solid fa-arrow-up-wide-short iconSize"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="nameMenu">{{lang.menu_button_updates}}</div>
+                                            <div class="descMenu">{{lang.menu_button_desc_updates}}</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col" v-on:click="changePage('settings')" v-if="checkPerm(12) || checkPerm(13) || checkPerm(17)">
+                                <div class="buttonMain">
+                                    <div class="row">
+                                        <div class="col-2 text-center">
+                                            <i class="fa-solid fa-gear iconSize"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="nameMenu">{{lang.menu_button_settings}}</div>
+                                            <div class="descMenu">{{lang.menu_button_desc_settings}}</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div v-if="page == 'finances'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-6" v-on:click="changePage('addInvoice')" v-if="checkPerm(1)">
+                                    <div class="buttonSmall">
+                                        <div class="row">
+                                            <div class="col-2 text-center">
+                                                <i class="fa-solid fa-file-invoice-dollar iconSize"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="nameMenuOnly">{{lang.menu_button_addInvoice}}</div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-6" v-else>
+                                    <div class="buttonSmall">
+                                        <div class="row">
+                                            <div class="col-2 text-center">
+                                                <i class="fa-solid fa-file-invoice-dollar iconSize"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="nameMenuOnly nodata w-50">{{lang.menu_button_addInvoice}}</div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="accountMain">
+                                        <div class="nameMenu" v-if="checkPerm(2)">{{business.bank_number}}</div>
+                                        <div class="nameMenu nodata w-25" v-else>&nbsp;</div>
+                                        <div class="descMenu">{{lang.finances_bank_number}}</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="accountMain">
+                                        <div class="nameMenu" v-if="checkPerm(2)">{{business.money}}$</div>
+                                        <div class="nameMenu nodata w-25" v-else>&nbsp;</div>
+                                        <div class="descMenu">{{lang.finances_bank_amount}}</div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="buttonMiddle dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">{{lang.finances_bank_list}}</div>
+                                    <div class="collapse" id="collapseExample" v-if="checkPerm(3)">
+                                        <div class="specialonly">
+                                            <div class="row">
+                                                <div class="col col-lg-3">{{lang.finances_bank_list_name}}</div>
+                                                <div class="col col-lg-3">{{lang.finances_bank_list_amount}}</div>
+                                                <div class="col col-lg-3">{{lang.finances_bank_list_desc}}</div>
+                                                <div class="col col-lg-3">{{lang.finances_bank_list_date}}</div>
+                                            </div>
+                                        </div>
+                                        <div class="specialonlyborder" v-for="(name, value) in business.invoices">
+                                            <div class="row">
+                                                <div class="col col-lg-3">{{name.who}}</div>
+                                                <div class="col col-lg-3">{{name.amount}}$</div>
+                                                <div class="col col-lg-3">{{name.reason}}</div>
+                                                <div class="col col-lg-3">{{goodDate(name.date)}}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="collapseExample" v-else>
+                                        <div class="specialonly">
+                                            <div class="row">
+                                                <div class="col col-lg-3">{{lang.finances_bank_list_name}}</div>
+                                                <div class="col col-lg-3">{{lang.finances_bank_list_amount}}</div>
+                                                <div class="col col-lg-3">{{lang.finances_bank_list_desc}}</div>
+                                                <div class="col col-lg-3">{{lang.finances_bank_list_date}}</div>
+                                            </div>
+                                        </div>
+                                        <div class="specialonlyborder">
+                                            <div class="row">
+                                                <div class="col col-lg-3"><span class="nodata w-100">&nbsp;</span></div>
+                                                <div class="col col-lg-3"><span class="nodata w-100">&nbsp;</span></div>
+                                                <div class="col col-lg-3"><span class="nodata w-100">&nbsp;</span></div>
+                                                <div class="col col-lg-3"><span class="nodata w-100">&nbsp;</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'addInvoice'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-3"></div>
+                                <div class="col-6">
+                                   <label class="form-label">{{lang.addinvoice_placeholder_idplayer}}</label>
+                                    <input class="inputNew w-100 m-b-1" type="number" v-model="addInvoice_player" :placeholder="lang.addinvoice_placeholder_idplayer">
+                                    <label class="form-label">{{lang.addinvoice_placeholder_amount}}</label>
+                                    <input class="inputNew w-100 m-b-1" type="number" v-model="addInvoice_amount" step="1" oninput="if(this.value<0){this.value=0}this.value = Math.round(this.value);" :placeholder="lang.addinvoice_placeholder_amount">
+                                    <label class="form-label">{{lang.addinvoice_placeholder_desc}}</label>
+                                    <input class="inputNew w-100 m-b-1" type="text" v-model="addInvoice_desc" :placeholder="lang.addinvoice_placeholder_desc">
+                                    <div class="buttonNew" v-if="addInvoice_player && addInvoice_amount>0 && addInvoice_desc" v-on:click="addInvoice()"><i class="fa-solid fa-circle-plus"></i> {{lang.addinvoice_button_add}}</div>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'employees'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-6">
+                                    <input class="inputNew w-100" type="text" v-model="searchEmployee" :placeholder="lang.employees_placeholder_search">
+                                </div>
+                                <div class="col-3">
+                                    <div class="buttonNew" v-on:click="changePage('addEmployee')" v-if="checkPerm(4)"><i class="fa-solid fa-circle-plus"></i> {{lang.employees_button_add_employee}}</div>
+                                    <div class="buttonNew" v-else><span class="nodata w-75">&nbsp;</span></div>
+                                </div>
+                                <div class="col-3" v-if="!business.payoutBank">
+                                    <div class="buttonNew" v-on:click="changePage('payoutBonus')" v-if="checkPerm(5)"><i class="fa-solid fa-hand-holding-dollar"></i> {{lang.employees_button_set_bonus}}</div>
+                                    <div class="buttonNew" v-else><span class="nodata w-75">&nbsp;</span></div>
+                                </div>
+                                <div class="col-3" v-else>
+                                    <div class="buttonNew" v-on:click="changePage('resetTimework')" v-if="checkPerm(5)"><i class="fa-solid fa-user-clock"></i> {{lang.restart_timework}}</div>
+                                    <div class="buttonNew" v-else><span class="nodata w-75">&nbsp;</span></div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="specialonly">
+                                        <div class="row">
+                                            <div class="col col-3">{{lang.employees_list_name}}</div>
+                                            <div class="col col-2">{{lang.employees_list_position}}</div>
+                                            <div class="col col-2">{{lang.employees_list_time_work}}</div>
+                                            <div class="col col-3">{{lang.employees_list_time_work_full}}</div>
+                                            <div class="col col-2">{{lang.employees_list__actions}}</div>
+                                        </div>
+                                    </div>
+                                    <div class="specialonlyborder" v-if="filtered_employees.length>0" v-for="(name, value) in filtered_employees">
+                                        <div class="row">
+                                            <div class="col col-3 nameSurnameEmployees"><span class="dot" :class="{dotred: name.active==false}">&#x2022;</span>{{name.name}}</div>
+                                            <div class="col col-2">{{getNameRank(name.position)}}</div>
+                                            <div class="col col-2">{{counterTime(name.worktime)}}</div>
+                                            <div class="col col-3">{{counterTime(name.worktime_all)}}</div>
+                                            <div class="col col-2">
+                                                <div class="icons">
+                                                    <i class="fas fa-trash-alt iconSpecial" v-if="checkPerm(6) && mychar.cid != name.playerid && mychar.position>=name.position" v-on:click="dropEmployee(getCorrectId(name.playerid))"></i>
+                                                    <i class="fa-regular fa-square-minus" v-else></i>
+                                                    <i class="fas fa-user-cog iconSpecial" v-if="checkPerm(7) && mychar.cid != name.playerid && mychar.position>=name.position" v-on:click="changePositionEmployee(getCorrectId(name.playerid))"></i>
+                                                    <i class="fa-regular fa-square-minus" v-else></i>
+                                                    <i class="fas fa-list-ol iconSpecial" v-if="checkPerm(18)" v-on:click="showEmployeeStats(getCorrectId(name.playerid))"></i>
+                                                    <i class="fa-regular fa-square-minus" v-else></i>
+                                                </div>                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="specialonlyborder" v-if="filtered_employees.length==0">
+                                        <div class="row">
+                                            <div class="col col-3"><span class="nodata w-100">&nbsp;</span></div>
+                                            <div class="col col-2"><span class="nodata w-100">&nbsp;</span></div>
+                                            <div class="col col-2"><span class="nodata w-100">&nbsp;</span></div>
+                                            <div class="col col-3"><span class="nodata w-100">&nbsp;</span></div>
+                                            <div class="col col-2"><span class="nodata w-100">&nbsp;</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'employeeStats'">
+                        <div class="row row-cols-1" v-if="employeeStats_stats!=false && checkPerm(19)">
+                            <div class="col">
+                                <div class="buttonMiddle m-b-1" v-on:click="clearPlayerStats()">{{lang.stats_reset_button}}</div>
+                            </div>
+                        </div>    
+                        <div class="row row-cols-2">
+                            <div class="col" v-if="employeeStats_stats!=false" v-for="(name, value) in employeeStats_stats">
+                                <div class="buttonMain">
+                                    <div class="row">
+                                        <div class="col-2 text-center">
+                                            <i class="fas fa-hand-rock iconSize"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="nameMenu">{{name}}</div>
+                                            <div class="descMenu">{{value}}</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col" v-if="employeeStats_stats==false">
+                                <div class="buttonMain">
+                                    <div class="row">
+                                        <div class="col-2 text-center">
+                                            <i class="fas fa-hand-rock iconSize"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="nameMenu">{{lang.stats_none}}</div>
+                                            <div class="descMenu">{{lang.stats_none2}}</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'addEmployee'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        <label class="form-label">{{lang.addemployee_text_idplayer}}</label>
+                                        <input class="inputNew w-100 m-b-1 text-center" type="number" v-model="addEmployee_playerid" :placeholder="lang.addemployee_placeholder_idplayer">
+                                        <div class="buttonNew" v-if="addEmployee_playerid!=null && addEmployee_playerid!=''" v-on:click="addEmployeeConfirm()"><i class="fa-solid fa-circle-plus"></i> {{lang.addemployee_button_add}}</div>
+                                    </div>
+                                </div>
+                                <div class="col-4"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'resetTimework'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        <label class="form-label">{{lang.resettimework_text_confirm}}</label>
+                                        <div class="buttonNew" v-on:click="resetTimeworkConfirm()"><i class="fa-solid fa-user-clock"></i> {{lang.resettimework_button_confirm}}</div>
+                                    </div>
+                                </div>
+                                <div class="col-4"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'payoutBonus'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        <label class="form-label">{{lang.payoutbonus_text_idplayer}}</label>
+                                        <select class="inputNew w-100 m-b-1 text-center" @change="checkEmployee($event)" v-model="payoutBonus_player">
+                                            <template v-if="business.employees.length>0" v-for="(name, value) in business.employees">
+                                                <option :value="name.id">{{name.name}}</option>
+                                            </template>
+                                        </select>
+                                        <label class="form-label">{{lang.payoutbonus_text_hours}}</label>
+                                        <input class="inputNew w-100 m-b-1 text-center" type="number" v-model="payoutBonus_time" readonly>
+                                        <label class="form-label">{{lang.payoutbonus_text_money}}</label>
+                                        <input class="inputNew w-100 m-b-1 text-center" type="text" v-model="payoutBonus_money" readonly>
+                                        <div class="buttonNew" v-if="payoutBonus_player && payoutBonus_time>0 && toNumber(payoutBonus_money)<=toNumber(business.money)" v-on:click="payoutBonusConfirm()"><i class="fa-solid fa-circle-plus"></i> {{lang.payoutbonus_button_payout}}</div>
+                                    </div>
+                                </div>
+                                <div class="col-4"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'dropEmployee'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        {{lang.dropemployee_text}} {{dropEmployee_name}}?
+                                        <div class="buttonNew m-t-1" v-on:click="dropEmployeeConfirm()"><i class="fa-solid fa-circle-plus"></i> {{lang.dropemployee_button_drop}}</div>
+                                    </div>
+                                </div>
+                                <div class="col-4"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'changePositionEmployee'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <label class="form-label m-b-1">{{lang.changepositionemployee_text_name}}</label>
+                                    <input class="inputNew w-100 m-b-1" type="text" v-model="changePositionEmployee_name" readonly>
+                                    <label class="form-label">{{lang.changepositionemployee_text_position}}</label>
+                                    <input class="inputNew w-100 m-b-1" type="text" v-model="getNameRank(changePositionEmployee_position)" readonly>
+                                    <label class="form-label">{{lang.changepositionemployee_text_new_position}}</label>
+                                    <select class="inputNew w-100 m-b-1" v-model="changePositionEmployee_position_new" :placeholder="lang.changepositionemployee_placeholder_position">
+                                        <template v-if="business.listRanks.length>0" v-for="(name, value) in business.listRanks">
+                                            <option v-if="name.position<10" :value="name.position">{{name.label}}</option>
+                                        </template>
+                                    </select>
+                                    <div class="buttonNew" v-if="changePositionEmployee_position != changePositionEmployee_position_new && changePositionEmployee_position_new !=null && changePositionEmployee_position_new<=mychar.position" v-on:click="changePositionEmployeeConfirm()"><i class="fa-solid fa-circle-plus"></i> {{lang.changepositionemployee_button_save}}</div>
+                                </div>
+                                <div class="col-4"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'announcements'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="buttonSmall" v-on:click="changePage('addAnno')" v-if="checkPerm(8)">
+                                        <div class="row">
+                                            <div class="col-2 text-center">
+                                                <i class="fa-solid fa-clipboard iconSize"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="nameMenuOnly">{{lang.announcements_button_add_adv}}</div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="specialonlyborder" v-if="business.announcements.length>0" v-for="(name, value) in business.announcements">
+                                        <div class="row">
+                                            <div class="col col-lg-12">{{name.title}}</div>
+                                            <div class="col col-lg-12" style="white-space: pre-line;">{{name.message}}</div>
+                                            <div class="col col-lg-12">
+                                                {{name.who}}, {{name.date}}
+                                                <div class="row">
+                                                    <div class="col col-lg-6">
+                                                        <div class="trashAnno" v-if="checkPerm(9) && name.id" v-on:click="dropAnno(value, name.id, name.title)">
+                                                            <i class="fas fa-trash-alt"></i> {{lang.announcements_button_delete_adv}}
+                                                        </div>
+                                                    </div>
+                                                    <div class="col col-lg-6">
+                                                        <div class="trashAnno" v-if="checkPerm(9) && name.id" v-on:click="editAnno(value, name.id, name.title, name.message)">
+                                                            <i class="fa-solid fa-pen-to-square"></i> {{lang.announcements_button_edit_adv}}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'addAnno'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-12">
+                                    <input class="inputNew w-100 m-b-1" type="text" v-model="addAnnoNew_title" :placeholder="lang.addanno_placeholder_title">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="textareaNew w-100 m-b-1" type="text" v-model="addAnnoNew_message" :placeholder="lang.addanno_placeholder_desc"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="buttonNew" v-if="addAnnoNew_title && addAnnoNew_message" v-on:click="addAnnoNew()"><i class="fa-solid fa-circle-plus"></i> {{lang.addanno_button_add}}</div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'dropAnno'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        {{lang.dropanno_confirm}} {{dropAnno_title}}?
+                                        <div class="buttonNew m-t-1" v-on:click="dropAnnoSave()"><i class="fa-solid fa-circle-plus"></i> {{lang.dropanno_button}}</div>
+                                    </div>
+                                </div>
+                                <div class="col-4"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'editAnno'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-12">
+                                    <input class="inputNew w-100 m-b-1" type="text" v-model="editAnno_title" :placeholder="lang.addanno_placeholder_title">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="textareaNew w-100 m-b-1" type="text" v-model="editAnno_message" :placeholder="lang.addanno_placeholder_desc"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="buttonNew m-t-1" v-on:click="editAnnoSave()"><i class="fa-solid fa-circle-plus"></i> {{lang.editanno_button}}</div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'stats'">
+                        <div class="row row-cols-2">
+                            <div class="col-12 text-left"><h3>{{lang.stats_header_text}}</h3></div>
+                            <div class="col">
+                                <div class="buttonMain">
+                                    <div class="row">
+                                        <div class="col-2 text-center">
+                                            <i class="fas fa-layer-group iconSize"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="nameMenu">{{getNameRank(mychar.position)}}</div>
+                                            <div class="descMenu">{{lang.stats_list_desc_position}}</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="buttonMain">
+                                    <div class="row">
+                                        <div class="col-2 text-center">
+                                            <i class="fas fa-calendar-alt iconSize"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="nameMenu">{{lang.stats_list_desc_date}}</div>
+                                            <div class="descMenu">{{mychar.date}}</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="buttonMain">
+                                    <div class="row">
+                                        <div class="col-2 text-center">
+                                            <i class="fas fa-clock iconSize"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="nameMenu">{{counterTime(mychar.worktime)}}</div>
+                                            <div class="descMenu">{{lang.stats_list_desc_timework}}</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="buttonMain">
+                                    <div class="row">
+                                        <div class="col-2 text-center">
+                                            <i class="fa-solid fa-money-check-dollar iconSize"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="nameMenu">{{mychar.numberInvoices}}</div>
+                                            <div class="descMenu">{{lang.stats_list_desc_invoices}}</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <template v-if="checkPerm(10)">
+                                <div class="col-12 text-left"><h3>{{lang.stats_header_text2}}</h3></div>
+                                <div class="col">
+                                    <div class="buttonMain">
+                                        <div class="row">
+                                            <div class="col-2 text-center">
+                                                <i class="fas fa-people-carry iconSize"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="nameMenu">{{business.employees.length}}</div>
+                                                <div class="descMenu">{{lang.stats_list_desc_employees}}</div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="buttonMain">
+                                        <div class="row">
+                                            <div class="col-2 text-center">
+                                                <i class="fa-solid fa-hand-holding-dollar iconSize"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="nameMenu">{{business.profit}}$</div>
+                                                <div class="descMenu">{{lang.stats_list_desc_dolars}}</div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="buttonMain">
+                                        <div class="row">
+                                            <div class="col-2 text-center">
+                                                <i class="fa-solid fa-money-check-dollar iconSize"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="nameMenu">{{business.numberInvoices}}</div>
+                                                <div class="descMenu">{{lang.stats_list_desc_invoices}}</div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="buttonMain">
+                                        <div class="row">
+                                            <div class="col-2 text-center">
+                                                <i class="fa-solid fa-arrow-up-wide-short iconSize"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="nameMenu">{{Object.keys(business.updates).length}}</div>
+                                                <div class="descMenu">{{lang.stats_list_desc_updates}}</div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                    <div v-if="page == 'updates'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col col-lg-12">
+                                    <div class="specialonlyborder paddingUpdate" v-if="business.listUpdates.length>0" v-for="(name, value) in business.listUpdates">
+                                        <div class="row">
+                                            <div class="col col-8">
+                                                <span class="titleUpdate">{{name.name}}</span>      
+                                                <span class="descriptionUpdate">
+                                                    {{name.description}}<br>
+                                                    <template v-if="name.need != 0 && checkUpdate(name.id) == false && needUpdate(name.need) == false">
+                                                        <br><i>{{lang.updates_text_need}}: {{ getValueName(name.need) }}</i><br><br>
+                                                    </template>
+                                                    <template v-else><br></template>
+                                                    {{lang.updates_text_price}}: {{name.cost}}$
+                                                </span>
+                                            </div>
+                                            <div class="col col-4">
+                                                <div class="buttonNew" v-if="readyUpdates && checkUpdate(name.id) == false && needUpdate(name.need) == true && checkPerm(11) && toNumber(name.cost)<=toNumber(business.money)" v-on:click="buyUpdate(name.id)">{{lang.updates_button_buy}}</div>
+                                                <div class="buttonNew" v-if="checkUpdate(name.id) && checkPerm(11)">{{lang.updates_haveUpdate}}</div>
+                                            </div>
+                                        </div>                   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'settings'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="buttonSmall" v-on:click="changePage('setBonus')" v-if="!business.payoutBank && checkPerm(12)">
+                                        <div class="row">
+                                            <div class="col-2 text-center">
+                                                <i class="fa-solid fa-money-bills iconSize"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="nameMenuOnly">{{lang.settings_menu_setbonus}}</div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="buttonSmall" v-on:click="changePage('setMenu')" v-if="checkPerm(13)">
+                                        <div class="row">
+                                            <div class="col-2 text-center">
+                                                <i class="fa-solid fa-bars iconSize"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="nameMenuOnly">{{lang.settings_menu_setmenu}}</div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="buttonSmall" v-on:click="changePage('setPermissions')" v-if="checkPerm(17)">
+                                        <div class="row">
+                                            <div class="col-2 text-center">
+                                                <i class="fa-solid fa-gears iconSize"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="nameMenuOnly">{{lang.settings_menu_permissions}}</div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="buttonSmall" v-on:click="loadDataForSettingsAccount()" v-if="mychar.position==10">
+                                        <div class="row">
+                                            <div class="col-2 text-center">
+                                                <i class="fa-solid fa-money-check-dollar iconSize"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <div class="nameMenuOnly">{{lang.settings_menu_bankaccount}}</div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'setBonus'">
+                        <div class="col">
+                            <div class="row">                                
+                                <div class="col-12">
+                                    <div class="specialonly">
+                                        <div class="row">
+                                            <div class="col col-4">{{lang.setbonus_list_position}}</div>
+                                            <div class="col col-4">{{lang.setbonus_list_amount}}</div>
+                                            <div class="col col-4">{{lang.setbonus_list_actions}}</div>
+                                        </div>
+                                    </div>
+                                    <div class="specialonlyborder" v-if="business.listRanks.length>0" v-for="(name, value) in business.listRanks">
+                                        <div class="row">
+                                            <div class="col col-4">{{name.label}}</div>
+                                            <div class="col col-4">{{name.money}}$</div>
+                                            <div class="col col-4">
+                                                <div class="icons">
+                                                    <i class="fa-solid fa-pen-to-square iconSpecial" v-on:click="editPosition(value)"></i>
+                                                </div>                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'editPosition'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        <label class="form-label">{{lang.editpermissions_text_permissions}}</label>
+                                        <input class="inputNew w-100 m-b-1" type="text" v-model="editPosition_label" readonly>
+                                        <label class="form-label">{{lang.editposition_placeholder_money}}</label>
+                                        <input class="inputNew w-100 m-b-1" type="number" step="1" oninput="if(this.value<0){this.value=0}this.value = Math.round(this.value);" v-model="editPosition_money" :placeholder="lang.editposition_placeholder_money">
+                                        <div class="buttonNew" v-on:click="editPositionSave()"><i class="fa-solid fa-circle-plus"></i> {{lang.editposition_button_save}}</div>
+                                    </div>
+                                </div>
+                                <div class="col-4"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'setMenu'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-6">
+                                    <input class="inputNew w-100" type="text" v-model="searchMenu" :placeholder="lang.setmenu_placeholder_search">
+                                </div>
+                                <div class="col-6">
+                                    <div class="buttonNew" v-if="checkPerm(15)" v-on:click="changePage('addNewKit')"><i class="fa-solid fa-circle-plus"></i> {{lang.setmenu_button_addkit}}</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="specialonly">
+                                        <div class="row">
+                                            <div class="col col-3">{{lang.setmenu_list_name}}</div>
+                                            <div class="col col-3">{{lang.setmenu_list_price}}</div>
+                                            <div class="col col-4">{{lang.setmenu_list_products}}</div>
+                                            <div class="col col-2">{{lang.setmenu_list_actions}}</div>
+                                        </div>
+                                    </div>
+                                    <div class="specialonlyborder" v-for="(name, value) in filtered_products" v-if="filtered_products.length>0 && name.list.length>0">
+                                        <div class="row"> 
+                                            <div class="col col-3">{{getNameProduct(name.product)}}</div>
+                                            <div class="col col-3">{{name.price}}$</div>
+                                            <div class="col col-4">
+                                                <span v-if="name.list.length==0" class="badge text-bg-light">{{lang.setmenu_list_noproducts}}</span>
+                                                <span v-else v-for="(name2, value2) in name.list" class="badge text-bg-light">{{getNameProduct(name2.product)}} x{{name2.amount}}</span>
+                                            </div>
+                                            <div class="col col-2">
+                                                <div class="icons">
+                                                    <i class="fas fa-trash-alt iconSpecial" v-if="checkPerm(16)" v-if="name.id" v-on:click="dropProduct(getCorrectId2(name.id))"></i>
+                                                </div>                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="specialonlyborder" v-if="filtered_products.length==0">
+                                        <div class="row"> 
+                                            <div class="col col-3"><span class="nodata w-100">&nbsp;</span></div>
+                                            <div class="col col-3"><span class="nodata w-100">&nbsp;</span></div>
+                                            <div class="col col-4"><span class="nodata w-100">&nbsp;</span></div>
+                                            <div class="col col-2"><span class="nodata w-100">&nbsp;</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'addNewKit'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3>{{lang.addnewkit_text_list}}:</h3>
+                                    <template v-if="availableProducts.length>0" v-for="(name, value) in availableProducts">                  
+                                        <span class="badge text-bg-light" v-on:click="addProductToKit(name.product)">{{getNameProduct(name.product)}} <i class="fa-solid fa-plus"></i></span>&nbsp;
+                                    </template>        
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label">{{lang.addnewkits_text_nameKit}}</label>
+                                    <input class="inputNew w-100 m-b-1 text-center" type="text" v-model="addNewKit_nameKit">
+                                    <label class="form-label">{{lang.addnewkits_text_price}}</label>
+                                    <input class="inputNew w-100 m-b-1 text-center" type="number" step="1" oninput="if(this.value<=1){this.value=1}this.value = Math.round(this.value);" v-model="addNewKit_price">
+                                    <label class="form-label">{{lang.addnewkits_text_products}}</label>
+                                    <div class="onlyBg m-b-1">
+                                        <template v-if="addNewKit_products.length>0" v-for="(name, value) in addNewKit_products">                                      
+                                            <span class="badge text-bg-light" v-on:click="removeProductTFromKit(value)">{{getNameProduct(name.product)}} x{{name.amount}} <i class="fa-solid fa-minus"></i></span>&nbsp;
+                                        </template>
+                                        <template v-if="addNewKit_products.length==0">                                      
+                                            <span class="badge text-bg-light">{{lang.addnewkits_text_noproducts}}</span>
+                                        </template>
+                                    </div>
+                                    <div class="buttonNew" v-on:click="addNewKitSave()"><i class="fa-solid fa-circle-plus"></i> {{lang.addnewkits_button_add}}</div>
+                                </div>
+                                <div class="col-4"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'setPermissions'">
+                        <div class="col">
+                            <div class="row">                                
+                                <div class="col-12">
+                                    <div class="specialonly">
+                                        <div class="row">
+                                            <div class="col col-4">{{lang.setpermissions_list_position}}</div>
+                                            <div class="col col-4">{{lang.setpermissions_list_premissions}}</div>
+                                            <div class="col col-4">{{lang.setpermissions_list_actions}}</div>
+                                        </div>
+                                    </div>
+                                    <div class="specialonlyborder" v-if="business.listRanks.length>0" v-for="(name, value) in business.listRanks">
+                                        <div class="row">
+                                            <div class="col col-4">{{name.label}}</div>
+                                            <div class="col col-4">
+                                                <span v-if="name.permissions.length>0" v-for="(name2, value2) in name.permissions">
+                                                    <span class="badge text-bg-light">{{getNamePerm(name2.id)}}</span>
+                                                </span>
+                                                <span v-if="name.permissions.length==0">
+                                                    <span class="badge text-bg-light">{{lang.setpermissions_list_nodata}}</span>
+                                                </span>
+                                            </div>
+                                            <div class="col col-4">
+                                                <div class="icons">
+                                                    <i class="fa-solid fa-pen-to-square iconSpecial" v-on:click="editPermissions(value)"></i>
+                                                </div>                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'setBankAccess' && mychar.position==10">
+                        <div class="col">
+                            <div class="row">                                
+                                <div class="col-12" v-if="loading==false">
+                                    <div class="specialonly">
+                                        <div class="row">
+                                            <div class="col col-4">{{lang.access_list_name}}</div>
+                                            <div class="col col-4">{{lang.access_list_premission}}</div>
+                                            <div class="col col-4">{{lang.access_list_actions}}</div>
+                                        </div>
+                                    </div>
+                                    <div class="specialonlyborder" v-if="account.length>0" v-for="(name, value) in account">
+                                        <div class="row">
+                                            <div class="col col-4">{{name.name}}</div>
+                                            <div class="col col-4">
+                                                <span v-if="name.bank_number!=null">{{lang.access_list_info}}</span>
+                                            </div>
+                                            <div class="col col-4">
+                                                <div class="icons">
+                                                    <i class="fas fa-trash-alt iconSpecial" v-if="mychar.position==10" v-on:click="removeAccessAccount(name.playerid)"></i>
+                                                </div>                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="specialonlyborder" v-if="account.length==0">
+                                        <div class="row">
+                                            <div class="col col-lg-4"><span class="nodata w-100">&nbsp;</span></div>
+                                            <div class="col col-lg-4"><span class="nodata w-100">&nbsp;</span></div>
+                                            <div class="col col-lg-4"><span class="nodata w-100">&nbsp;</span></div>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-light btn-md w-100 m-t-1" v-on:click="giveAccessToAccount()">{{lang.access_list_button}}</button>
+                                </div>
+                                <div class="col-12" v-if="loading==true">
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        <h3 style="text-align: center;">
+                                            <div class="spinner-border text-light" role="status">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'giveBankAccess' && mychar.position==10">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        <label class="form-label">{{lang.access_set_text}}</label>
+                                        <select class="inputNew w-100 m-b-1 text-center" v-model="access_player">
+                                            <template v-if="business.employees.length>0" v-for="(name, value) in business.employees">
+                                                <option :value="name.playerid">{{name.name}}</option>
+                                            </template>
+                                        </select>
+                                        <div class="buttonNew" v-on:click="giveAccessToAccountSend()" v-if="mychar.position==10 && usingsfbanking && access_player && checkHaveAccess()==false">{{lang.access_button_text}}</div>
+                                    </div>
+                                </div>
+                                <div class="col-4"></div>
+                            </div>
+                        </div>    
+                    </div>
+                   
+                    <div v-if="page == 'editPermissions'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3>{{lang.editpermissions_text_list}}:</h3>
+                                    <template v-if="permissionList.length>0" v-for="(name, value) in permissionList">                                      
+                                        <span class="badge text-bg-light" v-if="checkIsAddedPerm(name.id)" v-on:click="addBadgePerm(name.id)">{{name.name}} <i class="fa-solid fa-plus"></i></span>&nbsp;
+                                    </template>        
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label">{{lang.editpermissions_text_permissions}}</label>
+                                    <input class="inputNew w-100 m-b-1 text-center" type="text" v-model="editPermissions_label" readonly>
+                                    <div class="onlyBg m-b-1">
+                                        <template v-if="editPermissions_permissions.length>0" v-for="(name, value) in editPermissions_permissions">                                      
+                                            <span class="badge text-bg-light" v-on:click="removeBadgePerm(value)">{{getNamePerm(name.id)}} <i class="fa-solid fa-minus"></i></span>&nbsp;
+                                        </template>
+                                        <template v-if="editPermissions_permissions.length==0">                                      
+                                            <span class="badge text-bg-light">{{lang.editpermissions_no_permission}}</span>
+                                        </template>
+                                    </div>
+                                    <div class="buttonNew" v-on:click="editPermissionsSave()"><i class="fa-solid fa-circle-plus"></i> {{lang.editpermissions_button_save}}</div>
+                                </div>
+                                <div class="col-4"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div v-if="page == 'dropProduct'">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        {{lang.dropproduct_confirm}} {{dropProduct_product}}?
+                                        <div class="buttonNew" v-on:click="dropProductSave()"><i class="fa-solid fa-circle-plus"></i> {{lang.dropproduct_button}}</div>
+                                    </div>
+                                </div>
+                                <div class="col-4"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </main>  
+</div>
+</div> 
+    <script src="jquery.min.js"></script>
+    <script src="vue.min.js"></script>
+    <script src="mirage.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>    
+</body>
+</html>

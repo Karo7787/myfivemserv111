@@ -1,0 +1,110 @@
+{
+    "notify": {
+        "successfully_unlocked": "Udało ci się zwytrychować dom",
+        "successfully_hacked": "Udało ci się włamał do domu",
+        "recently_robbed": "Ten dom był właśnie obrabowany. Odczekaj jeszcze trochę za nim znowu to zrobisz...",
+        "failed": "Dałeś dupy...",
+        "must_be_police": "Musisz być policjantem by zamknąć dom...",
+        "not_experienced_enough": "Masz za niski poziom by włamać się do tego domu...",
+        "no_item": "Nie masz potrzebnych przedmiotów by się tu włamać...",
+        "been_searched": "Już tu szukałeś...",
+        "searching_already": "Ktoś aktualnie przeszukuje to miejsce...",
+        "earned_xp_search": "You got %s experience points for searching this place",
+        "earned_xp_breakin": "You got %s experience points for breaking into this house",
+        "can_not_carry": "You can not carry this...",
+        "successfully_locked": "Gratuluje! Zabezpieczyłeś dom",
+        "lockpick_broke": "Rozjebałeś wytrych...",
+        "police_notified": "Za dużo razy się pogubiłeś, policja już tu jedzie!",
+        "dont_have_items_trade": "Nie masz już nic co mnie interesuje",
+        "cooldown": "Hola hola, poczekaj chwile",
+        "need_group": "Musisz być w grupie bym dał ci zlecenie",
+        "group_no_members": "Potrzebujesz przynajmniej %d członków grupy by rozpocząć zlecenie",
+        "group_leader": "Musisz być leaderem w grupie",
+        "house_marked": "Zlecenie oznaczone na GPS. Masz %d minut by tam dotrzeć. Nie spierdol tego.",
+        "not_enough_police": "Za mało piesków mieście",
+        "only_at_night": "Wróć tu w nocy a na pewno dostaniesz to czego potrzebujesz?",
+        "no_houses": "No co? Wszystko ojebali już w mieście poczekaj chwile",
+        "no_item_to_access": "Hola Hola, a gdzie ten przedmiot co masz mi dać za zlecenie",
+        "cancelled": "Anulowanie...",
+        "group_already_has_mission": "Twoja grupa ma juz przypisany dom do rabunku",
+        "group_house_not_assigned": "Ten dom nie jest twojej grupy znajdź swoje lokum",
+        "solo_already_has_mission": "Masz już przypisany dom",
+        "solo_house_not_assigned": "Ten dom nie jest tobie przypisany"
+    },
+    "blip": {
+        "target_house": "Zlecenie",
+        "start_ped": "Podejrzany ziutek"
+    },
+    "dialog": {
+        "startped": {
+            "boss": "Boss",
+            "name": "Leo",
+            "talk_start": {
+                "text": "Hey there! How about we spice things up with a thrilling house heist? You in?",
+                "yes": "Absolutely, let's do this!",
+                "no": "Not today, but maybe next time."
+            },
+            "talk_end": {
+                "text": "Don't be a stranger! But remember, my deals won't last forever—better act fast!",
+                "end": "End conversation"
+            }
+        }
+    },
+    "context": {
+        "trader": {
+            "title": "Kupiec",
+            "description": "Cena sprzedaży: $%s-%s"
+        }
+    },
+    "input": {
+        "trader": {
+            "label": "Ilość do sprzedania",
+            "description": "Posiadasz %s %s"
+        }
+    },
+    "furniture_labels": {
+        "kitchen": "Kuchnia",
+        "cabin": "Sypialnia",
+        "livingroom": "Salon",
+        "chest": "Skrzynia"
+    },
+    "interaction": {
+        "break_into_furniture": "Włam się do mebili",
+        "search_furniture": "Przeszukiwanie",
+        "exit_house": "Wyjdzi z domu",
+        "lock_house": "Zamknij dom",
+        "enter_house": "Wejdź do domu",
+        "break_into_house": "Włam się do domu",
+        "talk": "Pogadaj z dziwnym ziutem",
+        "talk_trader": "Pogadaj z kupcem"
+    },
+    "exploit": {
+        "exploiting_server": "Exploiting the server (aka unauthorized use of Lua executors)"
+    },
+    "logs": {
+        "enter_house": {
+            "title": "Wszedł do domu (%s)",
+            "message": "Gracz wszedl do domu %s"
+        },
+        "break_into_house": {
+            "title": "Włamał się (%s)",
+            "message": "Gracz włamał się do domu %s"
+        },
+        "exit_house": {
+            "title": "Wyszedł z (%s)",
+            "message": "Gracz wyszedł z domu %s"
+        },
+        "break_into_furniture": {
+            "title": "Włamanie do mebli (%s)",
+            "message": "Gracz włamał się do mebli w domu %s"
+        },
+        "search_furniture": {
+            "title": "Przeszukiwanie mebli (%s)",
+            "message": "Gracz przeszukał meble w domu %s"
+        },
+        "lock_house": {
+            "title": "Zamknął dom (%s)",
+            "message": "Gracz zamknął dom %s"
+        }
+    }
+}

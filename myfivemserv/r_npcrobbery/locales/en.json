@@ -1,0 +1,11 @@
+{
+    "npc_robbery_title": "Okradanie obywatela",
+    "player_rob_description": "Obywatel cie okradl i zajebal ci %s",
+    "npc_robbery_nothing": "No peszek, ten nic nie mial przy sobie, nie okradaj bezdomnych",
+    "npc_rob_label": "Okradnij obywatela",
+    "player_rob_label": "No chuj cie okrada...",
+    "error_title": "Blad",
+    "not_enough_police": "Za malo policji!",
+    "already_robbed": "Tego juz ojebales, zostaw go!",
+    "minigame_fail": "No co miernotka z ciebie"
+}

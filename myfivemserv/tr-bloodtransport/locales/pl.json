@@ -1,0 +1,14 @@
+{
+    "job": {
+        "take": "Weź torby z krwią",
+        "deliver": "Dostarcz krew",
+        "notifications":{
+            "job_has": "Masz już torby z krwią, jedź je dostarzyć do punktów na mapie",
+            "success": "Wziąłeś torby z krwią, jedź je dostarzyć do punktów na mapie",
+            "cooldown": "Odczekaj chwilę przed wzięciem nastepnego zlecenia",
+            "not_player": "Jesteś pewny ze istniejesz?",
+            "deliverend": "To już wszystkie torby, wracaj na szpital główny",
+            "deliversuccess": "Dostarczyłeś torby z krwią w ilości: %s, następny punkt został zaznaczony na mapie"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+  <InitDatas>
+
+	
+				<!--  Xmas Themed Heavy Sniper Skin -->
+				
+	<Item>
+		<modelName>W_SR_HeavySniper_M32</modelName>
+		<txdName>W_SR_HeavySniper_M32</txdName>
+		<ptfxAssetName>null</ptfxAssetName>
+		<lodDist value="50"/>
+	</Item>
+	
+				<!--  Xmas Themed Combat Pistol Skin -->
+				
+	<Item>
+		<modelName>W_PI_CombatPistol_M32</modelName>
+		<txdName>W_PI_CombatPistol_M32</txdName>
+		<ptfxAssetName>null</ptfxAssetName>
+		<lodDist value="50"/>
+	</Item>
+	
+				<!--  Xmas Themed Special Carbine Skin -->
+	
+	<Item>
+		<modelName>W_AR_SpecialCarbine_M32</modelName>
+		<txdName>W_AR_SpecialCarbine_M32</txdName>
+		<ptfxAssetName>null</ptfxAssetName>
+		<lodDist value="50"/>
+	</Item>
+	
+					<!--   Snowball Launcher -->
+				
+	<Item>
+		<modelName>W_LR_CompactSL_M32</modelName>
+		<txdName>W_LR_CompactSL_M32</txdName>
+		<ptfxAssetName>weap_sv_sl</ptfxAssetName>
+		<lodDist value="50"/>
+	</Item>
+	
+					<!--  SL Battle Rifle -->
+				
+	<Item>
+		<modelName>W_SL_BattleRifle_M32</modelName>
+		<txdName>W_SL_BattleRifle_M32</txdName>
+		<ptfxAssetName>null</ptfxAssetName>
+		<lodDist value="50"/>
+	</Item>
+	
+	<Item>
+		<modelName>W_SL_BattleRifle_M32_Mag1</modelName>
+		<txdName>W_SL_BattleRifle_M32_Mag1</txdName>
+		<ptfxAssetName>null</ptfxAssetName>
+		<lodDist value="50"/>
+	</Item>
+	
+	<Item>
+		<modelName>W_SL_BattleRifle_M32_Mag2</modelName>
+		<txdName>W_SL_BattleRifle_M32_Mag2</txdName>
+		<ptfxAssetName>null</ptfxAssetName>
+		<lodDist value="50"/>
+	</Item>	
+			
+					<!--  Hacking Device -->
+				
+	<Item>
+		<modelName>W_AM_HackDevice_M32</modelName>
+		<txdName>W_AM_HackDevice_M32</txdName>
+		<ptfxAssetName>null</ptfxAssetName>
+		<lodDist value="50"/>
+	</Item>
+			
+  </InitDatas>
+</CWeaponModelInfo__InitDataList>

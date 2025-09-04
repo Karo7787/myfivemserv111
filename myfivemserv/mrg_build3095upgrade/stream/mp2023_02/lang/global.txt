@@ -1,0 +1,3884 @@
+0x000867F5 = Podwójne wloty
+
+0x0010815D = Bursztynowy wełniany polar
+
+0x00468666 = Czarna koszulka LS Customs
+
+0x0051AA30 = Czarne terenowe orurowanie
+
+0x005B2F35 = Chromowany kratowany grill
+
+0x00F98C9A = Musztardowe jeździeckie
+
+0x011EF627 = Koszulka Fooliganów
+
+0x012D46C3 = Czarny wełniany polar
+
+0x012DEFD1 = Imprezowa czapka 7
+
+0x013BCD71 = Fioletowe zimowe
+
+0x015C77D2 = Ciemnoniebieskie zimowe
+
+0x01B88C1D = Czysta zielona geometria
+
+0x01CFA695 = Szara dopasowana
+
+0x01F9D02A = Grill fabryczny, kolor #1
+
+0x01FB362C = Szara Benefactor
+
+0x02002223 = Karbonowa tuningowa maska
+
+0x0226A997 = Karbonowa konfig. wyścigowa
+
+0x02498912 = Spodnie Western MC
+
+0x028D23A4 = Wentylowana rajdowa maska
+
+0x028E70BD = Kuta karb. łukowa wyścigowa
+
+0x028E668C = Maska Agresor, kolor #2
+
+0x02C0400F = Karbon wloty z płetwami
+
+0x02F1CE69 = Ciemnoszary
+
+0x02F8ABF5 = Straż przybrzeżna
+
+0x02F2648C = Klasyczne lusterka, kolor #1
+
+0x030822D4 = Wentylowana maska, kolor #2
+
+0x032E06CE = Imprezowa czapka 14
+
+0x032FC915 = Bezrękawnik Fooliganów
+
+0x03930300 = Wyczynowe progi, kolor #1
+
+0x039C7670 = Czarna czapka 420
+
+0x03A8F302 = Podwójny tytanowy wydech
+
+0x03C8BDE9 = Karbonowy spojler Aero
+
+0x03D78956 = Spytasz pewnie, czy Cavalcade już wcześniej nie miał rozmiaru XL? Czy z tyłu nie mieściło się już dość striptizerek? Czy naprawdę potrzebujesz zajmować aż dwa miejsca dla niepełnosprawnych? Ale pomyśl o tym w ten sposób: co mniej, to nie więcej. Co więcej, to nie więcej. Dopiero co znacznie więcej, to więcej. Tak działa Albany.
+
+0x03DBF358 = Owalny wydech
+
+0x03E7F900 = Bogaty grill
+
+0x04202A45 = Czarne materiałowe chodaki
+
+0x047CA766 = Otagowane Tenshun
+
+0x0490E7B4 = Uliczna dokładka, kolor #1
+
+0x049CAEA2 = Jasnoszare zimowe
+
+0x04A11ECE = Przykręcona lotka, kolor #1
+
+0x05300047 = Zwiększona pojemność karabinu ofensywnego.
+
+0x0559DC12 = Uzbrojona ekipa
+
+0x0595C6D0 = Malowana deska
+
+0x05B41410 = Chromowane relingi
+
+0x05E4935D = Czerwona na chiński Nowy Rok
+
+0x060FBDF4 = Karb. duży spojler Aero
+
+0x068917E3 = Chromowany grill GT
+
+0x06921CE0 = Karbonowe stopnie nadkoli
+
+0x06B6AB10 = CMYK z usterką HSW
+
+0x073004C3 = Biała świąteczna z reniferem
+
+0x07300EAB = Uliczna maska
+
+0x073A9543 = Chromowana poprzeczka
+
+0x074F5505 = Reflektory na dachu
+
+0x07901973 = Wyścigowa dokładka
+
+0x07DB6B6A = Karbonowa używana maska
+
+0x07F69809 = Karbonowa nakładka
+
+0x0838C912 = Złoty kapelusz na Nowy Rok
+
+0x0841A9FB = Niski wycięty z dyfuzorem
+
+0x088BA26E = Uliczny spojler, kolor #2
+
+0x092C4631 = Plastikowy pionowy grill
+
+0x0936053B = Formowana lotka bagażnika
+
+0x0965065F = wyrzutnia śnieżek
+
+0x096E35CA = Krwista dopasowana
+
+0x09BF0D0A = Ciemnoszary wełniany polar
+
+0x09F24263 = Poziomy grill, kolor #2
+
+0x09FC300D = Terminus
+
+0x0A2E03C3 = Grafika Vapid
+
+0x0A12B1F5 = Maska GT, kolor #2
+
+0x0A33EA59 = Karbonowy dach z wlotem
+
+0x0A261DBA = Stopnie, kolor #1
+
+0x0A4889AA = Kobaltowe zimowe
+
+0x0AA0749F = Klasyczny z dokładką, k. #2
+
+0x0AB7F399 = Karbonowa fabryczna dokładka
+
+0x0AD67DC0 = Szosowe i karbonowe wloty
+
+0x0B086DEC = Duża lotka, kolor #1
+
+0x0B097BE8 = Kontrastowa smocza
+
+0x0B2FBFB1 = Krwista motocyklowa
+
+0x0B6C2392 = Kratkowana balistyczna
+
+0x0B16E78C = Wyścigowe Xero
+
+0x0B77CFF7 = Zielone okulary-serca
+
+0x0B931E3D = Wyrzutnia śnieżek
+
+0x0B7957B9 = Czapka Cluckin' Bell
+
+0x0B9031BF = Karbonowy sportowy zderzak
+
+0x0B9318D1 = Wyścigowy wlot, kolor #2
+
+0x0B26509C = Karbonowe duże skrzydło
+
+0x0BF31EB0 = Chrom. wzmocniony zderzak
+
+0x0C5E0631 = Imprezowa czapka 2
+
+0x0C6C41FC = Błotniki
+
+0x0C9D2A2E = Flint Turismo
+
+0x0C31A10F = Zielone geometryczne anime
+
+0x0C8464D6 = Pomarańczowa Bigness
+
+0x0CBA76D4 = Chromowane klasyczne lusterka
+
+0x0CDB320C = Chromowane płytowe stopnie
+
+0x0CDD474A = Czarna Enus
+
+0x0D2EC919 = Klasyczny zderzak, kolor #2
+
+0x0D5F9320 = Seledynowy wełniany polar
+
+0x0D27D925 = Cyjanowe zimowe
+
+0x0D37AA21 = Ciemnoorzech. dopasowana
+
+0x0D45F654 = Plastikowy ryflowany grill
+
+0x0D209778 = Wysoki wentylowany zderzak
+
+0x0D525080 = Wysoki łukowy spojler, #1
+
+0x0DC49CC5 = Seledynowy wełniany polar
+
+0x0E0A458E = Sportowy bagażnik, kolor #1
+
+0x0E0C0FF9 = Zielonkawe zimowe
+
+0x0E2E6837 = Plastikowa dolna osłona
+
+0x0E36C252 = Antena, kolor #2
+
+0x0E57E631 = Czarne okulary-serca
+
+0x0E7609C4 = Wyścig. dokładka z akcentem
+
+0x0EA87C86 = Zapłon
+
+0x0EAD49D2 = Rurowe stopnie
+
+0x0EB71D4A = Lawendowy wełniany polar
+
+0x0EC42408 = Wysokie GT, kolor #2
+
+0x0EC82837 = Pomarańczowe jeździeckie
+
+0x0F0D1E8D = Specjalna maska, kolor #2
+
+0x0F5BD0A5 = Podwójne czarne wyścig. pasy
+
+0x0F5DAB4B = Klasyczny grill
+
+0x0F32CEF8 = Karnawałowa sukienka letnia
+
+0x0F211AEC = Karbonowe panele
+
+0x0F332FC1 = Duży spojler Aero, kolor #2
+
+0x0F942D8C = Sportowe stopnie, kolor #2
+
+0x0F558480 = Królewska smocza
+
+0x0F901327 = Ciemnozielona motocyklowa
+
+0x0FBBD22B = Karnawałowy
+
+0x0FE7CA3D = Drzwi z osłoną
+
+0x0FEA5B8D = Duży chrom. bagażnik dachowy
+
+0x0FF23771 = Bezrękawnik Fooliganów
+
+0x1A2CC191 = Karbon. z podwójnym wlotem
+
+0x1A81BC97 = Czarna na chiński Nowy Rok
+
+0x1A443CA4 = Nakładka w czaszki
+
+0x1A665A35 = Ciemnoszare zimowe
+
+0x1A7956F7 = Lodowe materiałowe chodaki
+
+0x1AA13579 = Czarna czapka Los Santos
+
+0x1AAC00E9 = Świąteczny Sprunk
+
+0x1AF4EC36 = Mylący kamuflaż
+
+0x1AF928C1 = Karbonowa formowana lotka
+
+0x1AFA1BB8 = Seledynowe materiał. chodaki
+
+0x1B22BD0F = Czarny wzmocniony zderzak
+
+0x1B82A66C = Pas wyścigów ulicznych
+
+0x1BDB6B8F = Chromowany pionowy grill
+
+0x1BEF353F = Karbonowe tuningowe progi
+
+0x1C072D27 = Seledynowe zimowe
+
+0x1C37E6EE = Poziomy grill, kolor #1
+
+0x1C41EBA0 = Kiedyś tuningowa scena działała w podziemiu. W tamtych czasach wystarczyło mieć Blistę Kanjo, klucz francuski, sporo wolnego czasu i można było prowokować gości w supersamochodach. Dzisiaj każdy bezmózgi kryptopajac ma członkostwo w klubie samochodowym LS i własnego mechanika, więc musisz popracować nieco ciężej, żeby utrzymać przewagę. Oto Asterope GZ, czyli sleeper car twoich marzeń i samochód tak niepozorny, że rywale zorientują się w fortelu dopiero wtedy, gdy będą się już dławić twoimi spalinami.
+
+0x1C48F2E1 = Duże skrzydło
+
+0x1C52A61A = Imprezowa czapka 9
+
+0x1CAF9148 = Zestaw techniczny 5.0
+
+0x1CBF630B = Czarne orurowanie II
+
+0x1CD6BA20 = Karbonowa specjalna maska
+
+0x1D01BBAE = Karbonowy wyścigowy wlot
+
+0x1D03EBF5 = Podwójne białe wyścig. pasy
+
+0x1D98B1CD = Karbonowe lusterka
+
+0x1D24201D = Nocna smocza
+
+0x1D218789 = Karbonowe lusterka
+
+0x1DB7CCCA = Karbonowy uliczny spojler
+
+0x1DB8A455 = Lodowe zimowe
+
+0x1DCB380D = Karbonowy mocny grill
+
+0x1E03620A = Sułtan
+
+0x1E5F1BF3 = Dziewczyna Tempesta
+
+0x1E6A024E = Opancerzenie przedniej szyby
+
+0x1E50C60F = Plastikowe stopnie
+
+0x1E5450E4 = Ciemnozielone mat. chodaki
+
+0x1E7326E0 = Czapka Red's
+
+0x1E8112FF = Dach z wlotem, kolor #2
+
+0x1E8147A9 = Lodowe jeździeckie
+
+0x1E662880 = Podwójny zagięty wydech
+
+0x1EA0B72E = Imprezowa czapka 8
+
+0x1EC0CED8 = Karbonowy sportowy spojler
+
+0x1ED2991D = Klasyczny przedni zderzak
+
+0x1F9DC605 = Chromowany sportowy zderzak
+
+0x1F46BBC4 = Zderzak z nakładką
+
+0x1F53D62F = Pas przeciwsłoneczny, kolor #2
+
+0x1F6295ED = Czarne alt. lusterka
+
+0x1FAF7E34 = Ciemnoniebieskie zimowe
+
+0x1FC28BAF = Plastikowy grill fabryczny
+
+0x1FC43AAB = Wyścigowe lusterka
+
+0x1FCDC7D1 = Złoty kapelusz na Nowy Rok
+
+0x1FEE37C9 = Karbon. uliczne osłony nadkoli
+
+0x2A0C9424 = Fukaru
+
+0x2A6CA57D = Maska GT, kolor #2
+
+0x2A30064D = Czarne wyścig. pasy Cavalcade
+
+0x2AAB24A1 = Deska surfingowa
+
+0x2ADD2F87 = Wyścigowy superzderzak, #2
+
+0x2AF6E8C7 = Wyścigowe Arrow Gasoline
+
+0x2B093ECE = Podniesiony szperacz kierowcy
+
+0x2B3C35AD = Dźwignia z okiem
+
+0x2B6A927D = Chromowane relingi
+
+0x2B52FBFC = Sportowy zderzak, kolor #1
+
+0x2B69BEA7 = Benson (Cluckin' Bell)
+
+0x2B764A87 = Marynarka na Nowy Rok
+
+0x2BB6E214 = Popielate jeździeckie
+
+0x2BB7515B = Imprezowa czapka 7
+
+0x2BD068FB = Łukowy spojler, kolor #2
+
+0x2BF2651C = Karb. z podwójnym wlot., k. #2
+
+0x2C2BC36E = Kuta karbonowa z płetwami
+
+0x2C8A6282 = Sportowe progi, kolor #2
+
+0x2C90F680 = Skrzynia dachowa
+
+0x2C251CC2 = Burgundowy wełniany polar
+
+0x2C320D9A = Wentylowana maska, kolor #2
+
+0x2C2246B2 = Karbonowy wydłużony zderzak
+
+0x2C59351F = Strój wyścigowy Rockstar
+
+0x2CC52C4C = THIS LABEL NEEDS TO BE HERE !!!
+
+0x2CDC6C12 = W świecie, gdzie często najlepszą perspektywą jest elektryczne walenie konia do hybrydowych pornosów, Grotti wyskakuje z olśniewającym hołdem pożegnalnym dla potężnej V-ósemki, która przybywa prosto z twoich mokrych snów. Rozsiądź się wygodniej i zapnij pasy, zanim po raz ostatni odetchniesz czystą benzyną i pożegnasz minioną erę.~n~W tym pojeździe można zamontować ulepszenia Imani w warsztacie agencji.
+
+0x2CE042A4 = Fuksjowe zimowe
+
+0x2CE1DA54 = Terenowe Whiz
+
+0x2CE55131 = Podwójnie wentylowana, k. #1
+
+0x2CEC3100 = Karbonowe alt. lusterka
+
+0x2CF9F7C3 = Wyścigowa maska, kolor #1
+
+0x2D0FCB53 = Usunięte detale grilla
+
+0x2D322BC3 = Czarna LS Customs
+
+0x2D684D28 = Karb. agres. lotka z wcięciem
+
+0x2D953C1C = Musztardowa dopasowana
+
+0x2D510719 = Belki Nerf
+
+0x2DB51D44 = Plastikowa duża lotka
+
+0x2DC8877B = Podwójnie wentylowana, k. #2
+
+0x2DD64B17 = Sportowe wyścigowe pasy
+
+0x2E1B3844 = Malowane nadkola
+
+0x2E60D0BC = Krzykliwy szokowy HSW
+
+0x2E96AE87 = Alternatywnie otagowany
+
+0x2E769223 = Z niskim wlotem, kolor #1
+
+0x2EB03E76 = Czapka Strapz
+
+0x2EFD6D49 = Spojler, kolor #1
+
+0x2F47DB4A = Kask Rockstar
+
+0x2FF174AE = Tradycyjne lusterka, kol. #2
+
+0x3A1B178C = Kratowany grill, kolor #1
+
+0x3A4E68A3 = Szkarłatna motocyklowa
+
+0x3A6A9273 = Współczesna policja
+
+0x3A6FD092 = Używana maska, kolor #2
+
+0x3A86BB34 = Dżinsowa graffiti
+
+0x3A143FE9 = Niebieska Didier Sachs
+
+0x3A3322AA = Zielona świąteczna z choinką
+
+0x3A11915A = Klasyczne pasy
+
+0x3A216310 = Chromowane progi
+
+0x3AEF6764 = Neonowy poszarpany HSW
+
+0x3AF5E19F = Podwójny niest. wydech
+
+0x3B1A4F15 = Kute karb. wyczynowe progi
+
+0x3B379CC7 = Reklama Bravado
+
+0x3B968CB8 = Plastik. lotka tylnej klapy
+
+0x3B3723FD = Czarna Vapid
+
+0x3B9081F5 = Chromowany grill
+
+0x3BA707A3 = Wydłużony tylny zderzak
+
+0x3BC4C6D4 = Chromowany bagażnik z deską
+
+0x3C2C556A = Kuty karbonowy dach
+
+0x3C7D7F7A = Plastikowe wysokie GT
+
+0x3C8D0D36 = Superprogi, kolor #2
+
+0x3C250DCB = Pas przeciwsłoneczny, kolor #2
+
+0x3C1194E6 = Karbonowa uliczna maska
+
+0x3C354494 = Dolna osłona, kolor #2
+
+0x3CAF826D = Górne wloty, kolor #2
+
+0x3CF0DAD7 = Czarna dopasowana
+
+0x3D099D71 = Siatkowy grill, kolor #1
+
+0x3D58E299 = Karbonowy wlot
+
+0x3D80A2BB = Opalizujące reflektory
+
+0x3D581C4B = Białe zabójcze rajdowe
+
+0x3D7065F3 = Dokładka z płetwami
+
+0x3DA366C0 = Plastikowe orurowanie
+
+0x3DDA1DD0 = Czekoladowe materiał. chodaki
+
+0x3DE4582D = Sułtan
+
+0x3DEDA833 = Owalny wydech
+
+0x3E3D40B8 = Maks. zysk ze sprzedaży
+
+0x3E97D95D = Malowane wąskie nadkola
+
+0x3E566DEF = Podwójne wydechy
+
+0x3E754E44 = Wyścigowe Sprunk
+
+0x3E970CC1 = Rozlana farba Fukaru
+
+0x3EF73761 = Niebieskie okulary-serca
+
+0x3F2FF6AE = Jeśli w latach 80. ktoś jeździł Impalerem LX, to albo był gliniarzem, albo uciekał gliniarzom. Albo i to, i to. Na dzisiejszym rynku trudno znaleźć produkt, który podobałby się tak szerokiemu gronu odbiorców. Jeśli więc chcesz przypomnieć sobie analogowe emocje swoich najlepszych lat, to Declasse ma dla ciebie zastrzyk słodziutkiej pamięci mięśniowej, która nie wymaga opuszczania spodni. Chyba że chcesz.
+
+0x3F9FEEAA = Pas wyścigów muscle
+
+0x3F76D068 = Fioletowa Manor
+
+0x3F86AAF7 = Karbonowa podwójnie wentyl.
+
+0x3F247ED9 = Psychodeliczne Hardstand
+
+0x3F725CF9 = Diabeł na tylnym siedzeniu
+
+0x3FB51B67 = Malowany pas przeciwsłoneczny
+
+0x3FCDC10E = Tytanowe szerokie wydechy
+
+0x4A1E94D1 = Moro Roboksiężniczki II
+
+0x4A6C319B = Podwyższona maska, kolor #1
+
+0x4A23FF5E = Karbon. wyczynowa dokładka
+
+0x4AA45ED5 = Różowe okulary-serca
+
+0x4ABE9414 = Kuta karbon. HSW z wlotem
+
+0x4ADB1EE4 = Zielona świąteczna z choinką
+
+0x4AF0DB5B = Prowizoryczny snorkel
+
+0x4AF7D28D = Karb. z wlotem i spojlerem
+
+0x4B032873 = Przednie błotniki, kolor #2
+
+0x4B4B3CEE = Biały pas
+
+0x4B8C9FC4 = Klasyczne białe pasy
+
+0x4B9BB953 = Beżowe materiałowe chodaki
+
+0x4B327F48 = Czekoladowe zimowe
+
+0x4B9910BD = Czekoladowy wełniany polar
+
+0x4BF9C2B7 = Tytanowe wydechy
+
+0x4C03E8AF = Maska GT, kolor #1
+
+0x4C3B8C75 = Neonowy poszarpany HSW
+
+0x4C8F8778 = Chromowany grill GT
+
+0x4C193569 = Wyścigowe Exsorbeo
+
+0x4CDB4CF9 = Beżowa Enus
+
+0x4D9C622D = Superdokładka, kolor #2
+
+0x4D11ABC6 = Tradycyjne lusterka, kol. #1
+
+0x4D11D396 = Fioletowe okulary-serca
+
+0x4D69C9B4 = Kuty karb. wyś. superzderzak
+
+0x4D70AEFD = Superprogi z akcentem
+
+0x4D78E71B = Dolna osłona, kolor #1
+
+0x4D1737CC = Policja stanowa
+
+0x4D96006C = Iskry
+
+0x4DB8F986 = Turbosyk
+
+0x4DB11927 = Mocny zderzak, kolor #1
+
+0x4DD90CE5 = Grill Karin
+
+0x4DF7BCC1 = Chcesz poczuć kawał mocy, na widok której popłaczą się największe koksy i najżałośniejsi szpanerzy z siłowni? Zapomnij o testosteronie żarłacza tępogłowego. Jeśli chcesz się dopakować, spróbuj Vigero ZX Kabrioleta i podziwiaj przyrost masy, który nie spowoduje, że twoje suty przybiorą rozmiar talerzy.
+
+0x4E7DB849 = Plastikowy sportowy zderzak
+
+0x4E942D7D = Zaokrąglony tylny zderzak
+
+0x4E693574 = Podwójne poszerzone wydechy
+
+0x4EA6A7E4 = Chromowany szeroki wydech
+
+0x4EE126D0 = Karbonowa i górne wloty
+
+0x4EF723DA = Z wlotami pod kątem
+
+0x4F50E41B = Panel świetlny
+
+0x4F51ACCA = Zestaw karbonowych nadkoli
+
+0x4F52D371 = Czarna na chiński Nowy Rok
+
+0x4F3281FF = Nocna smocza
+
+0x4F161420 = Progi, kolor #2
+
+0x4FE95B81 = Karb. kaczy na bagażniku
+
+0x5A50A39E = Chromowane stopnie
+
+0x5ACF7F99 = Fabryczne lusterka, kolor #2
+
+0x5AEAD45E = Wentylowana sportowa maska
+
+0x5B1E6DBC = Karbonowy wyścigowy zderzak
+
+0x5B6CE702 = Kombinezon Red's
+
+0x5B7BC2EE = Plastikowe średniopoz. GT
+
+0x5B7D440F = Błotniki z wentylacją
+
+0x5B70B9F0 = Okrągłe lusterka, kolor #2
+
+0x5B464BD4 = Kusi cię, żeby sięgnąć po turbodoładowanego SUV-a z solidnym przyspieszeniem? W takim razie może dopadł cię wirus Gallivanter Baller ST-D. Ale nie jesteś jego pierwszą ofiarą. Zaraża szybko, a możliwość montażu modułu zdalnego sterowania i zagłuszacza namierzania rakiet sprawia, że ciężko ci będzie trzymać ręce przy sobie. ST-D – mam i ja.~n~W tym pojeździe można zamontować ulepszenia Imani w warsztacie agencji.
+
+0x5B4701C5 = Czarne pasy Vapid
+
+0x5B9337D6 = Geometryczne Canis
+
+0x5BF163CC = Podwójnie wentylowana, k. #1
+
+0x5BFF0FC4 = Uliczny spojler, kolor #2
+
+0x5C2AAB87 = Karbonowy spojler Fathom
+
+0x5C12E49C = Stopnie Stinger
+
+0x5C4599FF = Fooliganowy Hellfire
+
+0x5C34042C = Ciemna Cimicino
+
+0x5C85484D = Uliczne stopnie, kolor #2
+
+0x5C96465F = Maska fabryczna, kolor #2
+
+0x5C371438 = Sportowy zderzak, kolor #2
+
+0x5CA2B2D0 = Burgundowy wełniany polar
+
+0x5CB1D705 = Czerwony geo HSW
+
+0x5CB17600 = Z wlotem i spojlerem, k. #2
+
+0x5CDC6A6B = Karbonowy dach ze spojlerem
+
+0x5CE1CA18 = Tylny zderzak z owiewką
+
+0x5D059126 = Alt. lusterka, kolor #1
+
+0x5D2B0BD0 = Czerwona Didier Sachs
+
+0x5D672E6C = Marynarka na Dzień Niepodległ.
+
+0x5D942BC8 = Wyścigowy zderzak
+
+0x5D14484F = Zestaw czarnych nadkoli
+
+0x5DB56475 = Karbon. wentylowany dyfuzor
+
+0x5DFC5E80 = Dyfuzor GT
+
+0x5E7B79A3 = Tylna pokrywa, kolor #2
+
+0x5E38CD68 = Wyścigowe Globe Oil
+
+0x5E86B05C = Podwójne kliny, kolor #1
+
+0x5E89EAA2 = Czarna Lampadati
+
+0x5E432EDD = Czarna agres. lotka z wcięciem
+
+0x5E88869B = Poczw. polerowane wydechy
+
+0x5EB4B35D = Progi, kolor #1
+
+0x5EB35B04 = Policja (Rockford Hills)
+
+0x5EB239EB = Dummy label.
+
+0x5EB1503B = Żółte wyścig. Arrow Gasoline
+
+0x5EC5D861 = Kuta karbon. skrzynia HSW
+
+0x5F01A4EE = Lawendowe materiał. chodaki
+
+0x5F8D5BDD = Uliczna maska, kolor #1
+
+0x5F9BFF42 = Czerwone pasy na masce
+
+0x5F65D6BC = Kuty karbonowy rajdowy HSW
+
+0x5F82A4C8 = Niebieskie materiałowe chodaki
+
+0x5F146D09 = Kuty karbon. wyścig. zderzak
+
+0x5F928FCC = Maska z wywietrz., kolor #1
+
+0x5F480820 = Żółte okulary-serca
+
+0x5FA297A8 = Karbonowy uliczny spojler
+
+0x5FAAA042 = Ciemnozielona dopasowana
+
+0x5FB0B35F = Niebieski szokowy HSW
+
+0x5FB37EAE = Czerwona na chiński Nowy Rok
+
+0x5FE12E33 = Sportowy zderzak, kolor #1
+
+0x5FFB06A9 = Karbonowy fabryczny zderzak
+
+0x5FFEA8B8 = Proste szperacze
+
+0x6A0ADC30 = Nakładka moro
+
+0x6A0F832E = Karbonowe niskie skrzydło GT
+
+0x6A6A735D = Sportowa maska
+
+0x6A6B6890 = Chrom. poczwórne wydechy
+
+0x6A9A5DDB = Chrom. bagażnik dachowy
+
+0x6ABED558 = Fioletowy wełniany polar
+
+0x6ACEC9B3 = Szara motocyklowa
+
+0x6AE2EE38 = Ciemnonieb. dopasowana
+
+0x6AFBA75D = FB No Rivals
+
+0x6B7F32B0 = Maska, kolor #2
+
+0x6B905A38 = Strażnik parku (K-9)
+
+0x6B264549 = Stopnie nadwozia, kolor #1
+
+0x6BC37AE4 = Siatkowy grill
+
+0x6BF77D47 = Karbonowe progi do driftu
+
+0x6C090183 = Złota Santo Capra
+
+0x6C2C67E4 = Chromowany podwójny system
+
+0x6C52F870 = Szylkretowe awiatory retro
+
+0x6C353726 = Kuty karbonowy spojler
+
+0x6CAD6551 = Wysokie GT, kolor #1
+
+0x6CD5D4CD = Karbon. tuningowe lusterka
+
+0x6CDA6F3F = Średnia lotka, kolor #1
+
+0x6CFCE39F = Kapelusz Pani Wolność
+
+0x6D5C8702 = Karbonowy pełny dach
+
+0x6D5D67EF = Tuningowe z wkładką, k. #2
+
+0x6D7A3357 = Karbonowy używany spojler
+
+0x6D65F18E = Tuningowy z dyfuzorem
+
+0x6D69F02A = Kuty karb. rajdowy dyfuzor
+
+0x6D186B27 = NARC Terroil
+
+0x6DADFF81 = Tuningowe lusterka, kolor #2
+
+0x6DB93338 = Plastikowy uliczny spojler
+
+0x6DBD0A71 = Karb. sportowe skrzydło GT
+
+0x6DBEF840 = Uliczna maska, kolor #2
+
+0x6DE4A27C = Sportowy zderzak, kolor #1
+
+0x6DF377E3 = Plast. pas przeciwsłoneczny
+
+0x6DF8988E = Karb. uliczny wlot i spojler
+
+0x6E6D92B1 = Lodowe materiałowe chodaki
+
+0x6E9AFBA6 = Alternatywne białe pasy
+
+0x6E63031D = Przesunięty żółty pas
+
+0x6EDF2982 = Pastelowa Cimicino
+
+0x6EE66600 = Złota Santo Capra
+
+0x6EF0576B = Wściekle róż. wełniany polar
+
+0x6EF7ED32 = Karbonowe uliczne stopnie
+
+0x6F070C1D = Brąz. świąteczna z reniferem
+
+0x6F1B0EEC = Dach ze spojlerem
+
+0x6F2F7283 = Wyczynowa maska, kolor #2
+
+0x6F4D6DAD = Duży karb. kaczy spojler
+
+0x6F5DCF5B = Wentylowany zderzak
+
+0x6F7C4987 = Chromowany klasyczny grill
+
+0x6F203A0A = Sportowy zderzak, kolor #1
+
+0x6FA25077 = Malowana obwódka grilla
+
+0x6FAD4796 = Pas przeciwsłoneczny, kolor #2
+
+0x6FD49C63 = Koszulka Vespucci Beach
+
+0x7A029B83 = Ochrona McTony'ego
+
+0x7A32B11F = Koszulka Coil Cyclone
+
+0x7A72D3A1 = Kuty karb. niskopoz. GT
+
+0x7A213A64 = Malowany ścięty dach
+
+0x7A2509D2 = Karbonowy pas
+
+0x7A6268C2 = Jaskrawy poszarpany HSW
+
+0x7A41237B = Wycięty zderzak
+
+0x7ABF9948 = Długa skrzynia
+
+0x7B3ADBB5 = Skrzynia manualna
+
+0x7B5B160B = Ze złamanym sercem, tył
+
+0x7B8FDAB9 = Drewniana smocza
+
+0x7B9D0726 = Klasyczny grill, kolor #2
+
+0x7B1392DD = Wycięty z dyfuzorem
+
+0x7B1846D7 = Podwójne wloty, kolor #2
+
+0x7B6887C3 = Turismo GT
+
+0x7BD4F630 = Czarna lotka z wcięciem
+
+0x7BFABE0B = Usunięty dach
+
+0x7BFFCF1A = Czarne fabryczne lusterka
+
+0x7C0F7340 = Tuningowe lusterka
+
+0x7C8C6D2E = Czarna motocyklowa
+
+0x7C9CA3AD = Drzwi rurowe z zamkiem
+
+0x7C24F824 = Magentowy wełniany polar
+
+0x7C99586A = Tłokoczacha
+
+0x7CB25924 = Pomarańczowe sportowe
+
+0x7CCB16F3 = THIS LABEL NEEDS TO BE HERE !!!
+
+0x7CD414F5 = Chromowany sportowy zderzak
+
+0x7CD468A5 = Plastikowe listwowe stopnie
+
+0x7CD18089 = Sportowy grill, kolor #2
+
+0x7D0E9EAD = Prostokątne wydechy
+
+0x7D5D01BA = Body Sprunk x eCola
+
+0x7D8E2962 = Fabryczny zderzak, kolor #2
+
+0x7D14E2D6 = Czarna koszulka LS Customs
+
+0x7D24FAEE = Chrom. stopnie na progach
+
+0x7D97C4BF = Czerwone okulary-serca
+
+0x7D313038 = Burgundowe materiał. chodaki
+
+0x7DA5C3D3 = Zielony
+
+0x7DB09416 = Podwójne wydechy
+
+0x7DB28413 = Podwójne białe pasy
+
+0x7E08EEEA = Luzacki pikselowy HSW
+
+0x7E4A8387 = Czarny sportowy grill
+
+0x7E298E5C = Skrzydło aerodynamiczne
+
+0x7E182581 = Kute karbonowe progi
+
+0x7ED1AC9A = Karbon. wyścigowe skrzydło GT
+
+0x7EE2F645 = Niebieski wełniany polar
+
+0x7F0633CE = Czarne materiałowe chodaki
+
+0x7F6EB240 = Odwrócone pasy Annis
+
+0x7F99D6F9 = Plastikowy kaczy spojler
+
+0x7F3316BE = Chromowane stopnie
+
+0x7F187162 = Spojler Fathom
+
+0x7FB3CA9E = Kolorowe pasy
+
+0x7FB36131 = Szeroki wydech
+
+0x7FC69E05 = Czarne pasy
+
+0x7FEDFDA0 = Mocny zderzak
+
+0x7FF1926C = Ofensywne orurowanie
+
+0x8A3AB2ED = Za króla
+
+0x8A7F1237 = Konfiguracja wyścigowa
+
+0x8A61F08D = Zderzak GT, kolor #1
+
+0x8A466BA7 = Karbonowe fabryczne lusterka
+
+0x8A742A72 = Lotka tylnej klapy, kolor #1
+
+0x8A896CFE = Zestaw techniczny 4.0
+
+0x8A271178 = Maska z małymi wlotami, k. #1
+
+0x8AB782E6 = Imprezowa czapka 1
+
+0x8AF3B9B5 = Zielonkawe materiał. chodaki
+
+0x8B029F71 = Plastikowe listwowe stopnie
+
+0x8B054BE4 = Wysoki łukowy spojler, #2
+
+0x8B9EB4DE = Luzacki z zakłóceniami HSW
+
+0x8B61C5BC = Zderzak z dyfuzorem
+
+0x8B70C797 = Wlot na dachu
+
+0x8B481C7B = Używana maska
+
+0x8B32239A = Karbonowa maska fabryczna
+
+0x8BB8E335 = Czerwona Didier Sachs
+
+0x8BC83F0E = Strój yeti
+
+0x8BCD7CDA = Roziskrzony wzrok
+
+0x8BF2C136 = Karbonowe progi
+
+0x8C7E1FAE = Czerwone na chiński Nowy Rok
+
+0x8C7F74C9 = Chromowany poziomy grill
+
+0x8C622DB2 = Japonki Vespucci Beach
+
+0x8C947CC0 = Świąteczny eCola
+
+0x8C951793 = Przycięty i reflektory
+
+0x8CA15547 = Kuty karbonowy sportowy HSW
+
+0x8CDDB213 = Plastikowe proste stopnie
+
+0x8CEDE512 = Flaga
+
+0x8D9F0E90 = Domont. zderzak, kolor #2
+
+0x8D175757 = Ciemnonieb. jeździeckie
+
+0x8DF3880A = Gładka maska, kolor #1
+
+0x8E02D13A = Maska Ram Air, kolor #1
+
+0x8E086494 = Szary
+
+0x8E1CFBF9 = Żółte sportowe
+
+0x8E5DB67C = Przednie błotniki, kolor #1
+
+0x8E6DF688 = Koszulka Cluckin' Bell
+
+0x8E420BC8 = Czarna Pfister
+
+0x8EA52430 = Chromowany grill GT
+
+0x8EABC2B7 = Poszerzone progi
+
+0x8EAF9A07 = Kute karbonowe panele
+
+0x8EC39E2B = Stopnie na progach, kolor #1
+
+0x8ECC954B = Karbonowa osłona koła
+
+0x8F4BC90B = Wąskie drzwi rurowe
+
+0x8F6B675E = Różowy
+
+0x8F36FFF8 = Karbonowe kaczki
+
+0x8F169D2F = Kute karbonowe lusterka GT
+
+0x8F477F7B = Pomarańczowa dopasowana
+
+0x8FA22ECF = Chromowane skośne wydechy
+
+0x8FC0FE3D = Kuty karb. wysoki GT
+
+0x8FD9F12D = Pastelowa Cimicino
+
+0x8FDF92BB = Zachód z usterką HSW
+
+0x8FF22AF1 = Spodnie Western MC
+
+0x9A2D259F = Tytanowe podwójne wydechy
+
+0x9A3C9A2D = Trwa
+
+0x9A8B0D4D = Osłony nadkoli, kolor #1
+
+0x9A568E21 = Plastrowy grill, kolor #2
+
+0x9A40120B = Karbonowe wykończenie
+
+0x9A95769C = Ścięte wybuchowe rury
+
+0x9AE43988 = Tampa Drift
+
+0x9B04ED88 = Wyścig. superzderzak z akc.
+
+0x9B1EDDF6 = Niebieskie reflektory
+
+0x9B4E5343 = Szeryf hrabstwa (jasne)
+
+0x9B92B7C9 = Plastikowe stopnie nadwozia
+
+0x9B288955 = Chromowane lusterka
+
+0x9BA2A417 = Superdokładka z akcentem
+
+0x9BFD24D2 = Rajdowy dyfuzor z akcentem
+
+0x9C0BC2B1 = Tytanowy krótki wydech
+
+0x9C3B38B3 = Czarna LS Customs
+
+0x9C9DC155 = Wentylowana maska z wlotami
+
+0x9C10B54B = Karbonowa wklęsła maska
+
+0x9C32EB57 = Stanier LE Cruiser
+
+0x9C83E800 = Zderzak z dyfuzorem i wlotami
+
+0x9C881957 = Karbonowe osłony nadkoli
+
+0x9CA8A162 = Szosowe i kute karb. wloty
+
+0x9CB62AF4 = Jaskrawy poszarpany HSW
+
+0x9CE48916 = Belki dachowe
+
+0x9D0FC9AA = Tytanowy podwójny system
+
+0x9D4E1B90 = Szara dopasowana
+
+0x9D102EAD = Ukończ świąteczny tryb adwersarza, żeby odblokować to wykończenie do kupienia.
+
+0x9D674A3F = Plastikowy spojler
+
+0x9D1231D6 = Malowana osłona koła
+
+0x9DC06D25 = Wysoki went. z zest. drift.
+
+0x9DDD5D8F = Czapka Cluckin' Bell
+
+0x9DE6AB45 = Czerwona Pfister
+
+0x9E9AB9AE = Karbonowy używany grill
+
+0x9EAADBC4 = Wyścigowe Annis
+
+0x9EBF72B3 = Maska fabryczna, kolor #2
+
+0x9EC97ABB = Ciemnoorzechowe jeździeckie
+
+0x9F4CBD1F = Lotka z wcięciem, kolor #2
+
+0x9F8AE399 = Chromowane fabr. wydechy
+
+0x9F8DE9FD = Cinco de Mayo
+
+0x9F1470B9 = Z nakładką i zest. drift.
+
+0x9F3273F4 = Remus
+
+0x9F152389 = Dziewczyna wer. II
+
+0x9FDBDA0D = Went. niski wycięty z dyfuz.
+
+0x9FE7AF13 = Czarna Grotti
+
+0x10AF8FCD = Wydłużony zderzak, kol. #1
+
+0x10B28D19 = Tytanowy wydech
+
+0x10CB4D85 = Maska GT, kolor #2
+
+0x10E5A23D = Imprezowa czapka 11
+
+0x10FFD965 = Dżinsowa graffiti
+
+0x11CAABB1 = Karnawałowy
+
+0x11D08233 = Uliczna dokładka, kolor #2
+
+0x12D722D2 = Karbonowa fabryczna maska
+
+0x13C65961 = Duży spojler Aero, kolor #2
+
+0x13DB5B7B = Chromowany poziomy grill
+
+0x13F1E272 = Kute karb. wloty z płetwami
+
+0x14A1D0C5 = Marynarka na Dzień Św. Patryka
+
+0x14A505AF = Pan Mam Rację
+
+0x14A28634 = Karnawałowa sportowa Bigness
+
+0x14BB1C50 = Żółty geo HSW
+
+0x14CF9609 = Republik. Strażnicy Kosmosu
+
+0x14ED9C37 = Duże skrzydło na bagażniku
+
+0x15B3B154 = Tuningowa maska
+
+0x15BDABC6 = Uliczna maska, kolor #2
+
+0x15DDC95A = Patrol drogowy
+
+0x15EB7D31 = Pioruny retro
+
+0x16DF2098 = Czerwony geo HSW
+
+0x16FB1970 = Chrom. terenowe orurowanie
+
+0x17ABE31C = Poziomy grill, kolor #2
+
+0x17CE4E26 = Rajdowa maska
+
+0x17D063FE = Rurowe z usztywn. siatką
+
+0x18B95AC4 = Lodowa motocyklowa
+
+0x19F1A251 = Wydłużony zderzak, kol. #2
+
+0x20A5E6F6 = Karbonowy zderzak GT
+
+0x21C7B1E5 = Plastikowy poziomy grill
+
+0x21C9B79A = Czerwona motocyklowa
+
+0x21E932D0 = Chromowane listwowe stopnie
+
+0x21F7CED1 = Tylny dyfuzor
+
+0x22AEA6C8 = Wypukła maska, kolor #1
+
+0x22BBBF8C = Imprezowa czapka 4
+
+0x22C93CF9 = Maska z bocz. wlotami, k. #1
+
+0x22DDD282 = Koszulka Fooliganów
+
+0x22FB9DD2 = Kaczy spojler, kolor #1
+
+0x22FB2224 = Malowane mocne nadkola
+
+0x23A95FA8 = Plastikowe stopnie
+
+0x23BC429B = Fabryczne lusterka, kolor #1
+
+0x24A73465 = Karbonowa szosowa dokładka
+
+0x24AC82A5 = Sprunk x eCola
+
+0x24B00C9D = Czarny grill fabryczny
+
+0x24EBB80C = Tuningowe progi
+
+0x24EE67BE = Odzysk w toku
+
+0x25B6AACB = Klasyczny z dokładką, k. #1
+
+0x25CC40B1 = Cyjanowe zimowe
+
+0x25DEF67E = Chromowane wydechy
+
+0x26D8CE57 = Plastikowe używane progi
+
+0x27B9F178 = Szare materiałowe chodaki
+
+0x27BB0A8B = Szara Benefactor
+
+0x27CF192B = Pomarańczowe okulary-serca
+
+0x27DDEDE3 = Podwójne kute karb. kaczki
+
+0x28B93736 = Liliowe materiałowe chodaki
+
+0x29FAF95E = Monochromatyczne zimowe
+
+0x30C07FA3 = Tuningowa maska
+
+0x30D986F8 = W życiu każdego kierownika średniego szczebla w wieku średnim nadchodzi kiedyś chwila, gdy nawet wozem muscle nie można już sobie wszystkiego zrekompensować. I gdy taki czas nadchodzi, zostaje tylko jedna opcja: policyjny muscle. Gratulacje, rekrucie. W najbliższych latach będziesz brać udział w szalonym pościgu za własną rozpadającą się samooceną.~n~Ten pojazd możesz modyfikować wyłącznie w posiadanych warsztatach.
+
+0x30ED5A3B = Ciemnonieb. wełniany polar
+
+0x30F32D77 = Świąteczny eCola
+
+0x30F92E1C = Grill fabryczny, kolor #2
+
+0x30F15228 = Euros
+
+0x30F64302 = Czarna czapka 420
+
+0x31B6EA37 = Plastikowy sportowy zderzak
+
+0x31DEF949 = Przykręcona lotka, kolor #2
+
+0x31EA5149 = Imprezowa czapka 4
+
+0x32ACE133 = Chromowane sportowe progi
+
+0x32AFEC37 = Koszulka Dzień Ziemi SG
+
+0x32D003C3 = Karbonowe akcenty
+
+0x32E2F096 = Czarny grill GT
+
+0x32F36E02 = Wentylowana maska w czaszki
+
+0x32F19696 = Karbonowy dach
+
+0x34A32EC0 = Malowane opancerzenie szyby
+
+0x34CACB04 = Podwójny kanał, kolor #2
+
+0x34DFF7E7 = Zestaw nadkoli, kolor #1
+
+0x34EB19FF = Srebrny strój imprezowy
+
+0x34EDFE01 = Karbonowa osiągowa maska
+
+0x35C9DAFA = Białe wyścigowe
+
+0x35CF6B7A = Limonkowy wełniany polar
+
+0x35DC886D = Technicy kryminalistyki
+
+0x35F1A363 = Wyścigowy zderzak, kolor #2
+
+0x36A56AAB = Konfiguracja wyścigowa
+
+0x36A93749 = Zaokrąglone wydechy
+
+0x36CB5C08 = Wzmocniony zderzak, kol. #1
+
+0x37AF61B6 = Agres. lotka z wcięciem, k. #2
+
+0x37D4D744 = WYRZUTNIA ŚNIEŻEK
+
+0x38C1FA0B = Okrągłe lusterka, kolor #1
+
+0x38E9D108 = Demon prędkości
+
+0x39AF4FCB = Ochrona McTony'ego
+
+0x39C73C13 = Żółty
+
+0x39E3B83F = Czekoladowy wełniany polar
+
+0x39E37571 = Sportowy wlot, kolor #2
+
+0x39EE834F = Spojler, kolor #2
+
+0x39F36DD3 = Imprezowa czapka 6
+
+0x39FC69ED = Plastikowe boczne progi
+
+0x40F192DA = Wyścigowe Tinkle
+
+0x41C997B8 = Wyczynowa maska
+
+0x41C32128 = Zachód z usterką HSW
+
+0x42A59372 = Zestaw nadkoli, kolor #2
+
+0x42B3F3BD = Chromowany poziomy grill
+
+0x42D2104E = Ciemnozielone jeździeckie
+
+0x42E094D4 = Karbonowe skrzydło do driftu
+
+0x42E8A3A0 = Wyścigowa maska, kolor #2
+
+0x42EF8A5A = KOLOR
+
+0x44DFB632 = Płaskie progi
+
+0x44E0466D = Tylna pokrywa, kolor #1
+
+0x44FE5F12 = Czerwona Vapid
+
+0x45B5A956 = Tylny z driftowym dyfuzorem
+
+0x45E563B1 = Kwadratowe lusterka, kolor #2
+
+0x45E856C9 = Lawendowe zimowe
+
+0x46C00164 = Fioletowe zimowe
+
+0x47BC1348 = Rozebrano na części
+
+0x47D5905B = Enduro Fortes
+
+0x47ECEC46 = Strój yeti
+
+0x47F8DB29 = Czarne pasy
+
+0x48B2D5DD = Beżowy wełniany polar
+
+0x48D0C921 = Zderzak, kolor #2
+
+0x48E0F9AD = Kuta karbonowa nakładka
+
+0x49AB02BC = Czarne wyścigowe pasy
+
+0x49B84399 = Miłośnik zwierząt
+
+0x49E5DDC6 = Karbonowe fabryczne lusterka
+
+0x50C9EBEC = karabin ofensywny
+
+0x50C15A89 = Różowe okulary-serca
+
+0x50D17DD0 = Mocne nadkola
+
+0x51C98956 = Bursztynowe materiał. chodaki
+
+0x51E0D725 = Odwrócone pasy Fathom
+
+0x52C3CBFD = Wyścigowe lusterka, kolor #2
+
+0x53B4FC7F = Czarna Lampadati
+
+0x54F70B58 = Maska Agresor, kolor #1
+
+0x55A5A9D2 = Agres. lotka z wcięciem, k. #1
+
+0x55B63836 = Koszulka Cinco de Mayo
+
+0x55CFA0BB = Liliowe zimowe
+
+0x55FA32DB = Czarny grill GT
+
+0x55FF17B7 = Amerykański kapelusz
+
+0x56A21627 = Noeonoworóżowe zimowe
+
+0x56E63FD6 = Niska lotka
+
+0x56E230DC = Strażnik parku
+
+0x56E686B5 = Kute karbonowe z płetwami
+
+0x57C9CC3B = Policja (jasne)
+
+0x57EC1BFC = Z plastikowym wlotem, kol. #2
+
+0x58DBA59B = Lawendowe zimowe
+
+0x58DDA121 = Wyścigowe z czerw. krawędzią
+
+0x59A3FC1D = Ukończ świąteczny tryb adwersarza jako Mikołaj, żeby odblokować to wykończenie do kupienia.
+
+0x59DA68BE = Z wysokim wlotem, kolor #1
+
+0x59F8CC46 = Chromowane stopnie boczne
+
+0x60D430E9 = Czerwona Bravado
+
+0x61A3006F = Kasztanowe jeździeckie
+
+0x61B01F2B = Poziomy grill, kolor #1
+
+0x61CAC00B = Malowany mocny grill
+
+0x61FEC4A2 = Plastikowe stopnie na progach
+
+0x63A4F09A = Popielata motocyklowa
+
+0x63AA34CC = Imprezowa czapka 5
+
+0x63AAF0E5 = Czarne orurowanie
+
+0x63AE98C3 = Seledynowa Güffy
+
+0x63F7633C = Plastik. wzmocniony zderzak
+
+0x64B0E69C = Karbonowa podwyższona maska
+
+0x64F536C1 = Karb. łukowa wyścig. dokładka
+
+0x66F19D31 = Mały bagażnik dachowy
+
+0x66FCA5E5 = Zestaw techniczny 6.0
+
+0x67BEF5D5 = Dwa białe pasy
+
+0x69A6469B = Podwójne kliny, kolor #2
+
+0x69D5C082 = Karbonowa superdokładka
+
+0x69E92F52 = Sportowe osłony nadkoli, k. #1
+
+0x70A0B08F = Bagażnik z walizkami
+
+0x70BC05FC = Okrągłe wydechy
+
+0x70DED4EF = Karb. duża lotka bagażnika
+
+0x70F8FF8F = Policja (Del Perro)
+
+0x71B64184 = Spalinowe serce
+
+0x71C3C552 = Chrom. szeroki wydech
+
+0x71DE8E31 = Lekkie rurowe panele
+
+0x71F7AC73 = Niebieski
+
+0x71FF9745 = Czarna Grotti
+
+0x72A6CEBE = ZR350
+
+0x72B4B333 = Chromowany z reflektorami
+
+0x73AE15A2 = Fabryczny zderzak, kolor #1
+
+0x73AEDD47 = Standardowa pojemność karabinu ofensywnego.
+
+0x73CA640E = Używany grill
+
+0x73DF50A1 = Pomarańczowe zimowe
+
+0x73E87AA9 = Wyścigowe Junk
+
+0x73F50B47 = Fabryczny grill, kolor #1
+
+0x74A5DF3F = Plastikowe uliczne progi
+
+0x74A9F3A9 = Średnia dokładka
+
+0x74AB5D3A = Limonkowe zimowe
+
+0x74E68703 = Szare retro
+
+0x74EE6A70 = Uliczna stylówa
+
+0x75B59ECE = Płomienie
+
+0x76BACA86 = Karbonowy dach
+
+0x76DE384E = Koszulka Vespucci Beach
+
+0x76F61CE5 = Fabryczny zderzak, kolor #1
+
+0x77A41701 = Czerwone reflektory
+
+0x77DFCEF7 = Chusta Strapz
+
+0x78D3307A = Liliowe zimowe
+
+0x79BBCF41 = Zderzak GT, kolor #2
+
+0x79CFA455 = Karbonowy wlot na dachu
+
+0x79D41726 = Koszulka Cluckin' Bell
+
+0x79E30351 = Tytanowe boczne wydechy
+
+0x79ED7244 = Mocny zderzak
+
+0x81B382B0 = Chromowane potrójne wydechy
+
+0x82BDA0C8 = Karbonowe lusterka GT
+
+0x82EC7927 = Domont. zderzak, kolor #1
+
+0x83AAF129 = Imprezowa czapka 11
+
+0x83BE56CA = Duży bagażnik z walizkami
+
+0x84BEF4F6 = Plastikowe orurowanie II
+
+0x85BD7F84 = Musztardowa motocyklowa
+
+0x85D695BA = Czarna na chiński Nowy Rok
+
+0x85DBFD3C = Niebieski szokowy HSW
+
+0x85FF0DC7 = Uliczny z zestawem driftowym
+
+0x86C094F2 = Przednie błotniki, kolor #2
+
+0x86F71B06 = Tuningowe błotniki
+
+0x87A8331A = Brzoskwiniowe mat. chodaki
+
+0x87B1F247 = Jeśli obnosić się sukcesem, to za pomocą bloku ze stali i betonu, który pomieści nawet 250 000 $. Rozwój biznesu polega na osiąganiu namacalnych celów.
+
+0x87B5D251 = Skórzany dach, kolor #2
+
+0x87C0BE90 = Karbon. wysokie skrzydło GT
+
+0x87CB2088 = Wyścigowe Excelsior Grotti
+
+0x87CCFCB5 = Dżinsy graffiti
+
+0x88ABF2C6 = Yosemite Drift
+
+0x88AD6E6B = Plastikowy dach
+
+0x88CB4915 = Wyścigowy superzderzak
+
+0x88D73E20 = Mocne stopnie
+
+0x89AC8921 = Zatrzymano
+
+0x89B9208A = Błotniki z wywietrznikami
+
+0x89FE3880 = Chromowane okrągłe wydechy
+
+0x90F51BD9 = Imprezowa czapka 10
+
+0x91A3C07D = Sponsorzy na torze
+
+0x91AF4DE2 = Osłony, kolor #2
+
+0x91F8A33A = Chromowane sportowe wydechy
+
+0x93CCE436 = Uliczny wlot i spojler
+
+0x93F83C0B = Uliczne progi, kolor #2
+
+0x94A115B2 = Wyścigowe Flint
+
+0x94A6850A = Karbonowa wentylowana
+
+0x94BEBDB3 = Ciemnoniebieskie mat. chodaki
+
+0x94D97A59 = Karbonowa i podwójne wloty
+
+0x95A86636 = Fioletowe geometryczne anime
+
+0x95BA4DFB = Stelaż do stójki i spadochron
+
+0x95EFEBE9 = Ozdobione listwy
+
+0x95FC21EB = Karbonowe uliczne progi
+
+0x96E6262A = Warkoczyki bez supłów
+
+0x96E6932D = Jester RR
+
+0x96F621E9 = Ciepły wypaczony HSW
+
+0x97A822A2 = Domont. sportowy, kol. #1
+
+0x97AFD772 = Twórcy kultowego Dominatora przedstawiają w pełni amerykański kabriolet 4D, w którym każdy się obsra: Dominatora GT. Na co komu stymulacja, gdy można się przestymulować, ciągnąc korę czuciową całymi kilometrami płonącego asfaltu? Smakuj każde zwycięstwo. Czuj każdą kolizję. Płać każdy dodatek do ubezpieczenia. Dominacja otrzymała nową nazwę.
+
+0x97B4F0A3 = Karbonowy rajdowy spojler
+
+0x97C6C513 = Średnia lotka, kolor #2
+
+0x97CB54EB = Fabryczny zderzak, kolor #2
+
+0x97D2B94A = Kapelusz w fajerwerki
+
+0x98E0730F = Czerwone na chiński Nowy Rok
+
+0x112E3FBB = Bagażnik dachowy i pokrywy
+
+0x118D8BFF = Beżowe zimowe
+
+0x127C4E85 = Chromowane orurowanie II
+
+0x132E7156 = Kurtka Western MC
+
+0x138D20A6 = Szary wełniany polar
+
+0x145FB87B = Uliczne stopnie, kolor #1
+
+0x150E2AC2 = Używane progi, kolor #2
+
+0x152AE975 = Kute karbon. skrzydło Aero
+
+0x173F1CB3 = Karbonowe tuningowe progi
+
+0x174A57F2 = Ciemnozielona motocyklowa
+
+0x175CB827 = Chromowane stopnie
+
+0x182B4E7E = Podwójne karbonowe kaczki
+
+0x205BA0E1 = Karbonowe przednie błotniki
+
+0x215D748F = Duży spojler Aero, kolor #1
+
+0x227C6E72 = Sportowy bagażnik, kolor #2
+
+0x230D7209 = Karbonowa maska GT
+
+0x230ED219 = Niskie skrzydło GT, kolor #1
+
+0x231D32A4 = Alternatywne podwójne moro
+
+0x231F630B = Patolog sądowy
+
+0x237D46D6 = Zielonkawy wełniany polar
+
+0x238A253D = Fabryczna dokładka, kol. #1
+
+0x240E504D = Czarna Yeti
+
+0x244F001E = Wyścig. zderzak z akcentem
+
+0x245A5AC3 = Kacze skrzydło
+
+0x254F2B8F = Zderzak, kolor #2
+
+0x270DD0EF = Sportowy zderzak, kolor #2
+
+0x272C2FC7 = Podwójny kanał, kolor #1
+
+0x277F4041 = Okrągłe wydechy
+
+0x278BCF89 = Imprezowa czapka 12
+
+0x280C989E = Pomarańczowy
+
+0x280CABE4 = Z wykończeniem GT, kolor #1
+
+0x281C443F = Krwista motocyklowa
+
+0x281D6DD9 = Szeryf hrabstwa
+
+0x281FD1EA = Sportowy wlot
+
+0x288FE0B3 = SA Kociak Wasabi
+
+0x304DBD8A = Koszulka Dzień Ziemi Coil
+
+0x306CE14C = Uliczny wlot
+
+0x308A427F = Wypukła maska, kolor #2
+
+0x309EF579 = Liliowe materiałowe chodaki
+
+0x311AD50F = Luzacki z zakłóceniami HSW
+
+0x311BEA6D = Brązowy kapelusz na Nowy Rok
+
+0x321B25A9 = Chromowane szerokie wydechy
+
+0x331A5903 = Niskie skrzydło
+
+0x364B3B50 = MAKS. ZYSK ZE SPRZEDAŻY
+
+0x370F959E = Brązowy strój imprezowy
+
+0x378F0CC0 = Jasny z zakłóceniami HSW
+
+0x379B2BD4 = Dach z ulicznym wlotem
+
+0x404DED73 = Wyścigowa dokładka, kolor #2
+
+0x407BF958 = Liliowy wełniany polar
+
+0x419A71A6 = Wzmocniony zderzak, kol. #2
+
+0x436B877C = Plastikowe ryflowane stopnie
+
+0x441B9D8E = Kuty karb. wielki dyfuzor
+
+0x442BD8FB = Karbonowa maska GT
+
+0x446E8A87 = Karbonowy sportowy wlot
+
+0x447B2E62 = Noeonoworóżowe zimowe
+
+0x454AA020 = Plastikowa średnia lotka
+
+0x469D8A89 = Zamierzasz zarabiać na życie, złomując pojazdy w ramach własnej usługi holowniczej? W takim razie zainwestuj w holowniczą chlubę Vapida. Albo w nieco mniej imponujące rozwiązania Vapida...
+
+0x481F4F13 = Szmaragdowe zimowe
+
+0x494F0F14 = Karbonowy agresywny grill
+
+0x496CEBBA = Kute karbonowe superprogi
+
+0x496E4D2B = Karbon. podniesione skrzydło
+
+0x503DF678 = Dach z wlotem i spojlerem
+
+0x508FBD1C = Karbonowy pas
+
+0x519A174A = Lodowa motocyklowa
+
+0x519AB48B = Karb. duży spojler Aero
+
+0x530FBA44 = Karbonowa sportowa maska
+
+0x531B6786 = Czarne na chiński Nowy Rok
+
+0x535B43F1 = Podwyższona maska, kolor #2
+
+0x553B9DC6 = Fabryczny zderzak, kolor #2
+
+0x557F17D3 = Rajdowy dyfuzor, kolor #2
+
+0x558FEC92 = Tytanowe długie rury
+
+0x562CFDD4 = Wściekle różowa Güffy
+
+0x563A70E4 = Wściekle róż. wełniany polar
+
+0x566A502A = Chrom. siatkowy grill, kol. #1
+
+0x576AB014 = Chromowane okrągłe lusterka
+
+0x596D9CAF = Imprezowa czapka 12
+
+0x598A4CDC = Karabin ofensywny
+
+0x603D08FE = Czerwony
+
+0x628FB0D8 = Kapelusz w fajerwerki
+
+0x632B2589 = Policyjny zespół wyścigowy
+
+0x635A4CA0 = Karbonowa tuningowa maska
+
+0x636A1C9E = Klatka z otuliną
+
+0x638FA8EA = Chromowany tuningowy
+
+0x643EDB07 = Chromowane orurowanie
+
+0x647F1431 = Dynamiczne Vapid
+
+0x656AE877 = Luzacki pikselowy HSW
+
+0x661A99FF = Z reflektorami, kolor #2
+
+0x671A56DF = Czysta niebieska geometria
+
+0x672F3832 = Imprezowa czapka 13
+
+0x693EC67B = Dziki wypaczony HSW
+
+0x694CA340 = Maska z wywietrz., kolor #2
+
+0x699FE8C0 = Pas przeciwsłoneczny, kolor #1
+
+0x711EEB4B = Osiągowa maska, kolor #2
+
+0x717A601F = Maska z małymi wlotami, k. #2
+
+0x717FAC8F = Zielone okulary-serca
+
+0x722FCB4A = Fioletowe materiałowe chodaki
+
+0x726AEAC1 = Uliczna maska
+
+0x726ED41E = Czarna Overflod
+
+0x729CE75C = Chrom. kwadratowe lusterka
+
+0x737FDB09 = Pomarańczowa motocyklowa
+
+0x742C95EF = Niebieska Toundra
+
+0x742ED410 = Podwójny owalny wydech
+
+0x743D79D0 = Karbonowy łukowy spojler
+
+0x745D816F = Pościgowy taran
+
+0x745F7165 = Czarny bagażnik dachowy
+
+0x751C93B9 = Chrom. fabryczny bagażnik
+
+0x757A1E36 = Czarna Overflod
+
+0x786F1A2F = Karbonowe progi szosowe
+
+0x788A3C4B = Białe pasy Vapid
+
+0x789B4EC2 = Wykończenie, kolor #1
+
+0x793ACA61 = Zestaw techniczny 7.0
+
+0x795BEA66 = Osłona koła
+
+0x797C86B6 = Powlekane podwójne wydechy
+
+0x802EC067 = Rajdowiec Cattana
+
+0x820F40BB = Z ulicznym wlotem, kol. #2
+
+0x829C56B2 = Niebieska Didier Sachs
+
+0x832EF204 = Kuta karbon. superdokładka
+
+0x833B3866 = Czarny wyścigowy pas
+
+0x845BB070 = Żółte reflektory
+
+0x848BCFCA = Karbonowy uliczny zderzak
+
+0x853B1383 = Środkowe wloty, kolor #1
+
+0x864D20C2 = Wyścigowa maska, kolor #2
+
+0x868BA9BE = Policja stanowa (jasne)
+
+0x875DB142 = Sportowy dyfuzor
+
+0x877D486C = Czarne okulary-serca
+
+0x886EC5A8 = Czerwona na chiński Nowy Rok
+
+0x888CD455 = Uliczna obwódka grilla
+
+0x889FB5CF = Chrom. prostokątne wydechy
+
+0x902F53E9 = Wyścigowe Excelsior
+
+0x905A372D = Kuty karbon. uliczny wlot
+
+0x910FBAD3 = Taktyczny taran
+
+0x914EFA63 = Uliczny spojler, kolor #1
+
+0x924A6B47 = Uliczny zderzak, kolor #2
+
+0x939CB9C2 = Chrom. wzmocnione orurowanie
+
+0x950D5689 = Podwójny tytanowy wydech
+
+0x955B5234 = Strój Goocha
+
+0x956A91BF = Brzoskwiniowe mat. chodaki
+
+0x971BDA80 = Czarny pełny dach
+
+0x974F6478 = Karbonowy wysoki łukowy
+
+0x986F3CD8 = Średniopoziomowe GT, kol. #2
+
+0x990FFD29 = Chusta Strapz
+
+0x997AB8E0 = Karbonowa używana maska
+
+0x999FBBED = Podwójne szare pasy
+
+0x1041C687 = Pan Mam Rację
+
+0x1049DB1E = Karbonowe wloty
+
+0x1062B744 = Kuty karbon. wyścigowy wlot
+
+0x1166C469 = Fioletowe rajdowe płomienie
+
+0x1352BE95 = Malowany pas, kolor #2
+
+0x1434EB8E = ZNIŻKI BRANŻOWE
+
+0x1481A6C9 = Praktyczny zderzak
+
+0x1542D391 = Karbonowy dyfuzor
+
+0x1595E3CC = Srebrny kapelusz na Nowy Rok
+
+0x1635C007 = Vigero ZX Kabriolet
+
+0x2048AD69 = Karbon. wyścigowa dokładka
+
+0x2097B38B = Wyścig. skrzydło na bagażniku
+
+0x2107D1C1 = Kasztanowa dopasowana
+
+0x2237F499 = Ekipa sanitarna
+
+0x2336BECE = Cytrynowy wełniany polar
+
+0x2345A2F0 = Straż przybrzeżna
+
+0x2362F31A = Tytanowy wydech
+
+0x2510F37F = Szkarłatna motocyklowa
+
+0x2574C475 = Lodowy wełniany polar
+
+0x2713C83C = Imprezowa czapka 2
+
+0x2848EF1B = Wentylowana wyścigowa maska
+
+0x2904C38F = Ciepły wypaczony HSW
+
+0x2911BD9D = Plastik. terenowe orurowanie
+
+0x2980CB50 = Impaler oferuje proste rozwiązanie dla wszystkich poważnych uczestników wyścigów równoległych, którzy chcą jak najszybciej przedostać się z punktu A do punktu B, a potem rozsmarować się gładko w punkcie C. Jeśli są jakieś zakręty, to nawet nie próbuj. A jeśli nie ma, widzimy się na mecie.
+
+0x3044B872 = Zestaw techniczny 2.0
+
+0x3170FB37 = Plastikowe stopnie boczne
+
+0x3179E399 = Chromowane używane progi
+
+0x3242B52D = Karb. maska z wywietrznikiem
+
+0x3371D563 = Karbon. dokładka z kaczkami
+
+0x3443C062 = Kaczy spojler, kolor #2
+
+0x3513B0DB = Uliczny zderzak, kolor #1
+
+0x3594E53E = Imprezowa czapka 3
+
+0x3668FC5A = Chromowane wydechy
+
+0x3675ABC0 = Ciemnozielone zimowe
+
+0x3777E1BE = Kaczy spojler na bagażniku
+
+0x3791E43C = Jasnoniebieskie zimowe
+
+0x3882A2F2 = Białe wyścig. pasy Cavalcade
+
+0x4101D03A = Klasyczny zderzak, kolor #2
+
+0x4213B7EF = Plastikowy poziomy grill
+
+0x4262A2EC = Kute karbonowe kaczki
+
+0x4325B21D = Czapka Red's
+
+0x4353F981 = Jasny z zakłóceniami HSW
+
+0x4396A3E1 = Jednostka K-9
+
+0x4435D262 = Tytanowe prostokątne wydechy
+
+0x4740B1DF = Chromowany siatkowy grill
+
+0x4785C441 = Maska Ram Air, kolor #2
+
+0x4804D479 = Szkarłatny wełniany polar
+
+0x4935F1A8 = Rozgrzany tłok
+
+0x4944F84D = Cyjanowe materiałowe chodaki
+
+0x5000B8BA = Bez tarana
+
+0x5466C752 = Płaska maska
+
+0x5583C37A = Jasnonieb. dopasowana
+
+0x5666B578 = Czysta różowa geometria
+
+0x5712AA9B = Malowany agresywny grill
+
+0x5712ECFA = Jasnoniebieskie zimowe
+
+0x5878CE28 = Pasy i widmowe płomienie
+
+0x5945DC1B = Chromowane orurowanie
+
+0x5993EE3C = Biała Benefactor
+
+0x6026B326 = Krzykliwy pikselowy HSW
+
+0x6159A2C7 = Płyty pancerne
+
+0x6254D43C = Sportowe Rockstar
+
+0x6305F41B = Biała świąteczna z reniferem
+
+0x6457C943 = Hardkorowe 4x4
+
+0x6505ADA5 = Królewska smocza
+
+0x6602DD5B = Karbonowy płaski spojler
+
+0x6675FB2F = Czerwona świąteczna z choinką
+
+0x6859F409 = Chromowany kratowany grill
+
+0x6926BE71 = Karbon. z plastikowym wlotem
+
+0x7133DC7B = Imprezowa czapka 5
+
+0x7315A635 = Rajdowiec
+
+0x7508F4BB = Czerwone jeździeckie
+
+0x7638DACA = Grill GT, kolor #1
+
+0x7806E3AB = Marynarka na Dzień Św. Patryka
+
+0x7956EE86 = Chromowane wyczynowe progi
+
+0x8082EC17 = Kuta karb. szosowa dokładka
+
+0x8097A786 = Przesunięty biały pas
+
+0x8143F7A3 = Szmaragdowe zimowe
+
+0x8196FA85 = Zielonkawy wełniany polar
+
+0x8239C8E2 = Pomarańczowy wełniany polar
+
+0x8284D1EC = Czapka Strapz
+
+0x8625AFA8 = Chromowany poziomy grill
+
+0x8734AB9F = Czerwone połowiczne
+
+0x8753B407 = Progi do driftu
+
+0x8822D9CF = Tytanowe krótkie wydechy
+
+0x8833A063 = Plastikowy uliczny grill
+
+0x8866DE97 = Z reflektorami, kolor #1
+
+0x8914C56B = Ciemnonieb. motocyklowa
+
+0x8953FF7E = Łukowa wyścig. dokładka, #2
+
+0x8992C1D4 = Czy zdołasz wejść niemal dwutonowym samochodem sportowym w ciasny zakręt na górskim zboczu tak łagodnie, jak 30-letni piwniczak przytula swoją pełnowymiarową poduszkę Balonowej Roboksiężniczki? Z Japonii dobiega entuzjastyczna odpowiedź w postaci driftującego coupe Fathom FR36, który mówi: TAK, ZDOŁASZ.~n~W tym pojeździe można zamontować tuning driftowy w warsztacie klubu samochodowego LS.
+
+0x9179CEDC = Maska GT, kolor #1
+
+0x9186FB70 = Używany spojler, kolor #1
+
+0x9211C7ED = Lawendowe materiał. chodaki
+
+0x9550C919 = Alternatywne czarne pasy
+
+0x9599B5CD = Tytanowy szeroki wydech
+
+0x9630B56E = Środkowe wloty, kolor #2
+
+0x9639F064 = Istnieje milion jeden powodów, żeby kupić sobie używaną furgonetkę służb sanitarnych. Na przykład praca dla służb sanitarnych Los Santos.~n~Tego pojazdu Pegasus nie możesz przechowywać w prywatnych garażach.
+
+0x9945C37D = Grotii nowej generacji GT
+
+0x9966CB82 = Podwójne owalne wydechy
+
+0x10599AA0 = Imprezowa czapka 9
+
+0x10890B0C = Ze złamanym sercem
+
+0x11819E26 = Karbon. wyścigowe lusterka
+
+0x14352C75 = Konf. wyścig. i zest. drift.
+
+0x15033E42 = Szmaragdowe materiał. chodaki
+
+0x17477CC6 = Klasyczny zderzak, kolor #1
+
+0x17919D79 = Grill GT, kolor #2
+
+0x18621BDB = Kuta karb. wyczyn. dokładka
+
+0x19439B43 = Dwa podniesione szperacze
+
+0x21392D02 = Kratowany grill, kolor #2
+
+0x23225A6A = Sportowa maska, kolor #1
+
+0x24177E06 = Pomarańczowe mat. chodaki
+
+0x24617C9D = Kanciasty otw. z zest. drift.
+
+0x26424D6F = Karbonowe progi
+
+0x30390E01 = Czerwona Vapid
+
+0x30480CE8 = Niestandardowy wydech
+
+0x31194DAC = Chromowane orurowanie
+
+0x31353DE2 = Uliczny zderzak
+
+0x34626A00 = Cytrynowy wełniany polar
+
+0x36017B16 = Skrzydło do driftu
+
+0x36678A0A = Maska GT, kolor #1
+
+0x36818B8C = Karbon. went. sportowa maska
+
+0x37904E7E = Chrom. klasyczny z dokładką
+
+0x40682D47 = Rurowe osłony
+
+0x42875CF7 = Zestaw techniczny 3.0
+
+0x45999E0C = Pnącze Hardstand
+
+0x46560F7F = Karbonowy sportowy zderzak
+
+0x47246FB3 = Karbonowa wypukła maska
+
+0x48197DA7 = Imprezowa czapka 3
+
+0x53582BC0 = Czasem zwykły radiowóz nie jest najlepszym rozwiązaniem. Czasem działasz pod przykrywką. Czasem przykrywka jest tak głęboka, że nie jesteś nawet policjantem, tylko przypadkowym gościem jadącym po Vinewood Boulevard i smyrającym się po swojej policyjnej pałce. Tak wyglądają tajne operacje.~n~Ten pojazd możesz modyfikować wyłącznie w posiadanych warsztatach.
+
+0x54284DA6 = Sportowy zderzak, kolor #2
+
+0x55650C95 = Chrom. szosowy wydech
+
+0x56999C30 = Plastikowe stopnie
+
+0x57621B9B = Łukowa wyścig. z akcentem
+
+0x60975F51 = Kute karbonowe akcenty
+
+0x61244B56 = Osiągowa maska, kolor #1
+
+0x63103A36 = Popielata motocyklowa
+
+0x67238FB9 = Chromowane długie rury
+
+0x67294A2B = Plastikowe wyczynowe progi
+
+0x68210D38 = LS Customs
+
+0x69116AC4 = Podwójne przesunięte wydechy
+
+0x70375ED8 = Mocny zderzak, kolor #1
+
+0x70404CA4 = Karbonowa gładka maska
+
+0x70645DF3 = Karbonowa z małymi wlotami
+
+0x71132BD2 = Chromowany zestaw
+
+0x73537F6F = Łowieckie moro
+
+0x75405C05 = Dziki wypaczony HSW
+
+0x75452BFC = Proste wybuchowe rury
+
+0x80369E0E = Pomarańczowa faza HSW
+
+0x80630B6B = Czarne jeździeckie
+
+0x81566AE8 = Pas przeciwsłoneczny, kolor #1
+
+0x82577AA2 = Karbonowe progi
+
+0x83485EF3 = Używany spojler, kolor #2
+
+0x84186DF3 = Cytrynowe materiałowe chodaki
+
+0x86827E4A = Podwójne karbonowe, kol. #2
+
+0x87290EE5 = Moro Roboksiężniczki
+
+0x87417B57 = Karbonowy wielki dyfuzor
+
+0x90551D23 = Dwubarwny używany grill
+
+0x93400A17 = Świąteczny Sprunk
+
+0x94741A2D = Podw. sześciokątne wydechy
+
+0x95786A37 = Zielona sukienka 420
+
+0x96622B2D = Przycięty zderzak i belka
+
+0x97840AD2 = Chromowany ryflowany grill
+
+0x99992A89 = Brzoskwiniowy wełniany polar
+
+0x125302BB = Demon V8
+
+0x141445CB = Krzykliwy pikselowy HSW
+
+0x154408B1 = Fabryczna dokładka, kol. #2
+
+0x226583A0 = Kobaltowe zimowe
+
+0x236205E3 = Karbonowe skrzydło Aero
+
+0x288240E8 = CEL
+
+0x303905DE = Szkarłatne zimowe
+
+0x325776BD = Sportowe skrzydło
+
+0x363687BB = Chromowana poprzeczka
+
+0x367855D0 = Monochromatyczne zimowe
+
+0x410787FB = Karbonowa uliczna maska
+
+0x444618A5 = Z wysokim wlotem, kolor #2
+
+0x484687E5 = Lawendowy wełniany polar
+
+0x490533A5 = Czarne zabójcze rajdowe
+
+0x520104EF = Szkarłatna dopasowana
+
+0x556300BE = Karbonowy dach
+
+0x633750C4 = Mała dokładka
+
+0x639451BF = Chromowana długa rura
+
+0x650117CC = Fabryczny zderzak, kolor #2
+
+0x659820EC = Karbonowy bagażnik
+
+0x667282BF = Spojler Aero, kolor #1
+
+0x683900F1 = ROZPOCZNIJ KRADZIEŻ
+
+0x700412D0 = Podniesiona maska
+
+0x763228E1 = OPCJONALNE
+
+0x767852B3 = Jasnoniebieskie mat. chodaki
+
+0x768790D9 = Limonkowe materiał. chodaki
+
+0x783169ED = Czarny wełniany polar
+
+0x789484F7 = Kuty karbonowy zderzak
+
+0x822614C9 = Czarna LS Customs
+
+0x825698C8 = Karbonowe uliczne progi
+
+0x849995C1 = Chromowane pręty
+
+0x886056E2 = Siatki safari
+
+0x893690F3 = Karbonowa lotka z wcięciem
+
+0x907133BE = Kombinator Hardstand
+
+0x908702D8 = Chromowane boczne wydechy
+
+0x917854E0 = Biały wyścigowy pas
+
+0x921846D4 = Karbonowe osłony
+
+0x1051980A = Maska z bocz. wlotami, k. #2
+
+0x1056021B = Karbonowa maska Agresor
+
+0x1102686B = Dachowy panel świetlny
+
+0x1551866E = Z wykończeniem GT, kolor #2
+
+0x1649286C = Wyczynowe progi, kolor #2
+
+0x1871802E = Chromowany z walizkami
+
+0x1910837B = Otagowany
+
+0x2709771E = Dyfuzor, kolor #2
+
+0x3430062F = Karbonowa wyścigowa maska
+
+0x3521519A = SEJF ŚCIENNY
+
+0x4116073C = Chcesz udawać, że nie oblali cię na teście psychologicznym w policji? W takim razie Vapid Stanier LE Cruiser będzie dla ciebie wozem idealnym. Jest po brzegi wypchany policyjnymi detalami, od odcisków dupy na brzegach foteli po okruchy z pączków na desce rozdzielczej. Od teraz to ty jesteś pierwszą linią obrony.~n~Ten pojazd możesz modyfikować wyłącznie w posiadanych warsztatach.
+
+0x4505347B = Drzwi rurowe
+
+0x5085301D = Duży kaczy spojler
+
+0x5217478C = Poziomy grill, kolor #1
+
+0x5387236B = Wygraj 5 meczów w świątecznym trybie adwersarza, żeby odblokować to wykończenie do kupienia.
+
+0x6673564F = Sportowe progi, kolor #1
+
+0x7039278E = Czapka Cluckin' Bell
+
+0x7271505B = Chromowane orurowanie II
+
+0x8583772A = Z plastikowym wlotem, kol. #1
+
+0x8640987B = Średniopoziomowe GT, kol. #1
+
+0x9706603D = Płyty pancerne
+
+0x9731719E = Usunięte logo, kolor #1
+
+0x12758490 = Obrysowane sportowe
+
+0x13175354 = Grill GT, kolor #2
+
+0x15885765 = Zagięty wydech
+
+0x16120891 = Strój Goocha
+
+0x16291243 = Brak lusterek
+
+0x19065992 = Marynarka na Dzień Niepodległ.
+
+0x19524108 = Karbonowe sportowe stopnie
+
+0x20394892 = Chromowane wykończenie
+
+0x25643301 = Czarny pas przeciwsłoneczny
+
+0x25951961 = Chrom. klasyczny zderzak
+
+0x30190983 = Czarna motocyklowa
+
+0x32158166 = Paski
+
+0x33564224 = Wyścigowy przedni zderzak
+
+0x34750711 = Karbonowe kaczki
+
+0x46582523 = Kasztanowa dopasowana
+
+0x48025341 = Chromowany z usuniętym logo
+
+0x48234550 = Z niskim wlotem, kolor #2
+
+0x49259563 = Szeryf hrabstwa (maskowanie)
+
+0x50492137 = Chromowane ryflowane stopnie
+
+0x52197591 = Czarna czapka Los Santos
+
+0x53591523 = Karb. wzmocniony zderzak
+
+0x54820837 = Policyjny zespół rajdowy
+
+0x55088461 = Duży filtr
+
+0x55565104 = Czarny pas
+
+0x56647140 = Lodowy wełniany polar
+
+0x56916065 = Czerwona Pfister
+
+0x68057553 = Progi z nakładką
+
+0x69613282 = Grotti Italia
+
+0x70446040 = Koneksje z lokalnym biznesem są bezcenne, a mimo to zaskakująco tanie. Dlatego właśnie za jednorazową opłatę możesz otrzymać zniżki na wszystkie ubezpieczenia Mors Mutual i naprawę pojazdów w LS Customs.
+
+0x70944215 = Czerwona dopasowana
+
+0x70959660 = Wentylowana maska, kolor #1
+
+0x71748086 = Policja (lotnisko)
+
+0x71794464 = Warkoczyki bez supłów
+
+0x73856380 = Mocny grill
+
+0x75056070 = Brąz. świąteczna z reniferem
+
+0x80541632 = Lotka tylnej klapy, kolor #2
+
+0x86318256 = Uliczne progi, kolor #2
+
+0x90511807 = Sportowa maska, kolor #1
+
+0x93953137 = Karnawałowa sportowa Bigness
+
+0xA001B7C9 = Lusterka, kolor #2
+
+0xA002541F = Uliczne progi z akcentem
+
+0xA00BF0CD = Alt. karbonowy dach z wlotem
+
+0xA01C9E50 = Oczy Sabre Turbo
+
+0xA0216AB6 = Używane drzwi rurowe
+
+0xA0322C87 = Gładka maska, kolor #2
+
+0xA06D7420 = Czarna Pfister
+
+0xA07750DA = Chromowany klasyczny grill
+
+0xA08676E2 = Beżowe materiałowe chodaki
+
+0xA0AA2B27 = Imprezowa czapka 14
+
+0xA0C2DCD2 = Chrom. wzmocniony zderzak
+
+0xA0E717C5 = Dach, kolor #2
+
+0xA1DDF968 = Brak tylnej pokrywy
+
+0xA1E0E92C = Pomarańczowe zimowe
+
+0xA1E70E5F = Koszulka Coil Cyclone
+
+0xA2B35160 = Niskie skrzydło GT, kolor #2
+
+0xA2BE2139 = Karbonowa maska
+
+0xA2F29D0B = Fabryczne lusterka, kolor #2
+
+0xA2F284F6 = Wyczynowe skrzydło
+
+0xA3A8FA93 = Czerwona Bravado
+
+0xA3C564C0 = Wyścigowe Jackal
+
+0xA3D5636E = Kuty karbonowy pas
+
+0xA4BBDD34 = Chromowane podwójne wydechy
+
+0xA4C67CCF = LS Customs
+
+0xA4FC7D5B = Odwrócone płomienie
+
+0xA5AEDE39 = Styl uliczny
+
+0xA5EE7F67 = Wyścigowe Device
+
+0xA6B9DAA9 = Karbonowa wygładzana maska
+
+0xA6F5366C = Dummy label.
+
+0xA7C5D898 = Karbonowa i środkowe wloty
+
+0xA7C9F9A7 = FR36
+
+0xA7D149B5 = Imprezowa czapka 1
+
+0xA7E0C6CC = Ze złamanym sercem, tył
+
+0xA7E53E05 = Karbonowe uliczne progi
+
+0xA8B3B6A6 = Hotrodowy świr
+
+0xA8B7A8ED = Karbonowy spojler
+
+0xA8B64EA5 = Tuningowy zderzak
+
+0xA8C5A6A3 = Czarna Enus
+
+0xA8CBAD61 = Ryflowany grill, kolor #1
+
+0xA8CBAF7C = Karina Vivanite'a uważa się za klasyczny wóz seksownych mamusiek z centrum USA. To także pierwsze słowo w sektorze praktycznych rodzinnych minivanów oraz ostatnie słowo w świecie niespodziewanych wyścigów równoległych. Kiedy więc następnym razem będziesz się zastanawiać, czy zabrać dzieciaki na trening, czy stopić trochę asfaltu wykroczeniem drogowym, to pamiętaj, że zawsze możesz upiec dwie pieczenie na jednym ogniu w rozsądnej cenie.
+
+0xA8E2048B = Podwójnie wentylowana maska
+
+0xA8F339C3 = Wykończ. Pomocnicy Mikołaja
+
+0xA9B94755 = Magentowe zimowe
+
+0xA9D4544C = Chromowane stopnie nadwozia
+
+0xA9DBC6E8 = Karbonowe niskie skrzydło
+
+0xA9E793D8 = Wąskie białe pasy
+
+0xA9FFBCB5 = Dwa złożone szperacze
+
+0xA17A2ADA = Kute karbonowe panele
+
+0xA21FA9BA = Kute karbon. fabryczne HSW
+
+0xA31F3A21 = Brzoskwiniowe zimowe
+
+0xA34CEA63 = Fioletowe materiałowe chodaki
+
+0xA35C09B1 = Dach, kolor #1
+
+0xA52A00A2 = Odwrócony rozbryzg
+
+0xA53E75AF = Plastikowe chlapacze
+
+0xA53F9642 = FB No Rivals
+
+0xA75ECD26 = Wzmoc. belka i reflektory
+
+0xA77DE1D7 = Uzbrojony
+
+0xA90C4F97 = Płaskie progi
+
+0xA94A5CA1 = Biała z kastetem i gandzią
+
+0xA108F108 = Karbon. uliczne skrzydło GT
+
+0xA174D572 = Orurowanie II
+
+0xA199A15E = Plastikowa uliczna dokładka
+
+0xA464F783 = Plastik. karbowany, kolor #2
+
+0xA534EFC9 = Karbonowe progi z nakładką
+
+0xA535DE93 = Sportowa maska, kolor #2
+
+0xA731EC00 = Policja (Richman)
+
+0xA785F689 = Strój wyścigowy Rockstar
+
+0xA789C42E = Ciemnozielone zimowe
+
+0xA857C1F4 = Podwójne karbonowe, kol. #1
+
+0xA904F860 = Płomienie
+
+0xA1115AD6 = Ofensywny taran
+
+0xA1718E19 = Whiz | Vapid
+
+0xA6101D99 = Ciemna Cimicino
+
+0xA6537AAB = Cinco de Mayo
+
+0xA6552A35 = Wykończenie, kolor #2
+
+0xA34103FD = Karbonowe przednie błotniki
+
+0xA43347AF = Tytanowe podwójne wydechy
+
+0xA48019A2 = Karbonowa sportowa maska
+
+0xA66564BF = Moro
+
+0xA347264D = Sportowe nowej generacji
+
+0xA433073D = Bursztynowe zimowe
+
+0xA1797088 = Zielona wyścigowa Dewbauchee
+
+0xA7590487 = Wściekle różowe mat. chodaki
+
+0xA8541219 = Karbonowe wydechy
+
+0xA9378830 = Ciemnoszare materiał. chodaki
+
+0xA9769426 = Sportowy spojler, kolor #2
+
+0xAA155DCF = Amerykański kapelusz
+
+0xAB0C370C = Popielata dopasowana
+
+0xAB2D60FF = Szare jeździeckie
+
+0xAB2E5F0A = Dwutonowe wzory
+
+0xAB59CE0A = Limonkowy wełniany polar
+
+0xAB5742D1 = Maska fabryczna, kolor #2
+
+0xAB9098FD = Duża lotka, kolor #2
+
+0xAC05C993 = Krzykliwy szokowy HSW
+
+0xAC1F8B80 = Kasztanowa motocyklowa
+
+0xAC750C50 = Pasy Fathom
+
+0xAC21767F = Karbonowa wyścigowa
+
+0xACA1361D = WÓZ HOLOWNICZY (GRUCHOT)
+
+0xACFF9D3A = Malowany grill, kolor #1
+
+0xAD2DC01D = Ciemnoniebieskie mat. chodaki
+
+0xAD6B38ED = Turbosmok
+
+0xAD42BE1E = Kontrastowa smocza
+
+0xAD93D5B8 = PRACOWNICY
+
+0xAD548230 = Marynarka na Nowy Rok
+
+0xAD601439 = Czerwone okulary-serca
+
+0xADABF7FE = Patrol drogowy (jasne)
+
+0xADD76DB7 = Szosowe skrzydło
+
+0xAE07CF0B = CMYK z usterką HSW
+
+0xAE2CC02A = Vivanite
+
+0xAE9EB334 = Dach ze spojlerem, kolor #2
+
+0xAE88DC5E = Zaokr. prostokątne wydechy
+
+0xAE6764E8 = Maska limitowanej edycji
+
+0xAE584683 = Imprezowa czapka 15
+
+0xAEBE86E4 = Osłony, kolor #1
+
+0xAECB5ED0 = Liliowy wełniany polar
+
+0xAEE15C48 = Lotka z wcięciem, kolor #1
+
+0xAEF47B89 = Żółty geo HSW
+
+0xAF067C7B = Plemienne wyścigowe Junk
+
+0xAF4F0267 = Magentowe materiał. chodaki
+
+0xAF5DEE2C = Karbonowy spojler
+
+0xAF7B1937 = Karbon. skrzydło na nadwoziu
+
+0xAF2870D9 = Orurowanie Rhino
+
+0xB01B4F7A = Ciemnoorzech. motocyklowa
+
+0xB03D4FF2 = Beżowa Enus
+
+0xB083E430 = Tuningowy z zest. driftowym
+
+0xB0876C0B = Karbonowe przednie błotniki
+
+0xB096AC14 = Kurtka ze złamanym sercem
+
+0xB09B3D99 = Brązowy strój imprezowy
+
+0xB0B22075 = Szosowe skrzydło
+
+0xB0EC59E1 = Czarna Los Santos
+
+0xB0F14EBA = Wielki dyfuzor z akcentem
+
+0xB1A10CC1 = Plastikowe relingi
+
+0xB1ADF347 = Klasyczny grill, kolor #1
+
+0xB1CA3800 = Lusterka, kolor #1
+
+0xB1CAEE2F = Tytanowa długa rura
+
+0xB1D2945A = Alt. dach z wlotem
+
+0xB1F919CB = Niski łukowy spojler, #2
+
+0xB2A98B39 = Chromowana antena
+
+0xB2BB7991 = Karbonowe superprogi
+
+0xB2C911DE = Pełny dach, kolor #2
+
+0xB2CB9450 = Chrom. klasyczny zderzak
+
+0xB2CFA476 = Cytrynowe zimowe
+
+0xB2D5901E = Drzwi rurowe z kratą
+
+0xB2F40B94 = Zderzak GT, kolor #2
+
+0xB4A38C6A = Czapka Strapz
+
+0xB4D5E79F = Kuty karbon. sportowy wlot
+
+0xB4E2BF80 = Bagażnik, kolor #2
+
+0xB4EAF5CF = Plastikowe niskie skrzydło GT
+
+0xB5F9DA2E = Uliczne progi
+
+0xB6A089F7 = Policja (maskowanie)
+
+0xB7A26275 = Podniesione skrzydło
+
+0xB7BBD06B = Lodowa dopasowana
+
+0xB7D18EFF = Czapka Red's
+
+0xB7FDD6E5 = Zielonkawe materiał. chodaki
+
+0xB8C3F0D4 = Chrom. duże owalne wydechy
+
+0xB8FA9AFE = Wyścigowy dyfuzor, kol. #2
+
+0xB9D862F4 = Kasztanowa motocyklowa
+
+0xB22E499B = W martwy punkt
+
+0xB31D5DEC = Użytkowy uchwyt na koło
+
+0xB42E0604 = Niebieska faza HSW
+
+0xB45FF9B1 = Wyścigowe Grotti
+
+0xB53D7792 = Tuningowe z karbon. wkładką
+
+0xB63EBD1F = Podwójne wloty, kolor #1
+
+0xB64CE875 = Używane progi, kolor #1
+
+0xB69E2A14 = Jasnoniebieskie jeździeckie
+
+0xB70FF82C = Czarna z kastetem i gandzią
+
+0xB73CBA3C = Seledynowa Güffy
+
+0xB73DD731 = Podniesiony szperacz
+
+0xB74B65A1 = Czapka Red's
+
+0xB74EA1DE = Jasnoniebieska motocyklowa
+
+0xB81D3043 = Szerokie białe pasy
+
+0xB86E5C98 = Karnawałowy kapelusz Bigness
+
+0xB93CE86C = Plastikowe sportowe progi
+
+0xB94DB477 = Duża lotka, kolor #1
+
+0xB94E910B = Wyścigowe Junk
+
+0xB120E0AA = Wzmocniona belka
+
+0xB138FAE3 = Ciemnoorzech. dopasowana
+
+0xB154D7E0 = Usunięty zderzak
+
+0xB277FC71 = Wyblakła dzikość
+
+0xB291B209 = Czarna czapka 420
+
+0xB354B822 = Złota Bigness moro
+
+0xB434EF4F = Plastrowy grill, kolor #2
+
+0xB687B704 = Tytanowe długie wydechy
+
+0xB985C484 = Pomarańczowa Bigness
+
+0xB994FBD7 = Fioletowe pajęcze pasy
+
+0xB4777D16 = Karbonowa wyścigowa
+
+0xB6814CC1 = Pasy Omaggio
+
+0xB8271ECE = Chromowany poziomy grill
+
+0xB10504F9 = Musztardowa dopasowana
+
+0xB12587B5 = Czekoladowe zimowe
+
+0xB15976E8 = Bursztynowe materiał. chodaki
+
+0xB39023BC = Karbon. z ulicznym wlotem
+
+0xB51830E2 = Karbonowy gładki zderzak
+
+0xB67633E6 = Gauntlet Interceptor
+
+0xB87479F5 = Górne wloty, kolor #1
+
+0xB101633C = Jasnonieb. wełniany polar
+
+0xB1518003 = Bagażnik dachowy
+
+0xB2027092 = Malowany grill
+
+0xB5042498 = Kute karbonowe wloty
+
+0xBA8E6C73 = Fioletowy wełniany polar
+
+0xBA21CCA5 = Karbonowy wyczynowy spojler
+
+0xBA50A82F = Fukaru
+
+0xBA764C6A = Spojler, kolor #2
+
+0xBA74130C = Wyścigowa maska
+
+0xBAA3F271 = Wklęsła maska, kolor #1
+
+0xBAC31ED9 = Pomarańczowa motocyklowa
+
+0xBAE07239 = Agresywny grill
+
+0xBAEB6BF6 = Potwierdź
+
+0xBAED137A = Policja
+
+0xBB47FC7A = Karbon. z wlotami pod kątem
+
+0xBB83D965 = Dżinsy graffiti
+
+0xBBAEB0D6 = Pomarańczowe okulary-serca
+
+0xBBD80BE9 = Jasnoniebieskie mat. chodaki
+
+0xBC9CE55C = Karbonowa maska fabryczna
+
+0xBC420B10 = Orurowanie II z kol. pokryw.
+
+0xBC892BD9 = Sportowa maska
+
+0xBD2F1C3F = Klasyczne lusterka, kolor #2
+
+0xBD2FF8E5 = Czarna lotka bagażnika
+
+0xBD38FB56 = Wyczynowe progi z akcentem
+
+0xBD905C1F = Spodnie na Dzień Św. Patryka
+
+0xBD462038 = Zderzak GT, kolor #1
+
+0xBDBD3EB5 = Czarny z usuniętym logo
+
+0xBDD75D78 = Wybuchowe rury
+
+0xBDEF239E = Przyciemnione reflektory
+
+0xBE5DD878 = Wentylowana, kolor #2
+
+0xBE6D7C23 = Chrom. podwójne wydechy
+
+0xBE8E072C = Koszulka Dzień Ziemi Coil
+
+0xBE22FAB2 = Orurowanie
+
+0xBE813E73 = Tytanowe krótkie wydechy
+
+0xBE9838EA = Duży plastik. bagażnik dachowy
+
+0xBE36428D = Malowany dach
+
+0xBE339540 = Wykończenie Bałwany
+
+0xBEA9AF3E = Kamuflaż
+
+0xBECC495B = Wściekle różowa Güffy
+
+0xBF1E3415 = Karbonowy niski łukowy
+
+0xBF9D8B34 = Sportowy spojler, kolor #2
+
+0xBF89AB7D = Podwójny zagięty wydech
+
+0xBFB5FFFE = Jaskrawa dzikość
+
+0xBFC8C28A = Skórzany dach, kolor #1
+
+0xBFEEA95C = Chromowane relingi
+
+0xBFFE5C63 = Strój Cluckin' Bell
+
+0xC0275EBB = Karbonowa dokładka
+
+0xC0568B7F = Czarny sportowy z akcentem
+
+0xC067F881 = Usunięte koło
+
+0xC0AF1E04 = Policja (władze portowe)
+
+0xC0D4BBEA = Skrzydło na nadwoziu
+
+0xC0D8FB3B = Beżowy wełniany polar
+
+0xC0D25BF3 = Owalny wlot powietrza
+
+0xC0F3F036 = Anuluj
+
+0xC0F35EA1 = Czapka Cluckin' Bell
+
+0xC0FB5DBF = Fabryczny zderzak, kolor #2
+
+0xC0FD494A = Alternatywne wyścigowe Sprunk
+
+0xC1A21435 = Nogo Vodka
+
+0xC1CDF8D2 = Wyścigowy zderzak
+
+0xC2A7A695 = Pomarańczowe mat. chodaki
+
+0xC2C70DA7 = Wentylowana maska moro
+
+0xC2D29590 = Uliczny grill, kolor #2
+
+0xC2EA28F7 = Czarna czapka 420
+
+0xC3AB048E = Fabryczny zderzak, kolor #1
+
+0xC3D914E7 = Wygładzana maska, kolor #1
+
+0xC3F2ED24 = Tylne lusterko
+
+0xC4A477A4 = Plastikowy uliczny grill
+
+0xC4DD5349 = Niebieskie okulary-serca
+
+0xC5FE8875 = Ścięte osłony świateł
+
+0xC6D2CF81 = Plastikowa przykręcona lotka
+
+0xC7E05AA7 = Zielonkawe zimowe
+
+0xC7E7BE88 = Chrom. plastikowy karbowany
+
+0xC7EE683E = Karbonowy spojler Commando
+
+0xC8AA1986 = Jasna Santo Capra
+
+0xC8F54830 = Rozbryzg
+
+0xC8FBFA51 = Bez szperaczy
+
+0xC9B48AD1 = Karbon. z bocznymi wlotami
+
+0xC9CEBC24 = Dostępne
+
+0xC9D99CDF = Czerwona świąteczna z choinką
+
+0xC22D9736 = Sam. bezpieczeństwa Declasse
+
+0xC23B1FEA = Karbonowe lusterka
+
+0xC24C6062 = Plastikowy poziomy grill
+
+0xC25E05F5 = Szmaragdowy wełniany polar
+
+0xC25F023C = Uliczne progi
+
+0xC26C035D = Karbonowa lotka bagażnika
+
+0xC29F8F4E = Cavalcade XL
+
+0xC34E3274 = Ze złamanym sercem
+
+0xC38B3375 = urządzenie hakerskie
+
+0xC41C452C = Uliczny wlot i spojler, k. #2
+
+0xC41F9FC4 = Plast. pas przeciwsłoneczny
+
+0xC45FE87E = Sportowe pasy Omaggio
+
+0xC49F103D = Srebrny strój imprezowy
+
+0xC67D981A = Wyścigowy dyfuzor
+
+0xC68A75CA = Złożony szperacz
+
+0xC71BF9F3 = Kapelusz Pani Wolność
+
+0xC85A2D6A = Patrol drogowy (maskowanie)
+
+0xC86B3D22 = Pełny dach, kolor #1
+
+0xC95E1D64 = Szkarłatne jeździeckie
+
+0xC212A714 = Pomarań. dopasowana
+
+0xC213F5F6 = Kartele i FIB kupują go hurtowo, więc Vapid Aleutian stał się symbolem wojny z narkotykami od momentu, gdy tylko wyjechał z fabryki. Właśnie dzięki tak niezawodnym grupom konsumentów amerykański przemysł motoryzacyjny wrócił do gry, a opcjonalne opancerzenie, miny poślizgowe, zdalne sterowanie i zagłuszacz namierzania sprawiają, że też zechcesz wziąć udział w tym odrodzeniu.~n~W tym pojeździe można zamontować ulepszenia Imani w warsztacie agencji.
+
+0xC305CF94 = Poczw. zaokrąglone wydechy
+
+0xC338FE7A = Czarna LS Customs
+
+0xC432D39B = Graffiti
+
+0xC564A930 = Sessanta Nove
+
+0xC725B79F = Kute karb. wyczynowe progi
+
+0xC761BD43 = Pionowy grill, kolor #2
+
+0xC790EE58 = Komedia i tragedia
+
+0xC800B954 = Czerwona motocyklowa
+
+0xC816AD8D = Antena
+
+0xC998D995 = KARABIN OFENSYWNY
+
+0xC998F49A = Karbonowy podwójny kanał
+
+0xC1757B69 = Bursztynowy wełniany polar
+
+0xC13220DB = Białe pasy
+
+0xC26833CC = Tuningowy zderzak
+
+0xC33876BE = Cyfrowa balistyczna
+
+0xC41409D4 = Uliczny wlot, kolor #2
+
+0xC44720E5 = Stopnie z plastikowych rur
+
+0xC51734A1 = Drzwi rurowe z siecią
+
+0xC290860D = Skrzydlate progi, kolor #2
+
+0xC6598638 = Szkarłatny wełniany polar
+
+0xCA1A14A7 = Imprezowa czapka 15
+
+0xCA3C1FF9 = Holownik4
+
+0xCA6EBAEA = Strój Cluckin' Bell
+
+0xCA955A72 = Snorkel
+
+0xCAA6BEC1 = Czarna Yeti
+
+0xCAAF72E9 = Czarne wykończenie
+
+0xCABA3E7D = Karbonowy rajdowy dyfuzor
+
+0xCAD95C64 = Gładki zderzak, kolor #2
+
+0xCAEBF3EE = Styl Dewbauchee
+
+0xCAEFFEBD = Szkarłatne zimowe
+
+0xCAF29531 = Chromowane owalne wydechy
+
+0xCB6AD27B = Drewniana deska
+
+0xCB8133A8 = Policja (Davis)
+
+0xCB913590 = Hyper Function Suspension
+
+0xCBC3CD5C = Czekoladowe materiał. chodaki
+
+0xCC2E69B8 = Pęknięte pasy Fukaru
+
+0xCC3D4BB7 = Ludzie mawiają, że strażnicy stanowego parku San Andreas to nie są prawdziwi policjanci. Ale ty nie należysz nawet do strażników stanowego parku San Andreas. Tobie po prostu leży na sercu utrzymanie czystości w parku krajobrazowym Góry Chiliad, a na twojej masce rozsmarowało się już sporo turystów. Ale przecież nawet samozwańczy stróże prawa mogą porządnie wyglądać.
+
+0xCC5F41C7 = Karbon. wyścigowy dyfuzor
+
+0xCC7EFFE7 = Magentowe materiał. chodaki
+
+0xCC8A305C = Baller ST-D
+
+0xCC9BFB01 = Wydech przelotowy
+
+0xCC48A2A1 = Koszulka Dzień Ziemi SG
+
+0xCC69C529 = Podwójny owalny wydech
+
+0xCC984F99 = ZŁOMOWISKA
+
+0xCCB0E2EA = Tytanowe zaokrąglone wydechy
+
+0xCD014BED = Kamuflaż rozpraszający
+
+0xCD5D5AC3 = Czarne pasy
+
+0xCD27F0EC = Kwadratowe lusterka, kolor #1
+
+0xCD58E87A = Fabryczny zderzak, kolor #1
+
+0xCD670844 = Imprezowa czapka 6
+
+0xCDC46B21 = Boxville (sanitarny)
+
+0xCDD2E1C6 = Ścięty dach
+
+0xCDDD12BF = Spodnie na Nowy Rok
+
+0xCDEF3017 = Cyjanowe materiałowe chodaki
+
+0xCDF25D1D = Rajdowy spojler, kolor #2
+
+0xCE901D6C = Wyścigowa maska
+
+0xCE8335B5 = Prosty taran
+
+0xCEDA8C10 = Chromowany uliczny grill
+
+0xCF3E2028 = Karbonowy uliczny wlot
+
+0xCF319A3E = Sportowe progi, kolor #2
+
+0xCF1931F2 = Powlekane poczwórne wydechy
+
+0xCFA4D332 = Chcesz przyspieszyć demontaż pojazdów? W takim razie potrzebujesz pomocnej dłoni. Pamiętaj, że nie płacisz tylko za pracownika, ale za jego czas, wiedzę i łapówki dla jego kuratora.
+
+0xCFB5874C = Kuty karbonowy wlot
+
+0xCFBD9D25 = Szylkretowe awiatory retro
+
+0xCFD0FDCC = Karbonowa niska dokładka
+
+0xCFE04106 = Szkarłatne materiał. chodaki
+
+0xCFED9E47 = Przycięty zderzak
+
+0xD026F773 = Alt. lusterka, kolor #2
+
+0xD05A3DE9 = Połowiczne Declasse
+
+0xD0D52296 = Skrzydlate progi z akcentem
+
+0xD0E82DC9 = Plastikowy sportowy spojler
+
+0xD0E71136 = Wyścigowe Ron
+
+0xD0EC1225 = Kratkowana balistyczna
+
+0xD0F6D5C7 = Chromowany plastrowy grill
+
+0xD0FEEDC0 = Fioletowa Manor
+
+0xD1AAC092 = Karbon. wentylowana maska
+
+0xD2A8BD50 = Technologiczny kamuflaż
+
+0xD2A89228 = Wielki dyfuzor, kolor #2
+
+0xD2ABC1FD = Policja (Paleto Bay)
+
+0xD2E848C7 = Popielata dopasowana
+
+0xD3A36861 = Zysk z części
+
+0xD3D366B1 = Asterope GZ
+
+0xD3FFBADA = Device
+
+0xD4B60148 = Duża lotka, kolor #2
+
+0xD4C25F5D = Spojler Aero, kolor #2
+
+0xD4E25318 = Karbonowe wyczynowe progi
+
+0xD5B6D0CC = Karbonowe poszerzone progi
+
+0xD5DF3297 = Biała z kastetem i gandzią
+
+0xD5E820EA = Bursztynowe zimowe
+
+0xD6D9B4B2 = Ekipa sanitarna
+
+0xD6EA4C3B = Za ojczyznę
+
+0xD7A8B9F9 = Krwiste jeździeckie
+
+0xD7A594A9 = Kierowca w ogniu
+
+0xD7B03C93 = Przedstawiamy jedyny wóz z napędem na cztery koła na rynku, który nigdy nie przegapił swojego okna anabolicznego. Gdyby ktoś robił testy antydopingowe samochodom, to mocz tego auta przetopiłyby pojemnik. Na szczęście opancerzenie i miny poślizgowe, technicznie rzecz biorąc, nie są uważane za środki dopingujące, więc ruszaj do boju.~n~W tym pojeździe można zamontować ulepszenia Imani w warsztacie agencji.
+
+0xD7B24DD2 = Wyścigowe Atomic
+
+0xD7F8BB72 = Holownik3
+
+0xD7F63129 = Niebieski wełniany polar
+
+0xD8A68929 = Plastikowa duża lotka
+
+0xD8AE2FE1 = Lotka bagażnika, kolor #2
+
+0xD8D42ED1 = Wklęsła maska, kolor #2
+
+0xD9B9D041 = Transport więzienny
+
+0xD9CD9AE3 = Wykończenie Czachy Mikołaja
+
+0xD9F13AC7 = Czarny plastrowy grill
+
+0xD10C780F = Dach ze spojlerem
+
+0xD18AD195 = Pionowy grill, kolor #1
+
+0xD18EFD6C = Potrójny wlot powietrza
+
+0xD22A2935 = WÓZ HOLOWNICZY
+
+0xD42AB374 = Uliczny dyfuzor
+
+0xD48F2A57 = Ciemnozielony wełniany polar
+
+0xD52E933A = Jasnoszare zimowe
+
+0xD55D99FE = Jasnoniebieska motocyklowa
+
+0xD62B5B0F = Plastik. karbowany, kolor #1
+
+0xD62DC7CF = Lusterka GT, kolor #2
+
+0xD65D29F2 = Uliczny zderzak
+
+0xD66B0DC9 = Krwista dopasowana
+
+0xD70DE0E2 = Niski wlot z kontrolkami
+
+0xD70DF7AA = Fioletowe okulary-serca
+
+0xD75CC2F2 = Seledynowe materiał. chodaki
+
+0xD78B372F = Wentylowana maska
+
+0xD84B5A0A = Brązowa Sessanta Nove
+
+0xD88AC9C8 = Reakcyjny taran
+
+0xD89CB21D = Karbonowe wyczynowe progi
+
+0xD91A2FB2 = Karbonowe płaskie progi
+
+0xD93C684D = Szkarłatne materiał. chodaki
+
+0xD99EB0E7 = Czarne awiatory retro
+
+0xD416D729 = Zderzak z nakładką
+
+0xD420B82C = Plastikowy klasyczny grill
+
+0xD448B0C4 = Srebrny kapelusz na Nowy Rok
+
+0xD563DD8E = Niski wlot
+
+0xD661BC51 = Chromowane boczne wydechy
+
+0xD677C474 = Pas przeciwsłoneczny, kolor #1
+
+0xD677DF66 = Urządzenie hakerskie
+
+0xD933F919 = Gładki zderzak, kolor #1
+
+0xD964ABD7 = Uliczne osłony nadkoli, kol. #2
+
+0xD999FE1A = Limonkowe zimowe
+
+0xD2082EE2 = Chromowany sportowy grill
+
+0xD2384FAE = Chlapacze, kolor #2
+
+0xD8589C52 = Zagięty wydech
+
+0xD25700BD = Wąskie nadkola
+
+0xD36305FC = Panorama voodoo
+
+0xD45802FE = Podwójny filtr
+
+0xD72426AA = Ciemnozielony wełniany polar
+
+0xD80161D8 = Spojler GT
+
+0xD404353D = Karb. z podwójnym wlot., k. #1
+
+0xD879722D = Dorado to starszy, dziwniejszy kuzyn Bisona o kiepskiej reputacji, o którym nikt nie chce mówić i który za młodu obracał się w złym towarzystwie. Jasne, w zakamarkach ma więcej mety niż świeżo upieczony członek Lostów, a wydajnością paliwową dorównuje podziurawionej kulami Youdze, ale dla niektórych konsumentów to są właśnie największe plusy.
+
+0xD994091A = Dach z wlotem
+
+0xD2389392 = Dorado
+
+0xD6173584 = ZADANIA
+
+0xD9036280 = Sportowe osłony nadkoli, k. #2
+
+0xD9284677 = Wyścigowa maska, kolor #1
+
+0xD9379085 = Dym Futo
+
+0xDA004C57 = Chromowane proste stopnie
+
+0xDA0B1514 = Spodnie na Dzień Niepodleg.
+
+0xDA63BCF9 = Brązowa Sessanta Nove
+
+0xDA819CE8 = Karbonowa nakładka
+
+0xDAA8D840 = Czerwona dopasowana
+
+0xDAC0D476 = Z drift. dyfuzorem i wlotami
+
+0xDAD268E5 = Ciemnoorzech. motocyklowa
+
+0xDAF517B3 = Tytanowe boczne wydechy
+
+0xDB050986 = Nie ma lepszego prezentu niż dowalenie komuś świąteczną atmosferą. Automatyczne przeładowanie nie daje czasu na sprzeciw. Część aktualizacji The Chop Shop.
+
+0xDB7E65B5 = Koło zapasowe
+
+0xDB8B6069 = Musztardowa motocyklowa
+
+0xDB636C87 = Szare materiałowe chodaki
+
+0xDB882E78 = Karbon. podw. wentylowana
+
+0xDBE7EB35 = Pasy Annis
+
+0xDBF517A8 = Klasyczne pasy Grotti
+
+0xDC3E23C7 = ZYSK Z CZĘŚCI
+
+0xDCA1B98F = Wyścigowa maska, kolor #2
+
+0xDCA68AEF = Kurtka Western MC
+
+0xDCCE27D2 = Karbonowe progi z nakładką
+
+0xDD4FB1A0 = Spodnie na Dzień Niepodleg.
+
+0xDD9FFA50 = Uliczne skrzydło SPL
+
+0xDD752C32 = Podwójne sportowe wydechy
+
+0xDD8747C5 = Cętkowana balistyczna
+
+0xDD871019 = Zielona Dewbauchee
+
+0xDDA14859 = Usunięte kierunkowskazy
+
+0xDDD728FC = Imprezowa czapka 10
+
+0xDDE91D44 = Hotrodowy demon
+
+0xDDFFC88C = Chromowany grill
+
+0xDE06D40E = Zderzak z nakładką i dyfuzorem
+
+0xDE1FE548 = Wyścig. dyfuzor z akcentem
+
+0xDE4A9ABF = Niska dokładka, kolor #2
+
+0xDE2736DA = OK
+
+0xDED30974 = Złota Bigness moro
+
+0xDEEC3129 = Domont. sportowy, kol. #2
+
+0xDEEF5B3E = Bagażnik i panel świetlny
+
+0xDF72EA23 = Chlapacze, kolor #1
+
+0xDF99FF3C = Pasy na masce
+
+0xDF274520 = MISJE ORGANIZACYJNE
+
+0xDFD1B062 = Pozyskano
+
+0xDFEF8690 = Fabryczny zderzak, kolor #1
+
+0xE05B3810 = Magentowy wełniany polar
+
+0xE06BC283 = Wyścigowy wlot
+
+0xE0833CE1 = Plastikowe sportowe progi
+
+0xE1BCEB39 = Zielone reflektory
+
+0xE2CC7418 = Chromowany pionowy grill
+
+0xE2FD50D0 = Czarny plastrowy grill
+
+0xE3AAFD2E = Niski łukowy spojler, #1
+
+0xE3CB64F6 = Bagażnik rajdowy
+
+0xE3F9C5BA = Malowany praktyczny zderzak
+
+0xE4AAFFA3 = Żółta żmija
+
+0xE4F46FCE = Antena, kolor #1
+
+0xE5A41E08 = Pociąg towarowy
+
+0xE5A26968 = Karbonowa uliczna
+
+0xE5B3ACA1 = Dominator GT
+
+0xE5F66021 = Cytrynowe materiałowe chodaki
+
+0xE5FDFAF7 = Niski wycięty zderzak
+
+0xE6CE63EB = Kuta karbonowa GT HSW
+
+0xE7B089F0 = Karbonowe panele
+
+0xE7DFEE2D = Kabel
+
+0xE8EA3732 = Płomienie Pegassi
+
+0xE9A3FDBA = Niskie drzwi rurowe
+
+0xE9B9B465 = Karbonowy zderzak
+
+0xE17C4030 = Kanciasty otwarty zderzak
+
+0xE23D0033 = Skrzynia, kolor #1
+
+0xE40DC07D = Cyjanowy wełniany polar
+
+0xE42EA793 = Płomienie Sugoi
+
+0xE43C11E5 = FR36
+
+0xE43E5B08 = Wzm. orur. II z p-mgielnymi
+
+0xE71E5E27 = Chromowany uliczny grill
+
+0xE73D3DBD = Ciemnonieb. motocyklowa
+
+0xE82EB01B = Wyczynowe pasy Grotti
+
+0xE84A0282 = Wielokolorowy kamuflaż
+
+0xE88CD7F2 = Czarna z kastetem i gandzią
+
+0xE90F4A98 = Szmaragdowy wełniany polar
+
+0xE95DD9A0 = Chromowany plastrowy grill
+
+0xE99B676F = Niebieskie materiałowe chodaki
+
+0xE227FFF5 = Skrzynia, kolor #2
+
+0xE410A430 = Usunięte nadkola
+
+0xE631EF5A = Lodowa dopasowana
+
+0xE669D63E = Chromowane listwowe stopnie
+
+0xE672AAFB = Demon Benefactor
+
+0xE820CEC6 = Lotka bagażnika, kolor #1
+
+0xE849FA07 = Jasna Santo Capra
+
+0xE856B1AB = Spodnie na Nowy Rok
+
+0xE871E93A = Chromowane listwowe stopnie
+
+0xE913D926 = Kombinezon Red's
+
+0xE940F7EB = Beżowe zimowe
+
+0xE3788BB1 = Impaler SZ
+
+0xE5758F54 = Szary wełniany polar
+
+0xE7026F4A = Wściekle różowe mat. chodaki
+
+0xE7943F75 = Cętkowana balistyczna
+
+0xE8645B5D = Pojedynczy karbonowy wydech
+
+0xE8881B0C = Fabryczne lusterka, kolor #1
+
+0xE9136AD5 = Patrolowy taran
+
+0xE9615ADB = Wentylowana karbonowa maska
+
+0xE9653ADE = Nadkola z wlotami
+
+0xE60823FA = Zestaw techniczny 1.0
+
+0xE64143EA = Podwójnie wentylowana, k. #2
+
+0xE102606B = Podwójne moro
+
+0xE446800A = Karbonowy zderzak
+
+0xE672834A = Dummy label.
+
+0xE2477628 = Karb. sportowe osłony nadkoli
+
+0xE2849003 = Magentowe zimowe
+
+0xE5064731 = Fabryczna maska, kolor #1
+
+0xE8614399 = Niebieska faza HSW
+
+0xEA28D58E = Ciemnonieb. wełniany polar
+
+0xEA85C341 = Progi z nakładką
+
+0xEA987E84 = Kute karbon. progi szosowe
+
+0xEA2451AA = Tuningowe progi
+
+0xEAA46DFB = Agresywny taran
+
+0xEAB16989 = Karbonowa wyczynowa maska
+
+0xEADCFB23 = Fuksjowe zimowe
+
+0xEB04C37F = Imprezowa czapka 8
+
+0xEB1C6549 = Kaczy spojler
+
+0xEB83FD59 = Na pół, plemienne płomienie
+
+0xEB87725E = Lusterka, kolor #2
+
+0xEBA41668 = Kuta karbonowa listwa
+
+0xEBACC8A1 = Podwójne brązowe sportowe
+
+0xEBB957E6 = Karbonowa uliczna maska
+
+0xEC1C4F3D = Spodnie na Dzień Św. Patryka
+
+0xEC2AE7E3 = Długie boczne wydechy
+
+0xEC6CB703 = Niska dokładka, kolor #1
+
+0xEC31B417 = Używana maska
+
+0xEC41C068 = Karbonowe panele
+
+0xEC888CEA = Pionowy grill, kolor #2
+
+0xECC24C54 = Duża lotka bagażnika
+
+0xECF5EC77 = Orurowanie II z p-mgielnymi
+
+0xECFF7CED = Ciemnozielona dopasowana
+
+0xED1C88B8 = Kratowany grill, kolor #1
+
+0xED6CE6D2 = Sportowy spojler, kolor #1
+
+0xED9EF69E = Fabryczny z dyfuzorem, #1
+
+0xED95F957 = Zagięty snorkel
+
+0xED5861AF = Miłośnik zwierząt
+
+0xED39614B = Czarna na chiński Nowy Rok
+
+0xEDAF8B89 = Body Sprunk x eCola
+
+0xEE091662 = Karbonowe uliczne skrzydło
+
+0xEE3A4AE7 = Fabryczny zderzak, kolor #1
+
+0xEE9AD24F = Cytrynowe zimowe
+
+0xEE76F861 = Lusterka GT
+
+0xEE84DD7C = Imprezowa czapka 13
+
+0xEE445D74 = Progi, kolor #2
+
+0xEE512E44 = Kurtka ze złamanym sercem
+
+0xEEBD7D3F = Czarne awiatory retro
+
+0xEED1830C = Lodowe zimowe
+
+0xEEF6FA93 = Policja (Grapeseed)
+
+0xEF5E6E6B = Jasnonieb. dopasowana
+
+0xEF6D3D6D = Karbonowa uliczna dokładka
+
+0xEF6052AA = Koszulka Cinco de Mayo
+
+0xEFD4B4B4 = Niebieska Toundra
+
+0xF009D998 = Pomarańczowy wełniany polar
+
+0xF00DDD99 = Wyścigowe progi
+
+0xF06D89E7 = Wentylowany dyfuzor, kolor #2
+
+0xF07903E8 = Czarna dopasowana
+
+0xF0AFC8B6 = Sprzedano
+
+0xF0BDF134 = Stopnie nadkoli, kolor #1
+
+0xF0F0E22D = Karbonowa wyścigowa
+
+0xF0F9ACA9 = Przednie błotniki, kolor #2
+
+0xF1D842E6 = Spaliniarz
+
+0xF2BB03DC = Alternatywne Sessanta Nove
+
+0xF2D4A8E3 = Uliczna obwódka grilla, k. #2
+
+0xF2DECE9A = Ciemnoszare zimowe
+
+0xF3A119F0 = Domont. zderzak GT, kol. #2
+
+0xF3A9324C = Brzoskwiniowe zimowe
+
+0xF3C02BE9 = Ciemnoszary wełniany polar
+
+0xF3D14D5F = Szmaragdowe materiał. chodaki
+
+0xF4B3C77D = Widowmaker
+
+0xF4BB863B = Wentylowana maska, kolor #1
+
+0xF4BBF44D = Chromowany plastrowy grill
+
+0xF4E6931F = Szara motocyklowa
+
+0xF5AA56F5 = Niestandardowy wydech
+
+0xF5B574D5 = Listwowe stopnie, kolor #1
+
+0xF5D1F254 = Czarne na chiński Nowy Rok
+
+0xF5D19530 = Chrom. terenowe orurowanie
+
+0xF5EAA4DD = Żółte okulary-serca
+
+0xF6C27A3B = Wężowa balistyczna
+
+0xF6E48FCE = Ciemnoszare materiał. chodaki
+
+0xF7A39E42 = Niski wycięty z wlotami
+
+0xF7B629BC = Uliczne skrzydło
+
+0xF8AB457B = Turismo Omaggio
+
+0xF8AE9AD7 = Chromowany sportowy bagażnik
+
+0xF8C86BB8 = Niezawodny wybór do transportowania pysznego mięska najlepszej jakości, żywego lub martwego. Potencjalni nabywcy powinni pamiętać, że aromat najlepszej jakości nie jest opcją do kupienia, tylko nieodzowną częścią tej marki.
+
+0xF8FF4E64 = LS Panic
+
+0xF9E1B2E3 = Karbonowa listwa
+
+0xF13A0878 = LS Panic
+
+0xF19EF072 = Wygładzana maska, kolor #2
+
+0xF20F948D = Sportowe Rockstar
+
+0xF23ACF0A = Kask Rockstar
+
+0xF31A4D1D = Limonkowe materiał. chodaki
+
+0xF52D92EE = Futo GTX
+
+0xF54A59CC = Czapka Strapz
+
+0xF55D2F7A = Impaler LX
+
+0xF68DE483 = Sportowa maska, kolor #2
+
+0xF69D24B7 = Karbon. zderzak z akcentem
+
+0xF84B48D1 = Phantom E-Cola
+
+0xF84F2B2D = Kute karbonowe panele
+
+0xF85C2C71 = Chrom. bagaż. dach. i relingi
+
+0xF90B2AB7 = Brązowy kapelusz na Nowy Rok
+
+0xF93CCE2D = Wentylowana maska
+
+0xF94BF30B = Specjalna maska
+
+0xF277B64A = Pasy Hardstand
+
+0xF281D75C = Skrzydło na bagażniku
+
+0xF485E689 = Karbonowe uliczne progi
+
+0xF691E8F7 = Czy życie to codzienna bitwa? Wypróbuj karabin ofensywny, który bez pudła trafi w trapiący cię problem. Część aktualizacji The Chop Shop.
+
+0xF764EFAD = Wyczynowe progi, kolor #2
+
+0xF937D845 = Drewniana smocza
+
+0xF1332AEC = Seledynowy
+
+0xF1772EC9 = Plastikowy grill GT
+
+0xF4351AA0 = Biała Benefactor
+
+0xF4400ED1 = Dwa szare pasy
+
+0xF5540BED = Burgundowe materiał. chodaki
+
+0xF8376CE6 = Karbonowy grill
+
+0xF9149E7E = Podwójny niest. wydech
+
+0xF36930CE = Chromowane fabryczne lusterka
+
+0xF97382D5 = Uliczny grill, kolor #1
+
+0xF960256E = Domont. zderzak GT, kol. #1
+
+0xF3351964 = Wlot aerodynamiczny
+
+0xF4278672 = Uliczna maska
+
+0xF7449177 = Szkarłatna dopasowana
+
+0xF9070122 = Karbonowy kaczy spojler
+
+0xF9791849 = Karbonowy fabryczny zderzak
+
+0xFA1FE716 = Pomarańczowa faza HSW
+
+0xFA5BBFEC = Białe pasy
+
+0xFA6B1235 = Terenowy bagażnik dachowy
+
+0xFA5464F5 = Wężowa balistyczna
+
+0xFA7350B7 = Ryflowany grill, kolor #2
+
+0xFAB7EDD1 = Jasnonieb. wełniany polar
+
+0xFAF413B8 = Karbonowa maska GT
+
+0xFB077BFE = URZĄDZENIE HAKERSKIE
+
+0xFB0BDE2B = Szosowe nadkola
+
+0xFB4CB56F = Seledynowe zimowe
+
+0xFB4D77D7 = Cyjanowy wełniany polar
+
+0xFB275B8C = Rękaw Mamba
+
+0xFB584BC7 = Czarna Vapid
+
+0xFB867DF1 = Chromowany sportowy grill
+
+0xFBE4386C = Wiesz, jaka jest jedyna rzecz skuteczniejsza od protestów bez użycia przemocy? Protesty z użyciem przemocy. Przemocy ekstremalnej. Do tej pory jedyną przeszkodą na drodze do zmian systemowych były grubo opancerzone wozy pacyfikacyjne stojące na drugim końcu ulicy. Ale państwo nie powinno mieć monopolu na fajne zabawki. Czas, aby niewidzialna ręka rynku wyrównała szanse.~n~Ten pojazd możesz modyfikować wyłącznie w posiadanych warsztatach.
+
+0xFBF143BD = Chromowana dolna osłona
+
+0xFC088C8E = Plastikowe osłony
+
+0xFC4FF98B = Karbonowe skrzydlate progi
+
+0xFC6D5704 = Plastikowa niska dokładka
+
+0xFC34EAC2 = Spojler na bagażniku
+
+0xFC79D3AF = CZĘŚĆ THE CHOP SHOP
+
+0xFC674EC0 = Karbonowy dach ze spojlerem
+
+0xFC1953FB = Poziomy grill, kolor #2
+
+0xFCDFF59A = Sportowe progi, kolor #1
+
+0xFCE979AF = Brzoskwiniowy wełniany polar
+
+0xFCF33CCE = Karbonowy dach
+
+0xFD4F0D2A = Chrom. tradycyjne lusterka
+
+0xFD499532 = Sportowy zderzak, kolor #2
+
+0xFD603403 = Japonki Vespucci Beach
+
+0xFDAEBF27 = Aleutian
+
+0xFDCB03B2 = Maska z narzędziami
+
+0xFE0A7DE3 = Stopnie nadwozia, kolor #1
+
+0xFE2A0CD3 = Czarna Los Santos
+
+0xFE4CB072 = Plastikowy plastrowy grill
+
+0xFE5B865A = Karnawałowy kapelusz Bigness
+
+0xFE8DA272 = Karbonowy sportowy zderzak
+
+0xFE9FECA7 = Jednolite wyścigowe
+
+0xFE33EADA = Karbonowy fabryczny zderzak
+
+0xFE1361E3 = Ciemnozielone mat. chodaki
+
+0xFEB78BD3 = Sportowe stopnie, kolor #1
+
+0xFEBAF7A3 = Uliczne osłony nadkoli, kol. #1
+
+0xFED78EA3 = Wyścigowe Grotti Amitec
+
+0xFEE7A749 = Poprzeczny bagażnik dachowy
+
+0xFEF12C9E = Klasyczny zderzak, kolor #1
+
+0xFF0DA799 = Duża skrzynia
+
+0xFF77EDB2 = Listwowe stopnie, kolor #1
+
+0xFF797C54 = Karbonowe wyścigowe progi
+
+0xFF850EBC = Ciemnonieb. dopasowana
+
+0xFFA1509D = Pioruny
+
+0xFFAA0C0E = Cyfrowa balistyczna
+
+0xFFB7210A = Niebieskie rajdowe płomienie
+

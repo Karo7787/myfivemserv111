@@ -1,0 +1,251 @@
+{
+    "adminmenu": {
+        "keybind": "Otwiera panel Administartora",
+        "spectatestop": "Przestań Obserwować",
+        "title": "Panel Administartora",
+        "manage_player": "Menu Gracza",
+        "manage_players": "Zarządzaj graczami",
+        "manage_server": "Zarządzaj serwerem",
+        "manage_scripts": "Zarządzaj skryptami",
+        "developer_options": "Opcje Developera",
+        "misc_options": "Opcje Dodatkowe",
+        "no_options": "Brak dostępnych opcji",
+        "search": {
+            "title": "Szukaj po ID",
+            "playerId": "ID Gracza"
+        },
+        "misc": {
+            "cleararea": {
+                "peds": "Wyczyść obszar z pedów",
+                "vehicles": "Wyczyść obszar z pojazdów"
+            }
+        },
+        "developer": {
+            "entity_view_distanc_title": "Entity view distance",
+            "entity_view_distance": "Entity view distance set to: %s meters",
+            "entity_view_info": "Entity Information",
+            "entity_view_title": "Entity Freeaim Mode",
+            "entity_freeaim_delete": "Delete Entity",
+            "entity_freeaim_freeze": "Freeze Entity",
+            "entity_frozen": "Frozen",
+            "entity_unfrozen": "Unfrozen",
+            "model_hash": "Model hash:",
+            "obj_name": "Object name:",
+            "ent_owner": "Entity owner:",
+            "cur_health": "Current Health:",
+            "max_health": "Max Health:",
+            "armour": "Armour:",
+            "rel_group": "Relation Group:",
+            "rel_to_player": "Relation to Player:",
+            "rel_group_custom": "Custom Relationship",
+            "veh_acceleration": "Acceleration:",
+            "veh_cur_gear": "Current Gear:",
+            "veh_speed_kph": "Kph:",
+            "veh_speed_mph": "Mph:",
+            "veh_rpm": "Rpm:",
+            "dist_to_obj": "Dist:",
+            "obj_heading": "Heading:",
+            "obj_coords": "Coords:",
+            "obj_rot": "Rotation:",
+            "obj_velocity": "Velocity:",
+            "obj_unknown": "Unknown",
+            "you_have": "You have ",
+            "freeaim_entity": " the freeaim entity",
+            "entity_del": "Entity deleted",
+            "entity_del_error": "Error deleting entity",
+            "entity_view_freeaim": "Freeaim Mode",
+            "entity_view_freeaim_copy": "Copy Freeaim Entity Info",
+            "entity_view_desc": "View information about entities",
+            "entity_view_freeaim_desc": "Enable/Disable entity info via freeaim",
+            "entity_view_peds_desc": "Enable/Disable ped info in the world",
+            "entity_view_vehicles_desc": "Enable/Disable vehicle info in the world",
+            "entity_view_objects_desc": "Enable/Disable object info in the world",
+            "entity_view_freeaim_copy_desc": "Copies the Free Aim entity info to clipboard",
+            "vehicle_dev_data": "Vehicle Developer Data:",
+            "ent_id": "Entity ID:",
+            "net_id": "Net ID:",
+            "net_id_not_registered": "Not registered",
+            "model": "Model",
+            "hash": "Hash",
+            "eng_health": "Engine Health:",
+            "body_health": "Body Health:",
+            "failed_set_speed": "You did not set a speed.. (`fast` for super-run, `normal` for normal)",
+            "failed_set_model": "You did not set a model..",
+            "failed_entity_copy": "No freeaim entity info to copy to clipboard!",
+            "coords_copied": "Coordinates copied to clipboard!",
+            "entity_copy": "Freeaim entity info copied to clipboard!",
+            "entity_view_peds": "Display Peds",
+            "entity_view_vehicles": "Display Vehicles",
+            "entity_view_objects": "Display Objects",
+            "copycoords": "Copy Coords",
+            "showcoords": "Showe Coords",
+            "vehiclefulltune": "Vehicle FullTune",
+            "vehicletunemenu": "Tune Menu"
+        },
+        "player": {
+            "revive": "Ożyw gracza",
+            "noclip": "Noclip",
+            "godmode": "Nieśmiertelność",
+            "giveitem": "Daj przedmiot",
+            "spectate": "Obserwuj",
+            "kill": "Zabij Gracza",
+            "heal": "Ulecz Gracza",
+            "warn": "Ostrzeż gracza",
+            "show": {
+                "names": "Pokaż nazwy graczy",
+                "blips": "Pokaż blipy graczy"
+            }
+        },
+        "server": {
+            "announcement": "Wyślij ogłoszenie do graczy",
+            "time": "Ustaw czas",
+            "time_froze": "Wstrzymaj czas",
+            "weather": "Zmień pogodę",
+            "weather_froze": "Wstrzymaj pogodę",
+            "blackout": "Blackout"
+        },
+        "manage": {
+            "title": "Zarządzanie serwerem",
+            "announcement": {
+                "text": "Treść",
+                "success": "Wysłano ogłoszenie"
+            },
+            "time": {
+                "hours": "Godziny",
+                "minutes": "Minuty",
+                "success": "Czas został zmieniony",
+                "frozen": "Czas został wstrzymany",
+                "unfrozen": "Czas został wznowiony"
+            },
+            "weather": {
+                "success": "Pogoda została zmieniona",
+                "frozen": "Pogoda została wstrzymana",
+                "unfrozen": "Pogoda została wznowiona"
+            },
+            "blackout": {
+                "on": "Światła zostały wyłączone",
+                "off": "Światła zostały włączone"
+            }
+        },
+        "players": {
+            "desc": "Imię: %s, Naziwsko: %s, Płeć: %s, Widziany: %s",
+            "m": "Mężczyzna",
+            "f": "Kobieta",
+            "reason": "Powód",
+            "info": "Informacje na temat postaci",
+            "revive": "Ożyw gracza",
+            "trollmenu": "Trollmenu",
+            "giveitem": "Daj przedmiot",
+            "kill": "Zabij gracza",
+            "screenshot": "Wykonaj zrzut ekranu",
+            "heal": "Ulecz gracza",
+            "inventory": "Otwórz inventory gracza",
+            "warn": "Ostrzeż gracza",
+            "trollmenu_options": {
+                "scare": "Wystrasz gracza",
+                "scare_options": {
+                    "spooky": "[JUMPSCARE] Spooky",
+                    "spider": "[JUMPSCARE] Spider",
+                    "puppet": "[JUMPSCARE] Puppet",
+                    "puppet2": "[JUMPSCARE] Puppet V2",
+                    "stickman": "[JUMPSCARE] Stickman",
+                    "santa": "[JUMPSCARE] Santa",
+                    "foxy": "[JUMPSCARE] Foxy",
+                    "knock": "[JUMPSCARE] Knock",
+                    "sayhello": "[PLAYSOUND] Hello",
+                    "sayhellonear": "[PLAYSOUND NEAR] Hello",
+                    "sayfindme": "[PLAYSOUND] Find Me",
+                    "sayfindmenear": "[PLAYSOUND NEAR] Find Me"
+                },
+                "slap": "Jebnij gracza",
+                "fire": "Podpal/zgaś gracza",
+                "crash": "Wywal gracza (Fake Crash)",
+                "spamcmds": "Zawał",
+                "explode": "Zdetonuj",
+                "ragdoll": "Ragdoll",
+                "clown": "Atak klaunów",
+                "wild": "Atak zwierzaków",
+                "drug": "Naćpaj gracza",
+                "drunk": "Upij gracza",
+                "forceleft": "Wymuś skręt w lewo",
+                "forceright": "Wymuś skręt w prawo",
+                "forceaccelerate": "Wymuś przyśpieszenie",
+                "forcereverse": "Wymuś cofanie"
+            },
+            "giveitem_notify": {
+                "success": "Dano przedmiot graczowi",
+                "error": "Wystąpił błąd [%s]"
+            },
+            "inventory_notify": {
+                "success": "Otworzono inventory gracza",
+                "error": "Wystąpił błąd [%s]"
+            },
+            "ban_notify": {
+                "success": "Gracz został zbanowany",
+                "error": "Wystąpił błąd [%s]"
+            },
+            "kill_notify": {
+                "success": "Zabito gracza",
+                "error": "Wystąpił błąd [%s]"
+            },
+            "screenshot_notify": {
+                "success": "Wykonano zdjęcie ekranu, widoczne na chacie",
+                "error": "Wystąpił błąd [%s]"
+            },
+            "revive_notify": {
+                "success": "Ożywiono gracza",
+                "error": "Wystąpił błąd [%s]"
+            },
+            "heal_notify": {
+                "success": "Uleczono gracza",
+                "error": "Wystąpił błąd [%s]"
+            },
+            "trollmenu_notify": {
+                "success": "Wykonano Polecenie",
+                "error": "Wystąpił błąd [%s]"
+            },
+            "item": "Przedmiot",
+            "count": "Ilość",
+            "metadata": "Metadata Przedmiotu",
+            "cleareq": "Wyczyść Ekwipunek",
+            "cleareq_notify": {
+                "success": "Ekwipunek gracza został wyczyszczony",
+                "error": "Wystąpił błąd [%s]"
+            },
+            "ban": "Zbanuj gracza",
+            "kick": "Wyrzuć gracza",
+            "kick_no_reason": "Zostałeś wyrzucony przez Administartora",
+            "ban_no_reason": "Zostałeś zbanowany przez Administartora",
+            "perm": "Permamentny",
+            "unit": {
+                "title": "Jednostka",
+                "hours": "godzin",
+                "days": "dni",
+                "weeks": "tygodni",
+                "months": "miesięcy"
+            },
+            "time": "Czas trwania",
+            "player_kicked": "Gracz został wyrzucony",
+            "player_banned": "Gracz został wyrzucony",
+            "player_warned": "Gracz został ostrzeżony",
+            "crash_notify": {
+                "title": "Game Crasher",
+                "success": "Gracz został zcrashowany",
+                "error": "Wystąpił błąd [%s]"
+            },
+            "open_select": "Wyloguj postać",
+            "open_select_notify": {
+                "success": "Wylogowano gracza do wyboru postaci",
+                "error": "Wystąpił błąd [%s]"
+            },
+            "char_info": {
+                "firstname": "Imię: %s",
+                "lastname": "Nazwisko: %s",
+                "dob": "Data Urodzenia: %s",
+                "gender": "Płeć: %s",
+                "height": "Wzrost: %scm",
+                "street": "Widziany: %s"
+            }
+        }
+    }
+}

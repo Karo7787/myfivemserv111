@@ -1,0 +1,11 @@
+{
+    "npc_robbery_title": "Npc Ryöstö",
+    "player_rob_description": "Kansalainen ryösti sinut ja vei %s",
+    "npc_robbery_nothing": "Huonoa tuuria, tältä ei löytynyt mitään",
+    "npc_rob_label": "Ryöstä Kansalainen",
+    "player_rob_label": "Sinua ryöstetään...",
+    "error_title": "Virhe",
+    "not_enough_police": "Ei tarpeeksi poliiseja!",
+    "already_robbed": "Tämä kansalainen on jo ryöstetty!",
+    "minigame_fail": "Epäonnistuit minipelissä ja poliisit on ilmoitettu"
+}
