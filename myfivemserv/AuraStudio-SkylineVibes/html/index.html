@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>aura-elevator</title>
+		<link rel="stylesheet" href="main.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js" type="text/javascript"></script>
+		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	</head>
+	<body>
+		<div id="app">
+			<div class="generalDiv" v-if="this.general.show">
+				<div class="leftDoor" :class="[{ 'open' : this.general.state == 'openDoor'}, { 'close' : this.general.state == 'closeDoor'}]"></div>
+				<div class="rightDoor" :class="[{ 'open' : this.general.state == 'openDoor'}, { 'close' : this.general.state == 'closeDoor'}]"></div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
